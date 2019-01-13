@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a0cd-c88b-990b-40e9" name="Empire of Dust" book="Vanguard abridged Warbands-dec31.pd" page="14" revision="1" battleScribeVersion="2.01" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks>
+    <infoLink id="0691-7e41-626b-49b5" name="Entomb" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+    <infoLink id="1f29-6ae6-9f0f-9a36" name="Attack from below (X)" hidden="false" targetId="3ce2-6726-c37b-2598" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+    <infoLink id="1d72-3572-9f22-8881" name="Deathless Bond" hidden="false" targetId="f0c9-af1e-a14e-9e4c" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+    <infoLink id="09c0-5423-95f5-f1eb" name="Back from the Grave" hidden="false" targetId="3ba0-c15b-e1fb-5a0a" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="ba74-caac-8e8d-1be8" name="Skeleton" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6576-b61a-51f5-850d" name="Skeleton" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="6+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6d2a-531c-4642-23ec" name="Entomb" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="af97-bde8-67ec-5e87" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af97-bde8-67ec-5e87" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="495b-a3df-7530-f63d" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="085b-389e-061d-3aab" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dc9d-e357-1f1e-0e06" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e262-8e01-20dd-d231" name="Skeleton archer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b434-3b94-021d-3bff" name="Skeleton archer" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="6+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5ab4-67a1-7573-f62f" name="Entomb" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="a4b9-53b5-259c-d520" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b9-53b5-259c-d520" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c765-827f-9c8c-8160" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ac00-c793-a8b6-c852" name="Bow" hidden="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ff4-abb5-69b2-1048" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd99-baaf-f8b2-8968" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b774-7b9b-a5bc-e873" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8f55-c539-6715-ecda" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d96-52d9-ab5c-50a2" name="Desert swarm" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="cd80-e4e0-18e5-0194" name="Desert swarm" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="7+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="7+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="1"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Emp. of Dust, Beast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9ac8-8d8e-142e-4c13" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="36f0-7704-9eda-950f" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7b0-9e11-ba2a-e251" name="They&apos;re inside my armour! (2)" hidden="false" targetId="b9df-5167-6999-a6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="e4da-f3ff-8ef5-1950" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4da-f3ff-8ef5-1950" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9a13-c1a9-9253-efa7" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2dc9-7dc3-bf5b-0bce" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70d5-6d1f-b9c1-38db" name="Revenant champion" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3500-e2a2-0d52-855d" name="Revenant champion" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5a2b-c62b-1699-df47" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da44-db6b-38f6-beda" name="Entomb" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c48-6f0e-4d5f-1c11" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f659-3f3b-9469-2eac" name="Direct Effort" hidden="false" targetId="105a-2eba-3164-f252" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="afe3-7cc9-7832-76e2" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afe3-7cc9-7832-76e2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="18d7-1a70-fe41-a82d" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9b63-ef76-daf1-f573" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7857-fb57-84fe-6df9" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa18-51d0-8a99-c491" name="Sand wraith" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6528-b20f-1f79-3a99" name="Sand wraith" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f433-3b32-bda3-5e99" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7ebe-bfca-88b6-1c48" name="Fly" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c24-8c8e-e9a9-2882" name="Stealthy" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9aa5-3fca-a5f2-15e6" name="Entomb" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="8d21-1387-9f19-d2cb" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d21-1387-9f19-d2cb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="db83-a2cb-aff7-00fb" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="aba7-1df0-b68e-7e73" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="275b-edde-5907-79a0" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="176d-642b-b360-c23b" name="Revenant" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c9fc-6822-50e9-e749" name="Revenant" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4-"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="196f-5437-4085-9a52" name="Entomb" hidden="false" targetId="f132-80e5-8a95-bcb6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="54b0-a42c-2c4e-f588" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b0-a42c-2c4e-f588" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="31e6-d053-9be4-f9d5" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="85f1-072a-b328-b7fd" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9bcf-b873-39de-7842" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="45a5-ab10-4320-027b" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dca2-329b-0796-a71e" name="Mummy" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="623e-72a7-d906-89aa" name="Mummy" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d270-4260-49a8-3300" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a21b-d287-8aa3-a52b" name="Regenerate (6+)" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3c99-e51d-69f8-ded2" name="Curse (1)" hidden="false" targetId="f6b3-beaa-1757-af4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="aac3-4fec-b715-cbd6" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aac3-4fec-b715-cbd6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fd0e-9a92-2374-297a" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4682-75eb-0bdd-3b56" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d84-d21e-0bf6-ba13" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="018f-d1b4-0b71-2a5b" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a74-92c8-6ef8-8d23" name="Enslaved guardian" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3928-c0e3-fe2e-a3fb" name="Enslaved guardian" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="6+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="5"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="3"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="5D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8e7b-84c7-c62c-a3f8" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="50c1-e6d4-e250-d402" name="Parry" hidden="false" targetId="ae52-7371-2843-ca27" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fcde-760b-881f-4a17" name="Djinn Unleashed" hidden="false" targetId="befe-cf8b-e422-d700" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="805f-2f8c-13c0-6650" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="805f-2f8c-13c0-6650" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d819-78df-b4c2-6165" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8272-cf6e-f936-8838" name="Large" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="661f-971a-d566-57be" name=" Spellbook - Basic Enslaved Guardian" hidden="false" targetId="8dba-cce0-6eb7-6644" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="d346-5669-03c8-1caf" value="1">
+              <repeats>
+                <repeat field="selections" scope="2a74-92c8-6ef8-8d23" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="3eb1-0d74-aa8c-7955" value="1">
+              <repeats>
+                <repeat field="selections" scope="2a74-92c8-6ef8-8d23" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c033-2980-b549-f3c8" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d346-5669-03c8-1caf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb1-0d74-aa8c-7955" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="abda-06cb-8580-e489" name=" Spellbook - Empire of Dust (Free)" hidden="false" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a394-8319-5d28-e565" name=" Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3042-00e5-8578-6e66" name=" Spellbook - Empire of Dust (Paid)" hidden="false" targetId="3614-4389-a100-7db2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e564-c580-f7f9-c5de" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0439-a351-52df-c53b" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8acc-af11-5460-356d" name="High priest" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3f64-379a-f865-b426" name="High priest" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="4"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e59f-c142-c903-8604" name="Range Boost (2)" hidden="false" targetId="8f7d-c77a-1dff-3f19" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6a44-4707-c719-d5bb" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="dce7-96c8-9422-d6ae" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce7-96c8-9422-d6ae" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ccfd-6edb-8260-7a26" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c4ef-b156-132f-560a" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1f08-1684-08ee-c07d" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9dc7-2637-a546-9493" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8080-000f-9000-7a4f" name=" Spellbook - Empire of Dust (Free)" hidden="false" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2f10-3fc1-d86f-df80" name=" Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="013c-0b05-0289-e2ee" name=" Spellbook - Empire of Dust (Paid)" hidden="false" targetId="3614-4389-a100-7db2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b65f-4f23-2e75-571b" name=" Spellbook - Basic High Priest" hidden="false" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="8002-502f-5696-17f7" value="1">
+              <repeats>
+                <repeat field="selections" scope="8acc-af11-5460-356d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="d057-e6c9-79c8-fdcc" value="1">
+              <repeats>
+                <repeat field="selections" scope="8acc-af11-5460-356d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c033-2980-b549-f3c8" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8002-502f-5696-17f7" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d057-e6c9-79c8-fdcc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="37.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42c2-05f4-27cb-bc39" name="Pharaoh&apos;s champion" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="41e3-0f21-de79-7d0c" name="Pharaoh&apos;s champion" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="4"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead, Emp. of Dust"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2b7b-ff65-728e-5eae" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ccf-93e0-ea57-08de" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f2b-62e4-4561-d9d1" name="Regenerate (6+)" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="63e2-6790-fbaf-ea93" name="Curse (1)" hidden="false" targetId="f6b3-beaa-1757-af4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="63f5-0d80-fc5b-e0a7" name="Power Dice Blue (1)" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="27bd-037e-fad0-4afd" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="e9f1-6c2c-1c65-14b0" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f1-6c2c-1c65-14b0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="145d-bb9e-b1df-25e3" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="70e9-b8a8-7445-57c9" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ba11-0e8a-2ee5-90d7" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="48.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="e821-508e-28f1-7215" name="Sand Storm (long)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c27f-ad10-aa1e-ec80" name="Sand Storm (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spells">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8"/>
+            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value=""/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Piercing (1)"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="31af-9fb2-b62c-ed8f" name="Spell - Sand Storm" hidden="false" targetId="e6e2-b696-5fb1-b56d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="82c5-37a7-7c8f-8d8d" name="Rule Check - Is Faction Spell" hidden="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="e209-61f6-fcda-7924" name="Weakness (long)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f6d5-b27a-6cfc-6e85" name="Weakness" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spells">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
+            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="1P"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value=""/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a910-3d8a-d9e4-d7f4" name="Spell - Weakness" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ff8d-37ff-01af-13fd" name="Rule Check - Is Faction Spell" hidden="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ccbe-f806-232f-3e1c" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="c033-2980-b549-f3c8" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a4-a588-3fb0-da16" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9cba-5a28-c817-7862" name="Weakness" hidden="false" targetId="e209-61f6-fcda-7924" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd2a-c4b9-a063-1d92" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cbc1-e3d2-0a35-c28d" name="Sand Storm (long)" hidden="false" targetId="e821-508e-28f1-7215" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b1-e3da-da3b-3bd0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3614-4389-a100-7db2" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="26ec-c102-a750-0176" name="Sand Storm (long)" hidden="false" targetId="e821-508e-28f1-7215" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6591-a850-8fd1-7693" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aea0-96f2-4398-777c" name="Weakness" hidden="false" targetId="e209-61f6-fcda-7924" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a1f-46e3-90f2-1a44" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d4fd-7e38-9f21-f0e9" name=" Spellbook - Basic High Priest" book="" page="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2d10-a6c2-eaa1-eba2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1c31-94f8-d19c-447b" name="Windblast (long)" hidden="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6e36-3e84-b43b-8cd0" name="Fireball (short)" hidden="false" targetId="1000-11e2-0937-9685" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c933-398f-dcc7-8acf" name="Heal (short)" hidden="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8dba-cce0-6eb7-6644" name=" Spellbook - Basic Enslaved Guardian" book="" page="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="160b-2c22-5fd8-3c75" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f9f7-c264-e870-d0df" name="Windblast (long)" hidden="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="8f7e-a461-a88b-93a4" name="Spell - Weakness" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If any hits are scored, instead of suffering a wound, the model may roll a maximum of 2D8 (including any bonus dice) for any Ranged or Melee attack it makes until the end of the Round.
+
+Boosted version: 
+
+Costs 1 Power. As above, but in addition, any hits will halve the target’s Sp stat (rounding down) and it may not use the Crushing Strength special rule if it has it,until the end of the Round.</description>
+    </rule>
+    <rule id="e6e2-b696-5fb1-b56d" name="Spell - Sand Storm" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the target suffers any wounds, they are marked as Fatigued.</description>
+    </rule>
+    <rule id="f132-80e5-8a95-bcb6" name="Entomb" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During deployment, up to half of your warband’s models (rounding up) with this special rule may be set aside and declared to be waiting in ambush under the ground. These Entombed models can only arrive using the Attack From Below special ability. Any models that fail to arrive by the end of the game are casualties (killed).</description>
+    </rule>
+    <rule id="3ce2-6726-c37b-2598" name="Attack from below (X)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Use this ability once during any of your Turns. For each Power you spend, you can place one curently Entombed model anywhere in Open Terrain within 9” of a friendly Empire of Dust (Emp. of Dust) COMMAND model (this cannot be a model that was itself Entombed and set up this Round) and more than 3” away from any enemy models. Models set up this way are marked as Activated. You may still activate other models as normal. This ability is not limited to once per Round (just once per Turn).</description>
+    </rule>
+    <rule id="f0c9-af1e-a14e-9e4c" name="Deathless Bond" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Unlike a normal warband, an Empire of Dust warband is not Broken once it has less than half its models remaining. Instead, when the last COMMAND model in an Empire of Dust warband is killed, the warband is Broken, regardless of the number of models it has remaining.</description>
+    </rule>
+    <rule id="3ba0-c15b-e1fb-5a0a" name="Back from the Grave" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While the warband is not broken, all standing UNDEAD models within 6” of a friendly COMMAND model, including GRUNTS, that are reduced to zero (or fewer) wounds, automatically get a Down But Not Out result. UNDEAD models attacked in Melee when already Knocked-down, are removed as normal if reduced to zero (or fewer) wounds.
+Once the warband is broken however, all UNDEAD models that are reduced to zero (or fewer) wounds, automatically get a Too Much Damage result.</description>
+    </rule>
+    <rule id="b9df-5167-6999-a6b2" name="They&apos;re inside my armour! (2)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You may use this ability when the Desert Swarm attacks a model in Melee and gets one or more hits. The target cannot make any Armour Roll to save against these hits.</description>
+    </rule>
+    <rule id="105a-2eba-3164-f252" name="Direct Effort" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Other Emp.of Dust Skeletons and Revenants in this warband add +1 bonus die to their Range and Melee attack rolls while involved in any type of Group Action with the Revenant Champion.</description>
+    </rule>
+    <rule id="f6b3-beaa-1757-af4b" name="Curse (1)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You may use this ability when an enemy model inflicts one or more unsaved wounds on your model. The enemy model is marked as Cursed until the end of the Round. Cursed models suffer a -1 penalty on all their attack, armour and nerve rolls. This is not cumulative with other sources of Curse but is with other applicable modifiers.</description>
+    </rule>
+    <rule id="befe-cf8b-e422-d700" name="Djinn Unleashed" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model is killed, all other models within 3” (friend and foe!) must make an Armour roll to avoid suffering a wound.</description>
+    </rule>
+    <rule id="8f7d-c77a-1dff-3f19" name="Range Boost (2)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Use this ability to increase the range of one of the caster’s spells by 6” (where a Range is specified). The RANGE BOOST must be paid for during the caster’s activation just before the chosen spell is cast.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
