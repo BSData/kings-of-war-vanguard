@@ -19,6 +19,12 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
+## Further info & recent news about Kings of War - Vanguard
+
+Please check out our WIKI page for the most recent news and more information.
+
+[WIKI Page](https://github.com/BSData/kings-of-war-vanguard/wiki)
+
 
 ## Links ##
 [Links]: #links
