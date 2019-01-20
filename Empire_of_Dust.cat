@@ -1083,7 +1083,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e209-61f6-fcda-7924" name="Weakness (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1125,19 +1127,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
-    </selectionEntry>
-    <selectionEntry id="ccbe-f806-232f-3e1c" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

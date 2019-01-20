@@ -891,6 +891,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="6408-e0a7-d627-24db" name="Equipment - Piercing (2)" hidden="false" targetId="66f1-9dc0-f0e2-4ae8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="1" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="d723-d3e3-097a-5773" name=" Kings of War - Vanguard V1 Release" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Kings of War - Vanguard and all its related content are copyrighted by Mantic Games. Content used with their permission.
+
+More info about this project - read our WIKI at https://github.com/BSData/kings-of-war-vanguard/wiki.
+Found any issues ? Please let us know ... check out our WIKI on how to contact us.
+</description>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes>
     <costType id="b888-e3bd-8798-6364" name=" Points" defaultCostLimit="-1.0"/>
@@ -86,6 +99,20 @@
         <characteristicType id="b478-b971-cc61-444f" name="Rules"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="b8da-40d2-5931-3169" name=" Warband ProMod">
+      <characteristicTypes>
+        <characteristicType id="5dbf-491c-ddb3-1106" name="Sp"/>
+        <characteristicType id="348a-532b-019c-69a7" name="Me"/>
+        <characteristicType id="0944-da6e-5432-b1f8" name="Ra"/>
+        <characteristicType id="7814-8fa3-cfc1-238d" name="Ar"/>
+        <characteristicType id="2c6a-7444-f523-ae30" name="Ne"/>
+        <characteristicType id="392b-3d86-74a2-0892" name="Wn"/>
+        <characteristicType id="2343-79f9-8f66-ab76" name="H"/>
+        <characteristicType id="3745-5cb8-9067-adef" name="Ranged"/>
+        <characteristicType id="8da6-5376-2b1c-c437" name="Melee"/>
+        <characteristicType id="824d-b0b8-055a-b1a3" name="Rules"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="acf5-674c-f31b-80a2" name="Grunt" hidden="false">
@@ -130,32 +157,41 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="5999-b2cc-3385-f57d" name="Mercenary" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="3734-3c1c-d6b8-29c2" name="Warband - Normal Games" hidden="false">
       <profiles/>
       <rules>
-        <rule id="4a1e-97fc-d2b8-a5ca" name="Warband" hidden="false">
+        <rule id="1f57-f6ca-4ed0-a448" name="Warband - Normal Games" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>
-BETA Implemenation
-
-All warband rules listed on page 45 of the rulebook can be validated by Battlescribe.
-
-Please note that Kings of War - Vanguard and all its related content are copyrighted by Mantic Games. Content used with their permission.</description>
+All warband rules listed on page 45 of the rulebook for normal warbands can be validated by Battlescribe.</description>
         </rule>
       </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="1305-2f3c-ecbb-bf79" value="0.0">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a731-8a45-7af3-5326" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a731-8a45-7af3-5326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="419f-be21-35bf-41b8" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -293,27 +329,29 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
     <forceEntry id="a731-8a45-7af3-5326" name="Warband - Smaller Games" hidden="false">
       <profiles/>
       <rules>
-        <rule id="8e64-a406-199f-9e14" name="Warband" hidden="false">
+        <rule id="ae09-d47e-3283-17f0" name="Warband - Smaller Games" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>
-BETA Implemenation
-
-All warband rules for SMALLER games listed on page 45 of the rulebook can be validated by Battlescribe.
-
-Please note that Kings of War - Vanguard and all its related content are copyrighted by Mantic Games. Content used with their permission.</description>
+All warband rules listed on page 45 of the rulebook for smaller warbands can be validated by Battlescribe.</description>
         </rule>
       </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="939f-829c-26d7-2b40" value="0.0">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3734-3c1c-d6b8-29c2" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3734-3c1c-d6b8-29c2" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="419f-be21-35bf-41b8" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -379,8 +417,686 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </categoryLink>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="419f-be21-35bf-41b8" name="Warband - Normal Games (with Mercenaries)" hidden="false">
+      <profiles/>
+      <rules>
+        <rule id="f3d5-5173-8041-3ce1" name="Warband - Normal Games (with Mercenaries)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+All warband rules listed on page 45 of the rulebook for normal warbands can be validated by Battlescribe.
+Custom Rule - Allows to include Mercenaries.  Make sure your opponent agrees ( ( normally only supported in Campaigns ).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="4c33-df43-626f-ef57" value="0.0">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a731-8a45-7af3-5326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3734-3c1c-d6b8-29c2" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c33-df43-626f-ef57" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051f-c391-15ee-c976" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="3a7b-8e4b-9581-7c93" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0bb5-9782-4abc-bac5" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e1-5f10-705b-38f0" type="min"/>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0bb5-9782-4abc-bac5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="79f6-40b9-a451-ef3b" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="7f1d-8106-39d1-121a" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29ef-0bb1-9ab6-8e5c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f1d-8106-39d1-121a" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="22b9-022d-a4fb-9365" name="Warrior" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="11c7-4324-4956-10cd" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11c7-4324-4956-10cd" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d5c6-ac7a-34ad-a46f" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="41d4-58a6-349c-98b6" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41d4-58a6-349c-98b6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="efb2-eb94-d6e8-caeb" name="Support" hidden="false" targetId="c194-28e4-665e-319c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="77d3-734e-752c-32f7" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77d3-734e-752c-32f7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8ac6-188e-6d5b-e1da" name="Large" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats>
+                <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36af-b45d-473d-d895" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dc8-0349-7db9-27e1" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="75a6-b0bd-5078-4077" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7184-adfe-a4c3-80d2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5bfa-d1bd-d20d-d46f" name="Mercenary" hidden="false" targetId="5999-b2cc-3385-f57d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
-  <selectionEntries/>
+  <selectionEntries>
+    <selectionEntry id="9d00-f05e-e631-13f8" name="Blaine" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="adc7-4d02-c813-8634" name="Blaine" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="3+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="3+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="5"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="3D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Unknown"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1e0d-bbac-6241-c59a" name="Dread Presence (1)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Pick one enemy model wtihin 4&quot; of Blaine. This model must immediately make a Nerve test with a -1 modifier. If the test is failed the model is marked as Activated. Any rules that apply to Nerve tests (e.g. Inspiring) can be used normally. This ability may be used once per Round, when Blaine is activated.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="de31-03cb-8ce6-5edb" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc5f-9d87-d05a-1a1a" name="Pound" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b6da-ce1d-9ed1-b2b9" name="Stubborn" hidden="false" targetId="93a5-2c7a-91a6-c4e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0ffe-192f-5141-d3bb" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8b4d-0b3a-790d-d7f1" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9da-d4ef-d085-503b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="84be-38f1-fc9a-9b31" name="New CategoryLink" hidden="false" targetId="5999-b2cc-3385-f57d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="863b-0abe-bdc3-35b8" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a6f2-da24-3409-0ec3" name="Skullhunter" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a55c-69e7-d770-132c" name="Skullhunter" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment - Shooting">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="6&quot;"/>
+                <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Piercing (1)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3451-9110-5b11-87bf" name="Weapon - Skullhunter" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If this weapon causes a wound with a Melee attack, the target model is also Fatigued.  Skullhunter can be used to make Ranged Attacks with Range 6&quot; and Piercing (1).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="c723-5a86-bfcb-9b3d" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ad-458f-aef7-c589" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81d3-3091-cf2b-45ed" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0361-ae77-ff88-d7f2" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2c40-05e3-51e6-a4be" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="62.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6b3-e0ff-30e7-b9a1" name="Kuzlo &amp; Madfall" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d00a-6c10-ae90-d7b2" name="Kuzlo &amp; Madfall" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="7"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="3+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="5"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="3"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f700-21e9-1b4a-09b7" name="Spell Siphon (2)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can choose to cast any one spell known by an enemy spellcaster within 9&quot; and LOS. The siphoned spell is cast with its original action length, range, dice and effects. Siphoned spells cannot be boosted.  The enemy model can continue to use the same spell in their own Turn as normal.</description>
+        </rule>
+        <rule id="0117-3e6e-e05a-aa70" name="Gobble" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model achieves a hit with all its dice in a single Melee attack against GRUNT or WARRIOR of height 2 or less, the enemy model is removed from play as a casualty. No armour save is allowed.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4924-f092-b475-2c2a" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0867-f290-506b-6537" name="Dodge" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a2fd-e05a-af25-c30e" name="6th Sense" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd72-7b1d-fd97-27e8" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc1f-cee7-73e8-6da1" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b28e-c181-c9af-edc2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5fd9-acaf-73f8-4a59" name="New CategoryLink" hidden="false" targetId="5999-b2cc-3385-f57d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd02-0348-be2a-cff7" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="74e3-7406-7dea-e4c5" name=" Spellbook - Basic Kuzlo" book="Rulebook" page="41" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f2-d354-f8f3-3174" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="422e-bcbb-d47b-114e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="f985-fc4e-7874-42cd" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="37e4-67e3-b94b-bfa5" name="Summon Familiar (short)" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b583-b7a3-c92a-4bf8" name="Summon Familiar (short)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="Self"/>
+                    <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
+                    <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                    <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                    <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="b888-e3bd-8798-6364" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f47c-c6fd-3e05-d5ad" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="208b-2a0d-a706-cfc6" name="Zap (short)" hidden="false" targetId="8156-c369-ee4a-09ab" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f96e-bb9e-85c8-e1dc" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8d6f-f898-a2a9-72c3" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="978d-5a83-e696-421f" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5350-03fd-2ad2-2671" name="Firebrand" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5a13-1934-6779-12cd" name="Firebrand" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="4+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="3+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="4"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="3D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Salamander"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8b1e-c181-c6fe-9c70" name="Fancy Swordplay" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Melee attacks against this model are made with a -1 modifier to the attackers Me stat.</description>
+        </rule>
+        <rule id="c48c-3a4d-4c91-2b45" name="Salamander Legend" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When taken in a Salamander warband, Firebrand is not considered a Mercenary. She does count as being at Rank 5 to match her legendary status however.</description>
+        </rule>
+        <rule id="ab84-7268-2089-ab09" name="Rapid Fire (2)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Use this ability when this model is about to perform a ranged attack, before dice are rolled. The model may shoot twice at two different targets that are within 3” of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
+        </rule>
+        <rule id="abb3-df4c-7a20-ce9b" name="Riposte" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model is the target of a Melee attack and all the attacker’s dice miss, this model may make a Retaliation for free. No Activated or Fatigued counter is placed on this model after a Riposte.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b34d-4224-8990-f70f" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d9b4-c001-ce18-f6c8" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f54d-6a35-5d24-4db9" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c32-01af-52ad-4f39" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b681-d8e9-29a4-88ce" name="6th Sense" hidden="false" targetId="fa8a-67fe-b077-d4f8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4af4-2bb3-918f-117a" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae52-b92e-2c2e-a59d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="37ee-9b55-5000-e5fd" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="421a-d9e2-1de9-8253" name="Mercenary" hidden="false" targetId="5999-b2cc-3385-f57d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d93-8f9f-73d3-eb97" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cc1c-3705-4777-8758" name="Pistol" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment - Shooting">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="6&quot;"/>
+                <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Piercing (1), Pound"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dca9-572b-c2a6-d7a3" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fc72-59fe-9b2b-d79f" name="Equipment - Pound" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="412b-af6b-b075-f4ef" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8875-777a-c691-f20e" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="54.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
     <selectionEntry id="da36-7b90-c7e5-26c1" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -406,7 +1122,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="88ea-4a58-bccb-2b5e" name="Spear" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule">
+        <infoLink id="88ea-4a58-bccb-2b5e" name="Weapon - Spear" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -449,13 +1165,13 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="cca9-f875-0b22-4a44" name="Reload" hidden="false" targetId="607b-a841-9e41-92c0" type="rule">
+        <infoLink id="9075-c2a4-08b7-f061" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cae8-3b64-6b2e-8905" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink id="4585-4b49-78cd-0588" name="Equipment - Reload" hidden="false" targetId="e403-0d82-dc63-2958" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -563,7 +1279,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="520f-b1fc-4be3-5b9e" name="Bandages" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="520f-b1fc-4be3-5b9e" name="Bandages (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6855-af15-5640-8280" name="Bandages" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Common Items - Sundries">
           <profiles/>
@@ -576,7 +1292,14 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="3071-9d7f-4081-b0bd" name="Equipment - Bandages" hidden="false" targetId="97fb-93b0-0bf8-af1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d77-0315-301f-46bf" type="max"/>
@@ -589,7 +1312,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c65-0cc1-2bb8-869b" name="Lucky Charm" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5c65-0cc1-2bb8-869b" name="Lucky Charm (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8cf7-7270-f38a-acc0" name="Lucky Charm" hidden="false" profileTypeId="bcd7-cb31-7dfc-85d9" profileTypeName="Common Items - Magic">
           <profiles/>
@@ -602,7 +1325,14 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="98d8-7a72-20bb-d7f4" name="Equipment - Lucky Charm" hidden="false" targetId="ea16-cb4b-f3c8-aa58" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04db-cf0e-c7c5-23f1" type="max"/>
@@ -615,7 +1345,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="789d-9dfb-10a0-02ce" name="Healing Herbs" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="789d-9dfb-10a0-02ce" name="Healing Herbs (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8aa1-edfd-4b81-6c48" name="Healing Herbs" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Items - Sundries">
           <profiles/>
@@ -642,7 +1372,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f44-1527-9628-2fec" name="Bodkin Arrow" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4f44-1527-9628-2fec" name="Bodkin Arrow (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2fba-9fdb-9d67-56d0" name="Bodkin Arrow" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Common Items - Sundries">
           <profiles/>
@@ -655,7 +1385,20 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="43a1-fca9-cf71-5ad1" name="Equipment - Piercing (+1)" hidden="false" targetId="dfdb-34ce-bc3f-140d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c1da-7849-d5b3-7e8c" name="Equipment - Bodkin Arrow" hidden="false" targetId="e292-1a66-8d2c-4437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b9-1998-a1d4-41b8" type="max"/>
@@ -668,7 +1411,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2db4-dd6c-12e6-93af" name="Sheaf of Arrows" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2db4-dd6c-12e6-93af" name="Sheaf of Arrows (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="b9b7-e3f2-23e6-f6dd" name="Sheaf of Arrows" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Common Items - Sundries">
           <profiles/>
@@ -681,7 +1424,14 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="bfec-92b7-a8dc-2582" name="Equipment - Sheaf of Arrows" hidden="false" targetId="0640-48d8-488a-7d16" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0c8-c254-9b24-dd62" type="max"/>
@@ -694,7 +1444,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f88-030a-c9af-53a7" name="Heavy Weapon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4f88-030a-c9af-53a7" name="Heavy Weapon (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ed61-bed6-731d-f7b7" name="Heavy Weapon" hidden="true" profileTypeId="cda9-1637-1981-2b13" profileTypeName="Items - Melee">
           <profiles/>
@@ -707,7 +1457,20 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="5fbf-d99f-6133-4457" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="22f6-f53d-a763-0da8" name="Equipment - Heavy Weapon" hidden="false" targetId="2881-f56a-a40d-b710" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c368-fff1-2611-cd2d" type="max"/>
@@ -720,7 +1483,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b15-c7bc-1af3-a698" name="Common Mount" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1b15-c7bc-1af3-a698" name="Common Mount (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ef73-89dd-05e0-b1b8" name="Common Mount" hidden="true" profileTypeId="0274-24e8-6f67-fd18" profileTypeName="Common Items - Mount">
           <profiles/>
@@ -731,25 +1494,41 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
             <characteristic name="Notes" characteristicTypeId="5454-8cfb-9694-f750" value="Cannot be taken by LARGE models or those with the Cavalry special rule."/>
           </characteristics>
         </profile>
+        <profile id="64df-9ef9-12e9-96a3" name="Common Mount" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName=" Warband Member Item Modifier">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106" value="+2 (max 8)"/>
+            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
+            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
+            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
+            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
+            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892"/>
+            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76" value="+1"/>
+            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
+            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
+            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="+Cavalry, -Fly"/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="0079-3dd3-1711-ec40" value="0.0">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5386-cda4-ccc0-f38d" type="instanceOf"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bca-19a4-27f7-b0c8" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+      <infoLinks>
+        <infoLink id="7f48-119a-0667-72fb" name="Items Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f05b-9244-fd00-2800" name="Equipment - Common Mount" hidden="false" targetId="d656-eb73-5f61-609f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0079-3dd3-1711-ec40" type="max"/>
       </constraints>
@@ -761,12 +1540,15 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bca-19a4-27f7-b0c8" name="Is Cavalry" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="9bca-19a4-27f7-b0c8" name="Rule Check - Is Cavalry" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7179-5871-5c25-b592" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0562-cec1-1061-6633" type="min"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -775,7 +1557,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04d9-f451-24a2-d244" name="Large Shield" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="04d9-f451-24a2-d244" name="Large Shield (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5b88-a241-0b0b-d511" name="Large Shield" hidden="false" profileTypeId="f83c-e0d1-cff7-8fe8" profileTypeName="Common Items - Armour">
           <profiles/>
@@ -788,7 +1570,20 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="8222-5109-e519-4cfa" name="Equipment - Large Shield" hidden="false" targetId="62e3-c8dd-f403-2673" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4fa3-c8a6-55a5-2992" name="Equipment - Defender" hidden="false" targetId="40bf-70cf-ef3c-26b3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers>
         <modifier type="set" field="6294-983c-30ce-6c97" value="0.0">
           <repeats/>
@@ -809,7 +1604,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e0c-a356-52cb-7311" name="Crude Throwing Knife" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5e0c-a356-52cb-7311" name="Crude Throwing Knife (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="da93-c73b-7012-cc10" name="Crude Throwing Knife" hidden="false" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
           <profiles/>
@@ -845,7 +1640,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f41f-b60c-1d82-299f" name="Wicked dagger" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f41f-b60c-1d82-299f" name="Wicked dagger (Common)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2639-cd21-b9af-b8d1" name="Wicked dagger" hidden="false" profileTypeId="cda9-1637-1981-2b13" profileTypeName="Items - Melee">
           <profiles/>
@@ -858,7 +1653,20 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="fd44-1bd8-fab3-4e9f" name="Equipment - Sneaky" hidden="false" targetId="d541-b132-5e5f-de72" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="defb-72ee-32e1-71c6" name="Equipment - Wicked dagger" hidden="false" targetId="9a71-1b3b-1a54-aa1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7d-5a58-f897-f677" type="max"/>
@@ -871,7 +1679,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1cbe-88c8-62cf-e0dd" name="Battle Potion" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1cbe-88c8-62cf-e0dd" name="Battle Potion (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2b6d-d939-1cd3-8577" name="Battle Potion" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Items - Sundries">
           <profiles/>
@@ -898,7 +1706,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b2a-7e6e-7f0f-5519" name="Potion of Haste" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8b2a-7e6e-7f0f-5519" name="Potion of Haste (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2894-3864-5da8-2853" name="Potion of Haste" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Items - Sundries">
           <profiles/>
@@ -925,7 +1733,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5750-640e-0f6d-bd24" name="Potion of Concentration" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5750-640e-0f6d-bd24" name="Potion of Concentration (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="eee3-639f-0f4f-ed92" name="Potion of Concentration" hidden="false" profileTypeId="f010-4988-a52b-2fc0" profileTypeName="Items - Sundries">
           <profiles/>
@@ -952,7 +1760,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2047-20c4-f34d-2bc7" name="Marksman&apos;s Riffle" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2047-20c4-f34d-2bc7" name="Marksman&apos;s Riffle (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="cb51-1bf6-a03e-6fd5" name="Marksman&apos;s Riffle" hidden="false" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Items - Ranged">
           <profiles/>
@@ -1008,7 +1816,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99d5-d34b-8f87-0c7d" name="Long Bow" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="99d5-d34b-8f87-0c7d" name="Long Bow (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ed2d-0533-a3b2-ed19" name="Long Bow" hidden="false" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Items - Ranged">
           <profiles/>
@@ -1045,7 +1853,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94be-bb82-61cd-d1d3" name="Rare Mount" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="94be-bb82-61cd-d1d3" name="Rare Mount  (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a751-e1cc-bddc-ae0b" name="Rare Mount" hidden="false" profileTypeId="0274-24e8-6f67-fd18" profileTypeName="Items - Mount">
           <profiles/>
@@ -1056,6 +1864,24 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
             <characteristic name="Notes" characteristicTypeId="5454-8cfb-9694-f750" value="Cannot be taken by LARGE models or those with the Cavalry special rule."/>
           </characteristics>
         </profile>
+        <profile id="59c9-7e7a-431e-d391" name="Rare Mount" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName=" Warband Member Item Modifier">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106" value="+2 (max 8)"/>
+            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
+            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
+            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
+            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
+            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892" value="+1"/>
+            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76" value="+1"/>
+            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
+            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
+            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="+Cavalry, -Fly"/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="eb79-f027-cfc1-4dea" name="Rare Mount" hidden="false">
@@ -1063,12 +1889,17 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The model gains +2 SP to a maximum of 8, +1 Height, +1 Wound and the Cavalry special rule.  Models loose the fly rule while using a Miount.  The models base size becomes Cavalry.
-Note: Stats are not automatically adjusted in the unit roster.</description>
+          <description>The model gains +2 SP to a maximum of 8, +1 Height, +1 Wound and the Cavalry special rule.  Models loose the fly rule while using a Miount.  The models base size becomes Cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="6251-e02a-dd28-4ca6" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f1eb-fc79-f23e-c696" name="Equipment Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1088,7 +1919,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0388-228f-7c5e-e5e6" name="Blade of Slashing" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0388-228f-7c5e-e5e6" name="Blade of Slashing (Rare)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a788-197e-68ad-bb9c" name="Blade of Slashing" hidden="false" profileTypeId="cda9-1637-1981-2b13" profileTypeName="Items - Melee">
           <profiles/>
@@ -1511,6 +2342,169 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7da7-23d4-56b5-549d" name="Spear (Common)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="56ac-a1ed-3afd-0304" name="Spear" hidden="true" profileTypeId="cda9-1637-1981-2b13" profileTypeName="Items - Melee">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Notes" characteristicTypeId="b876-0400-ed60-8011"/>
+          </characteristics>
+        </profile>
+        <profile id="4c45-dc53-bee9-a232" name="Spear" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3caa-e9a9-8afa-e27d" name="Weapon - Spear" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="620d-6b42-6677-bcc2" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f77-1522-0c42-837c" name="Bow (Common)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d86e-5acd-b316-df1c" name="Bow" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment - Shooting">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
+          </characteristics>
+        </profile>
+        <profile id="9d89-4416-8100-a00d" name="Bow" hidden="true" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Notes" characteristicTypeId="812a-b04b-2e86-7ff6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ae-235a-26ae-aa4d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52d0-6471-7175-d63f" name="Crossbow (Common)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e532-1a89-d259-e2cf" name="Crossbow" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Piercing (1), Reload"/>
+          </characteristics>
+        </profile>
+        <profile id="d359-d075-79f4-5e76" name="Crossbow" hidden="true" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Notes" characteristicTypeId="812a-b04b-2e86-7ff6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7f8a-7beb-9468-5154" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bbe0-35c5-8237-faa0" name="Equipment - Reload" hidden="false" targetId="e403-0d82-dc63-2958" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a439-7932-4322-d989" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db7e-76e7-0af9-ad52" name="Light Crossbow (Common)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8b7b-6102-8e6c-fc7b" name="Light Crossbow" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment - Shooting">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
+          </characteristics>
+        </profile>
+        <profile id="bbcb-2dde-ab11-df14" name="Light Crossbow" hidden="true" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Notes" characteristicTypeId="812a-b04b-2e86-7ff6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a493-f4b9-d290-4794" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="c9c8-ac7b-333d-0312" name="Items - Common" hidden="false" collective="false">
@@ -1597,7 +2591,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="6e5f-8439-145f-a567" name="Spear" hidden="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+            <entryLink id="6e5f-8439-145f-a567" name="Spear (Common)" hidden="false" targetId="7da7-23d4-56b5-549d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1605,7 +2599,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="42b3-dc6a-e4b7-a526" name="Wicked dagger" hidden="false" targetId="f41f-b60c-1d82-299f" type="selectionEntry">
+            <entryLink id="42b3-dc6a-e4b7-a526" name="Wicked dagger (Common)" hidden="false" targetId="f41f-b60c-1d82-299f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1613,7 +2607,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="bb61-9ff8-ce19-f181" name="Heavy Weapon" hidden="false" targetId="4f88-030a-c9af-53a7" type="selectionEntry">
+            <entryLink id="bb61-9ff8-ce19-f181" name="Heavy Weapon (Common)" hidden="false" targetId="4f88-030a-c9af-53a7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1657,7 +2651,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="f1b3-66d9-84f6-250f" name="Bow" hidden="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+            <entryLink id="f1b3-66d9-84f6-250f" name="Bow (Common)" hidden="false" targetId="4f77-1522-0c42-837c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1665,7 +2659,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="f6d2-6449-5544-341e" name="Crossbow" hidden="false" targetId="0b31-fa72-c325-5906" type="selectionEntry">
+            <entryLink id="f6d2-6449-5544-341e" name="Crossbow (Common)" hidden="false" targetId="52d0-6471-7175-d63f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1673,7 +2667,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="81c9-c27d-3eff-1344" name="Light Crossbow" hidden="false" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
+            <entryLink id="81c9-c27d-3eff-1344" name="Light Crossbow (Common)" hidden="false" targetId="db7e-76e7-0af9-ad52" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2353,7 +3347,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="b14d-0455-1d4d-f742" name="Marksman&apos;s Riffle" hidden="false" targetId="2047-20c4-f34d-2bc7" type="selectionEntry">
+            <entryLink id="b14d-0455-1d4d-f742" name="Marksman&apos;s Riffle  (Rare)" hidden="false" targetId="2047-20c4-f34d-2bc7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2375,7 +3369,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="5106-7d41-efbe-fe5c" name="Blade of Slashing" hidden="false" targetId="0388-228f-7c5e-e5e6" type="selectionEntry">
+            <entryLink id="5106-7d41-efbe-fe5c" name="Blade of Slashing (Rare)" hidden="false" targetId="0388-228f-7c5e-e5e6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2646,8 +3640,6 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
-</description>
     </rule>
     <rule id="a9d4-371e-0de9-bb9d" name="Defender" book="Rulebook" page="38" hidden="false">
       <profiles/>
@@ -2801,8 +3793,6 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
-</description>
     </rule>
     <rule id="8e13-f6c7-f62e-6a82" name="Breath" book="Rulebook" page="37" hidden="false">
       <profiles/>
@@ -2821,8 +3811,6 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
-</description>
     </rule>
     <rule id="02e7-0f47-e451-32e3" name="Mob Assault" book="Rulebook" page="38" hidden="false">
       <profiles/>
@@ -3031,20 +4019,6 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <modifiers/>
       <description>This model can also claim the +1 Melee attack modifier for its cavalry special rule against targets of equal Height, not just those of lower Height.</description>
     </rule>
-    <rule id="3faf-193f-3ea6-5b43" name="Rule Check - Allows 1 more Large then Normal" hidden="true">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Increases the allowed LARGE models with 1
-Repeat a link in the warband root rules for every increase you want.</description>
-    </rule>
-    <rule id="c914-67a7-6b6e-dfca" name="Rule Check - Is Large Command" hidden="true">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="0eac-eab3-f72e-6f2c" name="Weapon - Spear" hidden="false">
       <profiles/>
       <rules/>
@@ -3071,6 +4045,149 @@ Repeat a link in the warband root rules for every increase you want.</descriptio
       <modifiers/>
     </rule>
     <rule id="2d6c-7f42-6d86-f6fc" name="Spell - Piercing (2)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="2d98-c03d-6662-8840" name="Items Warning - Stats Modifier" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Modifies stats from the warband member - this is not done automatically so please verify and adjust manually !</description>
+    </rule>
+    <rule id="b43b-e9a2-0881-2568" name="Combined Fire" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When involved in a Group Shoot Action, models of this type add +1 dice to their Ranged Attack roll if one or more other models of the same type in the group fire at the same target.</description>
+    </rule>
+    <rule id="40b8-1250-1347-c904" name="Equipment - Piercing (1)" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="e403-0d82-dc63-2958" name="Equipment - Reload" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="82d0-84b3-3276-df29" name="Equipment - Crushing Strength (+1)" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="b0ea-37a6-4747-6af7" name="Equipment - Crushing Strength (+2)" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="dfdb-34ce-bc3f-140d" name="Equipment - Piercing (+1)" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="97fb-93b0-0bf8-af1c" name="Equipment - Bandages" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this item may discard it during its activation to Roll a die. On a 4+, recover 1 Wound the model has previously suffered.</description>
+    </rule>
+    <rule id="ea16-cb4b-f3c8-aa58" name="Equipment - Lucky Charm" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Use this item to re-roll any one die for any roll made by this model.</description>
+    </rule>
+    <rule id="e292-1a66-8d2c-4437" name="Equipment - Bodkin Arrow" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this item is used, the model gains Piercing (1) or adds +1 to its Piercing value when making a Ranged attack with this ammunition (excluding spells).</description>
+    </rule>
+    <rule id="0640-48d8-488a-7d16" name="Equipment - Sheaf of Arrows" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this item is used, the model gains a bonus die when making a Ranged attack with this ammunition (excluding spells).</description>
+    </rule>
+    <rule id="2881-f56a-a40d-b710" name="Equipment - Heavy Weapon" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The model gains Crushing Strength (1) or adds +1 to its Crushing Strength value when making a Melee attack with this weapon.</description>
+    </rule>
+    <rule id="d656-eb73-5f61-609f" name="Equipment - Common Mount" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The model gains +2 Sp to a maximum of 8, +1 Height and the Cavalry special rule. The model’s base size becomes Cav. Models lose the Fly special rule while using a Mount.</description>
+    </rule>
+    <rule id="62e3-c8dd-f403-2673" name="Equipment - Large Shield" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The model has the Defender special rule.</description>
+    </rule>
+    <rule id="9a71-1b3b-1a54-aa1d" name="Equipment - Wicked dagger" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The model has the Sneaky special rule when making a Melee attack with this item.</description>
+    </rule>
+    <rule id="40bf-70cf-ef3c-26b3" name="Equipment - Defender" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="d541-b132-5e5f-de72" name="Equipment - Sneaky" book="Rulebook" page="39" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="ea86-3849-9e63-44c6" name="Bounty Hunter" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Remove all fatigue tokens from this model whenever he kills a a model</description>
+    </rule>
+    <rule id="4e7b-e090-b103-6569" name="Equipment - Breath" book="Rulebook" page="37" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="1cc2-005a-94cc-da35" name="Equipment - Pound" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="66f1-9dc0-f0e2-4ae8" name="Equipment - Piercing (2)" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="9bcc-d59f-7ada-1a84" name="Equipment - Marksman" book="Rulebook" page="38 " hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

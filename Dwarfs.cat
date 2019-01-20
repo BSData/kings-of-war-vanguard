@@ -998,10 +998,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6830-fba8-662e-933e" name="Shieldbreaker Hammer" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="802f-9fda-c3cf-7ead" name="Shieldbreaker Hammer" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0e7a-ecc4-a31a-3278" name="Shieldbreaker Hammer" hidden="false" targetId="df56-154a-31a4-ba5b" type="rule">
+        <infoLink id="0e7a-ecc4-a31a-3278" name="Weapon - Shieldbreaker Hammer" hidden="false" targetId="df56-154a-31a4-ba5b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1019,7 +1029,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bd6c-1cdb-4b06-ce6b" name="Battledrill" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="e63f-4e73-144e-9322" name="Battledrill" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="5fff-c58a-b80e-c622" name="Weapon - Battledrill" hidden="false" targetId="b0f8-686f-9124-0d75" type="rule">

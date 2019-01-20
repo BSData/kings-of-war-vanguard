@@ -1338,6 +1338,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="7bfe-eae9-2c63-b524" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
