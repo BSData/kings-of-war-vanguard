@@ -550,23 +550,6 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="31c5-7d83-2c1c-cd86" name="Rocket Launcher" hidden="false" targetId="4b6c-f81c-df00-22cb" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679c-3126-076f-9c05" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb68-2cb5-cd54-19b9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="29.0"/>
