@@ -276,7 +276,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="7"/>
             <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
             <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
             <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
@@ -685,7 +685,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="949d-1055-97eb-c89f" name="Nature&apos;s Boon (2)" hidden="false" targetId="761c-df41-f65b-e75b" type="rule">
+        <infoLink id="949d-1055-97eb-c89f" name="Nature&apos;s Boon (1)" hidden="false" targetId="761c-df41-f65b-e75b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1093,7 +1093,7 @@ action, resolve the Melee attack by the charging model as normal. Once the attac
       <modifiers/>
       <description>The model gains Crushing Strength (1), but increases its Armor by 1 (i.e 5+ becomes 6+).</description>
     </rule>
-    <rule id="761c-df41-f65b-e75b" name="Nature&apos;s Boon (2)" hidden="false">
+    <rule id="761c-df41-f65b-e75b" name="Nature&apos;s Boon" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
