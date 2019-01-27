@@ -1093,7 +1093,7 @@ action, resolve the Melee attack by the charging model as normal. Once the attac
       <modifiers/>
       <description>The model gains Crushing Strength (1), but increases its Armor by 1 (i.e 5+ becomes 6+).</description>
     </rule>
-    <rule id="761c-df41-f65b-e75b" name="Nature&apos;s Boon" hidden="false">
+    <rule id="761c-df41-f65b-e75b" name="Nature&apos;s Boon (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
