@@ -129,7 +129,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="11.0"/>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e192-a8fb-a257-5bb6" name="Leader of Men" hidden="false" collective="false" type="model">
