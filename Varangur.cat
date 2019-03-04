@@ -274,14 +274,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="cb82-fc6b-7c3f-1959" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>        
       <modifiers>
         <modifier type="increment" field="be7b-499a-8445-4ef1" value="1">
           <repeats>
