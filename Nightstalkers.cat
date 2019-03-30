@@ -1344,7 +1344,7 @@
     </selectionEntry>
     <selectionEntry id="40bc-9298-4c5c-1816" name="Fear the Darkness (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="c326-7ba1-163f-4f6c" name="Horrify (short)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
+        <profile id="c326-7ba1-163f-4f6c" name="Fear the Darkness (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1564,7 +1564,7 @@ Boosted version:
 
 Cast as a long action instead. As above, but the modifier is increased to -2 and a failure cannot be re-rolled for any reason.</description>
     </rule>
-    <rule id="0a5f-6449-36ac-7c51" name="Draw Dark Power (2)" hidden="false">
+    <rule id="0a5f-6449-36ac-7c51" name="Draw Dark Power (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
