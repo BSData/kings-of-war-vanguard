@@ -55,9 +55,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="611c-bea5-6260-a086" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e80-bbb8-91a0-56c5" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="611c-bea5-6260-a086" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1ec1-af5e-9952-af8c" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
@@ -124,9 +132,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="2698-82e6-6557-81c5" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a55f-aa49-e187-cbd2" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2698-82e6-6557-81c5" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="299e-33ec-06d5-e8f3" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
@@ -218,9 +234,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="c50c-9a19-3b70-37b0" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9967-91d1-445f-2238" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c50c-9a19-3b70-37b0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8528-831f-12f7-b4d7" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
@@ -297,9 +321,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="31a2-6d0e-31fa-6d90" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eafb-9246-f4a2-6291" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-6d0e-31fa-6d90" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="e51b-8925-46f5-5fe0" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
@@ -387,9 +419,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="6284-b2b7-3bf8-2581" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ff-e465-2787-ac66" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6284-b2b7-3bf8-2581" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2d54-bbd7-ae2c-87d1" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="false">
@@ -478,9 +518,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="8a95-1bd9-71ff-2e73" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46bf-aa61-3e2a-c3e7" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a95-1bd9-71ff-2e73" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7b9d-97dc-c9b5-acd1" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
@@ -591,9 +639,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="757b-9dee-0276-3fb1" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9819-2d11-f868-1ded" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757b-9dee-0276-3fb1" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2335-2578-270a-d5fc" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
@@ -696,9 +752,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="4d2d-cd63-97d0-3221" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4266-5965-6788-0d7f" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d2d-cd63-97d0-3221" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="ef54-2c9e-5b3c-d79f" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
@@ -809,9 +873,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="56e3-d57c-793e-bcd6" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2518-df15-6109-0977" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e3-d57c-793e-bcd6" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="82ac-59e2-6ccb-cf5f" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
@@ -911,9 +983,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="dea9-2390-dddf-8b78" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6f-3e0a-df10-0455" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea9-2390-dddf-8b78" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8422-1650-5d22-1268" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
@@ -1031,9 +1111,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="af2e-aa99-7b93-6a2f" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf0-e76c-4381-c397" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2e-aa99-7b93-6a2f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="3f4e-92b3-a653-4ac2" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
@@ -1122,12 +1210,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d3e8-0fe8-5630-7231" name="Rule Check - Is Large Command" hidden="false" targetId="c914-67a7-6b6e-dfca" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier type="increment" field="9438-28ec-db8e-30cf" value="1">
@@ -1137,9 +1219,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="6a39-6376-88c5-d57a" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9438-28ec-db8e-30cf" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a39-6376-88c5-d57a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6d7a-4dca-7abc-f0ef" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
@@ -1254,9 +1344,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="9930-5248-f513-aa59" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45cb-aa4b-54a1-1781" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9930-5248-f513-aa59" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4bdf-ea9b-bb2c-108d" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
@@ -1330,9 +1428,17 @@
           <conditions/>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="4102-2535-e57c-6acf" value="1">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ed-7d73-b5cc-2ee8" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4102-2535-e57c-6acf" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a81e-f4c3-1b12-07c0" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
