@@ -22,7 +22,7 @@
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef33-0d85-1142-fdfa" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7f9e-78a0-4e87-536f" name="Rabble" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName="Warband Member">
+        <profile id="7f9e-78a0-4e87-536f" name="Rabble" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
@@ -79,7 +79,7 @@
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dda-2f38-f263-5df5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0b82-cc52-0219-b37b" name="Spitter" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName="Warband Member">
+        <profile id="0b82-cc52-0219-b37b" name="Spitter" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
@@ -115,7 +115,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e92-57c3-9e49-9514" name="Luggit" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4e92-57c3-9e49-9514" name="Luggit" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="74a1-fa80-b1b7-6202" value="1">
           <repeats>
@@ -133,7 +133,7 @@
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3730-be66-d35f-193f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9274-7f95-3605-9294" name="Luggit" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName="Warband Member">
+        <profile id="9274-7f95-3605-9294" name="Luggit" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
@@ -163,17 +163,17 @@
         <entryLink id="0f3a-a80d-7fce-a989" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ebdb-51bc-c3a1-59ed" name="Mawbeast" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ebdb-51bc-c3a1-59ed" name="Mawbeast" hidden="false" collective="false" type="model">
       <modifiers>
-        <modifier type="increment" field="0bc1-09ed-66d7-ef53" value="1">
+        <modifier type="increment" field="0bc1-09ed-66d7-ef53" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="936a-8208-a5d0-2502" value="1">
+        <modifier type="increment" field="936a-8208-a5d0-2502" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -281,10 +281,10 @@
       <profiles>
         <profile id="fb0e-e482-006f-ede2" name="Banggit" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
             <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
@@ -305,6 +305,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5fc9-72a6-4fa6-5d47" name="Dodgy Grenades" hidden="false" collective="false" targetId="f266-69c9-276c-6e6c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46fd-a690-0fff-4ff5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="112e-46c2-ea28-ee60" type="max"/>
@@ -354,6 +357,7 @@
       <infoLinks>
         <infoLink id="edc3-2837-a0e3-4109" name="Cackle ! (1)" hidden="false" targetId="fed1-eaba-a309-3d60" type="rule"/>
         <infoLink id="7d3b-6032-0f86-6e90" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink id="0484-36ea-eaf7-dcc7" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9b52-e8b9-4bd4-773e" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
@@ -438,7 +442,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9f7-6679-d674-f1d6" name="Stinggit" hidden="true" collective="false" type="model">
+    <selectionEntry id="a9f7-6679-d674-f1d6" name="Stinggit" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="dcf5-144a-94e1-6e6f" value="1">
           <repeats>
@@ -478,6 +482,9 @@
         <infoLink id="8c16-a46e-3222-6095" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
         <infoLink id="533e-0261-f112-0beb" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
         <infoLink id="d937-6567-ee61-7d3c" name="Stealthy" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink id="96e1-1411-1db3-3059" name="Escape! (2)" hidden="false" targetId="9c8f-f12c-f9a4-3cfe" type="rule"/>
+        <infoLink id="51a3-91a1-a28e-9dc7" name="Agile Feint (2)" hidden="false" targetId="6166-35dc-3536-4da4" type="rule"/>
+        <infoLink id="3b2f-537a-cd8a-4340" name="Poison Blades (1)" hidden="false" targetId="e10e-8c3c-e71d-dce7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e87f-2182-5233-6f2a" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
@@ -499,10 +506,376 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c180-7915-a812-9504" name="Sneak" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="increment" field="e6ad-0049-6b25-29ac" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="e354-c552-784f-25b5" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e354-c552-784f-25b5" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ad-0049-6b25-29ac" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2600-1cb6-e3e0-808e" name="Sneak" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8cd2-90ff-fd94-987b" name="Sneaky" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink id="604f-c7be-014c-b8ad" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+        <infoLink id="3f70-bb2e-7746-501f" name="Smokebombs" hidden="false" targetId="0411-af6c-8d01-c995" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e5e7-b2e9-3897-dd4d" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="adfe-2e45-3b4c-adf1" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="8011-62ec-bf38-899e" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="e10f-08f7-c9ca-797b" name="Throwing Knife" hidden="false" collective="false" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c238-1374-57de-e6cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d7-d89a-0eb3-4868" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7198-6f4c-8f9a-ca6d" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d62a-0b20-ff32-cd66" name="Winggit" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="increment" field="b294-c8c2-3277-7386" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="534d-94f9-1414-4eef" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="534d-94f9-1414-4eef" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b294-c8c2-3277-7386" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="096d-2fc5-fdac-8f53" name="Winggit" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">8+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Machine</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da7b-abbb-36e8-d3c8" name="Fly" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
+        <infoLink id="73cc-280a-2761-1dd1" name="Eye in the Sky" hidden="false" targetId="183e-368f-a5b5-79f6" type="rule"/>
+        <infoLink id="002d-2736-9710-c699" name="Implacable" hidden="false" targetId="afa2-2e2c-3747-941a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af7b-39e7-aa81-9911" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3e3b-1f52-29f2-6b11" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4f29-6317-d860-9461" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="c0cd-2f5a-2e69-9d2b" name="Firebombs" hidden="false" collective="false" targetId="c914-d44c-c7cb-1086" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da5-cbb4-91a3-3b35" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86cf-d23d-592d-2c98" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba79-c641-953d-57ca" name="Blaggit" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18c6-f642-71c2-4c61" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed60-4fa2-1e3e-6213" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="38e0-3f6e-670c-1ca7" name="Blaggit" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="246b-ffac-4287-91b8" name="Sneaky" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink id="e4e7-0c0b-3783-4814" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink id="1919-fd10-e4df-3295" name="Stealthy" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink id="f393-70ee-f9f0-7483" name="CRAFTY TACTICS (1)" hidden="false" targetId="f069-d718-acca-4da0" type="rule"/>
+        <infoLink id="e0d9-aa84-595a-89c8" name="Dodge" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+        <infoLink id="5a1e-7ec1-0d72-c3da" name="Rabble Rouser" hidden="false" targetId="8a2f-0ad0-f85c-fc9a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b40d-da0d-1886-c90d" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a647-1312-4d94-f84f" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="72fe-0999-86e7-24c9" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93ea-291e-3728-4920" name="Mawpup Launcher" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="increment" field="8e68-7e82-992c-c4eb" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="a305-c6e6-13d5-4e21" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e68-7e82-992c-c4eb" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a305-c6e6-13d5-4e21" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8d25-bb97-20c9-e7da" name="Mawpup Launcher" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">7+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5db7-e9ef-36e3-70d2" name="Pup and Over" hidden="false" targetId="a2e4-0d9d-e4de-44a5" type="rule"/>
+        <infoLink id="9f51-46de-2d03-444a" name="PUPPY YELP! (1)" hidden="false" targetId="23ac-910e-f5bc-3598" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="925a-1dfd-3dde-dd43" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5730-ec4b-7771-27eb" name="Mawpup Launcher" hidden="false" collective="false" targetId="cde4-1b90-3acc-3f7a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f6-69d7-252c-6945" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad8-63ce-65a6-e74a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="faf8-32f5-081e-24f4" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="231c-cbdd-1c8a-b70b" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b03e-bb32-c7e5-1a6a" name="Snaggit" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="increment" field="aa8a-bf71-4276-82b5" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="cd5d-9ae5-27c8-2f10" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd5d-9ae5-27c8-2f10" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa8a-bf71-4276-82b5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a924-87aa-2d8e-a91d" name="Snaggit" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bfe7-ed0c-b9e3-4f8c" name="Sneaky" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink id="648b-1945-ee51-5d90" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="116f-9d06-5615-d8de" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2426-6ed0-0fed-db73" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="cc44-f492-7cf2-cb13" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="3dd3-86b7-e71e-96ec" name="Dastardly Traps" hidden="false" collective="false" targetId="b650-452b-e4f2-a3ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6535-3d93-bd95-6f5b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f2-64be-4649-453f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1af7-b1a4-4c3b-2d57" name="Magwa &amp; Jo&apos;os" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="169b-ebbc-73f6-d2d1" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b3-3646-660c-78aa" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8106-2166-a184-ac9d" name="Magwa &amp; Jo&apos;os" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin, Beast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4303-3301-890e-2695" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink id="48b6-e9c3-c82a-9aac" name="Inspiring (Beasts only)" hidden="false" targetId="fe66-a62b-ddab-fa89" type="rule"/>
+        <infoLink id="3f79-b798-2b62-ef5c" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink id="825f-0263-b1e6-2983" name="Pack Leader" hidden="false" targetId="5f0c-936a-2cf6-fb0b" type="rule"/>
+        <infoLink id="a6ca-9165-f59a-4f7c" name="ALPHA HOWL! (2)" hidden="false" targetId="e9c5-4826-b65e-0a04" type="rule"/>
+        <infoLink id="9157-310b-f67e-2b1e" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="adb4-d5a3-a372-c1f0" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f161-a46f-6784-73bf" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d61c-5cfc-fc5b-dea0" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1880-b778-e290-cf29" name="Mawbeast (Additional)" hidden="true" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1af7-b1a4-4c3b-2d57" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="ff4f-2e1c-a39e-a154" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1af7-b1a4-4c3b-2d57" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="8606-cce4-5704-55d1" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1af7-b1a4-4c3b-2d57" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4f-2e1c-a39e-a154" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8606-cce4-5704-55d1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9ef6-13e4-989c-84b7" name="Mawbeast" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="59e1-9191-3a4e-fb3b" name="Howl ! (1)" hidden="false" targetId="1e48-b698-f75f-8907" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0f10-0582-f172-5be9" name="New CategoryLink" hidden="false" targetId="9c8b-2b85-5f43-b599" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="69ad-826c-44e8-9761" name="FLEE! (1)" hidden="false">
-      <description>When an enemy model declares the intention to Engage a GOBLIN model, the GOBLIN model may elect to Flee unless it is already activated, Fatigued or Engaged. If the GOBLIN elects to FLEE, it moves before, and directly away from, the enemy model as far as possible up to its Speed following the normal movement rules. It is then marked as Fatigued. If the enemy model can no longer reach the GOBLIN to Engage it, it may perform a Walk action (if it hasn’t already) and then its activation is over. This special ability is not limited to one use per Round.</description>
+      <description>When an enemy model declares the intention to Engage a GOBLIN model, the GOBLIN model may elect to Flee unless it is already activated, Fatigued or Engaged. If the GOBLIN elects to FLEE, it moves before, and directly away from, the enemy model as far as possible with a free Walk action. It is then marked as Fatigued. If the enemy model can no longer reach the GOBLIN to Engage it, it may perform a Walk action (if it hasn’t already) and then its activation is over. This special ability is not limited to one use per Round.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -511,7 +884,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f82d-75d2-cae6-6e10" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4564-fe29-d32e-0296" name="Slink (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="4564-fe29-d32e-0296" name="Slink (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
@@ -536,7 +909,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af03-770e-989e-eb18" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ef5e-8fc9-6848-c0ed" name="Shrivel (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="ef5e-8fc9-6848-c0ed" name="Shrivel (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -561,13 +934,12 @@
         <profile id="a03e-59ee-5e9f-782a" name="Dodgy Grenades" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
             <characteristic name="Range" typeId="1705-310a-e353-1da1">6&quot;</characteristic>
-            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (X), Area Effect (2” / 1D8)</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (X), Area Effect (2” / 1D8 / Piercing (X))</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="6843-0a1a-63bc-6f08" name="Weapon - Dodgy Grenades" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule"/>
-        <infoLink id="6408-e0a7-d627-24db" name="Equipment - Piercing (2)" hidden="false" targetId="66f1-9dc0-f0e2-4ae8" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
@@ -584,6 +956,51 @@
       </profiles>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c914-d44c-c7cb-1086" name="Firebombs" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7c0e-a58e-741e-2eaa" name="Firebombs" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">9&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (2), Area Effect (2” / 2D8)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9753-9f98-6614-7d2e" name="Piercing (2)" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cde4-1b90-3acc-3f7a" name="Mawpup Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="801c-572e-78e8-18c7" name="Mawpup Launcher" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
+          <characteristics>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">18&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1), 4D8, Reload</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="785a-2c50-b25f-f0f5" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule"/>
+        <infoLink id="f96e-3c99-3298-c9b9" name="Reload" hidden="false" targetId="607b-a841-9e41-92c0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b650-452b-e4f2-a3ad" name="Dastardly Traps" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1530-9a96-75d7-608b" name="Dastardly Traps" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
+          <characteristics>
+            <characteristic name="Rules" typeId="71ed-d60e-e323-198b">2D8 Me 5+,  Crushing Strength (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -663,7 +1080,7 @@
       <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
     </rule>
     <rule id="40ae-7df8-1e18-ce14" name="Spell - Slink" hidden="false">
-      <description>Target a friendly, model with a -1 modifier on the roll. If a hit is scored, instead of suffering a wound, the target model removes any Activation counter on it and can be activated again this Round in a later Turn.</description>
+      <description>Target a friendly GOBLIN model, with a -1 modifier on the roll. If a hit is scored, instead of suffering a wound, the target model removes any Activation counter on it and can be activated again this Round in a later Turn.</description>
     </rule>
     <rule id="69c1-f427-8071-25ff" name="Spell - Shrivel" hidden="false">
       <description>For each hit scored, the target suffers a -1 modifier to any Melee or Ranged attack it makes until the end of the Round.
@@ -682,5 +1099,35 @@ Cast as a long action instead. The spell rolls 3D8 rather than 2D8.</description
       <description>Use this ability when the model makes a Ranged Attack with his Throwing Knives.  The attack has the Piercing (1) rule.</description>
     </rule>
     <rule id="03ff-213e-65cd-5787" name="Inspiring ( Sneaks Only )" hidden="false"/>
+    <rule id="0411-af6c-8d01-c995" name="Smokebombs" hidden="false">
+      <description>This model can always Break Away without having to make any Armour rolls.</description>
+    </rule>
+    <rule id="183e-368f-a5b5-79f6" name="Eye in the Sky" hidden="false">
+      <description>Friendly models (excluding the Winggit itself) making Ranged attacks against enemy models that are within 9&quot; of the Winggit always have clear LOS unless LOS is blocked.</description>
+    </rule>
+    <rule id="afa2-2e2c-3747-941a" name="Implacable" hidden="false">
+      <description>This model cannot be Knocked-down for any reason and remains standing if any rule requires it to be Knocked-down.</description>
+    </rule>
+    <rule id="8a2f-0ad0-f85c-fc9a" name="Rabble Rouser" hidden="false">
+      <description>While within 6&quot; of this model, friendly GOBLIN models (not including the Blaggit) have their Nerve value improved by 1 (e.g. +6 becomes 5+ ).</description>
+    </rule>
+    <rule id="f069-d718-acca-4da0" name="CRAFTY TACTICS (1)" hidden="false">
+      <description>Use this ability during any of your Turns if this model is not Fatigued. Spend the power to remove 1 Fatigue counter from a friendly model within 6&quot; of this model. This ability may be used once per round.</description>
+    </rule>
+    <rule id="23ac-910e-f5bc-3598" name="PUPPY YELP! (1)" hidden="false">
+      <description>Use this ability after a Ranged attack using the Mawpup Launcher has been resolved. Any friendly, non-Fatigued and non-activated Mawbeasts within 6&quot; of the target can immediately make a Walk action directly towards the target without being marked as activated.</description>
+    </rule>
+    <rule id="a2e4-0d9d-e4de-44a5" name="Pup and Over" hidden="false">
+      <description>This model has the Marksman special rule when making a Ranged attack against a target that is within 9&quot; of a friendly Winggit.</description>
+    </rule>
+    <rule id="a2e1-d7a5-624c-dbf8" name="Weapon - Dastardly Traps" hidden="false">
+      <description>As a short action, this model may place a 25mm trap marker anywhere within 6&quot; in Open Ground or Difficult Terrain but not within 6&quot; of another trap marker or within 3&quot; of an enemy model. When an enemy model moves within 3&quot; of a trap marker, it immediately suffers a 2D8 Me 5+ attack with Crushing Strength (1). The target model is marked as Fatigued if it suffers any wounds. The trap marker is then removed. A warband can have a maximum of 4 Dastardly Trap markers on the table at any time.</description>
+    </rule>
+    <rule id="e9c5-4826-b65e-0a04" name="ALPHA HOWL! (2)" hidden="false">
+      <description>This is a group Assault Action. Magwa &amp; Jo&apos;os must the nominated group leader. All the members of the group have the Bloodlust special rule until the end of the turn.</description>
+    </rule>
+    <rule id="5f0c-936a-2cf6-fb0b" name="Pack Leader" hidden="false">
+      <description>You may take up two additional Mawbeast units in your Warband beyond those normally allowed in the Warband selection rules.</description>
+    </rule>
   </sharedRules>
 </catalogue>

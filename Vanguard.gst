@@ -109,6 +109,7 @@
     <categoryEntry id="e745-e5aa-ccb6-cecb" name="Spellcaster" hidden="false"/>
     <categoryEntry id="5386-cda4-ccc0-f38d" name="Large" hidden="false"/>
     <categoryEntry id="5999-b2cc-3385-f57d" name="Mercenary" hidden="false"/>
+    <categoryEntry id="9c8b-2b85-5f43-b599" name="Additional Special Rules" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="3734-3c1c-d6b8-29c2" name="Warband - Normal Games" hidden="false">
@@ -223,6 +224,7 @@ All warband rules listed on page 45 of the rulebook for normal warbands can be v
             <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902d-71ae-0a7e-d3de" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="e70a-161f-f748-c817" name="Additional Special Rules" hidden="false" targetId="9c8b-2b85-5f43-b599" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="a731-8a45-7af3-5326" name="Warband - Smaller Games" hidden="false">
@@ -387,6 +389,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
           </constraints>
         </categoryLink>
         <categoryLink id="5bfa-d1bd-d20d-d46f" name="Mercenary" hidden="false" targetId="5999-b2cc-3385-f57d" primary="false"/>
+        <categoryLink id="1365-e3cd-9ac7-7c5f" name="Additional Special Rules" hidden="false" targetId="9c8b-2b85-5f43-b599" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -521,7 +524,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f47c-c6fd-3e05-d5ad" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b583-b7a3-c92a-4bf8" name="Summon Familiar (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+                <profile id="b583-b7a3-c92a-4bf8" name="Summon Familiar (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
                   <characteristics>
                     <characteristic name="Range" typeId="c023-a997-9c10-c42c">Self</characteristic>
                     <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -667,13 +670,13 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="531b-7993-9145-f83c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="51ae-7031-fa5a-78be" name="Crossbow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment">
+        <profile id="51ae-7031-fa5a-78be" name="Crossbow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
             <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
             <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1), Reload</characteristic>
           </characteristics>
         </profile>
-        <profile id="94cd-bb83-8c7c-c9ee" name="Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="94cd-bb83-8c7c-c9ee" name="Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -707,7 +710,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
-        <profile id="8b7c-7a4d-7c04-7d34" name="Bow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="8b7c-7a4d-7c04-7d34" name="Bow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -728,7 +731,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
-        <profile id="ed31-700a-43c7-ba9c" name="Light Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="ed31-700a-43c7-ba9c" name="Light Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -743,7 +746,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d77-0315-301f-46bf" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6855-af15-5640-8280" name="Bandages" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Common Items - Sundries">
+        <profile id="6855-af15-5640-8280" name="Bandages" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
             <characteristic name="Notes" typeId="9b58-23ba-782b-0cca">Single Use</characteristic>
           </characteristics>
@@ -761,7 +764,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04db-cf0e-c7c5-23f1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8cf7-7270-f38a-acc0" name="Lucky Charm" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Common Items - Magic">
+        <profile id="8cf7-7270-f38a-acc0" name="Lucky Charm" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
             <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Use once per game</characteristic>
           </characteristics>
@@ -795,7 +798,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b9-1998-a1d4-41b8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2fba-9fdb-9d67-56d0" name="Bodkin Arrow" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Common Items - Sundries">
+        <profile id="2fba-9fdb-9d67-56d0" name="Bodkin Arrow" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
             <characteristic name="Notes" typeId="9b58-23ba-782b-0cca">Single Use</characteristic>
           </characteristics>
@@ -814,7 +817,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0c8-c254-9b24-dd62" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b9b7-e3f2-23e6-f6dd" name="Sheaf of Arrows" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Common Items - Sundries">
+        <profile id="b9b7-e3f2-23e6-f6dd" name="Sheaf of Arrows" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
             <characteristic name="Notes" typeId="9b58-23ba-782b-0cca">Single Use</characteristic>
           </characteristics>
@@ -851,12 +854,12 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0079-3dd3-1711-ec40" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ef73-89dd-05e0-b1b8" name="Common Mount" hidden="true" typeId="0274-24e8-6f67-fd18" typeName="Common Items - Mount">
+        <profile id="ef73-89dd-05e0-b1b8" name="Common Mount" hidden="true" typeId="0274-24e8-6f67-fd18" typeName="Items - Mount">
           <characteristics>
             <characteristic name="Notes" typeId="5454-8cfb-9694-f750">Cannot be taken by LARGE models or those with the Cavalry special rule.</characteristic>
           </characteristics>
         </profile>
-        <profile id="64df-9ef9-12e9-96a3" name="Common Mount" hidden="false" typeId="b8da-40d2-5931-3169" typeName=" Warband Member Item Modifier">
+        <profile id="64df-9ef9-12e9-96a3" name="Common Mount" hidden="false" typeId="b8da-40d2-5931-3169" typeName=" Warband ProMod">
           <characteristics>
             <characteristic name="Sp" typeId="5dbf-491c-ddb3-1106">+2 (max 8)</characteristic>
             <characteristic name="Me" typeId="348a-532b-019c-69a7"/>
@@ -900,7 +903,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6294-983c-30ce-6c97" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5b88-a241-0b0b-d511" name="Large Shield" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Common Items - Armour">
+        <profile id="5b88-a241-0b0b-d511" name="Large Shield" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
             <characteristic name="Notes" typeId="ff11-370c-dab9-8c57">Cannot be taken by SPELLCASTERS</characteristic>
           </characteristics>
@@ -919,7 +922,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d05-dcb6-c71e-62ad" type="max"/>
       </constraints>
       <profiles>
-        <profile id="da93-c73b-7012-cc10" name="Crude Throwing Knife" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="da93-c73b-7012-cc10" name="Crude Throwing Knife" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -1062,7 +1065,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <characteristic name="Notes" typeId="5454-8cfb-9694-f750">Cannot be taken by LARGE models or those with the Cavalry special rule.</characteristic>
           </characteristics>
         </profile>
-        <profile id="59c9-7e7a-431e-d391" name="Rare Mount" hidden="false" typeId="b8da-40d2-5931-3169" typeName=" Warband Member Item Modifier">
+        <profile id="59c9-7e7a-431e-d391" name="Rare Mount" hidden="false" typeId="b8da-40d2-5931-3169" typeName=" Warband ProMod">
           <characteristics>
             <characteristic name="Sp" typeId="5dbf-491c-ddb3-1106">+2 (max 8)</characteristic>
             <characteristic name="Me" typeId="348a-532b-019c-69a7"/>
@@ -1120,7 +1123,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="827e-7c31-709c-74f6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2300-7781-9d9f-f16c" name="Fireball (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="2300-7781-9d9f-f16c" name="Fireball (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1139,7 +1142,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03ca-9b21-966e-4977" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a1b0-31b4-7d80-9e18" name="Hammer (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="a1b0-31b4-7d80-9e18" name="Hammer (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1158,7 +1161,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9775-87b1-0a04-ac60" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a47a-89bb-68ca-2051" name="Heal (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="a47a-89bb-68ca-2051" name="Heal (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8 </characteristic>
@@ -1177,7 +1180,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f24-9b49-e372-fae2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b4d4-f59f-0a58-9b17" name="Lightning Bolt (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="b4d4-f59f-0a58-9b17" name="Lightning Bolt (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
@@ -1200,7 +1203,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dedb-d054-0d77-102d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2283-34ee-2cb4-320d" name="Mind Storm (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="2283-34ee-2cb4-320d" name="Mind Storm (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1222,7 +1225,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3a7-e795-7edd-efee" type="max"/>
       </constraints>
       <profiles>
-        <profile id="dc7e-49ae-7404-6aec" name="Shield (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="dc7e-49ae-7404-6aec" name="Shield (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">Self</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1244,7 +1247,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7e6-3f2a-5190-7716" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ce8f-dc4d-2644-76ba" name="Shockwave (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="ce8f-dc4d-2644-76ba" name="Shockwave (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">-</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1263,7 +1266,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="988a-5153-7994-92e7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9a1e-b51a-aad2-8bdb" name="Stun (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="9a1e-b51a-aad2-8bdb" name="Stun (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1282,7 +1285,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43d4-e8d4-1d71-43a2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3700-7d63-e3ff-9acb" name="Windblast (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="3700-7d63-e3ff-9acb" name="Windblast (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
@@ -1301,7 +1304,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="90a8-e787-db5e-cb27" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fb32-91a9-d951-2ce7" name="Zap (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="fb32-91a9-d951-2ce7" name="Zap (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">3D8</characteristic>
@@ -1376,7 +1379,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
-        <profile id="9d89-4416-8100-a00d" name="Bow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="9d89-4416-8100-a00d" name="Bow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -1391,13 +1394,13 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a439-7932-4322-d989" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e532-1a89-d259-e2cf" name="Crossbow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment">
+        <profile id="e532-1a89-d259-e2cf" name="Crossbow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
             <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
             <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1), Reload</characteristic>
           </characteristics>
         </profile>
-        <profile id="d359-d075-79f4-5e76" name="Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="d359-d075-79f4-5e76" name="Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -1422,7 +1425,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
-        <profile id="bbcb-2dde-ab11-df14" name="Light Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Common Items - Ranged">
+        <profile id="bbcb-2dde-ab11-df14" name="Light Crossbow" hidden="true" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
             <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
@@ -1535,7 +1538,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c4f-5323-6f51-8884" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9040-81f0-879d-c4cc" name="Dazzle (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="9040-81f0-879d-c4cc" name="Dazzle (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1557,7 +1560,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ade-df7e-2574-5811" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5bf5-e954-84a2-8451" name="Deteriorate" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="5bf5-e954-84a2-8451" name="Deteriorate" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1579,7 +1582,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ad2-2f5d-943e-ab3d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dcbb-3499-7080-c3a5" name="Transpose (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="dcbb-3499-7080-c3a5" name="Transpose (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1598,7 +1601,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee93-2e69-cbf1-cb24" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2dd6-c87b-59e2-82c7" name="Blur (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="2dd6-c87b-59e2-82c7" name="Blur (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
@@ -1617,7 +1620,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1be6-e2dc-b5e1-7ae1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d98d-aa77-280d-d373" name="Teleport (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="d98d-aa77-280d-d373" name="Teleport (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
@@ -1636,7 +1639,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a504-3eab-3bc0-64f6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d300-b4c9-69ce-4b88" name="Chain Lightning" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="d300-b4c9-69ce-4b88" name="Chain Lightning" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1665,7 +1668,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9566-6098-6a22-4a22" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07e2-6917-41da-d057" name="Waterlogged (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="07e2-6917-41da-d057" name="Waterlogged (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1687,7 +1690,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e68b-ee4f-4023-88c3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b480-2380-28a4-0fe7" name="Tanglefoot (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="b480-2380-28a4-0fe7" name="Tanglefoot (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
@@ -1706,7 +1709,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e4a-2cec-4860-6f99" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b8d3-1e21-e6fe-a344" name="Veiling Fog (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="b8d3-1e21-e6fe-a344" name="Veiling Fog (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1725,7 +1728,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7197-58e8-fcae-1299" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6cdc-2cd0-3404-b14f" name="Nature&apos;s Cloak (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="6cdc-2cd0-3404-b14f" name="Nature&apos;s Cloak (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">Self</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1744,7 +1747,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="323c-b0c2-1270-27a0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fa6a-7d21-f650-9860" name="Brisk Work" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="fa6a-7d21-f650-9860" name="Brisk Work" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1763,7 +1766,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f4cd-62ee-aad8-0649" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f71-0edd-bca8-69c0" name="Stoneskin (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="0f71-0edd-bca8-69c0" name="Stoneskin (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1841,7 +1844,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7049-ff1d-1b8d-864d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7a94-2e3e-fe96-cf09" name="Lure (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="7a94-2e3e-fe96-cf09" name="Lure (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1860,7 +1863,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4453-5f01-3176-0594" type="max"/>
           </constraints>
           <profiles>
-            <profile id="101e-2dc0-5a57-20b8" name="Shatter (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="101e-2dc0-5a57-20b8" name="Shatter (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
@@ -1879,7 +1882,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd86-85ed-6579-571a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="08cc-190c-1b5d-0a5b" name="Malevolence (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="08cc-190c-1b5d-0a5b" name="Malevolence (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
@@ -1898,7 +1901,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="190d-0aea-90b8-72bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="234d-1f25-7068-d3ac" name="Possession (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="234d-1f25-7068-d3ac" name="Possession (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
@@ -1917,7 +1920,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f6c-e20f-f6a8-d199" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fe6c-3b09-338a-35f4" name="Summon Familiar (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="fe6c-3b09-338a-35f4" name="Summon Familiar (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">Self</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -1936,7 +1939,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3700-4565-fa37-a8cc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c09-c060-0a42-5b3b" name="Nightfall (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+            <profile id="9c09-c060-0a42-5b3b" name="Nightfall (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
                 <characteristic name="Range" typeId="c023-a997-9c10-c42c">-</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -2094,5 +2097,6 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     </rule>
     <rule id="393c-e681-96ad-82c7" name="Inspiring (Grunts &amp; Warriors only)" hidden="false"/>
     <rule id="53dc-34e5-7b90-e03c" name="Inspiring (Grunts only)" hidden="false"/>
+    <rule id="fe66-a62b-ddab-fa89" name="Inspiring (Beasts only)" hidden="false"/>
   </sharedRules>
 </gameSystem>
