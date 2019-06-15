@@ -1,1278 +1,666 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a99-197b-8983-b9e9" name="Undead" revision="1" battleScribeVersion="2.01" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks>
-    <infoLink id="f359-daea-a160-2dff" name="Surge (2)" hidden="false" targetId="ecf6-0131-1ffb-7e5f" type="rule">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </infoLink>
-  </infoLinks>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
+<catalogue id="6a99-197b-8983-b9e9" name="Undead" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6a99-197b-pubN69080" name="Rulebook"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="4b35-7921-4262-75ef" name="Zombie" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="9cc2-ba28-1e05-ed33" name="Zombie" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="7+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="53f9-7ae9-1ef6-1593" name="Mob Assault" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier type="increment" field="6356-1981-e780-978f" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="4db4-ff9e-9a78-5e2d" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6356-1981-e780-978f" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db4-ff9e-9a78-5e2d" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="7762-fca4-0d96-fe88" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="fb88-6229-0c6b-e601" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="97b6-925c-9078-3611" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="abf3-b41f-92f6-7584" name="Ghoul" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3890-340e-da92-cf48" name="Ghoul" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="9cc2-ba28-1e05-ed33" name="Zombie" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="41a1-23f0-4dd2-d475" name="Dodge" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="53f9-7ae9-1ef6-1593" name="Mob Assault" hidden="false" targetId="02e7-0f47-e451-32e3" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7762-fca4-0d96-fe88" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fb88-6229-0c6b-e601" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="97b6-925c-9078-3611" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abf3-b41f-92f6-7584" name="Ghoul" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="8cf0-d8be-88aa-42b5" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="c44a-c82d-1622-12e3" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44a-c82d-1622-12e3" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf0-d8be-88aa-42b5" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="a388-1f49-8639-8006" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="495b-c4df-0efc-65bf" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f4a0-fba5-ccbf-b8a5" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="9.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6052-6b2b-b0d1-8d2d" name="Skeleton" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e4cd-06fb-ba17-5cae" name="Skeleton" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="3890-340e-da92-cf48" name="Ghoul" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="41a1-23f0-4dd2-d475" name="Dodge" hidden="false" targetId="7f0d-9c7d-2950-e021" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a388-1f49-8639-8006" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="495b-c4df-0efc-65bf" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="f4a0-fba5-ccbf-b8a5" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6052-6b2b-b0d1-8d2d" name="Skeleton" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="221c-2b3b-7fc5-1c38" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="9212-7390-f0a2-1928" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221c-2b3b-7fc5-1c38" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9212-7390-f0a2-1928" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="1329-2051-5656-346e" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="f0f8-c19c-75e7-3b03" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9717-a412-7766-4a44" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bd8e-cd91-7d3c-a035" name="Skeletal Dog Pack" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="da83-c190-9fc4-d00d" name="Skeletal Dog Pack" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="e4cd-06fb-ba17-5cae" name="Skeleton" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Beast, Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="f96c-055c-0e99-e247" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="003b-1a2e-d701-22b6" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1329-2051-5656-346e" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f0f8-c19c-75e7-3b03" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="9717-a412-7766-4a44" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd8e-cd91-7d3c-a035" name="Skeletal Dog Pack" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="d3c0-3193-f9f6-77db" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="620d-556c-3730-ec9f" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c0-3193-f9f6-77db" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="620d-556c-3730-ec9f" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="2a3c-a5fb-8ed2-fe61" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="ee5a-d216-80f9-7659" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="9.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="36f9-20f0-c300-e560" name="Revenant" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="19bd-67f6-9596-294c" name="Revenant" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="da83-c190-9fc4-d00d" name="Skeletal Dog Pack" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="f96c-055c-0e99-e247" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink id="003b-1a2e-d701-22b6" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2a3c-a5fb-8ed2-fe61" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee5a-d216-80f9-7659" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36f9-20f0-c300-e560" name="Revenant" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="f05d-7008-adc3-497d" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="9ef0-d644-d230-56a7" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05d-7008-adc3-497d" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef0-d644-d230-56a7" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="db08-3b1e-9444-9cc7" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="021d-6010-2751-b2d1" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="da78-095f-4c2e-56c7" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7be8-25ad-2178-7a64" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fac9-5a1e-33c5-db51" name="Wraith" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3f70-056d-ef98-a941" name="Wraith" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="19bd-67f6-9596-294c" name="Revenant" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="7"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="3+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9768-52dd-c787-2677" name="Fly" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6766-8044-5b75-432f" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="db08-3b1e-9444-9cc7" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="021d-6010-2751-b2d1" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="da78-095f-4c2e-56c7" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fac9-5a1e-33c5-db51" name="Wraith" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="129d-b41d-7daa-c2d3" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="3011-51f1-727a-0eb9" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="129d-b41d-7daa-c2d3" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3011-51f1-727a-0eb9" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="d615-b3d4-962f-5f2a" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="e0dd-2de8-5cf4-aade" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b020-adbf-d5d6-9c2c" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f187-b153-0fdf-7449" name="Werewolf" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="42f6-37d9-5c5b-e2b2" name="Werewolf" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="3f70-056d-ef98-a941" name="Wraith" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="7"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="4"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="3"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">3+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="48f6-465b-6983-4981" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e519-3eac-d8d8-04e8" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="9768-52dd-c787-2677" name="Fly" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
+        <infoLink id="6766-8044-5b75-432f" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d615-b3d4-962f-5f2a" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e0dd-2de8-5cf4-aade" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f187-b153-0fdf-7449" name="Werewolf" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="680f-7212-7308-94ff" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="b352-1d87-002c-da38" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680f-7212-7308-94ff" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b352-1d87-002c-da38" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="76e7-74d0-cab7-e846" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="401e-c680-aba1-df0d" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1070-9aaf-682b-1a4b" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="33.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b2d5-b1b6-3dc6-5b05" name="Skeleton Archer" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4000-736f-9b9e-d2de" name="Skeleton Archer" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="42f6-37d9-5c5b-e2b2" name="Werewolf" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="6+"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">7</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="48f6-465b-6983-4981" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink id="e519-3eac-d8d8-04e8" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="76e7-74d0-cab7-e846" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="401e-c680-aba1-df0d" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2d5-b1b6-3dc6-5b05" name="Skeleton Archer" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="6504-09f0-077b-060b" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="9936-bfdf-6a97-5670" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6504-09f0-077b-060b" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9936-bfdf-6a97-5670" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="4000-736f-9b9e-d2de" name="Skeleton Archer" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">6+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
-        <categoryLink id="a1ff-cd27-dc67-9b69" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="a1ff-cd27-dc67-9b69" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="fdd1-0252-32a4-d431" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="ca8f-4e05-affb-65de" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a016-2ed9-b968-aa76" name="Eldritch Warbow" hidden="false" targetId="8f2b-ae39-805c-08ec" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="fdd1-0252-32a4-d431" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="ca8f-4e05-affb-65de" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a016-2ed9-b968-aa76" name="Eldritch Warbow" hidden="false" collective="false" targetId="8f2b-ae39-805c-08ec" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e150-d56e-a851-a4bd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e3e-ad0d-f97d-5bf9" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="8.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e911-a13c-07d1-5866" name="Necromancer" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5a91-251b-23cf-d7fd" name="Necromancer" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Undead"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="ce0c-9705-affd-e25e" name="Power Dice White (2)" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier type="increment" field="1202-69cf-9107-3e8c" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="f1c9-1428-cca8-733a" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1202-69cf-9107-3e8c" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c9-1428-cca8-733a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="5a91-251b-23cf-d7fd" name="Necromancer" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ce0c-9705-affd-e25e" name="Power Dice White (2)" hidden="false" targetId="f6e9-e0d4-227e-a80c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="fc4e-3dd7-8935-0c7e" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="d2cc-de71-af7b-2951" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="fc4e-3dd7-8935-0c7e" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
+        <categoryLink id="d2cc-de71-af7b-2951" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6290-3531-55c5-b870" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9a20-491f-6678-a513" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="bbbe-98a7-e412-6b9f" name=" Spellbook - Basic Necromancer" hidden="false" targetId="b223-67e5-a489-372e" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="6290-3531-55c5-b870" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="bbbe-98a7-e412-6b9f" name=" Spellbook - Basic Necromancer" hidden="false" collective="false" targetId="b223-67e5-a489-372e" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="e0f7-0600-cc2b-b952" value="1">
               <repeats>
                 <repeat field="selections" scope="e911-a13c-07d1-5866" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c033-2980-b549-f3c8" repeats="1" roundUp="false"/>
               </repeats>
-              <conditions/>
-              <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="362e-d35f-1a1c-816e" value="1">
               <repeats>
                 <repeat field="selections" scope="e911-a13c-07d1-5866" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
-              <conditions/>
-              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="362e-d35f-1a1c-816e" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0f7-0600-cc2b-b952" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="600e-2c66-14ab-f305" name=" Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="3db2-2765-90ba-c418" name=" Spellbook - Undead (Free)" hidden="false" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9e3b-213f-2e75-2278" name=" Spellbook - Undead (Paid)" hidden="false" targetId="5667-108d-8c27-6780" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="600e-2c66-14ab-f305" name=" Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink id="3db2-2765-90ba-c418" name=" Spellbook - Undead (Free)" hidden="false" collective="false" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
+        <entryLink id="9e3b-213f-2e75-2278" name=" Spellbook - Undead (Paid)" hidden="false" collective="false" targetId="5667-108d-8c27-6780" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="39.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1377-b91f-012f-6793" name="Vampire Bat Swarm" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="989f-3720-3072-ee5f" name="Vampire Bat Swarm" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="7+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Beast, Undead"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="8467-214f-898d-b84d" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0379-1e8e-7620-b701" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="860c-3eb6-2bbb-8ff8" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1a23-8165-294d-eda8" name="Fly" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier type="increment" field="df63-8793-0d9c-7efa" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="6ec0-40c2-6d1e-609c" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df63-8793-0d9c-7efa" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec0-40c2-6d1e-609c" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="8551-c81d-002b-e966" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8bee-c5e7-9cdf-b868" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e2b5-9fb9-2671-d885" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="10.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
-  <entryLinks/>
-  <sharedSelectionEntries>
-    <selectionEntry id="af9e-7d88-3263-3052" name="Curse of Ages (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="794e-e282-167b-fb80" name="Curse of Ages (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="989f-3720-3072-ee5f" name="Vampire Bat Swarm" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
-            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">7+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Undead</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="4886-3c24-cabc-35e5" name="Spell - Curse of Ages" hidden="false" targetId="e7ce-4877-330b-59e8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="8467-214f-898d-b84d" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink id="0379-1e8e-7620-b701" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
+        <infoLink id="860c-3eb6-2bbb-8ff8" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink id="1a23-8165-294d-eda8" name="Fly" hidden="false" targetId="5f24-221a-0b9f-3b93" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
+      <categoryLinks>
+        <categoryLink id="8551-c81d-002b-e966" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink id="a29b-6eb5-ac8a-dc11" name="Rule Check - Is Faction Spell" hidden="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="8bee-c5e7-9cdf-b868" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="e2b5-9fb9-2671-d885" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="f359-daea-a160-2dff" name="Surge (2)" hidden="false" targetId="ecf6-0131-1ffb-7e5f" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="af9e-7d88-3263-3052" name="Curse of Ages (long)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="794e-e282-167b-fb80" name="Curse of Ages (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4886-3c24-cabc-35e5" name="Spell - Curse of Ages" hidden="false" targetId="e7ce-4877-330b-59e8" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="a29b-6eb5-ac8a-dc11" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5418-c010-dc81-0e82" name="Ectoplasmic Blast (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="663f-70cd-9287-36a7" name="Ectoplasmic Blast (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="663f-70cd-9287-36a7" name="Ectoplasmic Blast (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
-            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Breath, Piercing (1)"/>
-            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5">Breath, Piercing (1)</characteristic>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1c3b-70ec-18eb-d196" name="Rule Check - Is Faction Spell" hidden="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="1c3b-70ec-18eb-d196" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f2b-ae39-805c-08ec" name="Eldritch Warbow" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="8fe9-bd3f-4103-47c4" name="Eldritch Warbow" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment - Shooting">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="8fe9-bd3f-4103-47c4" name="Eldritch Warbow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
-            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Chilling Strike (1)"/>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">12&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Chilling Strike (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="a8ab-0750-476e-885b" name="Weapon - Chilling Strike (1)" hidden="false" targetId="b378-36cb-06bf-e6d6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="a8ab-0750-476e-885b" name="Weapon - Chilling Strike (1)" hidden="false" targetId="b378-36cb-06bf-e6d6" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9913-ed45-c064-0bc7" name="Raise Dead (long)" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="b0d7-f296-d8c0-fa32" name="Raise Dead (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="3&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
-            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="e92e-9b4c-c147-f614" name="Spell - Raise Dead" hidden="false" targetId="2593-e658-6ad7-35f5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08db-e609-edda-887f" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <profiles>
+        <profile id="b0d7-f296-d8c0-fa32" name="Raise Dead (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+          <characteristics>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">3&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e92e-9b4c-c147-f614" name="Spell - Raise Dead" hidden="false" targetId="2593-e658-6ad7-35f5" type="rule"/>
+      </infoLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="c033-2980-b549-f3c8" name=" Spellbook - Undead (Free)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd2d-b7d9-6584-5525" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="d9e1-e98f-e184-b4d2" name="Ectoplasmic Blast (long)" hidden="false" targetId="5418-c010-dc81-0e82" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="d9e1-e98f-e184-b4d2" name="Ectoplasmic Blast (long)" hidden="false" collective="false" targetId="5418-c010-dc81-0e82" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c2d-d321-a6e2-d8e7" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="db58-8ba1-591a-e762" name="Curse of Ages (long)" hidden="false" targetId="af9e-7d88-3263-3052" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="db58-8ba1-591a-e762" name="Curse of Ages (long)" hidden="false" collective="false" targetId="af9e-7d88-3263-3052" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bc-ddee-0cf5-cf82" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5667-108d-8c27-6780" name=" Spellbook - Undead (Paid)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4db2-b679-a22f-60e8" name="Ectoplasmic Blast (long)" hidden="false" targetId="5418-c010-dc81-0e82" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="4db2-b679-a22f-60e8" name="Ectoplasmic Blast (long)" hidden="false" collective="false" targetId="5418-c010-dc81-0e82" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3425-784e-bb8b-201a" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="8b81-d106-e9b3-10e7" name="Curse of Ages (long)" hidden="false" targetId="af9e-7d88-3263-3052" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="8b81-d106-e9b3-10e7" name="Curse of Ages (long)" hidden="false" collective="false" targetId="af9e-7d88-3263-3052" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b16d-591c-6c2f-eb69" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b223-67e5-a489-372e" name=" Spellbook - Basic Necromancer" book="Rulebook" page="41" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <selectionEntryGroup id="b223-67e5-a489-372e" name=" Spellbook - Basic Necromancer" publicationId="6a99-197b-pubN69080" page="41" hidden="false" collective="false">
       <categoryLinks>
-        <categoryLink id="2d10-a6c2-eaa1-eba2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="2d10-a6c2-eaa1-eba2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1c31-94f8-d19c-447b" name="Heal (short)" hidden="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="59ea-5518-00c5-00a8" name="Lightning Bolt (long)" hidden="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6e36-3e84-b43b-8cd0" name="Raise Dead (long)" hidden="false" targetId="9913-ed45-c064-0bc7" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="c3f8-5dc2-59d2-c07c" name="Shield (short)" hidden="false" targetId="eaa9-4984-a19c-6832" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="1c31-94f8-d19c-447b" name="Heal (short)" hidden="false" collective="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink id="59ea-5518-00c5-00a8" name="Lightning Bolt (long)" hidden="false" collective="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink id="6e36-3e84-b43b-8cd0" name="Raise Dead (long)" hidden="false" collective="false" targetId="9913-ed45-c064-0bc7" type="selectionEntry"/>
+        <entryLink id="c3f8-5dc2-59d2-c07c" name="Shield (short)" hidden="false" collective="false" targetId="eaa9-4984-a19c-6832" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ecf6-0131-1ffb-7e5f" name="Surge (2)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Nominate a model with the COMMAND type in the Undead warband. All friendly undead WARRIOR and GRUNT models within 9” of the nominated COMMAND model may immediately make a free Walk action, even if they have already activated this Round or are Fatigued.</description>
     </rule>
     <rule id="e5ea-d5c6-d980-b72b" name="Deathless Bond" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Unlike a normal warband, an Undead warband is not Broken once it has less than half its models remaining. Instead, when the last COMMAND model in an Undead warband is killed, the warband is Broken, regardless of the number of models it has remaining.</description>
     </rule>
     <rule id="9942-12a0-d14d-f7b0" name="Back from the Grave" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>While the warband is not broken, all standing UNDEAD models within 6” of a friendly COMMAND model, including GRUNTS, that are reduced to zero (or fewer) wounds, automatically get a Down But Not Out result. UNDEAD models attacked in Melee when already Knocked-down, are removed as normal if reduced to zero (or fewer) wounds. Once the warband is broken however, all UNDEAD models that are reduced to zero (or fewer) wounds, automatically get a Too Much Damage result.</description>
     </rule>
     <rule id="e7ce-4877-330b-59e8" name="Spell - Curse of Ages" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>No dice roll required. Until the end of the Round, all enemy models within 6” of the caster suffer a -1 modifier to all their Melee and Ranged attacks. Mark the caster as Fatigued.</description>
     </rule>
     <rule id="b378-36cb-06bf-e6d6" name="Weapon - Chilling Strike (1)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Use this ability when this model causes a wound with a Ranged attack with its Eldritch Warbow. The enemy model must make a Nerve test. If it fails it is moved 2” directly away from the archer, or as far as possible (cannot come within 1” of enemy models) and is marked as Fatigued.</description>
     </rule>
     <rule id="2593-e658-6ad7-35f5" name="Spell - Raise Dead" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Place a new Skeleton model (not an Archer) anywhere within 3” of the Necromancer (and more than 1” from any enemy models). Mark the new model as Activated. The newly raised Skeleton is now a member of the warband for the duration of the current game only.</description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
 </catalogue>

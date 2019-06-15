@@ -47,8 +47,7 @@
         <categoryLink id="293b-15a3-6e3f-9c42" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e0f5-d542-8434-6ee7" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="bdf0-1d40-fb2b-e5b4" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="e0f5-d542-8434-6ee7" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="d480-3799-4d6d-abb1" name="Net" hidden="false" collective="false" targetId="ce14-4a74-242b-e06f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
@@ -113,8 +112,7 @@
         <categoryLink id="c827-f6c7-221f-5fa7" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6f33-ef89-542c-ca1c" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="583a-6892-50b2-4016" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="6f33-ef89-542c-ca1c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="8f70-bd31-3be6-5732" name="Harpoon-Gun" hidden="false" collective="false" targetId="f259-3342-9dfc-9b5c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="3"/>
@@ -275,8 +273,7 @@
         <categoryLink id="6097-bc9d-16d1-9b29" name="Support" hidden="false" targetId="c194-28e4-665e-319c" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3642-b970-8f52-f189" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="b3ea-f3f5-e48e-1c45" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="3642-b970-8f52-f189" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="d2da-5c4d-b2db-8253" name="Elemental Fire" hidden="false" collective="false" targetId="86f5-90a4-4824-685f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
@@ -379,8 +376,7 @@
         <categoryLink id="7e24-e9b1-799e-4df2" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cad5-97e8-6622-2679" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="64f6-dc55-121f-27a4" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="cad5-97e8-6622-2679" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="8c9f-da0e-8e3a-30c8" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -432,8 +428,7 @@
         <categoryLink id="0025-d71e-0a2f-0bee" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c155-2267-3bc7-349b" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="49e9-07bf-85de-03d5" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="c155-2267-3bc7-349b" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="2da2-1ec7-eabc-34c5" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
@@ -491,8 +486,7 @@
         <categoryLink id="e894-3c07-0f49-cc71" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7727-d78b-afb8-8498" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="c4fb-c23b-7fec-4bee" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="7727-d78b-afb8-8498" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="15a4-34de-50fd-9a2e" name=" Spellbook - Primoridal" hidden="false" collective="false" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
         <entryLink id="cf15-d122-cce8-ddde" name=" Spellbook - Basic Druid" hidden="false" collective="false" targetId="2de8-ecf1-9290-6485" type="selectionEntryGroup">
           <modifiers>
@@ -564,8 +558,7 @@
         <categoryLink id="682a-7f45-e828-ab89" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c9ba-2dd2-712a-96c2" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="821d-9c61-a105-a40c" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="c9ba-2dd2-712a-96c2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="4124-0e66-c220-8466" name=" Spellbook - Primoridal" hidden="false" collective="false" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
         <entryLink id="ae66-b0e9-672f-0f29" name=" Spellbook - Basic Gladewalker Druid" hidden="false" collective="false" targetId="691a-4874-ea8a-3099" type="selectionEntryGroup">
           <modifiers>
@@ -636,8 +629,7 @@
         <categoryLink id="97cc-ddbc-aea3-83f9" name="Support" hidden="false" targetId="c194-28e4-665e-319c" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="48da-811e-3be4-b820" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d5ff-f8fa-598f-433a" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="48da-811e-3be4-b820" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -686,8 +678,7 @@
         <categoryLink id="3092-15a5-3f4e-78bf" name="Support" hidden="false" targetId="c194-28e4-665e-319c" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9e61-60b5-9947-3cb4" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="8813-638b-9eac-1969" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="9e61-60b5-9947-3cb4" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -735,8 +726,7 @@
         <categoryLink id="38b8-9c0b-6ea2-736a" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b634-45b8-2779-2d58" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d404-c1e5-14c9-f5b8" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="b634-45b8-2779-2d58" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="3558-cf05-8517-9778" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="c027-dd80-2fd2-0472" name="Centaur Bow" hidden="false" collective="false" targetId="f043-4b32-20f5-de39" type="selectionEntry">
           <modifiers>
@@ -795,8 +785,7 @@
         <categoryLink id="0446-1628-4f34-567b" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4f15-aa8a-2ead-01ff" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="0b3c-2b2e-6f7b-29c1" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="4f15-aa8a-2ead-01ff" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="dc5f-3889-ea71-4f48" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -862,7 +851,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="fab1-8e3a-f9f1-7091" name="Barrier of Vines (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="5bad-b486-b167-b3ba" name="Barrier of Vines (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="5bad-b486-b167-b3ba" name="Barrier of Vines (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -892,7 +881,7 @@
     </selectionEntry>
     <selectionEntry id="c6f0-2536-e081-4b9a" name="Vengeful Flock (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="761a-a4a2-08a0-f1b7" name="Vengeful Flock (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="761a-a4a2-08a0-f1b7" name="Vengeful Flock (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
@@ -989,7 +978,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4335-4e5f-263c-37b8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6584-795d-c49a-e283" name="Tanglefoot (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spell">
+        <profile id="6584-795d-c49a-e283" name="Tanglefoot (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
             <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>

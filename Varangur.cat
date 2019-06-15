@@ -1,1336 +1,643 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bc8-d98b-7255-9049" name="Varangur" revision="1" battleScribeVersion="2.01" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks>
-    <infoLink id="d9f5-a4d2-3488-7fae" name="Gifts of Korgaan" hidden="false" targetId="c836-4604-dfd6-bd4a" type="rule">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </infoLink>
-  </infoLinks>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
+<catalogue id="3bc8-d98b-7255-9049" name="Varangur" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="3bc8-d98b-pubN69072" name="Rulebook"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="47c1-7833-ba09-bb30" name="Thrall" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="81be-a1ab-f378-1583" name="Thrall" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="88e5-e63d-b840-0c7f" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier type="increment" field="cd56-45f5-19b7-086b" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="1c3b-2299-dbdb-1da6" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd56-45f5-19b7-086b" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c3b-2299-dbdb-1da6" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="f87a-2068-bbb3-3125" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="13ee-4429-5b82-369b" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="719f-c8e1-4997-60b9" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="185f-ee10-d74d-43bb" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5fae-b59a-89a7-dbd8" name="Night Raider" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1ec9-36e6-5149-e9c4" name="Night Raider" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="81be-a1ab-f378-1583" name="Thrall" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="4+"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="2799-f1dd-6aa1-36ec" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d270-46aa-8f2a-3d85" name="Stealthy" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3760-f6e0-01c2-6d03" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="88e5-e63d-b840-0c7f" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f87a-2068-bbb3-3125" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="13ee-4429-5b82-369b" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="719f-c8e1-4997-60b9" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="185f-ee10-d74d-43bb" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5fae-b59a-89a7-dbd8" name="Night Raider" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="411e-d40e-5d10-9663" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="5e36-b2c4-ef63-e069" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="411e-d40e-5d10-9663" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e36-b2c4-ef63-e069" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="1ec9-36e6-5149-e9c4" name="Night Raider" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2799-f1dd-6aa1-36ec" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
+        <infoLink id="d270-46aa-8f2a-3d85" name="Stealthy" hidden="false" targetId="079c-f110-bd18-b3d5" type="rule"/>
+        <infoLink id="3760-f6e0-01c2-6d03" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="d0b4-05f7-815e-7ad8" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="d0b4-05f7-815e-7ad8" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="b4d2-ac44-39b3-768d" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a25a-6bcf-7be0-aca7" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="68d1-180a-1acc-a805" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="3a35-97c4-bc26-a6dc" name="Bow" hidden="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="b4d2-ac44-39b3-768d" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="a25a-6bcf-7be0-aca7" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3a35-97c4-bc26-a6dc" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
             <modifier type="set" field="b929-2005-6552-ba9e" value="0.0">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="050f-71c1-67ec-9868" type="greaterThan"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
             <modifier type="set" field="10ec-1a56-ee28-43e1" value="1">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="050f-71c1-67ec-9868" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ec-1a56-ee28-43e1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b929-2005-6552-ba9e" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="e165-117b-1331-a8c2" name="Poisoned Throwing Weapon" hidden="false" targetId="050f-71c1-67ec-9868" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="e165-117b-1331-a8c2" name="Poisoned Throwing Weapon" hidden="false" collective="false" targetId="050f-71c1-67ec-9868" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="2">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="2"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20e3-82a4-d5dc-8307" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0846-3f87-28fc-8c61" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="24.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6b6-dde3-9268-239f" name="Warrior" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="1774-48ba-fa91-0fe5" name="Warrior" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="cbb8-58cf-daa7-a95a" value="6+">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="f6b6-dde3-9268-239f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d22c-1857-abf2-b8f6" type="greaterThan"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="1"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
       <modifiers>
         <modifier type="increment" field="be7b-499a-8445-4ef1" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="4b36-8b94-a9f0-7a6d" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7b-499a-8445-4ef1" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b36-8b94-a9f0-7a6d" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="d5ed-aca6-7826-fcc3" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="ae14-5a74-ffbe-2aff" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="8460-69ae-2435-672d" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="d529-219a-71b5-0993" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="447c-807b-4397-38f9" name="Two-handed Weapon" hidden="false" targetId="d22c-1857-abf2-b8f6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+      <profiles>
+        <profile id="1774-48ba-fa91-0fe5" name="Warrior" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="2">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
+            <modifier type="set" field="cbb8-58cf-daa7-a95a" value="6+">
+              <conditions>
+                <condition field="selections" scope="f6b6-dde3-9268-239f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d22c-1857-abf2-b8f6" type="greaterThan"/>
+              </conditions>
             </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">1</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d5ed-aca6-7826-fcc3" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ae14-5a74-ffbe-2aff" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="8460-69ae-2435-672d" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d529-219a-71b5-0993" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="447c-807b-4397-38f9" name="Two-handed Weapon" hidden="false" collective="false" targetId="d22c-1857-abf2-b8f6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="2"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ed-d510-9c06-767c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c172-2fca-249d-b33a" type="max"/>
           </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4a68-c8f7-3d80-2ac3" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="8.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a0c-6bc2-f0ac-af77" name="Direfang Rider" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="396c-865d-7909-5f35" name="Direfang Rider" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="3+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="4"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="3"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value=""/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Beast/Human"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2829-f1d2-418a-f916" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b435-f244-af61-7d62" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="60ff-7cef-4933-a56c" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c513-7567-10d8-c1cc" name="Crushing Strength (3)" hidden="false" targetId="a715-6836-a848-093a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier type="increment" field="2577-edec-ae06-689c" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="8dc1-85bb-9865-e1c6" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2577-edec-ae06-689c" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dc1-85bb-9865-e1c6" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="41e4-04bb-fbfd-f68d" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="19fd-9bf9-6cd9-b746" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="35.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d3e5-ff07-5293-a477" name="Bloodsworn" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8b57-bfcf-024d-b3a8" name="Bloodsworn" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="396c-865d-7909-5f35" name="Direfang Rider" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">3+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">3</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13"/>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast/Human</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="3fa4-7551-a468-1511" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="2829-f1d2-418a-f916" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
+        <infoLink id="b435-f244-af61-7d62" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
+        <infoLink id="60ff-7cef-4933-a56c" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink id="c513-7567-10d8-c1cc" name="Crushing Strength (3)" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="41e4-04bb-fbfd-f68d" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="19fd-9bf9-6cd9-b746" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3e5-ff07-5293-a477" name="Bloodsworn" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="05f4-4b0b-eb56-2f9a" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="d7cc-c41c-9612-7156" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05f4-4b0b-eb56-2f9a" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7cc-c41c-9612-7156" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="4351-3815-9be5-79da" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8acb-cbf4-ac0c-4857" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="44a8-9e0a-4f6e-a4e7" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4bc0-a5e0-99a0-e41a" name="Rule Check - Base Unit Count" hidden="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b370-a6bb-69fa-ff79" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="13.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="87ca-bd4a-57e0-d043" name="Reaver" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6a3f-0b0b-5469-037e" name="Reaver" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="8b57-bfcf-024d-b3a8" name="Bloodsworn" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="b576-ab96-2ca5-e213" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9fa3-08c9-93ca-899d" name="Frenzy (1)" hidden="false" targetId="374d-5754-23a0-9b98" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="3fa4-7551-a468-1511" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4351-3815-9be5-79da" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8acb-cbf4-ac0c-4857" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="4bc0-a5e0-99a0-e41a" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87ca-bd4a-57e0-d043" name="Reaver" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="dbd2-fb65-b3ed-843a" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="7cbf-c97c-371f-aaab" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd2-fb65-b3ed-843a" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cbf-c97c-371f-aaab" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="e4d1-d360-e3a4-8bbc" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="f5de-0759-6735-52c0" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b488-236e-ed01-e38c" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="112f-e283-e779-b409" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4e1e-fb32-9819-658d" name="Chieftain" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="286b-06a6-c5af-5350" name="Chieftain" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="6a3f-0b0b-5469-037e" name="Reaver" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="3+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="55f5-51cf-3ea3-0d31" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cd64-af93-4634-b036" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b8ec-d670-96e5-6732" name="Strength of Korgaan (2)" hidden="false" targetId="f630-8a11-051f-9d87" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="def9-c096-23cd-9d42" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6167-8269-bb04-a17d" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="b576-ab96-2ca5-e213" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink id="9fa3-08c9-93ca-899d" name="Frenzy (1)" hidden="false" targetId="374d-5754-23a0-9b98" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e4d1-d360-e3a4-8bbc" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f5de-0759-6735-52c0" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="b488-236e-ed01-e38c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e1e-fb32-9819-658d" name="Chieftain" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="82e6-b4c7-ad52-4ce9" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="3c92-50d2-c5b4-1132" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82e6-b4c7-ad52-4ce9" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c92-50d2-c5b4-1132" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="318d-42ea-4036-bce1" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="1442-f899-c588-3806" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="defa-f364-533e-7c15" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="03a9-7e77-f5e9-f1f5" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="40.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c490-0c71-486c-226c" name="Magus" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f939-6f36-44d3-9b8c" name="Magus" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="286b-06a6-c5af-5350" name="Chieftain" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
-            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
-            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="4+"/>
-            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
-            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
-            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
-            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
-            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
-            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
-            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
-            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="a345-0433-41d5-9672" name="Famulus (2)" hidden="false" targetId="eeae-4d52-7536-037b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0e9f-a74c-27aa-609f" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="55f5-51cf-3ea3-0d31" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
+        <infoLink id="cd64-af93-4634-b036" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink id="b8ec-d670-96e5-6732" name="Strength of Korgaan (2)" hidden="false" targetId="f630-8a11-051f-9d87" type="rule"/>
+        <infoLink id="def9-c096-23cd-9d42" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink id="6167-8269-bb04-a17d" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="318d-42ea-4036-bce1" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1442-f899-c588-3806" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="defa-f364-533e-7c15" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c490-0c71-486c-226c" name="Magus" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="46f0-e3bc-65eb-28f0" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="b026-1dbe-2651-d793" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f0-e3bc-65eb-28f0" type="max"/>
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b026-1dbe-2651-d793" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="f939-6f36-44d3-9b8c" name="Magus" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a345-0433-41d5-9672" name="Famulus (2)" hidden="false" targetId="eeae-4d52-7536-037b" type="rule"/>
+        <infoLink id="0e9f-a74c-27aa-609f" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="c723-3b7e-acb6-761a" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="c723-3b7e-acb6-761a" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9f7b-b77c-8283-3633" name="Gifts of Korgaan" hidden="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="bd6c-4af9-307d-dd74" name="Items - Common" hidden="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4a39-bb87-121f-e11f" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e354-863c-a427-b8db" name=" Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a573-a4fd-0fea-36bc" name=" Spellbook - Basic Magus" hidden="false" targetId="5850-e63d-9dbc-1647" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="9f7b-b77c-8283-3633" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="bd6c-4af9-307d-dd74" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="e354-863c-a427-b8db" name=" Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink id="a573-a4fd-0fea-36bc" name=" Spellbook - Basic Magus" hidden="false" collective="false" targetId="5850-e63d-9dbc-1647" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="793c-e74b-4ff7-108d" value="1">
               <repeats>
                 <repeat field="selections" scope="c490-0c71-486c-226c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
-              <conditions/>
-              <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="683c-ce8b-7a43-c918" value="1">
               <repeats>
                 <repeat field="selections" scope="c490-0c71-486c-226c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a3d7-cee2-712d-86a4" repeats="1" roundUp="false"/>
               </repeats>
-              <conditions/>
-              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793c-e74b-4ff7-108d" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="683c-ce8b-7a43-c918" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="8b0d-cea5-84c5-757d" name=" Spellbook - Varangur (Paid)" hidden="false" targetId="534b-3708-f8b9-68d7" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="768d-fa03-ba94-2703" name=" Spellbook - Varangur (Free)" hidden="false" targetId="a3d7-cee2-712d-86a4" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="8b0d-cea5-84c5-757d" name=" Spellbook - Varangur (Paid)" hidden="false" collective="false" targetId="534b-3708-f8b9-68d7" type="selectionEntryGroup"/>
+        <entryLink id="768d-fa03-ba94-2703" name=" Spellbook - Varangur (Free)" hidden="false" collective="false" targetId="a3d7-cee2-712d-86a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="30.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
+  <infoLinks>
+    <infoLink id="d9f5-a4d2-3488-7fae" name="Gifts of Korgaan" hidden="false" targetId="c836-4604-dfd6-bd4a" type="rule"/>
+  </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="5806-0097-a181-b68f" name="Shattering Blow (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="96b7-d794-43ce-9408" name="Shattering Blow (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spells">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="96b7-d794-43ce-9408" name="Shattering Blow (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
-            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="7a72-709e-be57-4a23" name="Spell - Shattering Blow" hidden="false" targetId="35f9-4a4e-cdab-43c5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="7a72-709e-be57-4a23" name="Spell - Shattering Blow" hidden="false" targetId="35f9-4a4e-cdab-43c5" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a86a-018a-192f-bfd4" name="Rule Check - Is Faction Spell" hidden="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="a86a-018a-192f-bfd4" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="355e-b804-781a-6aac" name="Brand of the Warrior" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4f03-c537-00a0-6df8" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1867-e527-e72d-5703" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <infoLinks>
+        <infoLink id="4f03-c537-00a0-6df8" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+      </infoLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="4.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51bd-fe02-f269-ae92" name="Guise of the Deceiver" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="c212-81fc-c740-07ab" name="Headstrong" hidden="false" targetId="895c-93e1-e820-84d0" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac48-dd12-36c0-e815" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <infoLinks>
+        <infoLink id="c212-81fc-c740-07ab" name="Headstrong" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+      </infoLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="3.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a429-c9ed-ef2f-b0bc" name="Mask of the Reaper" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="06d1-4fad-9ce7-7ed6" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4286-bc4a-911d-ce01" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <infoLinks>
+        <infoLink id="06d1-4fad-9ce7-7ed6" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule"/>
+      </infoLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="5.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b208-20e5-4712-5bef" name="Rage of Korgaan (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="dc13-5b17-9915-fe8a" name="Rage of Korgaan (long)" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spells">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="dc13-5b17-9915-fe8a" name="Rage of Korgaan (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
-            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
-            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+            <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">1D8</characteristic>
+            <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+            <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="32c7-a17d-466a-30ef" name="Spell - Rage of Korgaan" hidden="false" targetId="8be8-d9b0-19d9-9419" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="32c7-a17d-466a-30ef" name="Spell - Rage of Korgaan" hidden="false" targetId="8be8-d9b0-19d9-9419" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2b72-21d4-9a48-e7a7" name="Rule Check - Is Faction Spell" hidden="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="2b72-21d4-9a48-e7a7" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="050f-71c1-67ec-9868" name="Poisoned Throwing Weapon" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="3349-410f-a031-6379" name="Poisoned Throwing Weapon" hidden="false" profileTypeId="ee66-a079-031d-2e14" profileTypeName="Equipment - Shooting">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="3349-410f-a031-6379" name="Poisoned Throwing Weapon" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="6&quot;"/>
-            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Piercing (1)"/>
+            <characteristic name="Range" typeId="1705-310a-e353-1da1">6&quot;</characteristic>
+            <characteristic name="Rules" typeId="8da7-8859-a70e-c8a4">Piercing (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="e417-6a59-5b6e-ba91" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="e417-6a59-5b6e-ba91" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d22c-1857-abf2-b8f6" name="Two-handed Weapon" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="f84e-1087-9750-4a55" name="Two-handed Weapon" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="f84e-1087-9750-4a55" name="Two-handed Weapon" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
-            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b" value="Crushing Strength (1)"/>
+            <characteristic name="Rules" typeId="71ed-d60e-e323-198b">Crushing Strength (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
       <infoLinks>
-        <infoLink id="4e85-3d51-ed2a-104b" name="Weapon - Two-handed Weapon" hidden="false" targetId="680e-0ef2-237e-9e07" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="10e9-1d4f-cd4c-a467" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="4e85-3d51-ed2a-104b" name="Weapon - Two-handed Weapon" hidden="false" targetId="680e-0ef2-237e-9e07" type="rule"/>
+        <infoLink id="10e9-1d4f-cd4c-a467" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="2.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4438-95b9-c3c5-bd5f" name="Gifts of Korgaan" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa62-0d78-e7e2-0ece" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="859c-3624-6154-5ee1" name="Mask of the Reaper" hidden="false" targetId="a429-c9ed-ef2f-b0bc" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a9d1-de49-d028-222c" name="Guise of the Deceiver" hidden="false" targetId="51bd-fe02-f269-ae92" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="d932-f110-6124-dcd4" name="Brand of the Warrior" hidden="false" targetId="355e-b804-781a-6aac" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="859c-3624-6154-5ee1" name="Mask of the Reaper" hidden="false" collective="false" targetId="a429-c9ed-ef2f-b0bc" type="selectionEntry"/>
+        <entryLink id="a9d1-de49-d028-222c" name="Guise of the Deceiver" hidden="false" collective="false" targetId="51bd-fe02-f269-ae92" type="selectionEntry"/>
+        <entryLink id="d932-f110-6124-dcd4" name="Brand of the Warrior" hidden="false" collective="false" targetId="355e-b804-781a-6aac" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5850-e63d-9dbc-1647" name=" Spellbook - Basic Magus" book="Rulebook" page="41" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <selectionEntryGroup id="5850-e63d-9dbc-1647" name=" Spellbook - Basic Magus" publicationId="3bc8-d98b-pubN69072" page="41" hidden="false" collective="false">
       <categoryLinks>
-        <categoryLink id="643b-780d-6947-2998" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="643b-780d-6947-2998" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="bbf5-a53b-8623-8174" name="Fireball (short)" hidden="false" targetId="1000-11e2-0937-9685" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="011b-ddb2-1b46-4cd9" name="Lightning Bolt (long)" hidden="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="694f-e295-390f-0ea9" name="Zap (short)" hidden="false" targetId="8156-c369-ee4a-09ab" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="bbf5-a53b-8623-8174" name="Fireball (short)" hidden="false" collective="false" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink id="011b-ddb2-1b46-4cd9" name="Lightning Bolt (long)" hidden="false" collective="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink id="694f-e295-390f-0ea9" name="Zap (short)" hidden="false" collective="false" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a3d7-cee2-712d-86a4" name=" Spellbook - Varangur (Free)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e4-3ebe-19d6-07bf" type="max"/>
       </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5242-f932-7b41-7e4f" name="Shattering Blow (long)" hidden="false" targetId="5806-0097-a181-b68f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="5242-f932-7b41-7e4f" name="Shattering Blow (long)" hidden="false" collective="false" targetId="5806-0097-a181-b68f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e38-60aa-1799-4261" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="0c1d-7ff8-953e-204d" name="Rage of Korgaan (long)" hidden="false" targetId="b208-20e5-4712-5bef" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="0c1d-7ff8-953e-204d" name="Rage of Korgaan (long)" hidden="false" collective="false" targetId="b208-20e5-4712-5bef" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb7e-41a4-179e-c57a" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="534b-3708-f8b9-68d7" name=" Spellbook - Varangur (Paid)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="d239-cec0-ce95-ee7f" name="Shattering Blow (long)" hidden="false" targetId="5806-0097-a181-b68f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="d239-cec0-ce95-ee7f" name="Shattering Blow (long)" hidden="false" collective="false" targetId="5806-0097-a181-b68f" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8831-3024-fe97-5317" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="59b1-6219-2f3e-2af0" name="Rage of Korgaan (long)" hidden="false" targetId="b208-20e5-4712-5bef" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <entryLink id="59b1-6219-2f3e-2af0" name="Rage of Korgaan (long)" hidden="false" collective="false" targetId="b208-20e5-4712-5bef" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf7b-8bc9-3197-6d1a" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="c836-4604-dfd6-bd4a" name="Gifts of Korgaan" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>A model may purchase a Gift of Korgaan when it is added to a warband. A model may only have a single gift bought for it. In a campaign gifts must be purchased at the point the model is added to the Roster and they cost an additional 1CG each on top of the model cost and are permanently added to the model’s profile. The model’s Points value is also permanently increased too.
 
 Brand of the Warrior – The model gains the Bloodlust Special Rule for +4pts
@@ -1338,47 +645,22 @@ Guise of the Deceiver – The model gains the Headstrong Special Rule for +3pts
 Mask of the Reaper – The model gains the Regenerate (7+) Special Rule for +5pts.</description>
     </rule>
     <rule id="35f9-4a4e-cdab-43c5" name="Spell - Shattering Blow" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>If a hit is scored, instead of causing a wound, the target must instead roll a die. If they roll under their Ar stat (excluding Brace), it is permenently increased (gets worse) for the remainder of the game (e.g. 5+ become 6+). A model can be affected by this multiple times.</description>
     </rule>
     <rule id="8be8-d9b0-19d9-9419" name="Spell - Rage of Korgaan" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>If a hit is scored, instead of causing a wound, mark the target with a spell counter. If the target is of GOOD or NEUTRAL alignment, in the end phase, spend the spell marker to cause two automatic hits on the model - normal Armour rolls can be taken. If the model is of EVIL alignment, until the end phase when the spell counter is removed, the target cannot make Shoot or Run actions and cannot Retaliate.</description>
     </rule>
     <rule id="680e-0ef2-237e-9e07" name="Weapon - Two-handed Weapon" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>The model gains Crushing Strength (1), but increases its Armor by 1 (i.e 5+ becomes 6+).</description>
     </rule>
     <rule id="374d-5754-23a0-9b98" name="Frenzy (1)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee Attack. Spend the power before rolling any dice. This may not be used with spending power to gain an extra dice normally. In effect, this ability replaces it.</description>
     </rule>
     <rule id="f630-8a11-051f-9d87" name="Strength of Korgaan (2)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Use this ability when this model would be Knocked-down for any reason. The model remains standing but any other effects are still applied.</description>
     </rule>
     <rule id="eeae-4d52-7536-037b" name="Famulus (2)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>Use this ability before any dice are rolled when casting a spell that uses this model’s Ra value to hit. Re-roll any dice that failed to hit.</description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
 </catalogue>

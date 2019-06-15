@@ -49,8 +49,7 @@
         <categoryLink id="b090-28be-a36b-d6e1" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="708d-79ba-9007-c3bf" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="7eee-d4f2-094d-17c3" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="708d-79ba-9007-c3bf" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
@@ -100,8 +99,7 @@
         <categoryLink id="93f4-93d3-6f8f-9604" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5c63-d874-3012-4ceb" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d4c0-9ca2-7535-fe4c" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="5c63-d874-3012-4ceb" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
@@ -150,8 +148,7 @@
         <categoryLink id="4c35-c521-3dfd-461d" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ddc2-fe42-8e6b-f25b" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="64eb-2858-06fe-8f28" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="ddc2-fe42-8e6b-f25b" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18.0"/>
@@ -199,8 +196,7 @@
         <categoryLink id="9c47-b7a8-e981-01d0" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b27e-a042-42ef-a4b5" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="7464-02f4-4146-246c" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="b27e-a042-42ef-a4b5" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="5a4a-0ced-1cde-667c" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -251,8 +247,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="eb9b-948c-036f-94a1" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="a0cc-2ed8-c06d-8d30" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="f56d-a9d1-19ce-72c4" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="a0cc-2ed8-c06d-8d30" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
@@ -495,8 +490,7 @@
         <categoryLink id="91f8-a0c5-5c89-884c" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ccc3-090c-a23e-71e2" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="8790-c304-a674-ccf7" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="ccc3-090c-a23e-71e2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
@@ -547,8 +541,7 @@
         <categoryLink id="68e8-6097-198d-6eaf" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="91c8-58f1-85b8-5277" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="6753-dca4-9fc2-8706" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="91c8-58f1-85b8-5277" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
@@ -599,8 +592,7 @@
         <categoryLink id="87be-16c2-de0d-8a59" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="feca-1bd7-bdcd-dfff" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d642-1bd4-6c74-1333" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="feca-1bd7-bdcd-dfff" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
@@ -652,8 +644,7 @@
         <categoryLink id="7a91-0e2a-beb9-bb55" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c236-351a-ba2e-2162" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="66f4-25ff-afc5-ee0c" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="c236-351a-ba2e-2162" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -701,8 +692,7 @@
         <categoryLink id="dd7f-73ba-3520-71ee" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fa5a-54e2-c5a2-8e2b" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="7f11-2e17-4155-79e1" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="fa5a-54e2-c5a2-8e2b" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="da60-107d-33ae-9e66" name="Spellbook - Abyss (Free)" hidden="false" collective="false" targetId="30c3-93d4-728b-b6b6" type="selectionEntryGroup"/>
         <entryLink id="3c79-5bb5-1324-f59b" name="Spellbook - Basic Abyssal Warlock" hidden="false" collective="false" targetId="8511-64e9-6697-f7e8" type="selectionEntryGroup">
           <modifiers>

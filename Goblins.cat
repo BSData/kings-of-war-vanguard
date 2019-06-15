@@ -159,8 +159,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="96e6-9acd-1d95-02b7" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="d521-2b35-0f91-368b" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="0f3a-a80d-7fce-a989" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="d521-2b35-0f91-368b" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
@@ -254,8 +253,7 @@
         <categoryLink id="da2e-d858-d376-0523" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7733-bb07-4e2d-1f94" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="8832-6ed9-8c15-411c" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="7733-bb07-4e2d-1f94" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -313,8 +311,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="112e-46c2-ea28-ee60" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="36a2-f709-0810-edf0" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="ea27-a616-afaa-12ae" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="36a2-f709-0810-edf0" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
@@ -383,8 +380,7 @@
         </entryLink>
         <entryLink id="1c71-d065-6a11-665a" name=" Spellbook - Goblins (Free)" hidden="false" collective="false" targetId="a7a8-a7fb-2ab5-11ad" type="selectionEntryGroup"/>
         <entryLink id="fe8e-0e14-d990-e532" name=" Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink id="c63b-93dc-59e7-6814" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="03be-d06d-717f-8367" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="c63b-93dc-59e7-6814" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="f49a-f380-9101-1651" name=" Spellbook - Goblins (Paid)" hidden="false" collective="false" targetId="6acc-99dc-a694-7385" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -435,8 +431,7 @@
         <categoryLink id="81f5-b75f-5846-ae8c" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="60fa-3745-25df-8f89" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d2f0-0344-d6b0-5039" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="60fa-3745-25df-8f89" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -490,8 +485,7 @@
         <categoryLink id="e87f-2182-5233-6f2a" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e3a4-cee5-0f25-8683" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="cbee-2df9-6244-fec2" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="e3a4-cee5-0f25-8683" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="8674-5764-7293-fb7f" name="Throwing Knife" hidden="false" collective="false" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
@@ -549,8 +543,7 @@
         <categoryLink id="e5e7-b2e9-3897-dd4d" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="adfe-2e45-3b4c-adf1" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="8011-62ec-bf38-899e" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="adfe-2e45-3b4c-adf1" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="e10f-08f7-c9ca-797b" name="Throwing Knife" hidden="false" collective="false" targetId="73a7-6dbd-4dfa-a544" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
@@ -609,8 +602,7 @@
         <categoryLink id="af7b-39e7-aa81-9911" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3e3b-1f52-29f2-6b11" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="4f29-6317-d860-9461" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="3e3b-1f52-29f2-6b11" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="c0cd-2f5a-2e69-9d2b" name="Firebombs" hidden="false" collective="false" targetId="c914-d44c-c7cb-1086" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
@@ -659,8 +651,7 @@
         <categoryLink id="b40d-da0d-1886-c90d" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a647-1312-4d94-f84f" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
-        <entryLink id="72fe-0999-86e7-24c9" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="72fe-0999-86e7-24c9" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
@@ -717,8 +708,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad8-63ce-65a6-e74a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="faf8-32f5-081e-24f4" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="231c-cbdd-1c8a-b70b" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="faf8-32f5-081e-24f4" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -766,8 +756,7 @@
         <categoryLink id="116f-9d06-5615-d8de" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2426-6ed0-0fed-db73" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="cc44-f492-7cf2-cb13" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="2426-6ed0-0fed-db73" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="3dd3-86b7-e71e-96ec" name="Dastardly Traps" hidden="false" collective="false" targetId="b650-452b-e4f2-a3ad" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
@@ -816,8 +805,7 @@
         <categoryLink id="adb4-d5a3-a372-c1f0" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f161-a46f-6784-73bf" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d61c-5cfc-fc5b-dea0" name="Items - Rare" hidden="false" collective="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup"/>
+        <entryLink id="f161-a46f-6784-73bf" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
