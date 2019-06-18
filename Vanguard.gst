@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="1" battleScribeVersion="2.02" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="37f5-f8f9-pubN68000" name="Rulebook"/>
     <publication id="a3d2-75b6-8c4e-cbde" name="Reference Cards"/>
@@ -1079,13 +1079,13 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         </profile>
       </profiles>
       <rules>
-        <rule id="eb79-f027-cfc1-4dea" name="Rare Mount" hidden="false">
+        <rule id="eb79-f027-cfc1-4dea" name="Rare Mount" publicationId="37f5-f8f9-pubN68000" page="121" hidden="false">
           <description>The model gains +2 SP to a maximum of 8, +1 Height, +1 Wound and the Cavalry special rule.  Models loose the fly rule while using a Miount.  The models base size becomes Cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="6251-e02a-dd28-4ca6" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
-        <infoLink id="f1eb-fc79-f23e-c696" name="Equipment Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule"/>
+        <infoLink id="f1eb-fc79-f23e-c696" name="Items Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
@@ -1457,7 +1457,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="9523-c915-2d02-3295" name="Holy Hand Grenades" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
-            <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"></characteristic>
+            <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1553,7 +1553,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="9757-4ef7-8f7d-931e" name="Cloak of the Chameleon" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1583,7 +1583,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="25d2-ccb6-5f4b-1571" name="Buckler" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"></characteristic>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1613,7 +1613,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="e597-e709-f186-d44a" name="Smelling Salts" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
-            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"></characteristic>
+            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1629,7 +1629,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="7424-dde8-399a-3dc0" name="Armour of Confusion" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"></characteristic>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1645,7 +1645,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="a2ba-8892-eb63-0bd6" name="Full Plate Armour" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"></characteristic>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1661,7 +1661,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="995d-855b-da59-0294" name="Banner of the Griffin" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1677,7 +1677,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="8524-aea4-dd52-546b" name="Orcsbain&apos;s Amulet of Thorns" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1693,7 +1693,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="8bc5-3e44-ea5e-c073" name="Darklord&apos;s Onyx Ring" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1709,7 +1709,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="7f0c-daf4-c336-e34d" name="Elixir of Resilience " hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
-            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"></characteristic>
+            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1725,7 +1725,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="7e55-dcbe-35c3-94dc" name="Forgebreaker" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
           <characteristics>
-            <characteristic name="Notes" typeId="b876-0400-ed60-8011"></characteristic>
+            <characteristic name="Notes" typeId="b876-0400-ed60-8011"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1741,7 +1741,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="18fd-363f-1de8-c8e3" name="Blade of the Beast Slayer" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
           <characteristics>
-            <characteristic name="Notes" typeId="b876-0400-ed60-8011"></characteristic>
+            <characteristic name="Notes" typeId="b876-0400-ed60-8011"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1757,7 +1757,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="86d8-7c69-11cf-34ef" name="Dunstan&apos;s Amulet of Protection" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1773,7 +1773,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="cf9b-803c-cd48-ee9b" name="Helm of Confidence" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1789,7 +1789,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="efd3-899a-c6bf-d9c5" name="Explorer&apos;s Map" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
-            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"></characteristic>
+            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1805,7 +1805,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="3da2-36c9-5f70-c099" name="Holy Water" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
-            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"></characteristic>
+            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1821,7 +1821,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="a123-8ce0-9314-1c5e" name="Restorative Brew" hidden="false" typeId="f010-4988-a52b-2fc0" typeName="Items - Sundries">
           <characteristics>
-            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"></characteristic>
+            <characteristic name="Notes" typeId="9b58-23ba-782b-0cca"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1837,7 +1837,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="18c5-e146-1712-1ee3" name="Lifeleach Blade" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
           <characteristics>
-            <characteristic name="Notes" typeId="b876-0400-ed60-8011"></characteristic>
+            <characteristic name="Notes" typeId="b876-0400-ed60-8011"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1853,7 +1853,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="80b5-f728-6156-46c0" name="Soulthirst Blade" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
           <characteristics>
-            <characteristic name="Notes" typeId="b876-0400-ed60-8011"></characteristic>
+            <characteristic name="Notes" typeId="b876-0400-ed60-8011"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1869,7 +1869,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="8a6b-3c49-e8b6-6d64" name="Medallion of Life" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1885,7 +1885,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="2e8b-4a32-2722-aa6e" name="Power Rune" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"></characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1901,7 +1901,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="ebbd-42f4-f6be-dd7a" name="Soulthirst Bow" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
           <characteristics>
-            <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"></characteristic>
+            <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1917,7 +1917,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="b193-de47-008e-1354" name="Spidersilk Armour" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"></characteristic>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
           </characteristics>
         </profile>
       </profiles>

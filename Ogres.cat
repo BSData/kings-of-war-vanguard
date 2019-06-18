@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fcbe-01ec-655a-a186" name="Ogres" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fcbe-01ec-655a-a186" name="Ogres" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="fcbe-01ec-pubN65537" name="Vanguard abridged Warbands-dec31.pd"/>
   </publications>
@@ -100,7 +100,6 @@
         <categoryLink id="6e51-c080-add0-8cb3" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c83d-4b43-c57e-5b82" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="86a2-6f5e-1b1b-8acc" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="4707-989e-e3b8-fd54" name="Spear" hidden="false" collective="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
@@ -110,7 +109,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b123-df7d-ed26-b22c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d3fd-30b3-e3d7-ddc1" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d3fd-30b3-e3d7-ddc1" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7.0"/>

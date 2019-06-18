@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bc8-d98b-7255-9049" name="Varangur" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3bc8-d98b-7255-9049" name="Varangur" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3bc8-d98b-pubN69072" name="Rulebook"/>
   </publications>
@@ -238,6 +238,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="19fd-9bf9-6cd9-b746" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
+        <entryLink id="2aaa-1542-3901-4a7c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -286,6 +287,7 @@
       <entryLinks>
         <entryLink id="8acb-cbf4-ac0c-4857" name="Gifts of Korgaan" hidden="false" collective="false" targetId="4438-95b9-c3c5-bd5f" type="selectionEntryGroup"/>
         <entryLink id="4bc0-a5e0-99a0-e41a" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="e0f8-7a9b-d47a-d110" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>

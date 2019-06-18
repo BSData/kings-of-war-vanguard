@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ffea-0323-9705-b48e" name="Northern Alliance" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ffea-0323-9705-b48e" name="Northern Alliance" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ffea-0323-pubN70796" name="Rulebook"/>
   </publications>
@@ -627,6 +627,7 @@
       <entryLinks>
         <entryLink id="2441-996e-0942-fa43" name="Rule Check - Is Large Command" hidden="false" collective="false" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
         <entryLink id="17fa-c5be-79db-630e" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink id="3bd0-469e-b593-0406" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
