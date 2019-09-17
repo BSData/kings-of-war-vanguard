@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="3" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="37f5-f8f9-pubN68000" name="Rulebook"/>
     <publication id="a3d2-75b6-8c4e-cbde" name="Reference Cards"/>
@@ -21,6 +21,7 @@
         <characteristicType id="01d6-153a-0767-f01e" name="Melee"/>
         <characteristicType id="e9b1-68cd-5cbd-0251" name="Alignment"/>
         <characteristicType id="3ce2-af00-1127-86fb" name="Race"/>
+        <characteristicType id="b790-5251-7057-2f74" name="Base"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ee66-a079-031d-2e14" name="Equipment - Shooting">
@@ -413,6 +414,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Unknown</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74"/>
           </characteristics>
         </profile>
       </profiles>
@@ -484,6 +486,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Goblin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74"/>
           </characteristics>
         </profile>
       </profiles>
@@ -573,6 +576,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2404,7 +2408,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
           <profiles>
             <profile id="07e2-6917-41da-d057" name="Waterlogged (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
               <characteristics>
-                <characteristic name="Range" typeId="c023-a997-9c10-c42c">6</characteristic>
+                <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
                 <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">-</characteristic>
                 <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
                 <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
