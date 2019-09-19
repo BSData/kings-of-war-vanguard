@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9698-4b04-20b4-d6aa" name="Orcs" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9698-4b04-20b4-d6aa" name="Orcs" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="a49b-da25-eabc-7ce4" name="Orclings" hidden="false" collective="false" type="model">
+    <selectionEntry id="a49b-da25-eabc-7ce4" name="Orclings" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="c066-e731-cbd1-7926" value="1">
           <repeats>
@@ -32,6 +32,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orcling</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -43,14 +44,14 @@
         <categoryLink id="b655-8cd7-6520-ccac" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5e13-4a25-3319-820a" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="4ef0-9282-883f-4133" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="5e13-4a25-3319-820a" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4ef0-9282-883f-4133" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="096a-3465-bd6d-2ff7" name="Ax" hidden="false" collective="false" type="model">
+    <selectionEntry id="096a-3465-bd6d-2ff7" name="Ax" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="f0fe-54a0-24d6-b983" value="1">
           <repeats>
@@ -81,6 +82,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -91,14 +93,14 @@
         <categoryLink id="e12b-42d6-6271-2122" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5d54-1b42-4c04-2b5d" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="84e6-5120-0dec-4179" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="5d54-1b42-4c04-2b5d" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="84e6-5120-0dec-4179" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0a5-9e4d-e46a-696d" name="Krusher" hidden="false" collective="false" type="model">
+    <selectionEntry id="a0a5-9e4d-e46a-696d" name="Krusher" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="a986-73e9-2a4c-e97f" value="1">
           <repeats>
@@ -126,35 +128,37 @@
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="9b3b-b5be-04ae-3878" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
         <infoLink id="ea31-9797-83d4-d61c" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
-        <infoLink id="2611-4a73-b942-e74b" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink id="2611-4a73-b942-e74b" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink id="a4fc-93f5-b28f-5836" name="Inspiring (Grunts &amp; Warriors only)" hidden="false" targetId="393c-e681-96ad-82c7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3ff8-8e0d-b25f-3b05" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bc58-1362-1022-28a5" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="bc58-1362-1022-28a5" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0201-c335-cda8-b856" name="Skulk" hidden="false" collective="false" type="model">
+    <selectionEntry id="0201-c335-cda8-b856" name="Skulk" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="1b07-f459-01e6-970b" value="1">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="ca08-2d5a-a065-be85" value="1">
+        <modifier type="increment" field="ca08-2d5a-a065-be85" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -178,19 +182,19 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="7e83-387b-c32f-ab1b" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule"/>
-        <infoLink id="07bd-4fff-e4fa-5eba" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="14ee-0e8e-ce58-4068" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e385-38d3-fb95-d9a8" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="123a-0f77-6d58-2936" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="e385-38d3-fb95-d9a8" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="123a-0f77-6d58-2936" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -199,13 +203,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee8-9fa0-9beb-4197" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f82c-45b0-12b8-6fd4" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="f82c-45b0-12b8-6fd4" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78ae-fea2-b95f-7f7d" name="Morax" hidden="false" collective="false" type="model">
+    <selectionEntry id="78ae-fea2-b95f-7f7d" name="Morax" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="02a5-ae2b-b210-83d3" value="1">
           <repeats>
@@ -236,6 +240,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -248,14 +253,14 @@
         <categoryLink id="b82c-d7db-934b-3917" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="990f-8c35-64eb-ff0d" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="641f-8c65-a9c4-5cbe" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="990f-8c35-64eb-ff0d" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="641f-8c65-a9c4-5cbe" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f04f-2d0d-f98e-477e" name="Greatax" hidden="false" collective="false" type="model">
+    <selectionEntry id="f04f-2d0d-f98e-477e" name="Greatax" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="dd5c-78c0-2359-174d" value="1">
           <repeats>
@@ -286,6 +291,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -296,14 +302,14 @@
         <categoryLink id="a4a2-ae5e-1de2-98aa" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8ea6-d927-1d06-4674" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="27d6-57ed-c901-73c5" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="8ea6-d927-1d06-4674" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="27d6-57ed-c901-73c5" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ff2-1427-66a9-6794" name="Gore Rider" hidden="false" collective="false" type="model">
+    <selectionEntry id="2ff2-1427-66a9-6794" name="Gore Rider" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="e1ac-6716-2ec0-3120" value="1">
           <repeats>
@@ -334,6 +340,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -347,13 +354,13 @@
         <categoryLink id="dd91-86df-560e-8ceb" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fac7-c30c-dae7-a888" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="fac7-c30c-dae7-a888" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec9b-4397-5c06-c63f" name="Troll" hidden="false" collective="false" type="model">
+    <selectionEntry id="ec9b-4397-5c06-c63f" name="Troll" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="9f67-5c8d-b8a1-dd01" value="1">
           <repeats>
@@ -384,6 +391,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Troll</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -397,13 +405,13 @@
         <categoryLink id="8507-43ad-d72d-cde8" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f5ea-54ea-68f1-dcb4" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="f5ea-54ea-68f1-dcb4" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7abb-a6d6-9629-3332" name="Krudger" hidden="false" collective="false" type="model">
+    <selectionEntry id="7abb-a6d6-9629-3332" name="Krudger" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="9f1d-a401-0d6b-5378" value="1">
           <repeats>
@@ -434,6 +442,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -442,19 +451,19 @@
         <infoLink id="3b43-10d5-155a-a3eb" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
         <infoLink id="1b36-abfd-6d93-4c49" name="Savage (1)" hidden="false" targetId="6abf-1bc0-adce-cc64" type="rule"/>
         <infoLink id="38dc-b76a-418b-a5e4" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
-        <infoLink id="abf3-5067-5b5b-d1c1" name="Power Dice Red (3)" hidden="false" targetId="b97d-fd69-997a-8ad9" type="rule"/>
+        <infoLink id="abf3-5067-5b5b-d1c1" name="Power Dice Red (2)" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4083-58c1-bcba-d604" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d4a3-16a1-3d81-3f41" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d4a3-16a1-3d81-3f41" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de8b-9d42-61c7-9239" name="God Speaker" hidden="false" collective="false" type="model">
+    <selectionEntry id="de8b-9d42-61c7-9239" name="God Speaker" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="b373-1c17-0981-0269" value="1">
           <repeats>
@@ -485,18 +494,20 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="6e98-f90e-3649-b4f7" name="Headstrong" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink id="3df2-e4e4-4920-f032" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1834-355e-3701-4179" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3b6c-6321-2711-4fc3" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="9cb3-3dd4-a8f4-5248" name="Spellbook - Basic God Speaker" hidden="false" collective="false" targetId="c912-fb67-aa12-175d" type="selectionEntryGroup">
+        <entryLink id="3b6c-6321-2711-4fc3" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9cb3-3dd4-a8f4-5248" name="Spellbook - Basic God Speaker" hidden="false" collective="false" import="true" targetId="c912-fb67-aa12-175d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="ebbb-3213-b8b2-7b2d" value="1">
               <repeats>
@@ -510,16 +521,16 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebbb-3213-b8b2-7b2d" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd33-5cc3-4226-d678" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebbb-3213-b8b2-7b2d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd33-5cc3-4226-d678" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1184-1ca2-0904-a211" name="Spellbook - Orcs (Free)" hidden="false" collective="false" targetId="3e58-7c35-62d0-1808" type="selectionEntryGroup"/>
-        <entryLink id="ea68-caaf-6603-19b0" name="Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink id="608d-961a-6220-491f" name="Spellbook - Orcs (Paid)" hidden="false" collective="false" targetId="ce50-b589-73b8-ff32" type="selectionEntryGroup"/>
+        <entryLink id="1184-1ca2-0904-a211" name="Spellbook - Orcs (Free)" hidden="false" collective="false" import="true" targetId="3e58-7c35-62d0-1808" type="selectionEntryGroup"/>
+        <entryLink id="ea68-caaf-6603-19b0" name="Spellbook - Corrupt" hidden="false" collective="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink id="608d-961a-6220-491f" name="Spellbook - Orcs (Paid)" hidden="false" collective="false" import="true" targetId="ce50-b589-73b8-ff32" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -529,7 +540,7 @@
     </rule>
   </rules>
   <sharedSelectionEntries>
-    <selectionEntry id="2d98-a0a4-6e86-14a5" name="Green Rage (short)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2d98-a0a4-6e86-14a5" name="Green Rage (short)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="e745-e5aa-ccb6-cecb" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e54-c374-d6db-a659" type="max"/>
       </constraints>
@@ -548,13 +559,13 @@
         <infoLink id="d9ea-cb9b-7a7c-de3e" name="Spell - Green Rage" hidden="false" targetId="72f8-f88d-2782-e3b2" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="a438-3f55-d41d-7d11" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="a438-3f55-d41d-7d11" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e5e-0f44-63f0-2d11" name="God-fuel (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0e5e-0f44-63f0-2d11" name="God-fuel (long)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="e745-e5aa-ccb6-cecb" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="45d8-bff1-c93c-ec08" type="max"/>
       </constraints>
@@ -573,7 +584,7 @@
         <infoLink id="b13c-b797-b76e-3b77" name="Spell - God-fuel" hidden="false" targetId="7726-330f-aa8f-507a" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="2efb-e069-3ff7-5731" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="2efb-e069-3ff7-5731" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
@@ -581,7 +592,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="3e58-7c35-62d0-1808" name=" Spellbook - Orcs (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="3e58-7c35-62d0-1808" name=" Spellbook - Orcs (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c56e-ce96-ac15-bb21" type="max"/>
       </constraints>
@@ -589,33 +600,57 @@
         <categoryLink id="34b6-2d11-827d-3fa1" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0adb-e6ce-073f-c3d3" name="God-fuel (long)" hidden="false" collective="false" targetId="0e5e-0f44-63f0-2d11" type="selectionEntry">
+        <entryLink id="0adb-e6ce-073f-c3d3" name="God-fuel (long)" hidden="false" collective="false" import="true" targetId="0e5e-0f44-63f0-2d11" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa8-e5a9-456b-3e3b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6350-5fb8-204f-5504" name="Green Rage (short)" hidden="false" collective="false" targetId="2d98-a0a4-6e86-14a5" type="selectionEntry">
+        <entryLink id="6350-5fb8-204f-5504" name="Green Rage (short)" hidden="false" collective="false" import="true" targetId="2d98-a0a4-6e86-14a5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ee-8189-6f7a-79b4" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="c912-fb67-aa12-175d" name=" Spellbook - Basic God Speaker" page="" hidden="false" collective="false">
+    <selectionEntryGroup id="c912-fb67-aa12-175d" name=" Spellbook - Basic God Speaker" page="" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="5105-3b0b-acb1-039a" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e67c-f9bd-9d63-4ad5" name="God-fuel (short)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e7c-cdac-e129-6421" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c134-4de1-6a9b-341a" name="God-fuel (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+              <characteristics>
+                <characteristic name="Range" typeId="c023-a997-9c10-c42c">6&quot;</characteristic>
+                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">4D8</characteristic>
+                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">-</characteristic>
+                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6811-a1d3-ba8f-094c" name="Spell - God-fuel" hidden="false" targetId="7726-330f-aa8f-507a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="f6a5-6d88-6372-7e53" name="Fireball (short)" hidden="false" collective="false" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink id="9407-90bb-fbbe-9ddb" name="Mind Storm (long)" hidden="false" collective="false" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink id="f6a5-6d88-6372-7e53" name="Fireball (short)" hidden="false" collective="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink id="9407-90bb-fbbe-9ddb" name="Mind Storm (long)" hidden="false" collective="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ce50-b589-73b8-ff32" name=" Spellbook - Orcs (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="ce50-b589-73b8-ff32" name=" Spellbook - Orcs (Paid)" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="af30-b055-39fc-d630" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d972-5a9b-3c8e-3f86" name="God-fuel (long)" hidden="false" collective="false" targetId="0e5e-0f44-63f0-2d11" type="selectionEntry">
+        <entryLink id="d972-5a9b-3c8e-3f86" name="God-fuel (long)" hidden="false" collective="false" import="true" targetId="0e5e-0f44-63f0-2d11" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -623,7 +658,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dba-b78f-dea0-6ef3" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="981d-973a-bad9-6a5f" name="Green Rage (short)" hidden="false" collective="false" targetId="2d98-a0a4-6e86-14a5" type="selectionEntry">
+        <entryLink id="981d-973a-bad9-6a5f" name="Green Rage (short)" hidden="false" collective="false" import="true" targetId="2d98-a0a4-6e86-14a5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -650,7 +685,7 @@
     <rule id="e30a-6249-5d89-dbb6" name="Vicious Swipe" hidden="false">
       <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
-    <rule id="6abf-1bc0-adce-cc64" name="Savage (1)" hidden="false">
+    <rule id="6abf-1bc0-adce-cc64" name="Savage (2)" hidden="false">
       <description>If the Krudger fails to kill a model in Melee, the enemy model is Knocked-down. Use the ability after armour rolls are made. Cannot be used on LARGE models.</description>
     </rule>
   </sharedRules>

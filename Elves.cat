@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6b8c-7bea-1bbf-8c43" name="Elves" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6b8c-7bea-1bbf-8c43" name="Elves" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6b8c-7bea-pubN69348" name="Rulebook"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="b600-5890-cd7f-d964" name="Citizen Levy" hidden="false" collective="false" type="model">
+    <selectionEntry id="b600-5890-cd7f-d964" name="Citizen Levy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="7d97-651d-e086-57df" value="1">
           <repeats>
@@ -35,6 +35,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -42,14 +43,14 @@
         <categoryLink id="bde7-9333-0eab-e896" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3ff8-b5e5-d469-1ca6" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="91c3-50f5-41c2-0b1f" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3ff8-b5e5-d469-1ca6" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="91c3-50f5-41c2-0b1f" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6210-8581-6b63-c10d" name="Kindred Archer" hidden="false" collective="false" type="model">
+    <selectionEntry id="6210-8581-6b63-c10d" name="Kindred Archer" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="1a22-7b60-504c-d107" value="1">
           <repeats>
@@ -80,6 +81,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -90,9 +92,9 @@
         <categoryLink id="454f-d1f3-c9eb-dcf5" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ded4-74db-aa90-05be" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="542c-1c3a-d956-62f2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="b55c-ec90-81e4-0b1b" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="ded4-74db-aa90-05be" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="542c-1c3a-d956-62f2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="b55c-ec90-81e4-0b1b" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -106,7 +108,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afc0-e86f-4d74-fe3d" name="Kindred Tallspear" hidden="false" collective="false" type="model">
+    <selectionEntry id="afc0-e86f-4d74-fe3d" name="Kindred Tallspear" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="5586-5ae9-bff8-4231" value="1">
           <repeats>
@@ -137,6 +139,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -144,9 +147,9 @@
         <categoryLink id="6ff8-e5bf-0590-25a0" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ef15-d66c-0257-b509" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="b848-1391-c140-6951" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="03b1-faa2-6e06-3c53" name="Spear" hidden="false" collective="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+        <entryLink id="ef15-d66c-0257-b509" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="b848-1391-c140-6951" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="03b1-faa2-6e06-3c53" name="Spear" hidden="false" collective="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -160,7 +163,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ff2-0b55-6b93-4ce9" name="Sea Guard" hidden="false" collective="false" type="model">
+    <selectionEntry id="6ff2-0b55-6b93-4ce9" name="Sea Guard" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="24d9-7f55-4058-f04a" value="1">
           <repeats>
@@ -191,6 +194,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -201,9 +205,9 @@
         <categoryLink id="66b0-ce13-e4f4-302f" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8b09-3597-5e41-9d92" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="22df-4fbf-aba7-d7ec" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="cc10-ebc5-6661-7cba" name="Spear" hidden="false" collective="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+        <entryLink id="8b09-3597-5e41-9d92" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="22df-4fbf-aba7-d7ec" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="cc10-ebc5-6661-7cba" name="Spear" hidden="false" collective="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -212,7 +216,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5bf-d91d-647c-d5f1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4477-7641-0524-d46c" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="4477-7641-0524-d46c" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -226,7 +230,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4795-fc4f-f360-6aa9" name="Silverbreeze Gladewarden" hidden="false" collective="false" type="model">
+    <selectionEntry id="4795-fc4f-f360-6aa9" name="Silverbreeze Gladewarden" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="c482-3048-fdef-32af" value="1">
           <repeats>
@@ -257,6 +261,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -267,8 +272,8 @@
         <categoryLink id="b926-c3a9-2524-ad8e" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cf75-b18e-fab6-2ab2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="af73-3425-bf29-0bf4" name="Compound Bow" hidden="false" collective="false" targetId="f5a3-e2a8-fb97-eb47" type="selectionEntry">
+        <entryLink id="cf75-b18e-fab6-2ab2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="af73-3425-bf29-0bf4" name="Compound Bow" hidden="false" collective="false" import="true" targetId="f5a3-e2a8-fb97-eb47" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -282,7 +287,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8679-4b69-160c-85f3" name="Battle-Cat" hidden="false" collective="false" type="model">
+    <selectionEntry id="8679-4b69-160c-85f3" name="Battle-Cat" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="dbdf-1884-4a9a-13fa" value="1">
           <repeats>
@@ -313,6 +318,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -326,7 +332,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6edb-3abf-1d4b-f70e" name="Kindred Gladestalker" hidden="false" collective="false" type="model">
+    <selectionEntry id="6edb-3abf-1d4b-f70e" name="Kindred Gladestalker" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="9e80-d3c6-e7c7-3071" value="1">
           <repeats>
@@ -357,6 +363,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -369,8 +376,8 @@
         <categoryLink id="e8a8-c853-94b7-0ba0" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="663b-3e04-a5c7-e592" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="bd88-011f-f1ba-d348" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="663b-3e04-a5c7-e592" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="bd88-011f-f1ba-d348" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -384,7 +391,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9953-23bd-d35f-ac13" name="Guardian Shambler" hidden="false" collective="false" type="model">
+    <selectionEntry id="9953-23bd-d35f-ac13" name="Guardian Shambler" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="8ff9-3955-ab17-cd9b" value="1">
           <repeats>
@@ -415,6 +422,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Nature</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -430,7 +438,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb72-7f0c-2213-becd" name="Prince" hidden="false" collective="false" type="model">
+    <selectionEntry id="fb72-7f0c-2213-becd" name="Prince" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="0c28-ab15-d055-74ed" value="1">
           <repeats>
@@ -461,6 +469,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -475,13 +484,13 @@
         <categoryLink id="63f5-a433-3144-890c" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c4ab-beff-dc21-10e0" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c4ab-beff-dc21-10e0" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ca2-b191-3281-5854" name="Battle-Mage" hidden="false" collective="false" type="model">
+    <selectionEntry id="4ca2-b191-3281-5854" name="Battle-Mage" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="4901-f82c-e995-7197" value="1">
           <repeats>
@@ -512,6 +521,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -522,10 +532,10 @@
         <categoryLink id="d5a5-d262-8c30-7e06" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="180a-bfc5-f2b9-c673" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="ee09-f531-897e-4b78" name=" Spellbook - Noble" hidden="false" collective="false" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
-        <entryLink id="c97f-83f8-93bc-d9f4" name=" Spellbook - Elves (Paid)" hidden="false" collective="false" targetId="9314-ce10-add1-6ee3" type="selectionEntryGroup"/>
-        <entryLink id="9ce2-3ac2-e434-2c2f" name=" Spellbook - Basic Batlle-Mage" hidden="false" collective="false" targetId="a6f8-c40f-5da4-4f42" type="selectionEntryGroup">
+        <entryLink id="180a-bfc5-f2b9-c673" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ee09-f531-897e-4b78" name=" Spellbook - Noble" hidden="false" collective="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink id="c97f-83f8-93bc-d9f4" name=" Spellbook - Elves (Paid)" hidden="false" collective="false" import="true" targetId="9314-ce10-add1-6ee3" type="selectionEntryGroup"/>
+        <entryLink id="9ce2-3ac2-e434-2c2f" name=" Spellbook - Basic Batlle-Mage" hidden="false" collective="false" import="true" targetId="a6f8-c40f-5da4-4f42" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="6ecd-7995-085a-dfa1" value="1">
               <repeats>
@@ -543,7 +553,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ecd-7995-085a-dfa1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4632-0000-2a95-4987" name=" Spellbook - Elves (Free)" hidden="false" collective="false" targetId="e253-44ad-1e74-5363" type="selectionEntryGroup"/>
+        <entryLink id="4632-0000-2a95-4987" name=" Spellbook - Elves (Free)" hidden="false" collective="false" import="true" targetId="e253-44ad-1e74-5363" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38.0"/>
@@ -554,7 +564,7 @@
     <infoLink id="0b2c-de5b-caa4-974e" name="Preternatural Agility (3)" hidden="false" targetId="6543-afd6-81e7-1358" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3c56-feb5-05c7-fa86" name="Enchant Weapons (short)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3c56-feb5-05c7-fa86" name="Enchant Weapons (short)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6eb-b254-b453-6c69" type="max"/>
       </constraints>
@@ -573,7 +583,7 @@
         <infoLink id="5a9f-ffff-bbf9-494c" name="Spell - Enchant Weapons" hidden="false" targetId="b7f8-0717-4c24-a256" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="e251-c34b-d4fc-28f5" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
+        <entryLink id="e251-c34b-d4fc-28f5" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db86-4fc9-8b45-36be" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="888e-4968-04b9-cb4a" type="max"/>
@@ -584,7 +594,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1931-d131-425e-79e1" name="Astral Mirror (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1931-d131-425e-79e1" name="Astral Mirror (long)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b23-afd1-7b2d-dca2" type="max"/>
       </constraints>
@@ -603,7 +613,7 @@
         <infoLink id="bebc-9e1f-35e8-94fb" name="Spell - Astral Mirror" hidden="false" targetId="1e1e-67b0-687e-c671" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="28b4-41fb-f0a5-ebc2" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
+        <entryLink id="28b4-41fb-f0a5-ebc2" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e697-a6a1-3b92-87da" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd4f-aad7-5974-4903" type="max"/>
@@ -614,7 +624,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5a3-e2a8-fb97-eb47" name="Compound Bow" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f5a3-e2a8-fb97-eb47" name="Compound Bow" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2c71-8452-2713-0063" name="Compound Bow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -632,26 +642,26 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e253-44ad-1e74-5363" name=" Spellbook - Elves (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="e253-44ad-1e74-5363" name=" Spellbook - Elves (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0c-4954-22ec-0bfa" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="f1d5-fb85-4ea2-7cf5" name="Astral Mirror (long)" hidden="false" collective="false" targetId="1931-d131-425e-79e1" type="selectionEntry">
+        <entryLink id="f1d5-fb85-4ea2-7cf5" name="Astral Mirror (long)" hidden="false" collective="false" import="true" targetId="1931-d131-425e-79e1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="932c-3ac0-36b8-7964" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8adf-d3b6-5417-79a1" name="Enchant Weapons (short)" hidden="false" collective="false" targetId="3c56-feb5-05c7-fa86" type="selectionEntry">
+        <entryLink id="8adf-d3b6-5417-79a1" name="Enchant Weapons (short)" hidden="false" collective="false" import="true" targetId="3c56-feb5-05c7-fa86" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3c-4c14-cdb4-cb78" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9314-ce10-add1-6ee3" name=" Spellbook - Elves (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="9314-ce10-add1-6ee3" name=" Spellbook - Elves (Paid)" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="c49f-d9fb-6e67-fdca" name="Astral Mirror (long)" hidden="false" collective="false" targetId="1931-d131-425e-79e1" type="selectionEntry">
+        <entryLink id="c49f-d9fb-6e67-fdca" name="Astral Mirror (long)" hidden="false" collective="false" import="true" targetId="1931-d131-425e-79e1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -659,7 +669,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3641-3980-3c5d-4ed6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="62d6-45d1-9895-c831" name="Enchant Weapons (short)" hidden="false" collective="false" targetId="3c56-feb5-05c7-fa86" type="selectionEntry">
+        <entryLink id="62d6-45d1-9895-c831" name="Enchant Weapons (short)" hidden="false" collective="false" import="true" targetId="3c56-feb5-05c7-fa86" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -669,14 +679,14 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a6f8-c40f-5da4-4f42" name=" Spellbook - Basic Batlle-Mage" publicationId="6b8c-7bea-pubN69348" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="a6f8-c40f-5da4-4f42" name=" Spellbook - Basic Batlle-Mage" publicationId="6b8c-7bea-pubN69348" page="41" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="21ce-8ebf-6381-984c" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b68d-8e73-fd14-35cd" name="Heal (short)" hidden="false" collective="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink id="8e82-577d-58aa-816a" name="Lightning Bolt (long)" hidden="false" collective="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink id="fae4-eae9-97d3-e6e6" name="Mind Storm (long)" hidden="false" collective="false" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
+        <entryLink id="b68d-8e73-fd14-35cd" name="Heal (short)" hidden="false" collective="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink id="8e82-577d-58aa-816a" name="Lightning Bolt (long)" hidden="false" collective="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink id="fae4-eae9-97d3-e6e6" name="Mind Storm (long)" hidden="false" collective="false" import="true" targetId="97d8-9273-1780-9e7b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

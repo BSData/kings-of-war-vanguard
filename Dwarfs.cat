@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8927-8290-f594-f21d" name="Dwarfs" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8927-8290-f594-f21d" name="Dwarfs" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8927-8290-pubN71629" name="Rulebook"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="d787-80cd-3467-717f" name="Dwarf Levy" hidden="false" collective="false" type="model">
+    <selectionEntry id="d787-80cd-3467-717f" name="Dwarf Levy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="ab1c-695d-7598-1965" value="1">
           <repeats>
@@ -35,6 +35,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -45,7 +46,7 @@
         <categoryLink id="3202-2c15-67f9-cba5" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6bfc-b94f-58b6-b5c0" name="Spear" hidden="false" collective="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+        <entryLink id="6bfc-b94f-58b6-b5c0" name="Spear" hidden="false" collective="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="1"/>
           </modifiers>
@@ -53,14 +54,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6e-90fa-260d-d249" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a792-067f-c3ac-4e78" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="5178-871c-6f48-3425" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a792-067f-c3ac-4e78" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="5178-871c-6f48-3425" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4de0-c697-771c-9f75" name="Ironclad" hidden="false" collective="false" type="model">
+    <selectionEntry id="4de0-c697-771c-9f75" name="Ironclad" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="822f-2455-eca6-c165" value="1">
           <repeats>
@@ -91,6 +92,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -102,14 +104,14 @@
         <categoryLink id="8d1e-5802-5390-f4f4" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5d9b-fb7d-7965-490c" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="f194-38a6-cc39-5f37" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="5d9b-fb7d-7965-490c" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="f194-38a6-cc39-5f37" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b0c-27e5-8d4b-2df3" name="Shieldbreaker" hidden="false" collective="false" type="model">
+    <selectionEntry id="3b0c-27e5-8d4b-2df3" name="Shieldbreaker" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="dfea-65d5-95cb-c380" value="1">
           <repeats>
@@ -140,6 +142,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -151,9 +154,9 @@
         <categoryLink id="8724-be7e-7c00-a6d3" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6ef5-c864-0a65-109d" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="d57b-8086-0287-dc46" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="74a1-3091-ca10-e433" name="Shieldbreaker Hammer" hidden="false" collective="false" targetId="6830-fba8-662e-933e" type="selectionEntry">
+        <entryLink id="6ef5-c864-0a65-109d" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="d57b-8086-0287-dc46" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="74a1-3091-ca10-e433" name="Shieldbreaker Hammer" hidden="false" collective="false" import="true" targetId="6830-fba8-662e-933e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -167,7 +170,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2a5-6397-c8e7-38d0" name="Ironwatch" hidden="false" collective="false" type="model">
+    <selectionEntry id="a2a5-6397-c8e7-38d0" name="Ironwatch" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="b5e3-ce1a-7f29-bec2" value="1">
           <repeats>
@@ -198,6 +201,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -209,9 +213,9 @@
         <categoryLink id="426e-0429-65f8-7fe6" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5de4-b8d7-504d-eecd" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="f153-06d3-07c3-3746" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="9bad-3b91-8734-9d22" name="Crossbow" hidden="false" collective="false" targetId="0b31-fa72-c325-5906" type="selectionEntry">
+        <entryLink id="5de4-b8d7-504d-eecd" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="f153-06d3-07c3-3746" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9bad-3b91-8734-9d22" name="Crossbow" hidden="false" collective="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
           </modifiers>
@@ -225,7 +229,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cee6-4f6a-1582-040e" name="Battle Driller" hidden="false" collective="false" type="model">
+    <selectionEntry id="cee6-4f6a-1582-040e" name="Battle Driller" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="48ce-c79d-0c52-3d61" value="1">
           <repeats>
@@ -256,6 +260,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -267,8 +272,8 @@
         <categoryLink id="b3d2-e485-93fe-4660" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f65d-ef8e-24e5-1bab" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="e4e6-f0a2-8949-f92b" name="Battledrill" hidden="false" collective="false" targetId="bd6c-1cdb-4b06-ce6b" type="selectionEntry">
+        <entryLink id="f65d-ef8e-24e5-1bab" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="e4e6-f0a2-8949-f92b" name="Battledrill" hidden="false" collective="false" import="true" targetId="bd6c-1cdb-4b06-ce6b" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -282,7 +287,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e13-11d1-acea-efd6" name="Ironguard" hidden="false" collective="false" type="model">
+    <selectionEntry id="0e13-11d1-acea-efd6" name="Ironguard" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="f243-94a7-a23d-26cf" value="1">
           <repeats>
@@ -313,6 +318,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -326,13 +332,13 @@
         <categoryLink id="658d-d7b1-7c34-5c5f" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bc93-8f06-4bc9-a34d" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="bc93-8f06-4bc9-a34d" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8069-db9f-2e92-dffc" name="Earth Elemental" hidden="false" collective="false" type="model">
+    <selectionEntry id="8069-db9f-2e92-dffc" name="Earth Elemental" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="6652-2c4a-4a0a-4ebc" value="1">
           <repeats>
@@ -363,6 +369,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -375,13 +382,13 @@
         <categoryLink id="69b2-1aa5-bbd4-9338" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6b27-ddf7-0021-2d22" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="6b27-ddf7-0021-2d22" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe3d-8124-a0d2-486f" name="Dwarf Sergeant" hidden="false" collective="false" type="model">
+    <selectionEntry id="fe3d-8124-a0d2-486f" name="Dwarf Sergeant" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="6217-2333-c016-932e" value="1">
           <repeats>
@@ -412,6 +419,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -425,13 +433,13 @@
         <categoryLink id="15cd-e8f2-9438-3880" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="038c-ae90-3395-32c2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="038c-ae90-3395-32c2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6315-3a89-14fb-7b47" name="Stone Priest" hidden="false" collective="false" type="model">
+    <selectionEntry id="6315-3a89-14fb-7b47" name="Stone Priest" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="bcb6-eda7-b98b-6b0c" value="1">
           <repeats>
@@ -462,6 +470,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -473,8 +482,8 @@
         <categoryLink id="9cc8-a1f1-bc10-0957" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="98e9-8492-a1f4-3397" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="4a40-8351-ee83-5181" name=" Spellbook - Basic Stone Priest" hidden="false" collective="false" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup">
+        <entryLink id="98e9-8492-a1f4-3397" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4a40-8351-ee83-5181" name=" Spellbook - Basic Stone Priest" hidden="false" collective="false" import="true" targetId="1efa-90a0-441e-0c53" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="5bde-dc63-23df-7983" value="1">
               <repeats>
@@ -492,15 +501,15 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf9-2c11-3e53-ed69" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="ffcd-33bb-35db-6892" name="Spellbook - Dwarfs (Free)" hidden="false" collective="false" targetId="3374-d57c-24bf-593a" type="selectionEntryGroup"/>
-        <entryLink id="5d4c-37f2-5d12-1a88" name="Spellbook - Dwarfs (Paid)" hidden="false" collective="false" targetId="1561-1798-6aaa-1855" type="selectionEntryGroup"/>
-        <entryLink id="a175-24fd-4f30-13f5" name="Spellbook - Noble" hidden="false" collective="false" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink id="ffcd-33bb-35db-6892" name="Spellbook - Dwarfs (Free)" hidden="false" collective="false" import="true" targetId="3374-d57c-24bf-593a" type="selectionEntryGroup"/>
+        <entryLink id="5d4c-37f2-5d12-1a88" name="Spellbook - Dwarfs (Paid)" hidden="false" collective="false" import="true" targetId="1561-1798-6aaa-1855" type="selectionEntryGroup"/>
+        <entryLink id="a175-24fd-4f30-13f5" name="Spellbook - Noble" hidden="false" collective="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1761-abbf-0982-5a18" name="Dwarf Ranger" hidden="false" collective="false" type="model">
+    <selectionEntry id="1761-abbf-0982-5a18" name="Dwarf Ranger" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="048c-3207-3e90-9159" value="1">
           <repeats>
@@ -531,6 +540,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -543,9 +553,9 @@
         <categoryLink id="4a52-8a42-bff3-42dc" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b295-459a-4cf0-6fd2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="c0db-dd24-6992-c2c7" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="bc7a-e37a-838f-e82e" name="Light Crossbow" hidden="false" collective="false" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
+        <entryLink id="b295-459a-4cf0-6fd2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c0db-dd24-6992-c2c7" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="bc7a-e37a-838f-e82e" name="Light Crossbow" hidden="false" collective="false" import="true" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
           </modifiers>
@@ -559,7 +569,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d21e-32d9-8a3e-ebe4" name="Ranger Captain" hidden="false" collective="false" type="model">
+    <selectionEntry id="d21e-32d9-8a3e-ebe4" name="Ranger Captain" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="b6cd-7ede-c0ba-4922" value="1">
           <repeats>
@@ -590,6 +600,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -605,8 +616,8 @@
         <categoryLink id="f2cc-33a8-a0b5-211b" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9e1f-4438-82d5-c301" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="acfe-c25b-844c-1169" name="Light Crossbow" hidden="false" collective="false" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
+        <entryLink id="9e1f-4438-82d5-c301" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="acfe-c25b-844c-1169" name="Light Crossbow" hidden="false" collective="false" import="true" targetId="7498-0394-96c9-fc9c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
           </modifiers>
@@ -620,7 +631,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dabb-44c6-493f-28ae" name="Flame Priest" hidden="false" collective="false" type="model">
+    <selectionEntry id="dabb-44c6-493f-28ae" name="Flame Priest" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="af60-e45e-903f-fcd2" value="1.0">
           <repeats>
@@ -651,6 +662,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -663,8 +675,8 @@
         <categoryLink id="819f-b896-9357-63d8" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bbad-8660-88b4-49da" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="bd6b-bcb1-c915-34f6" name="Dwarf Flame Thrower" hidden="false" collective="false" targetId="af38-a8b6-9f81-6026" type="selectionEntry">
+        <entryLink id="bbad-8660-88b4-49da" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="bd6b-bcb1-c915-34f6" name="Dwarf Flame Thrower" hidden="false" collective="false" import="true" targetId="af38-a8b6-9f81-6026" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
           </modifiers>
@@ -675,10 +687,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a824-aefa-4ab5-adb7" name="Mastiff Packmaster" hidden="false" collective="false" type="model">
+    <selectionEntry id="a824-aefa-4ab5-adb7" name="Mastiff Packmaster" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="4340-b289-8fad-2948" value="1">
           <repeats>
@@ -709,6 +721,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -723,9 +736,9 @@
         <categoryLink id="d60d-6f47-962c-9b88" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a9dc-d88b-bee9-0c3e" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="ac84-47e2-94e6-649c" name="Rule Check - Is Cavalry" hidden="false" collective="false" targetId="9bca-19a4-27f7-b0c8" type="selectionEntry"/>
-        <entryLink id="3df6-f36f-70a0-b256" name="Throwing Mastiff" hidden="false" collective="false" targetId="99f3-675a-d20a-fa2c" type="selectionEntry">
+        <entryLink id="a9dc-d88b-bee9-0c3e" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ac84-47e2-94e6-649c" name="Rule Check - Is Cavalry" hidden="false" collective="false" import="true" targetId="9bca-19a4-27f7-b0c8" type="selectionEntry"/>
+        <entryLink id="3df6-f36f-70a0-b256" name="Throwing Mastiff" hidden="false" collective="false" import="true" targetId="99f3-675a-d20a-fa2c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -736,10 +749,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b1a3-c037-3210-1704" name="Brock Rider" hidden="false" collective="false" type="model">
+    <selectionEntry id="b1a3-c037-3210-1704" name="Brock Rider" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="5dc0-bb08-ab13-0e69" value="1">
           <repeats>
@@ -770,6 +783,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -784,14 +798,14 @@
         <categoryLink id="3dd3-cf38-f0ac-28e2" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ad9c-8bdb-afd1-0f14" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="a3aa-3227-e650-042f" name="Rule Check - Is Cavalry" hidden="false" collective="false" targetId="9bca-19a4-27f7-b0c8" type="selectionEntry"/>
+        <entryLink id="ad9c-8bdb-afd1-0f14" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a3aa-3227-e650-042f" name="Rule Check - Is Cavalry" hidden="false" collective="false" import="true" targetId="9bca-19a4-27f7-b0c8" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="633c-a900-fbcf-a8dd" name="Steel Juggernaut" hidden="false" collective="false" type="model">
+    <selectionEntry id="633c-a900-fbcf-a8dd" name="Steel Juggernaut" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="207d-780f-fe3b-d70c" type="max"/>
       </constraints>
@@ -809,6 +823,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74"/>
           </characteristics>
         </profile>
       </profiles>
@@ -818,14 +833,14 @@
         <infoLink id="854c-4180-b236-de4c" name="Steady" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink id="35ae-69aa-89d2-4154" name="Tremor Stomp (3)" hidden="false" targetId="1ce3-e861-11f8-0945" type="rule"/>
         <infoLink id="9896-c709-b097-3967" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink id="0946-1697-d104-0c2c" name="Headstrong" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="895b-5c68-9c19-b6c0" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
-        <categoryLink id="f14c-cccc-57ce-c0e7" name="Support" hidden="false" targetId="c194-28e4-665e-319c" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2216-f790-ec69-1809" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="3752-d4ea-13e6-250f" name="Light Cannon" hidden="false" collective="false" targetId="d866-e580-8ac7-c6a1" type="selectionEntry">
+        <entryLink id="2216-f790-ec69-1809" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3752-d4ea-13e6-250f" name="Light Cannon" hidden="false" collective="false" import="true" targetId="d866-e580-8ac7-c6a1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -836,15 +851,71 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2221-61d8-b7c1-2410" name="Berserker Lord" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="8687-7997-c7c9-1b8f" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="f7e6-61c8-d6a6-1f42" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8687-7997-c7c9-1b8f" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7e6-61c8-d6a6-1f42" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cd13-a1a3-e86b-1494" name="Berserker Lord" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">3+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ab43-25c0-5328-33ae" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink id="be8e-e4a8-38cd-636a" name="Headstrong" hidden="false" targetId="895c-93e1-e820-84d0" type="rule"/>
+        <infoLink id="7d25-3595-424e-8db0" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink id="2925-f45d-4531-c44f" name="Power Dice Red (2)" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule"/>
+        <infoLink id="aa2a-e4d9-c31b-98d1" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule"/>
+        <infoLink id="d165-7082-8aaf-06c9" name="Steady" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
+        <infoLink id="6a44-65f1-e056-d8c3" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
+        <infoLink id="363a-a11a-5b38-7704" name="Frenzy (1)" hidden="false" targetId="e9c1-10e3-312f-3d7e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a236-a2c5-9397-0c1e" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="10f8-44f8-3cb9-60be" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="43.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <infoLinks>
     <infoLink id="529e-513d-f380-6861" name="Tactical Redeployment (2)" hidden="false" targetId="2eb7-cba9-b223-8b07" type="rule"/>
+    <infoLink id="ddf1-3db9-8427-cb71" name="Bullheaded" hidden="false" targetId="3270-2e91-2529-bee7" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="ec39-14a6-d6ed-70ea" name="Earthquake (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ec39-14a6-d6ed-70ea" name="Earthquake (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="8c67-3dc8-036f-ea6f" name="Earthquake (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -860,13 +931,13 @@
         <infoLink id="4e43-0572-c01f-b4d9" name="Spell - Earthquake" hidden="false" targetId="f5ff-97ee-4d00-5dbd" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="4833-8dcc-7b7f-8840" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="4833-8dcc-7b7f-8840" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="49a1-8788-eb57-a63d" name="Forged Anew (short)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="49a1-8788-eb57-a63d" name="Forged Anew (short)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="346e-1dab-4a8a-3774" name="Forged Anew (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -882,13 +953,13 @@
         <infoLink id="b482-e61f-4493-0e6e" name="Spell - Forged Anew" hidden="false" targetId="ee51-cc1f-7424-01ed" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="3070-6f6b-a06c-4325" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="3070-6f6b-a06c-4325" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6830-fba8-662e-933e" name="Shieldbreaker Hammer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6830-fba8-662e-933e" name="Shieldbreaker Hammer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="802f-9fda-c3cf-7ead" name="Shieldbreaker Hammer" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -903,7 +974,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd6c-1cdb-4b06-ce6b" name="Battledrill" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bd6c-1cdb-4b06-ce6b" name="Battledrill" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="e63f-4e73-144e-9322" name="Battledrill" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -918,7 +989,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af38-a8b6-9f81-6026" name="Dwarf Flame Thrower" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af38-a8b6-9f81-6026" name="Dwarf Flame Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="9115-8aae-5804-2498" name="Dwarf Flame Thrower" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -935,7 +1006,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99f3-675a-d20a-fa2c" name="Throwing Mastiff" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="99f3-675a-d20a-fa2c" name="Throwing Mastiff" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="1adb-9d0c-6d5f-fb57" name="Throwing Mastiff" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -952,7 +1023,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d866-e580-8ac7-c6a1" name="Light Cannon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d866-e580-8ac7-c6a1" name="Light Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="afbc-fc3e-fef3-38da" name="Light Cannon" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -970,26 +1041,26 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="3374-d57c-24bf-593a" name=" Spellbook - Dwarfs (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="3374-d57c-24bf-593a" name=" Spellbook - Dwarfs (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf4-8fed-ca9e-02cb" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="ad91-59b1-28b2-aac6" name="Earthquake (long)" hidden="false" collective="false" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
+        <entryLink id="ad91-59b1-28b2-aac6" name="Earthquake (long)" hidden="false" collective="false" import="true" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d17b-3e02-ed92-f2c8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1686-4f34-17dd-99c4" name="Forged Anew (short)" hidden="false" collective="false" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
+        <entryLink id="1686-4f34-17dd-99c4" name="Forged Anew (short)" hidden="false" collective="false" import="true" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b4-f51d-dbf8-32a7" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1561-1798-6aaa-1855" name=" Spellbook - Dwarfs (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="1561-1798-6aaa-1855" name=" Spellbook - Dwarfs (Paid)" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="a207-e9c5-9439-2c66" name="Earthquake (long)" hidden="false" collective="false" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
+        <entryLink id="a207-e9c5-9439-2c66" name="Earthquake (long)" hidden="false" collective="false" import="true" targetId="ec39-14a6-d6ed-70ea" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -997,7 +1068,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb5-2cc8-f8de-d545" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5c5d-58f9-3b46-6aaa" name="Forged Anew (short)" hidden="false" collective="false" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
+        <entryLink id="5c5d-58f9-3b46-6aaa" name="Forged Anew (short)" hidden="false" collective="false" import="true" targetId="49a1-8788-eb57-a63d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -1007,20 +1078,20 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1efa-90a0-441e-0c53" name=" Spellbook - Basic Stone Priest" publicationId="8927-8290-pubN71629" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="1efa-90a0-441e-0c53" name=" Spellbook - Basic Stone Priest" publicationId="8927-8290-pubN71629" page="41" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="7bbd-1991-e3d1-1922" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="df45-f591-7371-f92a" name="Fireball (short)" hidden="false" collective="false" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink id="8a05-1a0c-d470-d480" name="Hammer (long)" hidden="false" collective="false" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
-        <entryLink id="cac5-020d-59a6-46bd" name="Heal (short)" hidden="false" collective="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink id="df45-f591-7371-f92a" name="Fireball (short)" hidden="false" collective="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink id="8a05-1a0c-d470-d480" name="Hammer (long)" hidden="false" collective="false" import="true" targetId="1fd6-4a9e-51ce-6476" type="selectionEntry"/>
+        <entryLink id="cac5-020d-59a6-46bd" name="Heal (short)" hidden="false" collective="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="2eb7-cba9-b223-8b07" name="Tactical Redeployment (2)" hidden="false">
-      <description>Select a DWARF COMMAND model in the warband. All DWARF models within 9”, including the nominated COMMAND model that are not knocked-down or Engaged, may immediately move up to 3” in any direction, following the normal movement rules. Models are not marked as activated after moving if they are not already. Once any moves are completed, all models that were eligible to move are given a free Brace action (mark them all as such).</description>
+      <description>Select a DWARF COMMAND model in the warband. All DWARF models within 9&quot;, including the nominated COMMAND model that are not knocked-down or Engaged, may immediately move up to 3&quot; in any direction, following the normal movement rules. Models are not marked as activated after moving if they are not already. Once any moves are completed, all models that were eligible to move are given a free Brace action (mark them all as such).</description>
     </rule>
     <rule id="f5ff-97ee-4d00-5dbd" name="Spell - Earthquake" hidden="false">
       <description>Each model under the area of the Breath attack must roll a die. If a model rolls equal to or under its Sp stat, it is Knocked-down and must make a single Armour Roll to avoid suffering a wound. Models that have the Steady special rule may re-roll the test against their Sp stat.</description>
@@ -1049,11 +1120,14 @@
     <rule id="8be9-95c7-8650-21b7" name="Concentrated Fire" hidden="false">
       <description>Once per game, the Flame Priest can take a long action to attack using its Dwarf Flame Thrower with Range 9” and Piercing (2), instead of the normal profile. This will also Fatigue the Flame Priest.</description>
     </rule>
-    <rule id="9fc5-7ae2-f0ff-b7d1" name="Encumbered" hidden="false">
+    <rule id="9fc5-7ae2-f0ff-b7d1" name="Cumbersome" hidden="false">
       <description>This model cannot Climb, or be given any kind of Mount.</description>
     </rule>
-    <rule id="1ce3-e861-11f8-0945" name="Tremor Stomp (3)" hidden="false">
-      <description>If the Steel Juggernaut is not Knocked-down, it can use this ability as a long action. The Steel Juggernaut casts the boosted version of the Shockwave spell. This ability can be used even if the Steel Juggernaut is Engaged in combat.</description>
+    <rule id="1ce3-e861-11f8-0945" name="Tremor Stomp (2)" hidden="false">
+      <description>Spend the Power to make a short action during this model&apos;s Turn to create a Shockwave. Use the rules for the Shockwave spell (not the boosted version). This is not considered to be the casting of a spell however. The model can be Engaged but must be standing to use Tremor Stomp. Armour rolls for models forced to move out of contact with the Steel Juggernaut are not required.</description>
+    </rule>
+    <rule id="3270-2e91-2529-bee7" name="Bullheaded" hidden="false">
+      <description>DWARF models in this warband add +1 to the result when rolling for Headstrong. This means that on a 5+, the Fatigue counter is removed and the model may act as normal.</description>
     </rule>
   </sharedRules>
 </catalogue>

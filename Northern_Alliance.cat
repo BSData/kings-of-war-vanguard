@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ffea-0323-9705-b48e" name="Northern Alliance" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ffea-0323-9705-b48e" name="Northern Alliance" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ffea-0323-pubN70796" name="Rulebook"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="c4a5-8c4f-3c3f-21cc" name="Human Clansman" hidden="false" collective="false" type="model">
+    <selectionEntry id="c4a5-8c4f-3c3f-21cc" name="Human Clansman" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="7e80-bbb8-91a0-56c5" value="1">
           <repeats>
@@ -35,6 +35,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -42,14 +43,14 @@
         <categoryLink id="1ec1-af5e-9952-af8c" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c44d-e323-f054-2826" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="8e44-8791-2f60-4c14" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c44d-e323-f054-2826" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="8e44-8791-2f60-4c14" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="058e-1f17-f0ab-89ac" name="Elf Clansman" hidden="false" collective="false" type="model">
+    <selectionEntry id="058e-1f17-f0ab-89ac" name="Elf Clansman" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="a55f-aa49-e187-cbd2" value="1">
           <repeats>
@@ -80,6 +81,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -87,8 +89,8 @@
         <categoryLink id="299e-33ec-06d5-e8f3" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="19db-2dfb-f7f2-8c25" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="5e38-e3b6-94e6-a579" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="19db-2dfb-f7f2-8c25" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="5e38-e3b6-94e6-a579" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -97,13 +99,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d94-8e79-a2d5-138e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5f22-f44e-70b1-ae41" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="5f22-f44e-70b1-ae41" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e97-95d1-cdc2-a553" name="Dwarf Clansman" hidden="false" collective="false" type="model">
+    <selectionEntry id="8e97-95d1-cdc2-a553" name="Dwarf Clansman" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="9967-91d1-445f-2238" value="1">
           <repeats>
@@ -141,6 +143,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Dwarf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -148,19 +151,19 @@
         <categoryLink id="8528-831f-12f7-b4d7" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7c05-f5a7-f4ee-4fce" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="ee1d-46fc-b3e8-8ce2" name="Frosthammer" hidden="false" collective="false" targetId="62d4-ccf4-1150-dd04" type="selectionEntry">
+        <entryLink id="7c05-f5a7-f4ee-4fce" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="ee1d-46fc-b3e8-8ce2" name="Frosthammer" hidden="false" collective="false" import="true" targetId="62d4-ccf4-1150-dd04" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c169-c1e7-8f27-1fdf" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7035-83b8-f193-4488" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="7035-83b8-f193-4488" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="879e-2eee-0e9f-0f03" name="Huscard" hidden="false" collective="false" type="model">
+    <selectionEntry id="879e-2eee-0e9f-0f03" name="Huscarl" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="eafb-9246-f4a2-6291" value="1">
           <repeats>
@@ -178,7 +181,7 @@
         <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-6d0e-31fa-6d90" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4acd-492e-018d-fe16" name="Huscard" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+        <profile id="4acd-492e-018d-fe16" name="Huscarl" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
@@ -191,6 +194,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -198,14 +202,14 @@
         <categoryLink id="e51b-8925-46f5-5fe0" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d739-5df3-2008-b69e" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="8da6-a8c9-d945-6e57" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d739-5df3-2008-b69e" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="8da6-a8c9-d945-6e57" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3370-de14-1830-b042" name="Half-Elf Berserker" hidden="false" collective="false" type="model">
+    <selectionEntry id="3370-de14-1830-b042" name="Half-Elf Berserker" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="78ff-e465-2787-ac66" value="1">
           <repeats>
@@ -236,6 +240,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Half-Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -248,14 +253,14 @@
         <categoryLink id="a8e0-3f38-9af8-0ab8" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5915-6af4-e264-1742" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="fb27-1eda-2699-b6ab" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="5915-6af4-e264-1742" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="fb27-1eda-2699-b6ab" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28e1-ab53-94e5-9149" name="Ice Naiad" hidden="false" collective="false" type="model">
+    <selectionEntry id="28e1-ab53-94e5-9149" name="Ice Naiad" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="46bf-aa61-3e2a-c3e7" value="1">
           <repeats>
@@ -286,6 +291,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Neritican</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -296,20 +302,20 @@
         <categoryLink id="7b9d-97dc-c9b5-acd1" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e752-7050-7ea8-375d" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="583a-2c95-f053-ef2b" name="Frost-Trident" hidden="false" collective="false" targetId="a92b-70ae-f79a-8fb7" type="selectionEntry">
+        <entryLink id="e752-7050-7ea8-375d" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="583a-2c95-f053-ef2b" name="Frost-Trident" hidden="false" collective="false" import="true" targetId="a92b-70ae-f79a-8fb7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ecd-847c-650a-4bf5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b16-5cf6-d7fd-7070" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d8a3-6392-1ae4-6220" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d8a3-6392-1ae4-6220" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8061-440d-5419-dc41" name="Ice Kin Hunter" hidden="false" collective="false" type="model">
+    <selectionEntry id="8061-440d-5419-dc41" name="Ice Kin Hunter" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="9819-2d11-f868-1ded" value="1">
           <repeats>
@@ -340,6 +346,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -353,7 +360,7 @@
         <categoryLink id="2335-2578-270a-d5fc" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="241a-2a60-f410-00f9" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="241a-2a60-f410-00f9" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -362,13 +369,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5718-032d-47d6-d467" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="45cf-866b-21b4-7a07" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="45cf-866b-21b4-7a07" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4dfc-e61a-8bc3-5010" name="Ice Elemental" hidden="false" collective="false" type="model">
+    <selectionEntry id="4dfc-e61a-8bc3-5010" name="Ice Elemental" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="4266-5965-6788-0d7f" value="1">
           <repeats>
@@ -399,6 +406,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elemental</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -411,20 +419,20 @@
         <categoryLink id="ef54-2c9e-5b3c-d79f" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5d8f-dd39-0f45-021e" name="Icy Breath" hidden="false" collective="false" targetId="a342-7c80-73a9-a964" type="selectionEntry">
+        <entryLink id="5d8f-dd39-0f45-021e" name="Icy Breath" hidden="false" collective="false" import="true" targetId="a342-7c80-73a9-a964" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5913-2225-70c4-9612" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eebe-7b08-028b-1c1b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a9f1-0ab5-a9fe-df9c" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
-        <entryLink id="2a80-6f49-c870-788a" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a9f1-0ab5-a9fe-df9c" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink id="2a80-6f49-c870-788a" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="47.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da6c-db9c-f1df-c5bf" name="Frostfang Cavalry" hidden="false" collective="false" type="model">
+    <selectionEntry id="da6c-db9c-f1df-c5bf" name="Frostfang Cavalry" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="2518-df15-6109-0977" value="1">
           <repeats>
@@ -455,6 +463,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast / Half-Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -468,14 +477,14 @@
         <categoryLink id="82ac-59e2-6ccb-cf5f" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="33bd-7a35-ad7a-758f" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
-        <entryLink id="b336-a0cf-115e-96ea" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="33bd-7a35-ad7a-758f" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink id="b336-a0cf-115e-96ea" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e979-1f66-f438-a103" name="Snow Troll" hidden="false" collective="false" type="model">
+    <selectionEntry id="e979-1f66-f438-a103" name="Snow Troll" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="3d6f-3e0a-df10-0455" value="1">
           <repeats>
@@ -506,6 +515,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Troll</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -519,14 +529,14 @@
         <categoryLink id="8422-1650-5d22-1268" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a4db-231a-c4e3-b279" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
-        <entryLink id="3b6d-e1ba-b5f4-5bca" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a4db-231a-c4e3-b279" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink id="3b6d-e1ba-b5f4-5bca" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4660-6bb4-83bf-749d" name="Ice Blade" hidden="false" collective="false" type="model">
+    <selectionEntry id="4660-6bb4-83bf-749d" name="Ice Blade" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="bcf0-e76c-4381-c397" value="1">
           <repeats>
@@ -557,6 +567,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Half-Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -573,13 +584,13 @@
         <categoryLink id="3f4e-92b3-a653-4ac2" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="87c5-24f0-22bc-7925" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="87c5-24f0-22bc-7925" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec69-8386-5abe-0af5" name="Snow Troll Prime" hidden="false" collective="false" type="model">
+    <selectionEntry id="ec69-8386-5abe-0af5" name="Snow Troll Prime" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="9438-28ec-db8e-30cf" value="1">
           <repeats>
@@ -610,6 +621,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Troll</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -619,21 +631,22 @@
         <infoLink id="6147-dd33-f146-06af" name="Regenerate (6+)" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink id="b011-8164-ec8a-a72d" name="Vicious Swipe" hidden="false" targetId="1453-a604-8789-f293" type="rule"/>
         <infoLink id="939e-ecdc-c236-2891" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink id="4972-fc04-627c-fb68" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6d7a-4dca-7abc-f0ef" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
         <categoryLink id="92ff-7a26-93fc-036f" name="Large" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2441-996e-0942-fa43" name="Rule Check - Is Large Command" hidden="false" collective="false" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
-        <entryLink id="17fa-c5be-79db-630e" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
-        <entryLink id="3bd0-469e-b593-0406" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2441-996e-0942-fa43" name="Rule Check - Is Large Command" hidden="false" collective="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
+        <entryLink id="17fa-c5be-79db-630e" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink id="3bd0-469e-b593-0406" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be69-8cbc-af47-b13d" name="Thegn" hidden="false" collective="false" type="model">
+    <selectionEntry id="be69-8cbc-af47-b13d" name="Thegn" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="45cb-aa4b-54a1-1781" value="1">
           <repeats>
@@ -664,6 +677,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -677,13 +691,13 @@
         <categoryLink id="4bdf-ea9b-bb2c-108d" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a36e-38dd-1dec-2ba6" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a36e-38dd-1dec-2ba6" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a3a-da30-5132-1a13" name="Ice Queen" hidden="false" collective="false" type="model">
+    <selectionEntry id="3a3a-da30-5132-1a13" name="Ice Queen" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="29ed-7d73-b5cc-2ee8" value="1">
           <repeats>
@@ -714,54 +728,57 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Elf</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c97c-206c-8671-8cf9" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule"/>
+        <infoLink id="c22c-1e15-77f5-f5d2" name="Power Dice Blue (1)" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
+        <infoLink id="c910-a95e-7053-5238" name="Lash (1)" hidden="false" targetId="eed2-78c2-dbd5-daae" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a81e-f4c3-1b12-07c0" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9abf-9db5-7149-1704" name=" Spellbook - Northern Alliance (Free)" hidden="false" collective="false" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
-        <entryLink id="c4ce-500d-bb69-65bf" name=" Spellbook - Noble" hidden="false" collective="false" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
-        <entryLink id="0bf2-a3df-ef3d-ff71" name=" Spellbook - Basic Ice Queen" hidden="false" collective="false" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup">
+        <entryLink id="9abf-9db5-7149-1704" name=" Spellbook - Northern Alliance (Free)" hidden="false" collective="false" import="true" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup"/>
+        <entryLink id="c4ce-500d-bb69-65bf" name=" Spellbook - Noble" hidden="false" collective="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink id="0bf2-a3df-ef3d-ff71" name=" Spellbook - Basic Ice Queen" hidden="false" collective="false" import="true" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="4c0e-f946-981d-1e19" value="1">
               <repeats>
                 <repeat field="selections" scope="3a3a-da30-5132-1a13" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9abf-9db5-7149-1704" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="decrement" field="9372-e967-6bfe-f184" value="1">
+            <modifier type="decrement" field="9372-e967-6bfe-f184" value="1.0">
               <repeats>
                 <repeat field="selections" scope="3a3a-da30-5132-1a13" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9372-e967-6bfe-f184" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0e-f946-981d-1e19" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9372-e967-6bfe-f184" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0e-f946-981d-1e19" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2754-0d91-1bc0-35e1" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="498f-a850-8814-0dfb" name=" Spellbook - Northern Alliance (Paid)" hidden="false" collective="false" targetId="9fe7-6a3f-1b49-6e01" type="selectionEntryGroup"/>
+        <entryLink id="2754-0d91-1bc0-35e1" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="498f-a850-8814-0dfb" name=" Spellbook - Northern Alliance (Paid)" hidden="false" collective="false" import="true" targetId="9fe7-6a3f-1b49-6e01" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="6bfa-4e8a-573d-8ca9" name="Hardy Veterans (1)" hidden="false">
-      <description>Use this ability when a model would be Knocked-down, spend 1 power to gain the Steady special rule for this attack. Models that already have Steady may re-roll the result.</description>
+      <description>Use this ability when a model would be knocked down, Spend 1 power to gain the Steady ability for this attack. Models that already have Steady may re-roll the result. This ability may be used any number of time in a Round.</description>
     </rule>
     <rule id="c0ca-1849-6fe6-9e5e" name="Talannar’s Pack" hidden="false">
       <description>Northern Alliance Warbands may take 1 additional LARGE model than the game size would normally allow.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
-    <selectionEntry id="3d8c-4bad-b9e2-97ad" name="Hold Fast (short)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3d8c-4bad-b9e2-97ad" name="Hold Fast (short)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="fa24-60c0-7b61-3b45" name="Hold Fast (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -777,13 +794,13 @@
         <infoLink id="6826-196b-8f60-fb40" name="Spell - Hold Fast" hidden="false" targetId="ffa6-6048-3d20-7166" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="0fef-f873-9a8b-5892" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="0fef-f873-9a8b-5892" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a7a-2ab5-8462-8622" name="Winter’s Bite (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1a7a-2ab5-8462-8622" name="Winter’s Bite (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c726-bf12-df2a-2992" name="Winter’s Bite (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -799,13 +816,13 @@
         <infoLink id="bcd2-1e7e-65ae-dc11" name="Spell - Winter’s Bite" hidden="false" targetId="6265-aaaa-030e-9a8e" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="0a12-c240-5e70-f52d" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="0a12-c240-5e70-f52d" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62d4-ccf4-1150-dd04" name="Frosthammer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="62d4-ccf4-1150-dd04" name="Frosthammer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b265-8483-722a-d205" name="Frosthammer" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -821,7 +838,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a92b-70ae-f79a-8fb7" name="Frost-Trident" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a92b-70ae-f79a-8fb7" name="Frost-Trident" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="915a-a974-58d6-201f" name="Frost-Trident" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -836,7 +853,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a342-7c80-73a9-a964" name="Icy Breath" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a342-7c80-73a9-a964" name="Icy Breath" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="0457-6b6b-79ec-335b" name="Icy Breath" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -857,7 +874,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="9bd4-dbdc-cec2-78ab" name=" Spellbook - Northern Alliance (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="9bd4-dbdc-cec2-78ab" name=" Spellbook - Northern Alliance (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6032-4472-7a55-c528" type="max"/>
       </constraints>
@@ -865,34 +882,59 @@
         <categoryLink id="7789-b9ee-84ef-c2bc" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5525-0edd-e3c8-dd73" name="Hold Fast (short)" hidden="false" collective="false" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
+        <entryLink id="5525-0edd-e3c8-dd73" name="Hold Fast (short)" hidden="false" collective="false" import="true" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="658b-3365-9601-5b1d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1002-06a5-b601-7ce3" name="Winter’s Bite (long)" hidden="false" collective="false" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
+        <entryLink id="1002-06a5-b601-7ce3" name="Winter’s Bite (long)" hidden="false" collective="false" import="true" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e327-e35c-9313-666b" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9255-ad3a-b198-7dac" name=" Spellbook - Basic Ice Queen" publicationId="ffea-0323-pubN70796" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="9255-ad3a-b198-7dac" name=" Spellbook - Basic Ice Queen" publicationId="ffea-0323-pubN70796" page="41" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="2683-e2f6-12c2-f781" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d816-2c0f-29cc-c438" name="Dazzle (short)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5624-f1b8-4ba0-8b09" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5484-994c-0649-fc6d" name="Dazzle (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
+              <characteristics>
+                <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
+                <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
+                <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
+                <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" typeId="ed87-4c1b-85df-b365"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="590f-09cd-e964-9eef" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="3c02-90e6-c37d-d8fb" name="Heal (short)" hidden="false" collective="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink id="241c-886f-314d-bf99" name="Lightning Bolt (long)" hidden="false" collective="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink id="accc-fa6f-feb4-d208" name="Windblast (long)" hidden="false" collective="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink id="3c02-90e6-c37d-d8fb" name="Heal (short)" hidden="false" collective="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink id="241c-886f-314d-bf99" name="Lightning Bolt (long)" hidden="false" collective="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink id="accc-fa6f-feb4-d208" name="Windblast (long)" hidden="false" collective="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink id="260a-3d76-6ec9-004f" name="Darklord&apos;s Onyx Ring (Rare)" hidden="false" collective="false" import="true" targetId="8161-92ec-9fdb-9fce" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9fe7-6a3f-1b49-6e01" name=" Spellbook - Northern Alliance (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="9fe7-6a3f-1b49-6e01" name=" Spellbook - Northern Alliance (Paid)" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="ede3-a950-e451-d1ec" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0de7-3200-5643-d15e" name="Hold Fast (short)" hidden="false" collective="false" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
+        <entryLink id="0de7-3200-5643-d15e" name="Hold Fast (short)" hidden="false" collective="false" import="true" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -900,7 +942,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7102-be10-1c13-5103" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4028-4bd0-83ab-d970" name="Winter’s Bite (long)" hidden="false" collective="false" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
+        <entryLink id="4028-4bd0-83ab-d970" name="Winter’s Bite (long)" hidden="false" collective="false" import="true" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -928,7 +970,7 @@
       <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
     <rule id="eb4b-1dd8-49ac-39dc" name="Head Swing (1)" hidden="false">
-      <description>Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. Every enemy model that is Engaged with this model must make a Nerve test. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</description>
+      <description>Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. Every enemy model that is Engaged with this model must make a Nerve test with a -1 Modifier. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</description>
     </rule>
     <rule id="8778-5d9f-7ab1-456e" name="Blade Master (2)" hidden="false">
       <description>Use this ability when this model makes a Melee attack (including Retaliations) before dice are rolled. The Ice Blade may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the Ice Blade initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the Ice Blade’s attacks are resolved. Bonus die granted for the status of models (e.g. knocked-down) can only be allocated to that model).</description>
@@ -948,6 +990,9 @@ Cast as a long action instead. As above, but the modifier is increased to +2 and
     </rule>
     <rule id="79a0-5d5c-4b24-84a8" name="Weapon - Frost Hammer" hidden="false">
       <description>A great two-handed hammer wielded by the Dwarf clans in the North. The model gains Crushing Strength (1) and increases its Ar by 1.</description>
+    </rule>
+    <rule id="eed2-78c2-dbd5-daae" name="Lash (1)" hidden="false">
+      <description>use this ability when casting the Lightning Bolt spell to make it a short action to cast instead of a long action.</description>
     </rule>
   </sharedRules>
 </catalogue>

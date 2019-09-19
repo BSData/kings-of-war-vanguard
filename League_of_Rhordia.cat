@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ab31-6738-d472-dd41" name="League of Rhordia" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ab31-6738-d472-dd41" name="League of Rhordia" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ab31-6738-pubN69065" name="Rulebook"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="fe2a-4067-5a52-5faf" name="City Militia" hidden="false" collective="false" type="model">
+    <selectionEntry id="fe2a-4067-5a52-5faf" name="City Militia" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="8937-c3ec-c16f-acd1" value="1">
           <repeats>
@@ -35,6 +35,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -42,8 +43,8 @@
         <categoryLink id="0915-9d22-a08c-6875" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="14b5-d4cd-086b-ea5c" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="ed91-fd49-fbeb-d766" name="Spear" hidden="false" collective="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+        <entryLink id="14b5-d4cd-086b-ea5c" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ed91-fd49-fbeb-d766" name="Spear" hidden="false" collective="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="1"/>
           </modifiers>
@@ -52,13 +53,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cd0-baa5-43c4-0f60" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="622c-af0b-955a-1635" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="622c-af0b-955a-1635" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="427c-0ef7-e9c6-993f" name="Household Knight" hidden="false" collective="false" type="model">
+    <selectionEntry id="427c-0ef7-e9c6-993f" name="Household Knight" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="be1e-6bf5-767e-97c3" value="1">
           <repeats>
@@ -89,6 +90,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -103,13 +105,13 @@
         <categoryLink id="6c55-81b5-9085-65f5" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2826-a866-94c1-9660" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2826-a866-94c1-9660" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c29d-62e2-300b-8e84" name="House Guard" hidden="false" collective="false" type="model">
+    <selectionEntry id="c29d-62e2-300b-8e84" name="House Guard" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="1ae6-b94d-b0fb-52f6" value="1">
           <repeats>
@@ -140,6 +142,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -150,8 +153,8 @@
         <categoryLink id="938b-115f-9d71-cb6a" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ecac-610b-97db-568c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="94f8-d984-f57c-62af" name="Halberd" hidden="false" collective="false" targetId="e475-1d52-512e-ebc5" type="selectionEntry">
+        <entryLink id="ecac-610b-97db-568c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="94f8-d984-f57c-62af" name="Halberd" hidden="false" collective="false" import="true" targetId="e475-1d52-512e-ebc5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="2"/>
           </modifiers>
@@ -160,13 +163,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4418-a2d2-2e00-31cb" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="088c-1560-f2cc-5197" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="088c-1560-f2cc-5197" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab53-aa0d-2967-6d16" name="Rhor Marksman" hidden="false" collective="false" type="model">
+    <selectionEntry id="ab53-aa0d-2967-6d16" name="Rhor Marksman" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="3b8d-2e29-5956-6dcf" value="1">
           <repeats>
@@ -197,6 +200,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -207,8 +211,8 @@
         <categoryLink id="46bf-077d-0f5c-22eb" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="03c4-0be1-dbc1-ab77" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="21f3-b16e-9910-fa8d" name="Musket" hidden="false" collective="false" targetId="1ce1-adff-1e34-8702" type="selectionEntry">
+        <entryLink id="03c4-0be1-dbc1-ab77" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="21f3-b16e-9910-fa8d" name="Musket" hidden="false" collective="false" import="true" targetId="1ce1-adff-1e34-8702" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="3"/>
           </modifiers>
@@ -217,7 +221,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c024-9108-b590-dfa5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="184d-012b-8b60-0403" name="Crossbow" hidden="false" collective="false" targetId="0b31-fa72-c325-5906" type="selectionEntry">
+        <entryLink id="184d-012b-8b60-0403" name="Crossbow" hidden="false" collective="false" import="true" targetId="0b31-fa72-c325-5906" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
             <modifier type="set" field="618d-d798-d170-be98" value="0.0">
@@ -241,7 +245,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3dbc-3355-586b-bde8" name="Honour Guard" hidden="false" collective="false" type="model">
+    <selectionEntry id="3dbc-3355-586b-bde8" name="Honour Guard" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="b759-124d-6b9a-ea07" value="1">
           <repeats>
@@ -272,6 +276,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast/Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">50mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -285,13 +290,13 @@
         <categoryLink id="69c9-6bd9-d9f3-9a09" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d186-420d-eadb-f712" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d186-420d-eadb-f712" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c78-1eb6-c104-a3c2" name="Halfling Brave" hidden="false" collective="false" type="model">
+    <selectionEntry id="6c78-1eb6-c104-a3c2" name="Halfling Brave" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="fdb7-0c34-9b4f-4a61" value="1">
           <repeats>
@@ -322,6 +327,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Halfling</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -334,8 +340,8 @@
         <categoryLink id="6edf-06eb-fd3d-55da" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3112-8645-346e-97fc" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="2f5b-514a-e6e2-d7da" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="3112-8645-346e-97fc" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2f5b-514a-e6e2-d7da" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="1"/>
           </modifiers>
@@ -344,13 +350,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d6-c67e-8a4a-4b61" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6606-b6b6-566f-26eb" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="6606-b6b6-566f-26eb" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4038-ed11-811b-b973" name="House Guard Captain" hidden="false" collective="false" type="model">
+    <selectionEntry id="4038-ed11-811b-b973" name="House Guard Captain" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="55c2-5f22-365a-9e8e" value="1">
           <repeats>
@@ -381,6 +387,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Human</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -397,13 +404,13 @@
         <categoryLink id="fb78-b1ae-c156-edea" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2443-3e0d-f2ac-c4f6" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2443-3e0d-f2ac-c4f6" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2315-34cf-ff8d-0cfc" name="Halfling Sorcerer" hidden="false" collective="false" type="model">
+    <selectionEntry id="2315-34cf-ff8d-0cfc" name="Halfling Sorcerer" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="5ad7-ea40-d1b0-226f" value="1">
           <repeats>
@@ -434,6 +441,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Neutral</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Halfling</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -446,11 +454,11 @@
         <categoryLink id="67f6-e91d-cde0-d410" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5789-6ad2-b970-700c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="7e42-ee74-6599-0b4d" name=" Spellbook - Noble" hidden="false" collective="false" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
-        <entryLink id="3ba6-e6c7-38c8-0e33" name=" Spellbook - League of Rhordia (Paid)" hidden="false" collective="false" targetId="ba8b-1843-360b-13e6" type="selectionEntryGroup"/>
-        <entryLink id="2b80-e862-c8f0-25dd" name=" Spellbook - League of Rhordia (Free)" hidden="false" collective="false" targetId="f0f2-f4c5-0df6-d7ca" type="selectionEntryGroup"/>
-        <entryLink id="de9f-3138-f855-9611" name=" Spellbook - Basic Halfling Sorcerer" hidden="false" collective="false" targetId="ca05-4079-1998-6762" type="selectionEntryGroup">
+        <entryLink id="5789-6ad2-b970-700c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="7e42-ee74-6599-0b4d" name=" Spellbook - Noble" hidden="false" collective="false" import="true" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup"/>
+        <entryLink id="3ba6-e6c7-38c8-0e33" name=" Spellbook - League of Rhordia (Paid)" hidden="false" collective="false" import="true" targetId="ba8b-1843-360b-13e6" type="selectionEntryGroup"/>
+        <entryLink id="2b80-e862-c8f0-25dd" name=" Spellbook - League of Rhordia (Free)" hidden="false" collective="false" import="true" targetId="f0f2-f4c5-0df6-d7ca" type="selectionEntryGroup"/>
+        <entryLink id="de9f-3138-f855-9611" name=" Spellbook - Basic Halfling Sorcerer" hidden="false" collective="false" import="true" targetId="ca05-4079-1998-6762" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="11f7-c477-0fd5-0126" value="1">
               <repeats>
@@ -478,7 +486,7 @@
     <infoLink id="bcb5-bd03-e1ab-f55d" name="In Rhor&apos;s Name! (2)" hidden="false" targetId="2619-2b58-6d58-4add" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="1ce1-adff-1e34-8702" name="Musket" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1ce1-adff-1e34-8702" name="Musket" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cdf7-7515-6d84-850a" name="Musket" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -496,7 +504,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e475-1d52-512e-ebc5" name="Halberd" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e475-1d52-512e-ebc5" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ea44-ae88-d0e3-4eea" name="Halberd" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -511,7 +519,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd1c-5ff2-e105-2c2d" name="Celestial Screen (short)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="dd1c-5ff2-e105-2c2d" name="Celestial Screen (short)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c47c-8581-9135-39da" name="Celestial Screen (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -527,13 +535,13 @@
         <infoLink id="ffbb-ba14-02a9-9679" name="Spell - Celestial Screen" hidden="false" targetId="c5cf-5b6d-017c-46e9" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="8f01-df64-6816-54c8" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="8f01-df64-6816-54c8" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c88a-b5c6-944d-c4a9" name="Illusory Bombard (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c88a-b5c6-944d-c4a9" name="Illusory Bombard (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="1752-3756-cb32-45de" name="Illusory Bombard (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -546,7 +554,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="7dac-e033-fa6a-7925" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="7dac-e033-fa6a-7925" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
@@ -554,26 +562,26 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="f0f2-f4c5-0df6-d7ca" name=" Spellbook - League of Rhordia (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="f0f2-f4c5-0df6-d7ca" name=" Spellbook - League of Rhordia (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ee-8266-3769-cc7a" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="c334-e7e4-a46f-9de8" name="Celestial Screen (short)" hidden="false" collective="false" targetId="dd1c-5ff2-e105-2c2d" type="selectionEntry">
+        <entryLink id="c334-e7e4-a46f-9de8" name="Celestial Screen (short)" hidden="false" collective="false" import="true" targetId="dd1c-5ff2-e105-2c2d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca0-77c0-89ac-96e9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e089-0c32-68c3-af64" name="Illusory Bombard (long)" hidden="false" collective="false" targetId="c88a-b5c6-944d-c4a9" type="selectionEntry">
+        <entryLink id="e089-0c32-68c3-af64" name="Illusory Bombard (long)" hidden="false" collective="false" import="true" targetId="c88a-b5c6-944d-c4a9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e463-e7b2-e043-7d58" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ba8b-1843-360b-13e6" name=" Spellbook - League of Rhordia (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="ba8b-1843-360b-13e6" name=" Spellbook - League of Rhordia (Paid)" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="136f-a790-39c6-418a" name="Celestial Screen (short)" hidden="false" collective="false" targetId="dd1c-5ff2-e105-2c2d" type="selectionEntry">
+        <entryLink id="136f-a790-39c6-418a" name="Celestial Screen (short)" hidden="false" collective="false" import="true" targetId="dd1c-5ff2-e105-2c2d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -581,7 +589,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ea-f934-3f07-ae38" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="22d8-22a2-ac92-28cf" name="Illusory Bombard (long)" hidden="false" collective="false" targetId="c88a-b5c6-944d-c4a9" type="selectionEntry">
+        <entryLink id="22d8-22a2-ac92-28cf" name="Illusory Bombard (long)" hidden="false" collective="false" import="true" targetId="c88a-b5c6-944d-c4a9" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -591,14 +599,14 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ca05-4079-1998-6762" name=" Spellbook - Basic Halfling Sorcerer" publicationId="ab31-6738-pubN69065" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="ca05-4079-1998-6762" name=" Spellbook - Basic Halfling Sorcerer" publicationId="ab31-6738-pubN69065" page="41" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="d46d-bdbb-2860-45e2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0890-0041-549f-c772" name="Heal (short)" hidden="false" collective="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
-        <entryLink id="c2d2-6505-baad-28b4" name="Lightning Bolt (long)" hidden="false" collective="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink id="4630-6e25-048d-a2c1" name="Windblast (long)" hidden="false" collective="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink id="0890-0041-549f-c772" name="Heal (short)" hidden="false" collective="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink id="c2d2-6505-baad-28b4" name="Lightning Bolt (long)" hidden="false" collective="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink id="4630-6e25-048d-a2c1" name="Windblast (long)" hidden="false" collective="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

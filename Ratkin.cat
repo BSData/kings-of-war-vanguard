@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1bf8-e261-53ce-da80" name="Ratkin" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1bf8-e261-53ce-da80" name="Ratkin" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1bf8-e261-pubN68796" name="Rulebook"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="1026-9544-ab4c-58e6" name="Tunnel Slave" hidden="false" collective="false" type="model">
+    <selectionEntry id="1026-9544-ab4c-58e6" name="Tunnel Slave" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="c95f-9e7c-e280-a5d8" value="1">
           <repeats>
@@ -35,6 +35,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -42,9 +43,9 @@
         <categoryLink id="8c59-1295-cb32-fa29" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5c44-1db4-6e43-2fbf" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="8536-b635-a793-c321" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="88f4-7eb8-878d-87b9" name="Spear" hidden="false" collective="false" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
+        <entryLink id="5c44-1db4-6e43-2fbf" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="8536-b635-a793-c321" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="88f4-7eb8-878d-87b9" name="Spear" hidden="false" collective="false" import="true" targetId="da36-7b90-c7e5-26c1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="1"/>
           </modifiers>
@@ -57,7 +58,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71e1-af2c-f054-4f17" name="Hackpaw" hidden="false" collective="false" type="model">
+    <selectionEntry id="71e1-af2c-f054-4f17" name="Hackpaw" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="7ca4-fc01-a437-8d18" value="1">
           <repeats>
@@ -88,6 +89,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Beast, Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">Cav</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -102,7 +104,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef23-1da9-cb4f-2f20" name="Ratkin Warrior" hidden="false" collective="false" type="model">
+    <selectionEntry id="ef23-1da9-cb4f-2f20" name="Ratkin Warrior" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="8fbd-6770-cf0b-0ee8" value="1">
           <repeats>
@@ -133,6 +135,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -140,14 +143,14 @@
         <categoryLink id="c925-fa5b-7a91-90e2" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a40c-4721-cae2-1937" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="dc21-51d0-1c75-49c2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a40c-4721-cae2-1937" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="dc21-51d0-1c75-49c2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="138c-2d97-4191-b588" name="Scurrier" hidden="false" collective="false" type="model">
+    <selectionEntry id="138c-2d97-4191-b588" name="Scurrier" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="b6ea-dc84-4bf6-6830" value="1">
           <repeats>
@@ -178,6 +181,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -191,8 +195,8 @@
         <categoryLink id="c73b-fcf1-6eb6-f7cd" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d20f-300e-78e8-e37a" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="d599-75b1-4859-54cd" name="Throwing Knife" hidden="false" collective="false" targetId="5305-9abb-3b6e-6db4" type="selectionEntry">
+        <entryLink id="d20f-300e-78e8-e37a" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="d599-75b1-4859-54cd" name="Throwing Knife" hidden="false" collective="false" import="true" targetId="5305-9abb-3b6e-6db4" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0"/>
           </modifiers>
@@ -206,7 +210,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c373-cc81-66d6-cbaa" name="Brute" hidden="false" collective="false" type="model">
+    <selectionEntry id="c373-cc81-66d6-cbaa" name="Brute" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="c75a-075b-566f-8e26" value="1">
           <repeats>
@@ -237,6 +241,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -250,13 +255,13 @@
         <categoryLink id="eea0-d066-d294-c90b" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0bbe-b10b-3318-b307" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="0bbe-b10b-3318-b307" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93d0-7373-546c-2ee1" name="Shock Trooper" hidden="false" collective="false" type="model">
+    <selectionEntry id="93d0-7373-546c-2ee1" name="Shock Trooper" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="7913-e663-0f24-ea69" value="1">
           <repeats>
@@ -287,6 +292,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -298,14 +304,14 @@
         <categoryLink id="3e22-5f51-b4ae-415a" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="209e-05fd-dfb2-5df7" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="9d6f-e1e5-5429-d699" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="209e-05fd-dfb2-5df7" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="9d6f-e1e5-5429-d699" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="63bb-24bf-dabd-5876" name="War Chief" hidden="false" collective="false" type="model">
+    <selectionEntry id="63bb-24bf-dabd-5876" name="War Chief" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="698d-7e05-448f-4580" value="1">
           <repeats>
@@ -336,6 +342,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -350,13 +357,13 @@
         <categoryLink id="7e0c-1b14-aee6-4bfa" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f182-ebd9-635c-576c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="f182-ebd9-635c-576c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf14-0e87-336b-6e64" name="Night Terror" hidden="false" collective="false" type="model">
+    <selectionEntry id="bf14-0e87-336b-6e64" name="Night Terror" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="ffed-08bf-0cfc-2b72" value="1">
           <repeats>
@@ -387,6 +394,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -396,19 +404,18 @@
         <infoLink id="b315-4162-112e-32cc" name="Raking Claws (1)" hidden="false" targetId="9b78-ba22-b4ef-05be" type="rule"/>
         <infoLink id="9973-67e4-fb72-a52d" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink id="122a-ccf5-31df-c106" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
-        <infoLink id="c164-c7ad-36f7-5ce9" name="Limited Capability" hidden="false" targetId="3d31-d664-abf1-15f8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7304-716d-eea2-4631" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6b8a-5a32-8145-7389" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="6b8a-5a32-8145-7389" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="093c-b3b3-10ad-f359" name="Ratkin Warlock" hidden="false" collective="false" type="model">
+    <selectionEntry id="093c-b3b3-10ad-f359" name="Ratkin Warlock" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="2b3e-ff0b-d693-41e1" value="1">
           <repeats>
@@ -439,6 +446,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Ratkin</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -452,12 +460,12 @@
         <categoryLink id="f08b-6c30-0b7e-99be" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e3c1-3cc7-ee78-e2ef" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="dfa4-6ba6-714d-4e22" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="9aa0-789d-68c9-ac2b" name=" Spellbook - Ratkin (Paid)" hidden="false" collective="false" targetId="36c2-5a25-ed54-1be7" type="selectionEntryGroup"/>
-        <entryLink id="2fa3-4a19-53d6-be62" name=" Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink id="a792-4b3c-dc6b-17b1" name=" Spellbook - Ratkin (Free)" hidden="false" collective="false" targetId="b60f-43ba-f438-a55f" type="selectionEntryGroup"/>
-        <entryLink id="bec8-0636-5c18-3210" name=" Spellbook - Basic Ratkin Warlock" hidden="false" collective="false" targetId="ae0f-f9dd-77b6-816b" type="selectionEntryGroup">
+        <entryLink id="e3c1-3cc7-ee78-e2ef" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="dfa4-6ba6-714d-4e22" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9aa0-789d-68c9-ac2b" name=" Spellbook - Ratkin (Paid)" hidden="false" collective="false" import="true" targetId="36c2-5a25-ed54-1be7" type="selectionEntryGroup"/>
+        <entryLink id="2fa3-4a19-53d6-be62" name=" Spellbook - Corrupt" hidden="false" collective="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink id="a792-4b3c-dc6b-17b1" name=" Spellbook - Ratkin (Free)" hidden="false" collective="false" import="true" targetId="b60f-43ba-f438-a55f" type="selectionEntryGroup"/>
+        <entryLink id="bec8-0636-5c18-3210" name=" Spellbook - Basic Ratkin Warlock" hidden="false" collective="false" import="true" targetId="ae0f-f9dd-77b6-816b" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="3bc3-0733-0790-ac94" value="1">
               <repeats>
@@ -486,7 +494,7 @@
     <infoLink id="c88b-017a-9674-23aa" name="Pack Mentality" hidden="false" targetId="7ec2-95a2-9ab0-7d81" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="2d4d-d388-47b7-c827" name="Vermin Swarm (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2d4d-d388-47b7-c827" name="Vermin Swarm (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="80c8-c94a-75d1-85cb" name="Vermin Swarm (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -502,13 +510,13 @@
         <infoLink id="cfe3-19cd-066e-ad39" name="Spell - Vermin Swarm" hidden="false" targetId="a5ae-238f-eeae-7de8" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="08d2-70c9-e9ad-9378" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="08d2-70c9-e9ad-9378" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e34d-8e1a-40ba-7def" name="Lair (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e34d-8e1a-40ba-7def" name="Lair (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="f58e-a7f0-7515-7aca" name="Lair (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -524,13 +532,13 @@
         <infoLink id="d8c3-c594-a810-59d9" name="Spell - Lair" hidden="false" targetId="7bfc-b91a-1fb1-ca36" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="39db-202e-5ebf-54d0" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="39db-202e-5ebf-54d0" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5305-9abb-3b6e-6db4" name="Throwing Knife" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5305-9abb-3b6e-6db4" name="Throwing Knife" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="8021-2815-9a4d-9b84" name="Throwing Knife" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -545,37 +553,37 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="ae0f-f9dd-77b6-816b" name=" Spellbook - Basic Ratkin Warlock" publicationId="1bf8-e261-pubN68796" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="ae0f-f9dd-77b6-816b" name=" Spellbook - Basic Ratkin Warlock" publicationId="1bf8-e261-pubN68796" page="41" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="60d7-46de-bf95-48e4" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="79b9-6a4c-e709-a7f6" name="Lightning Bolt (long)" hidden="false" collective="false" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
-        <entryLink id="4eff-aca9-b85a-48cb" name="Stun (short)" hidden="false" collective="false" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
-        <entryLink id="5dbb-788d-d590-aec0" name="Zap (short)" hidden="false" collective="false" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
-        <entryLink id="13af-2994-7aa9-5b21" name="Shockwave (long)" hidden="false" collective="false" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink id="79b9-6a4c-e709-a7f6" name="Lightning Bolt (long)" hidden="false" collective="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
+        <entryLink id="4eff-aca9-b85a-48cb" name="Stun (short)" hidden="false" collective="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
+        <entryLink id="5dbb-788d-d590-aec0" name="Zap (short)" hidden="false" collective="false" import="true" targetId="8156-c369-ee4a-09ab" type="selectionEntry"/>
+        <entryLink id="13af-2994-7aa9-5b21" name="Shockwave (long)" hidden="false" collective="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b60f-43ba-f438-a55f" name=" Spellbook - Ratkin (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="b60f-43ba-f438-a55f" name=" Spellbook - Ratkin (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebad-e8b4-78d9-e742" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="e674-353b-b22e-4674" name="Vermin Swarm (long)" hidden="false" collective="false" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
+        <entryLink id="e674-353b-b22e-4674" name="Vermin Swarm (long)" hidden="false" collective="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b9-ca4c-0ee0-b95c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f575-fe18-eced-3fa4" name="Lair (long)" hidden="false" collective="false" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
+        <entryLink id="f575-fe18-eced-3fa4" name="Lair (long)" hidden="false" collective="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68cb-e899-da70-e223" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="36c2-5a25-ed54-1be7" name=" Spellbook - Ratkin (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="36c2-5a25-ed54-1be7" name=" Spellbook - Ratkin (Paid)" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="4814-34f5-821a-2d44" name="Vermin Swarm (long)" hidden="false" collective="false" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
+        <entryLink id="4814-34f5-821a-2d44" name="Vermin Swarm (long)" hidden="false" collective="false" import="true" targetId="2d4d-d388-47b7-c827" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -583,7 +591,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec05-f3b4-db30-c33c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4c73-5d3e-c488-3da5" name="Lair (long)" hidden="false" collective="false" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
+        <entryLink id="4c73-5d3e-c488-3da5" name="Lair (long)" hidden="false" collective="false" import="true" targetId="e34d-8e1a-40ba-7def" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>

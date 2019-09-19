@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a0cd-c88b-990b-40e9" name="Empire of Dust" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a0cd-c88b-990b-40e9" name="Empire of Dust" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a0cd-c88b-pubN65537" name="Vanguard abridged Warbands-dec31.pd"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="ba74-caac-8e8d-1be8" name="Skeleton" hidden="false" collective="false" type="model">
+    <selectionEntry id="ba74-caac-8e8d-1be8" name="Skeleton" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="af97-bde8-67ec-5e87" value="1">
           <repeats>
@@ -35,6 +35,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -45,14 +46,14 @@
         <categoryLink id="495b-a3df-7530-f63d" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="085b-389e-061d-3aab" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="dc9d-e357-1f1e-0e06" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="085b-389e-061d-3aab" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="dc9d-e357-1f1e-0e06" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e262-8e01-20dd-d231" name="Skeleton archer" hidden="false" collective="false" type="model">
+    <selectionEntry id="e262-8e01-20dd-d231" name="Skeleton archer" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="a4b9-53b5-259c-d520" value="1">
           <repeats>
@@ -83,6 +84,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">1D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -93,7 +95,7 @@
         <categoryLink id="c765-827f-9c8c-8160" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ac00-c793-a8b6-c852" name="Bow" hidden="false" collective="false" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
+        <entryLink id="ac00-c793-a8b6-c852" name="Bow" hidden="false" collective="false" import="true" targetId="7487-3e07-b4f1-eda5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -102,14 +104,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd99-baaf-f8b2-8968" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b774-7b9b-a5bc-e873" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="8f55-c539-6715-ecda" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="b774-7b9b-a5bc-e873" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="8f55-c539-6715-ecda" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d96-52d9-ab5c-50a2" name="Desert swarm" hidden="false" collective="false" type="model">
+    <selectionEntry id="9d96-52d9-ab5c-50a2" name="Desert swarm" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="e4da-f3ff-8ef5-1950" value="1">
           <repeats>
@@ -140,6 +142,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Emp. of Dust, Beast</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -152,13 +155,13 @@
         <categoryLink id="9a13-c1a9-9253-efa7" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2dc9-7dc3-bf5b-0bce" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="2dc9-7dc3-bf5b-0bce" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70d5-6d1f-b9c1-38db" name="Revenant champion" hidden="false" collective="false" type="model">
+    <selectionEntry id="70d5-6d1f-b9c1-38db" name="Revenant champion" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="afe3-7cc9-7832-76e2" value="1">
           <repeats>
@@ -189,6 +192,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -202,13 +206,13 @@
         <categoryLink id="18d7-1a70-fe41-a82d" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9b63-ef76-daf1-f573" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9b63-ef76-daf1-f573" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa18-51d0-8a99-c491" name="Sand wraith" hidden="false" collective="false" type="model">
+    <selectionEntry id="fa18-51d0-8a99-c491" name="Sand wraith" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="8d21-1387-9f19-d2cb" value="1">
           <repeats>
@@ -239,6 +243,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -252,13 +257,13 @@
         <categoryLink id="db83-a2cb-aff7-00fb" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="aba7-1df0-b68e-7e73" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="aba7-1df0-b68e-7e73" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="176d-642b-b360-c23b" name="Revenant" hidden="false" collective="false" type="model">
+    <selectionEntry id="176d-642b-b360-c23b" name="Revenant" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="54b0-a42c-2c4e-f588" value="1">
           <repeats>
@@ -289,6 +294,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -299,14 +305,14 @@
         <categoryLink id="31e6-d053-9be4-f9d5" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="85f1-072a-b328-b7fd" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="9bcf-b873-39de-7842" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="85f1-072a-b328-b7fd" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="9bcf-b873-39de-7842" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dca2-329b-0796-a71e" name="Mummy" hidden="false" collective="false" type="model">
+    <selectionEntry id="dca2-329b-0796-a71e" name="Mummy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="aac3-4fec-b715-cbd6" value="1">
           <repeats>
@@ -337,6 +343,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -349,14 +356,14 @@
         <categoryLink id="fd0e-9a92-2374-297a" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4682-75eb-0bdd-3b56" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="6d84-d21e-0bf6-ba13" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4682-75eb-0bdd-3b56" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="6d84-d21e-0bf6-ba13" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a74-92c8-6ef8-8d23" name="Enslaved guardian" hidden="false" collective="false" type="model">
+    <selectionEntry id="2a74-92c8-6ef8-8d23" name="Enslaved guardian" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="805f-2f8c-13c0-6650" value="1">
           <repeats>
@@ -387,6 +394,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">5D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">40mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -400,7 +408,7 @@
         <categoryLink id="8272-cf6e-f936-8838" name="Large" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="661f-971a-d566-57be" name=" Spellbook - Basic Enslaved Guardian" hidden="false" collective="false" targetId="8dba-cce0-6eb7-6644" type="selectionEntryGroup">
+        <entryLink id="661f-971a-d566-57be" name=" Spellbook - Basic Enslaved Guardian" hidden="false" collective="false" import="true" targetId="8dba-cce0-6eb7-6644" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="d346-5669-03c8-1caf" value="1">
               <repeats>
@@ -418,16 +426,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb1-0d74-aa8c-7955" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="abda-06cb-8580-e489" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
-        <entryLink id="a394-8319-5d28-e565" name=" Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink id="3042-00e5-8578-6e66" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false" targetId="3614-4389-a100-7db2" type="selectionEntryGroup"/>
-        <entryLink id="e564-c580-f7f9-c5de" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="abda-06cb-8580-e489" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false" import="true" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
+        <entryLink id="a394-8319-5d28-e565" name=" Spellbook - Corrupt" hidden="false" collective="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink id="3042-00e5-8578-6e66" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false" import="true" targetId="3614-4389-a100-7db2" type="selectionEntryGroup"/>
+        <entryLink id="e564-c580-f7f9-c5de" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8acc-af11-5460-356d" name="High priest" hidden="false" collective="false" type="model">
+    <selectionEntry id="8acc-af11-5460-356d" name="High priest" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="dce7-96c8-9422-d6ae" value="1">
           <repeats>
@@ -458,6 +466,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -470,11 +479,11 @@
         <categoryLink id="c4ef-b156-132f-560a" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9dc7-2637-a546-9493" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="8080-000f-9000-7a4f" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
-        <entryLink id="2f10-3fc1-d86f-df80" name=" Spellbook - Corrupt" hidden="false" collective="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
-        <entryLink id="013c-0b05-0289-e2ee" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false" targetId="3614-4389-a100-7db2" type="selectionEntryGroup"/>
-        <entryLink id="b65f-4f23-2e75-571b" name=" Spellbook - Basic High Priest" hidden="false" collective="false" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup">
+        <entryLink id="9dc7-2637-a546-9493" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="8080-000f-9000-7a4f" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false" import="true" targetId="c033-2980-b549-f3c8" type="selectionEntryGroup"/>
+        <entryLink id="2f10-3fc1-d86f-df80" name=" Spellbook - Corrupt" hidden="false" collective="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
+        <entryLink id="013c-0b05-0289-e2ee" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false" import="true" targetId="3614-4389-a100-7db2" type="selectionEntryGroup"/>
+        <entryLink id="b65f-4f23-2e75-571b" name=" Spellbook - Basic High Priest" hidden="false" collective="false" import="true" targetId="d4fd-7e38-9f21-f0e9" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="8002-502f-5696-17f7" value="1">
               <repeats>
@@ -497,7 +506,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42c2-05f4-27cb-bc39" name="Pharaoh&apos;s champion" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="42c2-05f4-27cb-bc39" name="Pharaoh&apos;s champion" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="e9f1-6c2c-1c65-14b0" value="1">
           <repeats>
@@ -528,6 +537,7 @@
             <characteristic name="Melee" typeId="01d6-153a-0767-f01e">4D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Undead, Emp. of Dust</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">20mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -537,13 +547,12 @@
         <infoLink id="4f2b-62e4-4561-d9d1" name="Regenerate (6+)" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink id="63e2-6790-fbaf-ea93" name="Curse (1)" hidden="false" targetId="f6b3-beaa-1757-af4b" type="rule"/>
         <infoLink id="63f5-0d80-fc5b-e0a7" name="Power Dice Blue (1)" hidden="false" targetId="9f0b-f977-bb53-fe2e" type="rule"/>
-        <infoLink id="27bd-037e-fad0-4afd" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="145d-bb9e-b1df-25e3" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="70e9-b8a8-7445-57c9" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="70e9-b8a8-7445-57c9" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48.0"/>
@@ -557,7 +566,7 @@
     <infoLink id="09c0-5423-95f5-f1eb" name="Back from the Grave" hidden="false" targetId="3ba0-c15b-e1fb-5a0a" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e821-508e-28f1-7215" name="Sand Storm (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e821-508e-28f1-7215" name="Sand Storm (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c27f-ad10-aa1e-ec80" name="Sand Storm (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -573,13 +582,13 @@
         <infoLink id="31af-9fb2-b62c-ed8f" name="Spell - Sand Storm" hidden="false" targetId="e6e2-b696-5fb1-b56d" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="82c5-37a7-7c8f-8d8d" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="82c5-37a7-7c8f-8d8d" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e209-61f6-fcda-7924" name="Weakness (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e209-61f6-fcda-7924" name="Weakness (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="f6d5-b27a-6cfc-6e85" name="Weakness" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -595,7 +604,7 @@
         <infoLink id="a910-3d8a-d9e4-d7f4" name="Spell - Weakness" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="ff8d-37ff-01af-13fd" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="ff8d-37ff-01af-13fd" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
@@ -603,26 +612,26 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="c033-2980-b549-f3c8" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="c033-2980-b549-f3c8" name=" Spellbook - Empire of Dust (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a4-a588-3fb0-da16" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="9cba-5a28-c817-7862" name="Weakness" hidden="false" collective="false" targetId="e209-61f6-fcda-7924" type="selectionEntry">
+        <entryLink id="9cba-5a28-c817-7862" name="Weakness" hidden="false" collective="false" import="true" targetId="e209-61f6-fcda-7924" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd2a-c4b9-a063-1d92" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cbc1-e3d2-0a35-c28d" name="Sand Storm (long)" hidden="false" collective="false" targetId="e821-508e-28f1-7215" type="selectionEntry">
+        <entryLink id="cbc1-e3d2-0a35-c28d" name="Sand Storm (long)" hidden="false" collective="false" import="true" targetId="e821-508e-28f1-7215" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b1-e3da-da3b-3bd0" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3614-4389-a100-7db2" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="3614-4389-a100-7db2" name=" Spellbook - Empire of Dust (Paid)" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="26ec-c102-a750-0176" name="Sand Storm (long)" hidden="false" collective="false" targetId="e821-508e-28f1-7215" type="selectionEntry">
+        <entryLink id="26ec-c102-a750-0176" name="Sand Storm (long)" hidden="false" collective="false" import="true" targetId="e821-508e-28f1-7215" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -630,7 +639,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6591-a850-8fd1-7693" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="aea0-96f2-4398-777c" name="Weakness" hidden="false" collective="false" targetId="e209-61f6-fcda-7924" type="selectionEntry">
+        <entryLink id="aea0-96f2-4398-777c" name="Weakness" hidden="false" collective="false" import="true" targetId="e209-61f6-fcda-7924" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -640,22 +649,22 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d4fd-7e38-9f21-f0e9" name=" Spellbook - Basic High Priest" page="" hidden="false" collective="false">
+    <selectionEntryGroup id="d4fd-7e38-9f21-f0e9" name=" Spellbook - Basic High Priest" page="" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="2d10-a6c2-eaa1-eba2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1c31-94f8-d19c-447b" name="Windblast (long)" hidden="false" collective="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
-        <entryLink id="6e36-3e84-b43b-8cd0" name="Fireball (short)" hidden="false" collective="false" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
-        <entryLink id="c933-398f-dcc7-8acf" name="Heal (short)" hidden="false" collective="false" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
+        <entryLink id="1c31-94f8-d19c-447b" name="Windblast (long)" hidden="false" collective="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink id="6e36-3e84-b43b-8cd0" name="Fireball (short)" hidden="false" collective="false" import="true" targetId="1000-11e2-0937-9685" type="selectionEntry"/>
+        <entryLink id="c933-398f-dcc7-8acf" name="Heal (short)" hidden="false" collective="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8dba-cce0-6eb7-6644" name=" Spellbook - Basic Enslaved Guardian" page="" hidden="false" collective="false">
+    <selectionEntryGroup id="8dba-cce0-6eb7-6644" name=" Spellbook - Basic Enslaved Guardian" page="" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="160b-2c22-5fd8-3c75" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f9f7-c264-e870-d0df" name="Windblast (long)" hidden="false" collective="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink id="f9f7-c264-e870-d0df" name="Windblast (long)" hidden="false" collective="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

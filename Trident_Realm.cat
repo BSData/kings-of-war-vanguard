@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1696-0eed-a727-7052" name="The Trident Realm" revision="2" battleScribeVersion="2.02" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" authorUrl="https://github.com/BitPsycho/BS_KOW_Vanguard/" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1696-0eed-a727-7052" name="The Trident Realm" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" authorUrl="https://github.com/BitPsycho/BS_KOW_Vanguard/" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1696-0eed-pubN65537" name="Vanguard abridged Warbands-dec31.pdf"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="4b76-23c7-8441-b2dd" name="Otter Bevy" hidden="false" collective="false" type="model">
+    <selectionEntry id="4b76-23c7-8441-b2dd" name="Otter Bevy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="0ac3-d236-ca3c-1c1d" value="1">
           <repeats>
@@ -47,13 +47,13 @@
         <categoryLink id="2c26-92b0-ea7b-9b30" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1fe2-6df7-160e-653e" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="1fe2-6df7-160e-653e" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8fb-f2e2-3040-217e" name="Naiad Heartpiercer" hidden="false" collective="false" type="model">
+    <selectionEntry id="e8fb-f2e2-3040-217e" name="Naiad Heartpiercer" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="4619-bf44-b5db-209f" value="1">
           <repeats>
@@ -95,7 +95,7 @@
         <categoryLink id="a4e7-6100-cbbd-1e2b" name="Warrior" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6eff-f55f-7d10-4666" name="Harpoon-gun" hidden="false" collective="false" targetId="d71a-d386-7476-f5d0" type="selectionEntry">
+        <entryLink id="6eff-f55f-7d10-4666" name="Harpoon-gun" hidden="false" collective="false" import="true" targetId="d71a-d386-7476-f5d0" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -104,14 +104,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e49-4852-cc8f-4a04" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="aa7f-3920-abf9-b0f1" name="Items - Common" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="a535-e3a5-eb36-71a3" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="aa7f-3920-abf9-b0f1" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a535-e3a5-eb36-71a3" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56be-d423-328c-cef8" name="Giga" hidden="false" collective="false" type="model">
+    <selectionEntry id="56be-d423-328c-cef8" name="Giga" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="f377-6cd2-6d5d-8fca" value="1">
           <repeats>
@@ -156,13 +156,13 @@
         <categoryLink id="6798-28d2-ec7c-2320" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e35a-8842-f999-a4ed" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="e35a-8842-f999-a4ed" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9fa9-3e4c-6d10-1583" name="Riverguard Sentinel" hidden="false" collective="false" type="model">
+    <selectionEntry id="9fa9-3e4c-6d10-1583" name="Riverguard Sentinel" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="6f35-5a9a-1b0a-c2ac" value="1">
           <repeats>
@@ -210,7 +210,7 @@
         <categoryLink id="2bf4-5e06-2734-9dfa" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="72ae-cf26-0b49-f40b" name="Javelin" hidden="false" collective="false" targetId="b0c4-65da-186f-f194" type="selectionEntry">
+        <entryLink id="72ae-cf26-0b49-f40b" name="Javelin" hidden="false" collective="false" import="true" targetId="b0c4-65da-186f-f194" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -219,13 +219,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4816-bec5-ca23-6f4c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="953a-05df-8f33-b392" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="953a-05df-8f33-b392" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1ba-ed3d-22a4-bc66" name="Riverguard" hidden="false" collective="false" type="model">
+    <selectionEntry id="c1ba-ed3d-22a4-bc66" name="Riverguard" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="595e-8613-14f3-a6fa" value="1.0">
           <repeats>
@@ -270,9 +270,9 @@
         <categoryLink id="ced0-70c3-d904-8b67" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4326-9545-18c9-a67e" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="9869-6434-5c9d-a11b" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="97a6-7cc3-5557-e1b1" name="Javelin" hidden="false" collective="false" targetId="b0c4-65da-186f-f194" type="selectionEntry">
+        <entryLink id="4326-9545-18c9-a67e" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="9869-6434-5c9d-a11b" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="97a6-7cc3-5557-e1b1" name="Javelin" hidden="false" collective="false" import="true" targetId="b0c4-65da-186f-f194" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -286,7 +286,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ea9-61f3-f09f-d1dc" name="Thuul" hidden="false" collective="false" type="model">
+    <selectionEntry id="2ea9-61f3-f09f-d1dc" name="Thuul" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="3b79-2bde-a2d7-d448" value="1">
           <repeats>
@@ -325,14 +325,14 @@
         <categoryLink id="d9d3-5e52-b848-f991" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="afb5-59ba-069a-e829" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="6ed6-1161-ae62-d856" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="afb5-59ba-069a-e829" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="6ed6-1161-ae62-d856" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c63-3743-fd7d-070e" name="Thuul Mythican" hidden="false" collective="false" type="model">
+    <selectionEntry id="9c63-3743-fd7d-070e" name="Thuul Mythican" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="0883-fc05-f907-bf51" value="1">
           <repeats>
@@ -375,8 +375,8 @@
         <categoryLink id="01c8-c1f8-da89-1328" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d4fc-f193-2a6b-c5e3" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="1728-08cc-04df-c7da" name=" Spellbook - Basic Thuul Mythican" hidden="false" collective="false" targetId="9d50-15cd-cc21-61c9" type="selectionEntryGroup">
+        <entryLink id="d4fc-f193-2a6b-c5e3" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="1728-08cc-04df-c7da" name=" Spellbook - Basic Thuul Mythican" hidden="false" collective="false" import="true" targetId="9d50-15cd-cc21-61c9" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="9cd8-75ed-6dae-2ad1" value="1">
               <repeats>
@@ -394,15 +394,15 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7c03-0d51-6ebd-6b59" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="dd85-dc6d-d788-29ba" name=" Spellbook - The Trident Realm (Paid)" hidden="false" collective="false" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
-        <entryLink id="5613-41a0-70fa-4e21" name=" Spellbook - Primoridal" hidden="false" collective="false" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
-        <entryLink id="61d9-854a-88b9-ea88" name=" Spellbook - The Trident Realm (Free)" hidden="false" collective="false" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
+        <entryLink id="dd85-dc6d-d788-29ba" name=" Spellbook - The Trident Realm (Paid)" hidden="false" collective="false" import="true" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
+        <entryLink id="5613-41a0-70fa-4e21" name=" Spellbook - Primoridal" hidden="false" collective="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink id="61d9-854a-88b9-ea88" name=" Spellbook - The Trident Realm (Free)" hidden="false" collective="false" import="true" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a665-20c6-3a04-54b2" name="Water Elemental" hidden="false" collective="false" type="model">
+    <selectionEntry id="a665-20c6-3a04-54b2" name="Water Elemental" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="d217-454c-8a0e-5f9c" value="1">
           <repeats>
@@ -445,13 +445,13 @@
         <categoryLink id="eae5-46ba-b0fb-30f9" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6001-29c2-8c40-18a6" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="6001-29c2-8c40-18a6" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e944-4c48-43c6-df62" name="Naiad Lurker" hidden="false" collective="false" type="model">
+    <selectionEntry id="e944-4c48-43c6-df62" name="Naiad Lurker" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="14f6-1009-9c58-11c3" value="1">
           <repeats>
@@ -495,7 +495,7 @@
         <categoryLink id="dd1a-49d5-3056-0324" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="97a3-5c08-18a9-45c1" name="Net" hidden="false" collective="false" targetId="f0f3-31e0-0168-f571" type="selectionEntry">
+        <entryLink id="97a3-5c08-18a9-45c1" name="Net" hidden="false" collective="false" import="true" targetId="f0f3-31e0-0168-f571" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -504,7 +504,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="214e-9192-c648-6ecf" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c259-b090-95d7-6a1a" name="Trident" hidden="false" collective="false" targetId="d7a4-ea56-28b9-e013" type="selectionEntry">
+        <entryLink id="c259-b090-95d7-6a1a" name="Trident" hidden="false" collective="false" import="true" targetId="d7a4-ea56-28b9-e013" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -513,13 +513,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2b-8695-e8fb-3a76" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="be48-4c3d-4dbc-bb8e" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="be48-4c3d-4dbc-bb8e" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="43a5-2a04-0c45-4feb" name="Naiad Centurion" hidden="false" collective="false" type="model">
+    <selectionEntry id="43a5-2a04-0c45-4feb" name="Naiad Centurion" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="462a-a9b6-ad88-b1a7" value="1">
           <repeats>
@@ -565,7 +565,7 @@
         <categoryLink id="92ed-d135-1b6e-68ff" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e9b6-4bd9-ba11-59fc" name="Harpoon-gun" hidden="false" collective="false" targetId="d71a-d386-7476-f5d0" type="selectionEntry">
+        <entryLink id="e9b6-4bd9-ba11-59fc" name="Harpoon-gun" hidden="false" collective="false" import="true" targetId="d71a-d386-7476-f5d0" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -574,13 +574,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7023-0e9c-d6cc-e29f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8410-1c4e-5db2-3862" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="8410-1c4e-5db2-3862" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="14ca-e8cb-89a8-5e85" name="Naiad Initiate" hidden="false" collective="false" type="model">
+    <selectionEntry id="14ca-e8cb-89a8-5e85" name="Naiad Initiate" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="83ae-9db8-e5c0-6942" value="1.0">
           <repeats>
@@ -622,7 +622,7 @@
         <categoryLink id="1e11-afbb-11d8-c455" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e6a7-060b-6022-ff59" name="Trident" hidden="false" collective="false" targetId="d7a4-ea56-28b9-e013" type="selectionEntry">
+        <entryLink id="e6a7-060b-6022-ff59" name="Trident" hidden="false" collective="false" import="true" targetId="d7a4-ea56-28b9-e013" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
           </modifiers>
@@ -631,14 +631,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0914-3236-6cea-6521" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="746a-22a2-919e-65f2" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="4181-1555-a26b-18ee" name="Rule Check - Base Unit Count" hidden="false" collective="false" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="746a-22a2-919e-65f2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4181-1555-a26b-18ee" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbcd-88f7-4d5d-37cf" name="Mythican Aquamage" hidden="false" collective="false" type="model">
+    <selectionEntry id="fbcd-88f7-4d5d-37cf" name="Mythican Aquamage" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="ef38-176f-cb60-39d9" value="1.0">
           <repeats>
@@ -682,8 +682,8 @@
         <categoryLink id="eeb3-98af-3688-f4b2" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b56c-1269-4edd-4ce4" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
-        <entryLink id="9482-3688-31b3-805b" name=" Spellbook - Basic Mythican Aquamage" hidden="false" collective="false" targetId="e386-c40c-67ca-6c71" type="selectionEntryGroup">
+        <entryLink id="b56c-1269-4edd-4ce4" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9482-3688-31b3-805b" name=" Spellbook - Basic Mythican Aquamage" hidden="false" collective="false" import="true" targetId="e386-c40c-67ca-6c71" type="selectionEntryGroup">
           <modifiers>
             <modifier type="decrement" field="80ee-74d0-783d-71d4" value="1.0">
               <repeats>
@@ -701,16 +701,16 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7bd9-bc85-fae8-c9ed" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="f96d-6b29-f069-2286" name=" Spellbook - The Trident Realm (Paid)" hidden="false" collective="false" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
-        <entryLink id="6169-c228-2883-709d" name=" Spellbook - Primoridal" hidden="false" collective="false" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
-        <entryLink id="5b28-5e53-785f-8223" name=" Spellbook - The Trident Realm (Free)" hidden="false" collective="false" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
-        <entryLink id="c878-342e-e8fd-727e" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
+        <entryLink id="f96d-6b29-f069-2286" name=" Spellbook - The Trident Realm (Paid)" hidden="false" collective="false" import="true" targetId="26e9-51fe-f21a-8985" type="selectionEntryGroup"/>
+        <entryLink id="6169-c228-2883-709d" name=" Spellbook - Primoridal" hidden="false" collective="false" import="true" targetId="6890-416f-3aac-976f" type="selectionEntryGroup"/>
+        <entryLink id="5b28-5e53-785f-8223" name=" Spellbook - The Trident Realm (Free)" hidden="false" collective="false" import="true" targetId="7006-4753-dc92-1c1c" type="selectionEntryGroup"/>
+        <entryLink id="c878-342e-e8fd-727e" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5851-e725-db14-f584" name="Riverguard Treeleaper" hidden="false" collective="false" type="model">
+    <selectionEntry id="5851-e725-db14-f584" name="Riverguard Treeleaper" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="8184-8021-edd8-77b2" value="1.0">
           <repeats>
@@ -756,13 +756,13 @@
         <categoryLink id="7bbf-9061-168d-8524" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="78ca-89a4-fe7d-51bf" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="78ca-89a4-fe7d-51bf" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56ee-2e8b-6990-9ed2" name="Riverguard Dambuster" hidden="false" collective="false" type="model">
+    <selectionEntry id="56ee-2e8b-6990-9ed2" name="Riverguard Dambuster" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="7420-bd3e-0f95-5ccf" value="1.0">
           <repeats>
@@ -810,13 +810,13 @@
         <categoryLink id="d6eb-9a63-d2aa-3b54" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c5b3-a0de-bcdf-a02c" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c5b3-a0de-bcdf-a02c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8e8-88b5-66d1-530a" name="Placoderm Defender" hidden="false" collective="false" type="model">
+    <selectionEntry id="d8e8-88b5-66d1-530a" name="Placoderm Defender" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="b9ba-150a-ddac-5836" value="1.0">
           <repeats>
@@ -862,13 +862,13 @@
         <categoryLink id="b6c2-6b44-dbb6-525c" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="01e5-12e0-420e-03e8" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="01e5-12e0-420e-03e8" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecd9-6a06-b221-97ac" name="Naiad Envoy" hidden="false" collective="false" type="model">
+    <selectionEntry id="ecd9-6a06-b221-97ac" name="Naiad Envoy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="cdb0-a820-805f-4d73" value="1.0">
           <repeats>
@@ -912,13 +912,13 @@
         <categoryLink id="4ea2-603a-a3a1-3197" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1e6c-4800-627a-5a7f" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="1e6c-4800-627a-5a7f" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d26-a269-4965-a803" name="Riverguard Dambuster Sentinel" hidden="false" collective="false" type="model">
+    <selectionEntry id="9d26-a269-4965-a803" name="Riverguard Dambuster Sentinel" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="cd7f-0d07-d6eb-ecfe" value="1.0">
           <repeats>
@@ -968,7 +968,8 @@
         <categoryLink id="4be8-48ab-3ce9-2520" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ef9b-79ca-9455-4dfc" name=" Items" hidden="false" collective="false" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ef9b-79ca-9455-4dfc" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="0b60-028b-040d-dbda" name="Rule Check - Is Large Command" hidden="false" collective="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
@@ -979,7 +980,7 @@
     <infoLink id="dfee-30d3-c1ac-c2cf" name="Rising Tides (2)" hidden="false" targetId="fd9f-cfe1-fed3-435a" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3e97-62a4-37d3-7986" name="Crushing Pressure (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3e97-62a4-37d3-7986" name="Crushing Pressure (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a7db-0f45-ce00-378a" name="Crushing Pressure (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -995,13 +996,13 @@
         <infoLink id="46b4-049f-f76d-3eda" name="Spell - Crushing Pressure" hidden="false" targetId="7a97-4229-8776-c990" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="af9a-86e0-a700-f9e2" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="af9a-86e0-a700-f9e2" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d1e0-1b53-1c49-d174" name="Riptide (long)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d1e0-1b53-1c49-d174" name="Riptide (long)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="e2d0-2afd-b58f-32f5" name="Riptide (long)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -1017,13 +1018,13 @@
         <infoLink id="2436-9622-83c4-1a6b" name="Spell - Riptide" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="f916-4ce6-c78f-5439" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="f916-4ce6-c78f-5439" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d71a-d386-7476-f5d0" name="Harpoon-gun" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d71a-d386-7476-f5d0" name="Harpoon-gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="497e-058c-5430-3f04" name="Harpoon-gun" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -1039,7 +1040,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b0c4-65da-186f-f194" name="Javelin" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b0c4-65da-186f-f194" name="Javelin" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="278a-b83c-1c8b-6b80" name="Javelin" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
@@ -1055,7 +1056,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7a4-ea56-28b9-e013" name="Trident" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d7a4-ea56-28b9-e013" name="Trident" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="62be-a121-03f9-2092" name="Trident" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -1070,7 +1071,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0f3-31e0-0168-f571" name="Net" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f0f3-31e0-0168-f571" name="Net" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="408a-fa0e-3d99-4fb3" name="Net" hidden="false" typeId="d208-3ff2-f4a5-7e56" typeName="Equipment - Melee">
           <characteristics>
@@ -1085,7 +1086,7 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="546f-b6d9-0128-becb" name="Riptide (short)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="546f-b6d9-0128-becb" name="Riptide (short)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="5c75-b1d6-f77b-316d" name="Riptide (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
@@ -1101,7 +1102,7 @@
         <infoLink id="cec4-f8bb-7266-9727" name="Spell - Riptide" hidden="false" targetId="8f7e-a461-a88b-93a4" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="3a6a-148e-dc82-90b9" name="Rule Check - Is Faction Spell" hidden="false" collective="false" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
+        <entryLink id="3a6a-148e-dc82-90b9" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" targetId="8264-6e8e-3e44-c2c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
@@ -1109,26 +1110,26 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="7006-4753-dc92-1c1c" name=" Spellbook - The Trident Realm (Free)" hidden="false" collective="false">
+    <selectionEntryGroup id="7006-4753-dc92-1c1c" name=" Spellbook - The Trident Realm (Free)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a4-a588-3fb0-da16" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="25a6-6c1c-c3c1-03ea" name="Crushing Pressure (long)" hidden="false" collective="false" targetId="3e97-62a4-37d3-7986" type="selectionEntry">
+        <entryLink id="25a6-6c1c-c3c1-03ea" name="Crushing Pressure (long)" hidden="false" collective="false" import="true" targetId="3e97-62a4-37d3-7986" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e07-0d02-dbb1-475d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ac51-b8dd-b323-4846" name="Riptide (long)" hidden="false" collective="false" targetId="d1e0-1b53-1c49-d174" type="selectionEntry">
+        <entryLink id="ac51-b8dd-b323-4846" name="Riptide (long)" hidden="false" collective="false" import="true" targetId="d1e0-1b53-1c49-d174" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aae-a5b3-751f-8801" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="26e9-51fe-f21a-8985" name=" Spellbook - The Trident Realm (Paid)" hidden="false" collective="false">
+    <selectionEntryGroup id="26e9-51fe-f21a-8985" name=" Spellbook - The Trident Realm (Paid)" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="9b1d-a5cc-c74e-8a1c" name="Riptide (long)" hidden="false" collective="false" targetId="d1e0-1b53-1c49-d174" type="selectionEntry">
+        <entryLink id="9b1d-a5cc-c74e-8a1c" name="Riptide (long)" hidden="false" collective="false" import="true" targetId="d1e0-1b53-1c49-d174" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -1136,7 +1137,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2508-949f-283b-45b5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8675-5ad5-0e16-5f64" name="Crushing Pressure (long)" hidden="false" collective="false" targetId="3e97-62a4-37d3-7986" type="selectionEntry">
+        <entryLink id="8675-5ad5-0e16-5f64" name="Crushing Pressure (long)" hidden="false" collective="false" import="true" targetId="3e97-62a4-37d3-7986" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="10"/>
           </modifiers>
@@ -1146,22 +1147,22 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9d50-15cd-cc21-61c9" name=" Spellbook - Basic Thuul Mythican" page="" hidden="false" collective="false">
+    <selectionEntryGroup id="9d50-15cd-cc21-61c9" name=" Spellbook - Basic Thuul Mythican" page="" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="2d10-a6c2-eaa1-eba2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1c31-94f8-d19c-447b" name="Windblast (long)" hidden="false" collective="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
-        <entryLink id="0a0f-84f2-1865-5919" name="Shockwave (long)" hidden="false" collective="false" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
-        <entryLink id="b02d-ed57-7557-392d" name="Stun (short)" hidden="false" collective="false" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
+        <entryLink id="1c31-94f8-d19c-447b" name="Windblast (long)" hidden="false" collective="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
+        <entryLink id="0a0f-84f2-1865-5919" name="Shockwave (long)" hidden="false" collective="false" import="true" targetId="c138-2461-fd50-e309" type="selectionEntry"/>
+        <entryLink id="b02d-ed57-7557-392d" name="Stun (short)" hidden="false" collective="false" import="true" targetId="b952-579e-3ca1-9ae0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e386-c40c-67ca-6c71" name=" Spellbook - Basic Mythican Aquamage" page="" hidden="false" collective="false">
+    <selectionEntryGroup id="e386-c40c-67ca-6c71" name=" Spellbook - Basic Mythican Aquamage" page="" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="5a61-e372-120c-1601" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7d13-1a18-e8e1-fc0d" name="Chain Lightning (long)" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7d13-1a18-e8e1-fc0d" name="Chain Lightning (long)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5916-3e7d-9f52-0581" type="max"/>
           </constraints>
@@ -1179,8 +1180,11 @@
           <infoLinks>
             <infoLink id="7605-a743-70a8-cab5" name="Spell - Piercing (2)" hidden="false" targetId="2d6c-7f42-6d86-f6fc" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+          </costs>
         </selectionEntry>
-        <selectionEntry id="49eb-efb3-016a-fd43" name="Waterlogged (long)" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="49eb-efb3-016a-fd43" name="Waterlogged (long)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f2a3-3edd-d455-77d8" type="max"/>
           </constraints>
@@ -1198,10 +1202,13 @@
           <categoryLinks>
             <categoryLink id="8636-d850-14cc-f992" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c7b8-c694-b393-46e2" name="Riptide (short)" hidden="false" collective="false" targetId="546f-b6d9-0128-becb" type="selectionEntry">
+        <entryLink id="c7b8-c694-b393-46e2" name="Riptide (short)" hidden="false" collective="false" import="true" targetId="546f-b6d9-0128-becb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c5c-6767-6f42-a192" type="max"/>
           </constraints>
