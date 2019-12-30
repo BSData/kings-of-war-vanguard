@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9698-4b04-20b4-d6aa" name="Orcs" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9698-4b04-20b4-d6aa" name="Orcs" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a49b-da25-eabc-7ce4" name="Orclings" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -121,10 +121,10 @@
         <profile id="afed-8fd8-92b7-6107" name="Krusher" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">3+</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
             <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">7+</characteristic>
             <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">4+</characteristic>
-            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">4</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
@@ -174,7 +174,7 @@
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
             <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">5+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">5+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
@@ -288,7 +288,7 @@
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
             <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">1D8</characteristic>
-            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">3D8</characteristic>
             <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Evil</characteristic>
             <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Orc</characteristic>
             <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
@@ -367,7 +367,7 @@
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="8227-3f36-9ac9-0a59" value="1">
+        <modifier type="increment" field="8227-3f36-9ac9-0a59" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -399,7 +399,7 @@
         <infoLink id="ecd9-476e-d62a-7dca" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink id="40d7-8f48-7085-8fdd" name="Regenerate (6+)" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
         <infoLink id="6dd0-ae75-1dad-6f9c" name="Pound" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
-        <infoLink id="d970-abde-ad8a-b52f" name="Vicious Swipe" hidden="false" targetId="e30a-6249-5d89-dbb6" type="rule"/>
+        <infoLink id="7eda-38bf-4000-01d1" name="Vicious Swipe" hidden="false" targetId="e30a-6249-5d89-dbb6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8507-43ad-d72d-cde8" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
@@ -486,7 +486,7 @@
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
             <characteristic name="Me" typeId="2554-7056-7252-7cb0">5+</characteristic>
             <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
-            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
             <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
