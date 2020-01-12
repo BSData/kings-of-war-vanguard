@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ffea-0323-9705-b48e" name="Northern Alliance" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ffea-0323-9705-b48e" name="Northern Alliance" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ffea-0323-pubN70796" name="Rulebook"/>
   </publications>
@@ -165,12 +165,12 @@
     </selectionEntry>
     <selectionEntry id="879e-2eee-0e9f-0f03" name="Huscarl" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="eafb-9246-f4a2-6291" value="1">
+        <modifier type="increment" field="eafb-9246-f4a2-6291" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="31a2-6d0e-31fa-6d90" value="1">
+        <modifier type="increment" field="31a2-6d0e-31fa-6d90" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -211,12 +211,12 @@
     </selectionEntry>
     <selectionEntry id="3370-de14-1830-b042" name="Half-Elf Berserker" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="78ff-e465-2787-ac66" value="1">
+        <modifier type="increment" field="78ff-e465-2787-ac66" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="6284-b2b7-3bf8-2581" value="1">
+        <modifier type="increment" field="6284-b2b7-3bf8-2581" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -249,7 +249,6 @@
         <infoLink id="d89d-6991-4779-65be" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2d54-bbd7-ae2c-87d1" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="false"/>
         <categoryLink id="a8e0-3f38-9af8-0ab8" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
@@ -414,6 +413,7 @@
         <infoLink id="5292-d250-5b9a-a3dc" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink id="ce1d-f05e-9971-b544" name="Pound" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule"/>
         <infoLink id="713e-cf9c-1648-14a6" name="Ice Blast (1)" hidden="false" targetId="5d80-fea9-b189-b720" type="rule"/>
+        <infoLink id="9109-62fa-99cf-ba65" name="ICY BREATH (2) " hidden="false" targetId="7841-792d-2343-0277" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ef54-2c9e-5b3c-d79f" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
@@ -427,6 +427,7 @@
         </entryLink>
         <entryLink id="a9f1-0ab5-a9fe-df9c" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
         <entryLink id="2a80-6f49-c870-788a" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4d3a-005e-9b3c-b4d6" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="47.0"/>
@@ -478,7 +479,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="33bd-7a35-ad7a-758f" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
-        <entryLink id="b336-a0cf-115e-96ea" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="cfc2-6190-16ca-5b19" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -531,6 +532,7 @@
       <entryLinks>
         <entryLink id="a4db-231a-c4e3-b279" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
         <entryLink id="3b6d-e1ba-b5f4-5bca" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9135-e7d0-a76a-c313" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -585,6 +587,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="87c5-24f0-22bc-7925" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="8284-2f20-e7b4-e4f2" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
@@ -641,6 +644,7 @@
         <entryLink id="2441-996e-0942-fa43" name="Rule Check - Is Large Command" hidden="false" collective="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
         <entryLink id="17fa-c5be-79db-630e" name="Rule Check - Allows 1 more Large then Normal" hidden="false" collective="false" import="true" targetId="36af-b45d-473d-d895" type="selectionEntry"/>
         <entryLink id="3bd0-469e-b593-0406" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="51c8-abb5-91f3-1810" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
@@ -692,6 +696,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="a36e-38dd-1dec-2ba6" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="cec9-5857-a353-b9de" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="39.0"/>
@@ -770,7 +775,7 @@
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="6bfa-4e8a-573d-8ca9" name="Hardy Veterans (1)" hidden="false">
+    <rule id="6bfa-4e8a-573d-8ca9" name="HARDY VETERANS (1)" hidden="false">
       <description>Use this ability when a model would be knocked down, Spend 1 power to gain the Steady ability for this attack. Models that already have Steady may re-roll the result. This ability may be used any number of time in a Round.</description>
     </rule>
     <rule id="c0ca-1849-6fe6-9e5e" name="Talannar’s Pack" hidden="false">
@@ -834,6 +839,9 @@
         <infoLink id="7d2b-03ed-9b58-a05a" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
         <infoLink id="c5d6-b523-4647-cc52" name="Weapon - Frost Hammer" hidden="false" targetId="79a0-5d5c-4b24-84a8" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="9bcb-d8d8-e6e3-4f04" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1.0"/>
       </costs>
@@ -918,7 +926,7 @@
             <categoryLink id="590f-09cd-e964-9eef" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
+            <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -926,7 +934,6 @@
         <entryLink id="3c02-90e6-c37d-d8fb" name="Heal (short)" hidden="false" collective="false" import="true" targetId="85f7-47a9-b45a-d785" type="selectionEntry"/>
         <entryLink id="241c-886f-314d-bf99" name="Lightning Bolt (long)" hidden="false" collective="false" import="true" targetId="5a49-5dec-45cd-0ef2" type="selectionEntry"/>
         <entryLink id="accc-fa6f-feb4-d208" name="Windblast (long)" hidden="false" collective="false" import="true" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry"/>
-        <entryLink id="260a-3d76-6ec9-004f" name="Darklord&apos;s Onyx Ring (Rare)" hidden="false" collective="false" import="true" targetId="8161-92ec-9fdb-9fce" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9fe7-6a3f-1b49-6e01" name=" Spellbook - Northern Alliance (Paid)" hidden="false" collective="false" import="true">
@@ -954,13 +961,13 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="7543-6f96-15f0-8234" name="Frenzy (1)" hidden="false">
+    <rule id="7543-6f96-15f0-8234" name="FRENZY (1)" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus dice for a roll.</description>
     </rule>
-    <rule id="6844-5a38-9d94-2b07" name="Rapid Fire (2)" hidden="false">
+    <rule id="6844-5a38-9d94-2b07" name="RAPID FIRE (2)" hidden="false">
       <description>Use this ability when this model is about to perform a ranged attack, before dice are rolled. The model may shoot twice at two different targets that are within 3&quot; of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
     </rule>
-    <rule id="5d80-fea9-b189-b720" name="Ice Blast (1)" hidden="false">
+    <rule id="5d80-fea9-b189-b720" name="ICE BLAST (1)" hidden="false">
       <description>Use this ability when a model is knocked down by this elemental in Melee. The model must take a Nerve test. If the test is failed, the model is marked as Fatigued.</description>
     </rule>
     <rule id="2714-56d3-a46b-0f22" name="Spell - Icy Breath (2)" hidden="false">
@@ -969,10 +976,10 @@
     <rule id="1453-a604-8789-f293" name="Vicious Swipe" hidden="false">
       <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
-    <rule id="eb4b-1dd8-49ac-39dc" name="Head Swing (1)" hidden="false">
+    <rule id="eb4b-1dd8-49ac-39dc" name="HEAD SWING (1)" hidden="false">
       <description>Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. Every enemy model that is Engaged with this model must make a Nerve test with a -1 Modifier. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</description>
     </rule>
-    <rule id="8778-5d9f-7ab1-456e" name="Blade Master (2)" hidden="false">
+    <rule id="8778-5d9f-7ab1-456e" name="BLADE MASTER (2)" hidden="false">
       <description>Use this ability when this model makes a Melee attack (including Retaliations) before dice are rolled. The Ice Blade may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the Ice Blade initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the Ice Blade’s attacks are resolved. Bonus die granted for the status of models (e.g. knocked-down) can only be allocated to that model).</description>
     </rule>
     <rule id="ffa6-6048-3d20-7166" name="Spell - Hold Fast" hidden="false">
@@ -991,8 +998,11 @@ Cast as a long action instead. As above, but the modifier is increased to +2 and
     <rule id="79a0-5d5c-4b24-84a8" name="Weapon - Frost Hammer" hidden="false">
       <description>A great two-handed hammer wielded by the Dwarf clans in the North. The model gains Crushing Strength (1) and increases its Ar by 1.</description>
     </rule>
-    <rule id="eed2-78c2-dbd5-daae" name="Lash (1)" hidden="false">
+    <rule id="eed2-78c2-dbd5-daae" name="LASH (1)" hidden="false">
       <description>use this ability when casting the Lightning Bolt spell to make it a short action to cast instead of a long action.</description>
+    </rule>
+    <rule id="7841-792d-2343-0277" name="ICY BREATH (2) " hidden="false">
+      <description>Use this ability when taking a Shoot action. Make a Ranged attack using an Ra value of 5+, 3D8, Range 9”, Breath, Piercing (1).</description>
     </rule>
   </sharedRules>
 </catalogue>

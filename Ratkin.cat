@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1bf8-e261-53ce-da80" name="Ratkin" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1bf8-e261-53ce-da80" name="Ratkin" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1bf8-e261-pubN68796" name="Rulebook"/>
   </publications>
@@ -171,8 +171,8 @@
         <profile id="483f-6c07-6ace-7401" name="Scurrier" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
           <characteristics>
             <characteristic name="Sp" typeId="cf71-9092-4511-812d">6</characteristic>
-            <characteristic name="Me" typeId="2554-7056-7252-7cb0">+</characteristic>
-            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">6+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">4+</characteristic>
             <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">6+</characteristic>
             <characteristic name="Ne" typeId="945e-25f3-67f4-228d">6+</characteristic>
             <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">2</characteristic>
@@ -256,6 +256,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0bbe-b10b-3318-b307" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="18af-2eba-951e-e86b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31.0"/>
@@ -306,6 +307,7 @@
       <entryLinks>
         <entryLink id="209e-05fd-dfb2-5df7" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="9d6f-e1e5-5429-d699" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9d0b-f870-fab8-66b4" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15.0"/>
@@ -358,6 +360,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f182-ebd9-635c-576c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="f3e9-6c32-9e33-78df" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -410,6 +413,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6b8a-5a32-8145-7389" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3cb2-843d-52d8-ae67" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="26.0"/>
@@ -603,7 +607,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="847d-7845-2686-6a4c" name="Bloody Frenzy (2)" hidden="false">
+    <rule id="847d-7845-2686-6a4c" name="BLOOD FRENZY (2)" hidden="false">
       <description>Use this ability at the start of one of your Turns. Until the end of the Round, all friendly Ratkin models have the Bloodlust special rule.</description>
     </rule>
     <rule id="7ec2-95a2-9ab0-7d81" name="Pack Mentality" hidden="false">
@@ -615,13 +619,13 @@
     <rule id="7bfc-b91a-1fb1-ca36" name="Spell - Lair" hidden="false">
       <description>Place a 1”x 6” marker anywhere within, or partly within, 6” of the caster, into Open Ground. The area described by the marker is a Lair opening and is Height 0 Impassable Terrain, but may be jumped across. In the End Phase of each Round roll a die. On a 3+, the Lair opening is removed. The casting model can only have one such Lair opening in play at any time. Any model touching the Lair opening, including when initially placed must roll a die and score less than their Sp. A roll of 8 always fails. Models failing suffer a Melee attack with 3D8, hitting on 5+ and with Crushing Strength (1). Models are then moved to the closest edge of the Lair opening and just clear of it. Models failing to jump across the lair opening are killed.</description>
     </rule>
-    <rule id="c5d8-75e7-2c84-2d20" name="Blazing Parry (2)" hidden="false">
+    <rule id="c5d8-75e7-2c84-2d20" name="BLAZING PARRY (2)" hidden="false">
       <description>Use this ability when an enemy model Retaliates against the War Chief. The enemy model rolls no dice and the attack fails. The enemy model is marked as both Activated and Fatigued.</description>
     </rule>
-    <rule id="0463-a247-0695-d99e" name="Insane Power Surge (n)" hidden="false">
+    <rule id="0463-a247-0695-d99e" name="INSANE POWER SURGE (n)" hidden="false">
       <description>Use this ability when this model is activated during one of your Turns. Declare how much power is being spent before casting any spells. For each power spent, the warlock can cast one of the spells it knows regardless of the action length. Spells can only be boosted if it costs additional power to do so. Resolve the effects of each spell before casting the next. Once all spells are cast, the Warlock is marked as both Activated and Fatigued and roll 1d8 for each spell that was cast. For each 6+ rolled, the Warlock suffers 1 automatic wound with no armour save possible.</description>
     </rule>
-    <rule id="9b78-ba22-b4ef-05be" name="Raking Claws (1)" hidden="false">
+    <rule id="9b78-ba22-b4ef-05be" name="RAKING CLAWS (1)" hidden="false">
       <description>Use this ability when making a Melee attack, before dice are rolled. Add 1 to the value of the model’s Crushing Strength for this Melee attack. This ability can be used any number of times each Round.</description>
     </rule>
     <rule id="3d31-d664-abf1-15f8" name="Limited Capability" hidden="false">

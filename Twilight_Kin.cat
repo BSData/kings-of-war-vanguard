@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c0ab-ccb6-c10b-a020" name="Twilight Kin" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c0ab-ccb6-c10b-a020" name="Twilight Kin" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c0ab-ccb6-pubN68676" name="Rulebook"/>
   </publications>
@@ -103,6 +103,7 @@
       <entryLinks>
         <entryLink id="d291-bfbb-bfed-0d53" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="ddc2-0b23-309a-40dc" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="6e9e-7045-3a8e-e862" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
@@ -258,6 +259,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0665-9af4-38dc-ebad" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9be8-53e8-41de-ac35" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
@@ -369,6 +371,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="760b-0c5e-859a-7373" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="6cf1-208f-9b0b-2943" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
@@ -488,6 +491,7 @@
       <entryLinks>
         <entryLink id="c099-7446-d372-1c9c" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="edfe-d9d0-04df-778c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a35a-6ef5-c347-c865" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="13.0"/>
@@ -607,7 +611,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="aa01-3403-023a-f3d1" name="Bitter and Twisted (2)" hidden="false">
+    <rule id="aa01-3403-023a-f3d1" name="BITTER AND TWISTED (2)" hidden="false">
       <description>Until the end of the current Round, all models in the warband of race ELF, have the Vicious special rule.</description>
     </rule>
     <rule id="0aab-ec42-b95e-ada2" name="Spell - Weeping Sores" hidden="false">
@@ -620,10 +624,10 @@ of 1 or 2, the Reaper is removed from play. The casting model may only have one 
     <rule id="0746-6214-0174-7e49" name="Whirlwind of Steel" hidden="false">
       <description>Enemy models making a Melee attack against this model, even if it is knocked-down, suffer a -1 modifier when rolling to hit.</description>
     </rule>
-    <rule id="a709-0ecb-9b8b-e287" name="Battle Rage (2)" hidden="false">
+    <rule id="a709-0ecb-9b8b-e287" name="BATTLE RAGE (2)" hidden="false">
       <description>If this model can Engage an enemy model with a follow-up move, it may spend the Power and Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
     </rule>
-    <rule id="3d46-c3f5-4d69-6b21" name="Range Boost (1)" hidden="false">
+    <rule id="3d46-c3f5-4d69-6b21" name="RANGE BOOST (1)" hidden="false">
       <description>Use this ability to increase the range of one of the caster’s spells by 3” (where a Range is specified). The RANGE BOOST must be paid for during the caster’s activation just before the chosen spell is cast.</description>
     </rule>
   </sharedRules>

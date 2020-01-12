@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e88b-1a93-1655-8518" name="The Herd" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e88b-1a93-1655-8518" name="The Herd" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e88b-1a93-pubN68569" name="Rulebook"/>
   </publications>
@@ -213,6 +213,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="e78c-27cd-da21-c725" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="82c4-ee2d-9aee-4947" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
@@ -374,6 +375,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9e5d-f300-946a-9c46" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3465-9933-484a-d722" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -511,6 +513,9 @@
         <infoLink id="4d4b-3e47-9aeb-86a4" name="Weapon - Two-handed Weapon" hidden="false" targetId="9cc5-255b-1a53-70f9" type="rule"/>
         <infoLink id="0763-06c5-9174-a7e4" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="9c78-8ecc-ab23-f192" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
@@ -578,7 +583,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="d05d-24e1-8d96-457d" name="Kyron&apos;s Hunt (2)" hidden="false">
+    <rule id="d05d-24e1-8d96-457d" name="KYRON&apos;S HUNT (2)" hidden="false">
       <description>This is a Group Action that may be used any number of times in a Round.
 
 Spend the Power to nominate a group and activate them together. The members of the group each make a Run action and gain the Pathfinder special rule for the duration of this action. The group members must finish their movement within 3” of each other and models may not Engage any enemy models with their movement.</description>
@@ -593,7 +598,7 @@ action, resolve the Melee attack by the charging model as normal. Once the attac
     <rule id="9cc5-255b-1a53-70f9" name="Weapon - Two-handed Weapon" hidden="false">
       <description>The model gains Crushing Strength (1), but increases its Armor by 1 (i.e 5+ becomes 6+).</description>
     </rule>
-    <rule id="761c-df41-f65b-e75b" name="Nature&apos;s Boon (1)" hidden="false">
+    <rule id="761c-df41-f65b-e75b" name="NATURE&apos;S BOON (1)" hidden="false">
       <description>Use this ability when taking a cast action. Nature’s Boon allows the model to cast a long action spell as a short action.</description>
     </rule>
     <rule id="898f-d6d6-12fc-e461" name="Tribal Hunter Shooting" hidden="false">
@@ -602,7 +607,7 @@ action, resolve the Melee attack by the charging model as normal. Once the attac
     <rule id="0708-fe76-01cf-9e01" name="Vengeful Spirits" hidden="false">
       <description>When this model is killed and removed from play, each enemy model it was Enganging or Engaged with must take a Nerve test. Any model that fails will suffer 1 wound with no armour save possible.</description>
     </rule>
-    <rule id="8046-8aec-abc7-47dc" name="Battle Rage (2)" hidden="false">
+    <rule id="8046-8aec-abc7-47dc" name="BATTLE RAGE (2)" hidden="false">
       <description>If this model can Engage an enemy model with a follow-up move, it may spend the Power and Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
     </rule>
   </sharedRules>

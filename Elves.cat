@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6b8c-7bea-1bbf-8c43" name="Elves" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6b8c-7bea-1bbf-8c43" name="Elves" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6b8c-7bea-pubN69348" name="Rulebook"/>
   </publications>
@@ -434,6 +434,9 @@
       <categoryLinks>
         <categoryLink id="65e6-b532-0eda-3249" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2e6-f932-ff76-b462" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
       </costs>
@@ -485,6 +488,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="c4ab-beff-dc21-10e0" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="0a99-4df8-2e10-11b3" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -527,6 +531,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="cf8b-3a9c-6304-f59c" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink id="eb75-0bb6-8bde-9377" name="RANGE BOOST (2)" hidden="false" targetId="a687-a3d2-7393-da18" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d5a5-d262-8c30-7e06" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true"/>
@@ -691,7 +696,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="6543-afd6-81e7-1358" name="Preternatural Agility (3)" hidden="false">
+    <rule id="6543-afd6-81e7-1358" name="PRETERNATURAL AGILITY (3)" hidden="false">
       <description>Until the end of the current Round, all models in the warband of race ELF, have the Parry and Dodge rules.</description>
     </rule>
     <rule id="b7f8-0717-4c24-a256" name="Spell - Enchant Weapons" hidden="false">
@@ -703,11 +708,14 @@
     <rule id="0b8e-c714-a3b4-aaa4" name="Combined Fire" hidden="false">
       <description>When involved in a Group Shoot Action, Kindred Archer models add +1 dice to their Ranged Attack roll if one or more other Kindred Archer models in the group fire at the same target.</description>
     </rule>
-    <rule id="3964-8390-8b0c-e0a7" name="Protect (n)" hidden="false">
+    <rule id="3964-8390-8b0c-e0a7" name="PROTECT (n)" hidden="false">
       <description>Pay (n) Power, up to the number of wounds the Guardian Shambler has left, to transfer any wounds just caused on a single friendly ELF model within 3” onto the Shambler instead. Reduce the Shambler’s wounds accordingly and remove it if it is reduced to zero. This ability can be used at any time.</description>
     </rule>
-    <rule id="9990-f7ae-46e1-15d8" name="Battle Rage (2)" hidden="false">
+    <rule id="9990-f7ae-46e1-15d8" name="BATTLE RAGE (2)" hidden="false">
       <description>If this model can Engage an enemy model with a follow-up move, it may Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
+    </rule>
+    <rule id="a687-a3d2-7393-da18" name="RANGE BOOST (2)" hidden="false">
+      <description>Use this ability to increase the range of one of the caster’s spells by 6” (where a Range is specified). The RANGE BOOST must be paid for during the caster’s activation just before the chosen spell is cast.</description>
     </rule>
   </sharedRules>
 </catalogue>

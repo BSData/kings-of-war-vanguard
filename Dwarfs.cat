@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8927-8290-f594-f21d" name="Dwarfs" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8927-8290-f594-f21d" name="Dwarfs" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8927-8290-pubN71629" name="Rulebook"/>
   </publications>
@@ -165,6 +165,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b5-b971-5101-97dd" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="ab73-d7d9-d731-30d4" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
@@ -282,6 +283,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c9-d767-a5e2-f410" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="eef8-6e35-4c4a-0315" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
@@ -333,6 +335,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="bc93-8f06-4bc9-a34d" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="1a4d-61a7-2430-424d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
@@ -383,6 +386,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6b27-ddf7-0021-2d22" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="a9b3-6fca-e414-7a94" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -434,6 +438,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="038c-ae90-3395-32c2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ab4c-7e8e-4950-9b7d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31.0"/>
@@ -626,6 +631,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f97-7699-a121-9ca6" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="1fca-fa55-5c3a-4f2a" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -849,6 +855,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fef-2f29-17e1-5e94" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="08ae-b4fb-3f5a-96e4" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -904,6 +911,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="10f8-44f8-3cb9-60be" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3754-d1a9-130f-d62f" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="43.0"/>
@@ -1090,7 +1098,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="2eb7-cba9-b223-8b07" name="Tactical Redeployment (2)" hidden="false">
+    <rule id="2eb7-cba9-b223-8b07" name="TACTICAL REDEPLOYMENT (2)" hidden="false">
       <description>Select a DWARF COMMAND model in the warband. All DWARF models within 9&quot;, including the nominated COMMAND model that are not knocked-down or Engaged, may immediately move up to 3&quot; in any direction, following the normal movement rules. Models are not marked as activated after moving if they are not already. Once any moves are completed, all models that were eligible to move are given a free Brace action (mark them all as such).</description>
     </rule>
     <rule id="f5ff-97ee-4d00-5dbd" name="Spell - Earthquake" hidden="false">
@@ -1123,7 +1131,7 @@
     <rule id="9fc5-7ae2-f0ff-b7d1" name="Cumbersome" hidden="false">
       <description>This model cannot Climb, or be given any kind of Mount.</description>
     </rule>
-    <rule id="1ce3-e861-11f8-0945" name="Tremor Stomp (2)" hidden="false">
+    <rule id="1ce3-e861-11f8-0945" name="TREMOR STOMP (2)" hidden="false">
       <description>Spend the Power to make a short action during this model&apos;s Turn to create a Shockwave. Use the rules for the Shockwave spell (not the boosted version). This is not considered to be the casting of a spell however. The model can be Engaged but must be standing to use Tremor Stomp. Armour rolls for models forced to move out of contact with the Steel Juggernaut are not required.</description>
     </rule>
     <rule id="3270-2e91-2529-bee7" name="Bullheaded" hidden="false">

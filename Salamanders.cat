@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a64-c3e7-75aa-c9d0" name="Salamanders" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a64-c3e7-75aa-c9d0" name="Salamanders" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6a64-c3e7-pubN69392" name="Rulebook"/>
   </publications>
@@ -175,6 +175,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="240a-bfdd-48c3-cebd" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="d165-18bd-8541-fab0" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="25.0"/>
@@ -230,6 +231,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c37-e2d0-308e-bdec" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="4ceb-5c15-cd94-e428" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
@@ -333,6 +335,7 @@
       <entryLinks>
         <entryLink id="fc17-c911-230b-2967" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="59a5-3382-698a-8568" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="86e0-136c-ec27-f951" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11.0"/>
@@ -515,6 +518,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="bd62-2ba1-c5cc-bb29" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c921-39e4-6e1a-8c3b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -613,6 +617,9 @@
         <infoLink id="021c-02df-3a90-a066" name="Weapon - Two-handed Weapon" hidden="false" targetId="28c2-80b7-60dc-49e8" type="rule"/>
         <infoLink id="19df-0289-aff6-b969" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="1c0d-6192-05e1-f8c7" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
@@ -702,25 +709,25 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="f0b8-f22c-622b-023f" name="Kthorlaq&apos;s Honour (1)" hidden="false">
+    <rule id="f0b8-f22c-622b-023f" name="KTHORLAQ&apos;S HONOUR (1)" hidden="false">
       <description>This ability may be used any time a SALAMANDER model fails a Fallback Check. The model automatically passes the test. It may be used more than once in a Round.</description>
     </rule>
-    <rule id="ae06-a1c5-957a-754b" name="Flames of Kthorlaq (1)" hidden="false">
+    <rule id="ae06-a1c5-957a-754b" name="FLAMES OF KTHORLAQ (1)" hidden="false">
       <description>Select a SALAMANDER model in the warband. The model gains Bloodlust and Smash until the end of the current Round.</description>
     </rule>
     <rule id="d174-58ff-d98b-2f27" name="Spell - Shimmer" hidden="false">
       <description>Enemy models targeting friendly models that are within 9” of the caster suffer a -1 modifier to hit with all attacks. This lasts until the end of the Round. Place a spell effect marker on the casting model as a reminder.</description>
     </rule>
-    <rule id="8b66-2b73-1c95-59cc" name="Fiery Breath (1)" hidden="false">
+    <rule id="8b66-2b73-1c95-59cc" name="FIERY BREATH (1)" hidden="false">
       <description>Use this ability when the model makes a Shoot action with Firebolt before any dice are rolled. The Firebolt loses the Piercing (1) rule but gains Breath instead for the attack.</description>
     </rule>
-    <rule id="74ed-1e07-5ea2-71eb" name="Gun Smoke (2)" hidden="false">
+    <rule id="74ed-1e07-5ea2-71eb" name="GUN SMOKE (2)" hidden="false">
       <description>Use this ability when a model attacks with a pistol, regardless of whether the attack hits. The model gains the Stealthy and Dodge special rules until the end of the Round.</description>
     </rule>
     <rule id="a7aa-6bbd-9d27-6f54" name="Blazing Brands" hidden="false">
       <description>While Firebrand is part of the same warband, this model has the Stubborn special rule.</description>
     </rule>
-    <rule id="dfb2-52f2-75ef-9a99" name="Rapid Fire (2)" hidden="false">
+    <rule id="dfb2-52f2-75ef-9a99" name="RAPID FIRE (2)" hidden="false">
       <description>Use this ability when this model is about to perform a ranged attack, before dice are rolled. The model may shoot twice at two different targets that are within 3” of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
     </rule>
     <rule id="0192-ff68-06dc-c8f2" name="Riposte" hidden="false">
@@ -735,13 +742,13 @@
     <rule id="28c2-80b7-60dc-49e8" name="Weapon - Two-handed Weapon" hidden="false">
       <description>The model gains Crushing Strength (1), but increases its Armor by 1 (i.e 5+ becomes 6+).</description>
     </rule>
-    <rule id="0bce-0fe3-2d49-6bfd" name="Inner Fire (2)" hidden="false">
+    <rule id="0bce-0fe3-2d49-6bfd" name="INNER FIRE (2)" hidden="false">
       <description>Use this ability when the model activates. The Mage-Priest’s Ar decreases by 2 until the end of the Round (i.e. 6+ becomes 4+) to a maximum of 3+.</description>
     </rule>
     <rule id="2c68-64eb-43e1-eedb" name="Attack - Elemental Fire" hidden="false">
       <description>This model may make a Ranged attack with a Shoot action using Elemental Fire. Range 9”, 3D8, Breath. The attack always hits on a 5+ regardless of any modifiers.</description>
     </rule>
-    <rule id="d242-3681-db0e-f4eb" name="Nature&apos;s Inferno (2)" hidden="false">
+    <rule id="d242-3681-db0e-f4eb" name="NATURE&apos;S INFERNO (2)" hidden="false">
       <description>Use this ability when this model makes a Ranged Attack with Elemental Fire before any dice are rolled. The attack has Piercing (1).</description>
     </rule>
   </sharedRules>

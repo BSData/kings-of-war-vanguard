@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4ae3-a7bd-8c61-17e5" name="Kingdoms of men" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4ae3-a7bd-8c61-17e5" name="Kingdoms of men" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4ae3-a7bd-pubN68954" name="Rulebook"/>
   </publications>
@@ -124,6 +124,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="4522-1195-1467-c66d" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="5c51-b484-a5c2-9987" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41.0"/>
@@ -345,6 +346,7 @@
           </constraints>
         </entryLink>
         <entryLink id="e865-1e0e-a6f7-a333" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="c395-4b20-2a68-1624" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
@@ -448,6 +450,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="423b-d8ea-879c-4c47" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2236-33a8-a4a7-55d4" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
@@ -640,7 +643,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="cf8f-0754-d0bc-d940" name="Strength of Men (1)" hidden="false">
+    <rule id="cf8f-0754-d0bc-d940" name="STRENGTH OF MEN (1)" hidden="false">
       <description>Spend power when any model in this warband fails a Nerve test to immediately allow them to re-roll that Nerve test. If they pass and are also within range of a model with Inspiring, they also gain Crushing Strength (1) (or add +1 to their value if they already have it) until the end of the round. Being in range of a model with Inspiring doesn’t grant a second re-roll.</description>
     </rule>
     <rule id="3871-53bf-691a-3518" name="Spell - Instill Courage" hidden="false">
@@ -652,14 +655,14 @@
     <rule id="71fa-07af-61bb-2b6a" name="Heavy Weapon" hidden="false">
       <description>The model gains Crushing Strength (1) or adds +1 to its Crushing Strength value when making a Melee attack with this weapon</description>
     </rule>
-    <rule id="9456-6f8a-0f51-ca8f" name="For the Kingdom! (1)" hidden="false">
+    <rule id="9456-6f8a-0f51-ca8f" name="FOR THE KINGDOM! (1)" hidden="false">
       <description>Use this ability at any time during one of yout Turns. All friendly, unengaged, standing Human models within 9” of this model make an immediate free Walk action. Models do not have to be moved. but if they do, it must be directly
 towards the Leader of Men model following the normal movement rules. This move cannot be used to Engage enemy models.</description>
     </rule>
     <rule id="7fb9-65c2-b83b-92a6" name="Devastating Charge" hidden="false">
       <description>This model gain Crushing Strength (2) for any free Melee action it gets following a qualifying Charge action.</description>
     </rule>
-    <rule id="7eb9-34c9-ac35-a0cb" name="Frenzy (1)" hidden="false">
+    <rule id="7eb9-34c9-ac35-a0cb" name="FRENZY (1)" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee Attack. Spend the power before rolling any dice. This may not be used with spending power to gain an extra dice normally. In effect, this ability replaces it.</description>
     </rule>
     <rule id="58db-b8e8-62fe-ccfe" name="Equipment - Large Shield" hidden="false">

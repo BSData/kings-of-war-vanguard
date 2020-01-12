@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8be5-5fc0-ae73-8094" name="Brotherhood" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8be5-5fc0-ae73-8094" name="Brotherhood" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8be5-5fc0-pubN68576" name="Rulebook"/>
   </publications>
@@ -48,6 +48,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="b903-54c4-8a03-ccc0" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="81f4-03da-b989-1f0f" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -273,6 +274,7 @@
       <entryLinks>
         <entryLink id="ab91-3fe5-8cac-a31d" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="ebb1-4f8b-e2f9-47ad" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="550f-0d1d-7cd2-4e71" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
@@ -376,6 +378,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="7eee-2f1e-0941-c490" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="7aa5-20e1-5a22-daf1" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41.0"/>
@@ -571,7 +574,7 @@
     <rule id="38c5-5e8e-87b2-1e8b" name="Knightly Valour" hidden="false">
       <description>Only Human, Knight and SPELLCASTER models are considered for determining if the warband is broken. The warband is only broken when more than half the starting number of Human, Knight models have been killed.</description>
     </rule>
-    <rule id="cdee-b860-81a3-cdad" name="Impetuous (2)" hidden="false">
+    <rule id="cdee-b860-81a3-cdad" name="IMPETUOUS (2)" hidden="false">
       <description>Use this ability in one of your Turns when you activate a COMMAND model. Until the end of the Round, all friendly Human, Knight models that start an activation within 6” of the COMMAND model add 2 to their Sp stat, to a maximum of Sp 10.</description>
     </rule>
     <rule id="2638-d43e-5a5e-e12e" name="Spell - Mist of Faith" hidden="false">
@@ -587,13 +590,13 @@ Cast as a long action instead. The modifier is increased to -2.</description>
     <rule id="16ce-3740-67c2-98e6" name="Combined Fire" hidden="false">
       <description>When involved in a Group Shoot Action, Bowmen models add +1 Dice to their Ranged Attack roll if any other Villein Bowman model in the group fires at the same target.</description>
     </rule>
-    <rule id="e798-d975-8d5c-dbf3" name="Group Defence (1)" hidden="false">
+    <rule id="e798-d975-8d5c-dbf3" name="GROUP DEFENCE (1)" hidden="false">
       <description>When selecting 3 Villein Spearmen, if they are kept in base to base contact at the end of the action, Group Defence only costs them 1 power, instead of 2.</description>
     </rule>
-    <rule id="3b63-7ce3-8167-fd61" name="Earth Shaking Charge (2)" hidden="false">
+    <rule id="3b63-7ce3-8167-fd61" name="EARTH SHAKING CHARGE (2)" hidden="false">
       <description>Use this ability when this model makes a qualifying Charge action. The enemy model that is Engaged must make a Nerve test with a -2 modifier. If it fails, it may not Retaliate against the subsequent Melee attack and is marked as Fatigued.</description>
     </rule>
-    <rule id="b971-9326-3e22-d689" name="Lead by Example (2)" hidden="false">
+    <rule id="b971-9326-3e22-d689" name="LEAD BY EXAMPLE (2)" hidden="false">
       <description>Use this ability when this model kills an enemy model iwith a Melee attack. All friendly Human, Knight models within 6” may remove any Fatigue counters they have.</description>
     </rule>
     <rule id="e94f-6d40-54d2-9d8b" name="Inspiring (Villeins Only)" publicationId="8be5-5fc0-pubN68576" page="38" hidden="false"/>

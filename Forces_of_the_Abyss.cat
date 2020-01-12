@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0894-e38c-85dd-ba12" name="Forces of the Abyss" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0894-e38c-85dd-ba12" name="Forces of the Abyss" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0894-e38c-pubd1e2938" name="Rulebook"/>
   </publications>
@@ -202,6 +202,7 @@
       <entryLinks>
         <entryLink id="b27e-a042-42ef-a4b5" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="5a4a-0ced-1cde-667c" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="d924-33d9-f299-1556" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
@@ -501,6 +502,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ccc3-090c-a23e-71e2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c708-ee14-63fd-9ba5" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
@@ -544,7 +546,6 @@
       <infoLinks>
         <infoLink id="dc8d-9a31-ac52-861f" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink id="1ec8-53bb-f1bf-3b25" name="Regenerate (6)" hidden="false" targetId="2314-80d9-833b-9841" type="rule"/>
-        <infoLink id="73c5-1400-e3be-0a25" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink id="e0de-5550-af74-8c0a" name="Steady" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
         <infoLink id="ce5e-2536-ea55-d867" name="Crushing Strength (3)" hidden="false" targetId="a715-6836-a848-093a" type="rule"/>
       </infoLinks>
@@ -553,6 +554,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="91c8-58f1-85b8-5277" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="819d-1dd8-8580-b64d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
@@ -605,6 +607,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="feca-1bd7-bdcd-dfff" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="f4cb-7496-8cf9-d947" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
@@ -658,6 +661,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="c236-351a-ba2e-2162" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ad94-9ebe-5e83-521b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -737,7 +741,7 @@
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="c64d-6eb6-14fc-34fb" name="Fury (1)" hidden="false">
+    <rule id="c64d-6eb6-14fc-34fb" name="FURY (1)" hidden="false">
       <description>Use the ability when an ABYSSAL model Retaliates in a Melee. The ABYSSAL model gets 2 bonus dice to attack. This special action may even be used on a model that is already Activated and Fatigued, allowing them to Retaliate as normal, but without the additional 2 bonus dice. This Special Ability may be used any number of times in a Round.</description>
     </rule>
   </rules>
@@ -864,16 +868,16 @@
     <rule id="7e77-f028-7a06-6cd2" name="Fatal Attraction" hidden="false">
       <description>While within 3” of one or more models in a warband with this rule, enemy models suffer a -1 modifier on their Melee attacks.</description>
     </rule>
-    <rule id="7b37-5b76-af19-a633" name="Confuse (1)" hidden="false">
+    <rule id="7b37-5b76-af19-a633" name="CONFUSE (1)" hidden="false">
       <description>Use at any time. All outnumbering bonuses for models attacking this model are ignored for the rest of the Round.</description>
     </rule>
-    <rule id="62f9-4717-3d90-2fd4" name="Leaping Firebolt (1)" hidden="false">
+    <rule id="62f9-4717-3d90-2fd4" name="LEAPING FIREBOLT (1)" hidden="false">
       <description>Use this ability when this model makes a ranged attack with Firebolt. Spend 1 power to boost the range of the attack by a further 3” (from 9” to 12”). The boosted attack remains at Piercing (1).</description>
     </rule>
-    <rule id="b116-311d-9724-5802" name="Demonic Roar (1)" hidden="false">
+    <rule id="b116-311d-9724-5802" name="DEMONIC ROAR (1) " hidden="false">
       <description>Use Demonic Roar when the Tormentor is the target of a Melee attack, before the attack roll is made. The attacking model must make a Nerve test with a -1 modifier. If the test is failed, the attacking model’s Melee value becomes 7+ for the remainder of the Turn.</description>
     </rule>
-    <rule id="a1cf-1b29-b1fa-c555" name="Range Boost (2)" hidden="false">
+    <rule id="a1cf-1b29-b1fa-c555" name="RANGE BOOST (2)" hidden="false">
       <description>Use this ability to increase the range of one of the caster’s spells by 6” (where a Range is specified). The RANGE BOOST must be paid for during the caster’s activation just before the chosen spell is cast.</description>
     </rule>
     <rule id="0525-a2f1-0d42-351e" name="Spell - Immolation" hidden="false">

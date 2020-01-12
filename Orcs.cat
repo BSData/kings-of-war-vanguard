@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9698-4b04-20b4-d6aa" name="Orcs" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9698-4b04-20b4-d6aa" name="Orcs" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a49b-da25-eabc-7ce4" name="Orclings" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -95,6 +95,7 @@
       <entryLinks>
         <entryLink id="5d54-1b42-4c04-2b5d" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="84e6-5120-0dec-4179" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="3d6d-77d0-b777-439b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
@@ -146,6 +147,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="bc58-1362-1022-28a5" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="31ed-8e0e-c90d-c017" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -255,6 +257,7 @@
       <entryLinks>
         <entryLink id="990f-8c35-64eb-ff0d" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="641f-8c65-a9c4-5cbe" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="018f-da00-8865-ed96" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22.0"/>
@@ -304,6 +307,7 @@
       <entryLinks>
         <entryLink id="8ea6-d927-1d06-4674" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="27d6-57ed-c901-73c5" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="5287-2683-4e8f-2065" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
@@ -355,6 +359,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="fac7-c30c-dae7-a888" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="e3ea-189c-08d6-5919" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="24.0"/>
@@ -406,6 +411,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f5ea-54ea-68f1-dcb4" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="cea3-6d60-8474-16de" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -458,6 +464,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="d4a3-16a1-3d81-3f41" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="040a-d6d3-c9c4-c005" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
@@ -535,7 +542,7 @@
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="36b7-0c23-0843-b087" name="Green Tide (2)" hidden="false">
+    <rule id="36b7-0c23-0843-b087" name="GREEN TIDE (2)" hidden="false">
       <description>Group Charge Action. Until the end of the Turn, all members of the group of Race ORC gain Crushing Strength (1) or increase their Crushing Strength by one if they already have this special rule.</description>
     </rule>
   </rules>
@@ -671,21 +678,21 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="7726-330f-aa8f-507a" name="Spell - God-fuel" hidden="false">
-      <description>Roll 4D8. For each 6+ rolled, remove a Fatigue counterfrom a friendly model within 6” of the caster. The caster is then marked as Fatigued.</description>
+      <description>Roll 4D8. For each 5+ rolled, remove a Fatigue counterfrom a friendly model within 6” of the caster. The caster is then marked as Fatigued.</description>
     </rule>
     <rule id="72f8-f88d-2782-e3b2" name="Spell - Green Rage" hidden="false">
       <description>Target a single friendly, non-Fatigued, un-Activated and un-Engaged model. If a hit is scored, the model suffers no wounds but must make an immediate Run move to Engage an enemy model. A free Melee attack will be granted for a qualifying Charge Action as normal. Resolve the attack as normal and then mark the model that Ran as Fatigued (not Activated) before continuing with the caster’s Turn. If an enemy model cannot be Engaged, the target model will Walk towards the closest enemy model instead.</description>
     </rule>
-    <rule id="19ed-2e2a-44a9-25df" name="Frenzy (1)" hidden="false">
+    <rule id="19ed-2e2a-44a9-25df" name="FRENZY (1)" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus dice for a roll.</description>
     </rule>
-    <rule id="c22b-1026-a0dd-e1a7" name="Gore (1)" hidden="false">
+    <rule id="c22b-1026-a0dd-e1a7" name="GORE (1)" hidden="false">
       <description>Use this ability when making a Melee attack with this model. The model has the Bloodlust special rule until the end of its Turn. However, it gains 2 bonus dice instead of 1 if the target model is already wounded.</description>
     </rule>
     <rule id="e30a-6249-5d89-dbb6" name="Vicious Swipe" hidden="false">
       <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
-    <rule id="6abf-1bc0-adce-cc64" name="Savage (2)" hidden="false">
+    <rule id="6abf-1bc0-adce-cc64" name="SAVAGE (2)" hidden="false">
       <description>If the Krudger fails to kill a model in Melee, the enemy model is Knocked-down. Use the ability after armour rolls are made. Cannot be used on LARGE models.</description>
     </rule>
   </sharedRules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90a1-0805-2d59-2786" name="Goblins" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90a1-0805-2d59-2786" name="Goblins" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="90a1-0805-pubN68594" name="Rulebook"/>
   </publications>
@@ -163,6 +163,7 @@
       <entryLinks>
         <entryLink id="96e6-9acd-1d95-02b7" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="d521-2b35-0f91-368b" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9a60-551f-9b0d-f595" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
@@ -260,6 +261,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="7733-bb07-4e2d-1f94" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2af8-438e-d632-31b4" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -441,6 +443,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="60fa-3745-25df-8f89" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2d0a-48ec-3ab3-40d1" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -614,7 +617,6 @@
         <categoryLink id="af7b-39e7-aa81-9911" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3e3b-1f52-29f2-6b11" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="c0cd-2f5a-2e69-9d2b" name="Firebombs" hidden="false" collective="false" import="true" targetId="c914-d44c-c7cb-1086" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="b888-e3bd-8798-6364" value="0.0"/>
@@ -821,7 +823,7 @@
         <categoryLink id="adb4-d5a3-a372-c1f0" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f161-a46f-6784-73bf" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="eef2-c2db-5332-1b92" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
@@ -1177,16 +1179,16 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="1e48-b698-f75f-8907" name="Howl ! (1)" hidden="false">
+    <rule id="1e48-b698-f75f-8907" name="HOWL! (1)" hidden="false">
       <description>Use when the model activates or after it has finished its actions. Any friendly, non-Fatigued and non-activated Mawbeasts within 6” of this model can immediately make a Walk action directly towards this model without being marked as activated. An individual Mawbeast can only Howl! once per Round.</description>
     </rule>
     <rule id="6b03-4684-97f3-c6a9" name="Vicious Swipe" hidden="false">
       <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
-    <rule id="3337-2f17-f0ea-8545" name="Weapon - Dodgy Grenades" hidden="false">
+    <rule id="3337-2f17-f0ea-8545" name="Weapon - DODGY GRENADES (x)" hidden="false">
       <description>Pay (X) power to make a Ranged Attack with the dodgy grenades. Before the attack is made, roll a single die and add (X) to the result.  On a result of 8 or more, the grenade explodes before being thrown- the Banggit suffers 1 automatic hit with Piercing (X) and the ranged attack fails.  Otherwise, the attack proceeds as normal with Piercing (X).</description>
     </rule>
-    <rule id="fed1-eaba-a309-3d60" name="Cackle ! (1)" hidden="false">
+    <rule id="fed1-eaba-a309-3d60" name="CACKLE! (1)" hidden="false">
       <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
     </rule>
     <rule id="40ae-7df8-1e18-ce14" name="Spell - Slink" hidden="false">
@@ -1199,13 +1201,13 @@ Boosted version:
 
 Cast as a long action instead. The spell rolls 3D8 rather than 2D8.</description>
     </rule>
-    <rule id="6166-35dc-3536-4da4" name="Agile Feint (2)" hidden="false">
+    <rule id="6166-35dc-3536-4da4" name="AGILE FEINT (2)" hidden="false">
       <description>Use this ability after a model has made a Melee attack and after any Retaliation.  The model may make a free Break Away action.</description>
     </rule>
-    <rule id="9c8f-f12c-f9a4-3cfe" name="Escape! (2)" hidden="false">
+    <rule id="9c8f-f12c-f9a4-3cfe" name="ESCAPE! (2)" hidden="false">
       <description>The same as the Flee! warband ability, but may be used even if the model is already Activated or Fatigued.  However, Escape! is limited to one use per round for this model.</description>
     </rule>
-    <rule id="e10e-8c3c-e71d-dce7" name="Poison Blades (1)" hidden="false">
+    <rule id="e10e-8c3c-e71d-dce7" name="POISON BLADES (1)" hidden="false">
       <description>Use this ability when the model makes a Ranged Attack with his Throwing Knives.  The attack has the Piercing (1) rule.</description>
     </rule>
     <rule id="03ff-213e-65cd-5787" name="Inspiring ( Sneaks Only )" hidden="false"/>

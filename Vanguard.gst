@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="37f5-f8f9-pubN68000" name="Rulebook"/>
     <publication id="a3d2-75b6-8c4e-cbde" name="Reference Cards"/>
+    <publication id="9dff-33d6-57bd-974c" name="FAQ &amp; Errata"/>
   </publications>
   <costTypes>
     <costType id="b888-e3bd-8798-6364" name=" Points" defaultCostLimit="-1.0"/>
@@ -153,7 +154,7 @@ All warband rules listed on page 45 of the rulebook for normal warbands can be v
         </categoryLink>
         <categoryLink id="16cd-c297-cd47-0f5f" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="false">
           <modifiers>
-            <modifier type="decrement" field="3619-1a15-8c88-ab4d" value="1">
+            <modifier type="decrement" field="3619-1a15-8c88-ab4d" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29ef-0bb1-9ab6-8e5c" repeats="1" roundUp="false"/>
               </repeats>
@@ -419,7 +420,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
         </profile>
       </profiles>
       <rules>
-        <rule id="1e0d-bbac-6241-c59a" name="Dread Presence (1)" hidden="false">
+        <rule id="1e0d-bbac-6241-c59a" name="DEAD PRESENCE (1)" hidden="false">
           <description>Pick one enemy model wtihin 4&quot; of Blaine. This model must immediately make a Nerve test with a -1 modifier. If the test is failed the model is marked as Activated. Any rules that apply to Nerve tests (e.g. Inspiring) can be used normally. This ability may be used once per Round, when Blaine is activated.</description>
         </rule>
       </rules>
@@ -429,6 +430,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
         <infoLink id="b6da-ce1d-9ed1-b2b9" name="Stubborn" hidden="false" targetId="93a5-2c7a-91a6-c4e9" type="rule"/>
         <infoLink id="0ffe-192f-5141-d3bb" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
         <infoLink id="8b4d-0b3a-790d-d7f1" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule"/>
+        <infoLink id="116f-7368-0c7f-791d" name="Regenerate (1+)" hidden="false" targetId="e21e-6b67-d369-f9a9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="84be-38f1-fc9a-9b31" name="New CategoryLink" hidden="false" targetId="5999-b2cc-3385-f57d" primary="true"/>
@@ -463,6 +465,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       </selectionEntries>
       <entryLinks>
         <entryLink id="0361-ae77-ff88-d7f2" name="Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="b7a3-0760-c3a0-c816" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="62.0"/>
@@ -491,7 +494,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
         </profile>
       </profiles>
       <rules>
-        <rule id="f700-21e9-1b4a-09b7" name="Spell Siphon (2)" hidden="false">
+        <rule id="f700-21e9-1b4a-09b7" name="SPELL SIPHON (2)" hidden="false">
           <description>This model can choose to cast any one spell known by an enemy spellcaster within 9&quot; and LOS. The siphoned spell is cast with its original action length, range, dice and effects. Siphoned spells cannot be boosted.  The enemy model can continue to use the same spell in their own Turn as normal.</description>
         </rule>
         <rule id="0117-3e6e-e05a-aa70" name="Gobble" hidden="false">
@@ -587,7 +590,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
         <rule id="c48c-3a4d-4c91-2b45" name="Salamander Legend" hidden="false">
           <description>When taken in a Salamander warband, Firebrand is not considered a Mercenary. She does count as being at Rank 5 to match her legendary status however.</description>
         </rule>
-        <rule id="ab84-7268-2089-ab09" name="Rapid Fire (2)" hidden="false">
+        <rule id="ab84-7268-2089-ab09" name="RAPID FIRE (2)" hidden="false">
           <description>Use this ability when this model is about to perform a ranged attack, before dice are rolled. The model may shoot twice at two different targets that are within 3” of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
         </rule>
         <rule id="abb3-df4c-7a20-ce9b" name="Riposte" hidden="false">
@@ -627,6 +630,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       </selectionEntries>
       <entryLinks>
         <entryLink id="412b-af6b-b075-f4ef" name="Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="17da-3c49-a905-241f" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
@@ -697,6 +701,11 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4182-9271-12f3-5b1d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ffca-df74-833b-0a20" type="min"/>
       </constraints>
+      <rules>
+        <rule id="dc69-f9b9-d59b-5959" name="Rule Check - Base Unit Count" publicationId="37f5-f8f9-pubN68000" hidden="false">
+          <description>Checks the rule that a normal war band should have a minimum of 5 GRUNT or WARRIOR models (combined)</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
@@ -847,6 +856,9 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <infoLink id="5fbf-d99f-6133-4457" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
         <infoLink id="22f6-f53d-a763-0da8" name="Equipment - Heavy Weapon" hidden="false" targetId="2881-f56a-a40d-b710" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="8ac1-d632-ba9a-89f6" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
@@ -889,6 +901,11 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7179-5871-5c25-b592" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0562-cec1-1061-6633" type="min"/>
       </constraints>
+      <rules>
+        <rule id="fd5a-249f-3669-2a4d" name="Rule Check - Is Cavalry" publicationId="37f5-f8f9-pubN68000" hidden="false">
+          <description>Indicates the given model uses the Cavalry special rule</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
@@ -1111,11 +1128,16 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8264-6e8e-3e44-c2c9" name="Rule Check - Is Faction Spell" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8264-6e8e-3e44-c2c9" name="Rule Check - Is Faction Spell" publicationId="a3d2-75b6-8c4e-cbde" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="799a-8bc3-9a31-8326" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ea0-9163-ca82-f346" type="max"/>
       </constraints>
+      <rules>
+        <rule id="ebd6-a925-b0f1-244e" name="Rule Check - Is Faction Spell" hidden="false">
+          <description>Indicates that the given spell is a faction specific spell</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
@@ -1127,7 +1149,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="2300-7781-9d9f-f16c" name="Fireball (short)" hidden="false" typeId="33dc-fb92-76ea-f796" typeName="Spells">
           <characteristics>
-            <characteristic name="Range" typeId="c023-a997-9c10-c42c">12&quot;</characteristic>
+            <characteristic name="Range" typeId="c023-a997-9c10-c42c">9&quot;</characteristic>
             <characteristic name="Dice Roll" typeId="8297-1752-8ed2-7571">2D8</characteristic>
             <characteristic name="Boostable" typeId="7f9e-a120-a045-f95b">Y</characteristic>
             <characteristic name="Rules" typeId="8b19-fa5a-3224-b8b5"/>
@@ -1320,11 +1342,16 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2dc8-0349-7db9-27e1" name="Rule Check - Is Large Command" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2dc8-0349-7db9-27e1" name="Rule Check - Is Large Command" publicationId="37f5-f8f9-pubN68000" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc27-ff67-62c7-036e" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afb2-aa26-18ad-452e" type="max"/>
       </constraints>
+      <rules>
+        <rule id="fa91-f75e-5c3f-1646" name="Rule Check - Is Large Command" hidden="false">
+          <description>Indicates that the command figure is also a large figure</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
@@ -1334,6 +1361,11 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fef-b70e-c24e-786f" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="faf7-4a4a-fcf9-391b" type="max"/>
       </constraints>
+      <rules>
+        <rule id="e036-4e93-c458-b7dd" name="Rule Check - Allows 1 more Large then Normal" publicationId="37f5-f8f9-pubN68000" hidden="false">
+          <description>Checks the rule that some war bands are allowed to take 1 more Large model</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
@@ -1929,6 +1961,20 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="20f3-f38a-c195-9e11" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9df9-60f6-19f0-9c1d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="57e0-5016-627b-7323" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="11b9-4098-e128-2934" name="Rule Check - Has Crushing Strength" publicationId="9dff-33d6-57bd-974c" hidden="false">
+          <description>Checks the rule that models that already have the Crushing Strength special rule cannot take additional equipment / items / etc which increases that crushing strength.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="c9c8-ac7b-333d-0312" name=" Items" page="" hidden="false" collective="false" import="true">
@@ -2011,8 +2057,24 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
               </constraints>
               <entryLinks>
                 <entryLink id="b610-6e4a-8154-a64d" name="Crude Throwing Knife (Common)" hidden="false" collective="false" import="true" targetId="5e0c-a356-52cb-7311" type="selectionEntry"/>
-                <entryLink id="2cbc-d9b9-cc0a-b22d" name="Heavy Weapon (Common)" hidden="false" collective="false" import="true" targetId="4f88-030a-c9af-53a7" type="selectionEntry"/>
-                <entryLink id="44f3-2e56-cf7c-e3ae" name="Spear (Common)" hidden="false" collective="false" import="true" targetId="7da7-23d4-56b5-549d" type="selectionEntry"/>
+                <entryLink id="2cbc-d9b9-cc0a-b22d" name="Heavy Weapon (Common)" hidden="false" collective="false" import="true" targetId="4f88-030a-c9af-53a7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20f3-f38a-c195-9e11" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="44f3-2e56-cf7c-e3ae" name="Spear (Common)" hidden="false" collective="false" import="true" targetId="7da7-23d4-56b5-549d" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da36-7b90-c7e5-26c1" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
                 <entryLink id="cb7a-8034-c463-f7bb" name="Wicked dagger (Common)" hidden="false" collective="false" import="true" targetId="f41f-b60c-1d82-299f" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -2029,7 +2091,15 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
               </constraints>
               <entryLinks>
                 <entryLink id="b5ab-f461-e13d-57ea" name="Blade of Slashing (Rare)" hidden="false" collective="false" import="true" targetId="0388-228f-7c5e-e5e6" type="selectionEntry"/>
-                <entryLink id="6ed8-cd20-b3ac-ee70" name="Forgebreaker (Rare)" hidden="false" collective="false" import="true" targetId="a234-48d4-ea73-701a" type="selectionEntry"/>
+                <entryLink id="6ed8-cd20-b3ac-ee70" name="Forgebreaker (Rare)" hidden="false" collective="false" import="true" targetId="a234-48d4-ea73-701a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20f3-f38a-c195-9e11" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
                 <entryLink id="4010-d22d-7946-0a8e" name="Blade of the Beast Slayer (Rare)" hidden="false" collective="false" import="true" targetId="d7fb-4833-3db7-512f" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -2644,7 +2714,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     <rule id="cf1a-01c1-55e7-dc57" name="Is Also Large" hidden="true">
       <description>Indicates the category has the large category as well</description>
     </rule>
-    <rule id="6bf5-bb0a-1a02-94d8" name="Sharp Shooter (1)" hidden="false">
+    <rule id="6bf5-bb0a-1a02-94d8" name="SHARP SHOOTER (1)" hidden="false">
       <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (1).</description>
     </rule>
     <rule id="ae52-7371-2843-ca27" name="Parry" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
@@ -2662,8 +2732,8 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     <rule id="f6e9-e0d4-227e-a80c" name="Power Dice White (2)" hidden="false"/>
     <rule id="a284-293d-4e91-fd5e" name="Power Dice White (3)" hidden="false"/>
     <rule id="fb0f-ab7c-3175-77f3" name="Power Dice White (1)" hidden="false"/>
-    <rule id="fed8-40cc-4cff-77d7" name="Smite (2)" hidden="false"/>
-    <rule id="276c-ca90-ca2a-fd15" name="Smite (1)" hidden="false"/>
+    <rule id="fed8-40cc-4cff-77d7" name="SMITE (2)" hidden="false"/>
+    <rule id="276c-ca90-ca2a-fd15" name="SMITE (1)" hidden="false"/>
     <rule id="9fd9-8e4c-3cc5-a0e9" name="Piercing (3)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
     <rule id="3134-cb69-0b82-ff1a" name="Piercing (2)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
     <rule id="c368-af1a-68cf-2b9b" name="Piercing (1)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
@@ -2712,13 +2782,13 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     <rule id="8d8f-4cd7-7400-d829" name="Piercing (4)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
     <rule id="cdce-6b41-1230-e504" name="Piercing (5)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
     <rule id="a07f-848d-66cf-34ce" name="Piercing (6)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
-    <rule id="4635-d7af-a665-e8a5" name="Sharp Shooter (2)" hidden="false">
+    <rule id="4635-d7af-a665-e8a5" name="SHARP SHOOTER (2)" hidden="false">
       <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (2).</description>
     </rule>
-    <rule id="bd53-0a42-384a-47a6" name="Sharp Shooter (3)" hidden="false">
+    <rule id="bd53-0a42-384a-47a6" name="SHARP SHOOTER (3)" hidden="false">
       <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (3).</description>
     </rule>
-    <rule id="ded7-4bf3-7ab8-068e" name="Smite (3)" hidden="false"/>
+    <rule id="ded7-4bf3-7ab8-068e" name="SMITE (3)" hidden="false"/>
     <rule id="079c-f110-bd18-b3d5" name="Stealthy" publicationId="37f5-f8f9-pubN68000" page="39" hidden="false"/>
     <rule id="761a-5ccb-142e-0ebb" name="Expert Rider" page="" hidden="false">
       <description>This model can also claim the +1 Melee attack modifier for its cavalry special rule against targets of equal Height, not just those of lower Height.</description>
@@ -2754,10 +2824,10 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <description>When this item is used, the model gains a bonus die when making a Ranged attack with this ammunition (excluding spells).</description>
     </rule>
     <rule id="2881-f56a-a40d-b710" name="Equipment - Heavy Weapon" hidden="false">
-      <description>The model gains Crushing Strength (1) or adds +1 to its Crushing Strength value when making a Melee attack with this weapon.</description>
+      <description>This model gains the Crushing Strength (1) special rule. Notes: Cannot be taken by models that already have the Crushing Strength special rule.</description>
     </rule>
     <rule id="d656-eb73-5f61-609f" name="Equipment - Common Mount" hidden="false">
-      <description>The model gains +2 Sp to a maximum of 8, +1 Height and the Cavalry special rule. The model’s base size becomes Cav. Models lose the Fly special rule while using a Mount.</description>
+      <description>The model gains +2 Sp to a maximum of 8, +1 Height and the model’s base size becomes Cav. The model may not use the Fly special rule.</description>
     </rule>
     <rule id="62e3-c8dd-f403-2673" name="Equipment - Large Shield" hidden="false">
       <description>The model has the Defender special rule.</description>
@@ -2774,7 +2844,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     <rule id="1cc2-005a-94cc-da35" name="Equipment - Pound" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
     <rule id="66f1-9dc0-f0e2-4ae8" name="Equipment - Piercing (2)" publicationId="37f5-f8f9-pubN68000" page="38" hidden="false"/>
     <rule id="9bcc-d59f-7ada-1a84" name="Equipment - Marksman" publicationId="37f5-f8f9-pubN68000" page="38 " hidden="false"/>
-    <rule id="e9c1-10e3-312f-3d7e" name="Frenzy (1)" hidden="false">
+    <rule id="e9c1-10e3-312f-3d7e" name="FRENZY (1)" hidden="false">
       <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
     </rule>
     <rule id="393c-e681-96ad-82c7" name="Inspiring (Grunts &amp; Warriors only)" hidden="false"/>

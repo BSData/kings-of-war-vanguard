@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1696-0eed-a727-7052" name="The Trident Realm" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" authorUrl="https://github.com/BitPsycho/BS_KOW_Vanguard/" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1696-0eed-a727-7052" name="The Trident Realm" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" authorUrl="https://github.com/BitPsycho/BS_KOW_Vanguard/" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1696-0eed-pubN65537" name="Vanguard abridged Warbands-dec31.pdf"/>
   </publications>
@@ -157,6 +157,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="e35a-8842-f999-a4ed" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c622-39b9-7e35-77ca" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -446,6 +447,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6001-29c2-8c40-18a6" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4faa-5d73-5ef7-434e" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -575,6 +577,7 @@
           </constraints>
         </entryLink>
         <entryLink id="8410-1c4e-5db2-3862" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9750-9058-5483-0599" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
@@ -757,6 +760,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="78ca-89a4-fe7d-51bf" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2679-5f1b-a79f-9a42" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
@@ -811,6 +815,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="c5b3-a0de-bcdf-a02c" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="21d1-308b-3edc-e6d5" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -970,6 +975,7 @@
       <entryLinks>
         <entryLink id="ef9b-79ca-9455-4dfc" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="0b60-028b-040d-dbda" name="Rule Check - Is Large Command" hidden="false" collective="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
+        <entryLink id="9aa8-9353-c65a-e81a" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="45.0"/>
@@ -1234,16 +1240,16 @@
     <rule id="7a97-4229-8776-c990" name="Spell - Crushing Pressure" hidden="false">
       <description>If the target suffers any wounds, they are pinned in place and cannot make any Walk or Run actions for the rest of this Round.</description>
     </rule>
-    <rule id="fd9f-cfe1-fed3-435a" name="Rising Tides (2)" hidden="false">
+    <rule id="fd9f-cfe1-fed3-435a" name="RISING TIDES (1)" hidden="false">
       <description>Use this ability when you activate a model. That model may EITHER add 2 to its Sp stat until the end of the Round OR, if it is Knocked-down, it may stand up for free. This ability may be used any number of times in a Round.</description>
     </rule>
     <rule id="22b8-f8ac-e757-9f41" name="Vicious Swipe" hidden="false">
       <description>When attempting to Break Away from a Giga, enemy models have a  -1 modifier when they make their Armour roll.</description>
     </rule>
-    <rule id="e92a-80d0-8e3e-ba30" name="Bounder (1) " hidden="false">
+    <rule id="e92a-80d0-8e3e-ba30" name="BOUNDER (1)" hidden="false">
       <description>Use this ability when this model is activated. Grants this model the Fly ability until the end of the Round.</description>
     </rule>
-    <rule id="f14f-1146-9788-eac7" name="Evasion (1)" hidden="false">
+    <rule id="f14f-1146-9788-eac7" name="EVASION (1)" hidden="false">
       <description>Use this ability when this model activates. Grants this model the Dodge and Parry abilities until the end of the Round.</description>
     </rule>
     <rule id="424e-7d48-2087-3f92" name="Equipment - Trident" hidden="false">
@@ -1252,7 +1258,7 @@
     <rule id="85c4-9aa4-c6ee-5a59" name="Equipment - Net" hidden="false">
       <description>Break away actions from this model are made rolling 2 dice for the Armour roll rather than the normal 1. Each failed roll causes a wound.</description>
     </rule>
-    <rule id="e956-4817-e249-a976" name="Battle Rage (2)" hidden="false">
+    <rule id="e956-4817-e249-a976" name="BATTLE RAGE (2)" hidden="false">
       <description>If this model can Engage an enemy model with a follow-up move, it may Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
     </rule>
     <rule id="9572-126b-ed39-c8f9" name="Combined Fire" hidden="false">
@@ -1271,14 +1277,14 @@ Melee attack. Use this ability before any attack dice are rolled.</description>
     <rule id="f2b2-cbe4-1910-bb06" name="Defensive Toxins" hidden="false">
       <description>In the End Phase, any enemy models Engaged by the Dambuster automatically suffer one hit with Crushing Strength (2).</description>
     </rule>
-    <rule id="9422-4d23-502f-c924" name="Tongue Lash (2)" hidden="false">
+    <rule id="9422-4d23-502f-c924" name="TONGUE LASH (2)" hidden="false">
       <description>Use during the model’s Turn to make a Ranged attack as follows: Range 9”, 2D8. Any model hit by the attack is not wounded but is moved directly (the shortest route) into base contact with the Dambuster’s
 front arc and marked as Fatigued. The model’s front arc and base should be flush with the Dambuster’s. Models that were Knocked-down remain so. If it is not possible to move the model, or it is Large, the attack has no effect.</description>
     </rule>
     <rule id="4353-28e2-7b1f-9084" name="Fluid Defense" hidden="false">
       <description>While within 2&quot; of this model, friendly WARRIOR models have the Parry special rule.</description>
     </rule>
-    <rule id="9be6-0f68-1b99-9a02" name="Slamback (1)" hidden="false">
+    <rule id="9be6-0f68-1b99-9a02" name="SLAMBACK (1)" hidden="false">
       <description>Use this ability when this model declares a Retaliation before dice are rolled. Any hits the Retaliation scores are resolved with Crushing Strength (2).</description>
     </rule>
     <rule id="0dbc-a8d5-6085-2386" name="Kraken&apos;s Call" hidden="false">

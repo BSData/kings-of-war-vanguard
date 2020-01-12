@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a99-197b-8983-b9e9" name="Undead" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a99-197b-8983-b9e9" name="Undead" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6a99-197b-pubN69080" name="Rulebook"/>
   </publications>
@@ -287,6 +287,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="e0dd-2de8-5cf4-aade" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="b852-fd31-e4d8-2e43" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
@@ -337,6 +338,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="401e-c680-aba1-df0d" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="e27a-51e7-7cf3-5c65" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
@@ -516,7 +518,6 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="8bee-c5e7-9cdf-b868" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
-        <entryLink id="e2b5-9fb9-2671-d885" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
@@ -572,6 +573,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3f90-2f36-b992-ff62" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="59d6-bdd0-a737-eb17" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -624,6 +626,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6ec2-e7f3-7ebe-39c7" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4dd0-eca0-109c-4ddc" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
@@ -779,6 +782,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0983-ce26-66a5-937a" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="c693-f049-02f6-c555" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40.0"/>
@@ -829,6 +833,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="8ccd-3f5d-cc22-a9ec" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="6c91-d540-4034-0649" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="30.0"/>
@@ -879,6 +884,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="4fcc-7ff2-58d0-d671" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="277b-e528-6c9b-6c9b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20.0"/>
@@ -1083,7 +1089,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="ecf6-0131-1ffb-7e5f" name="Surge (2)" hidden="false">
+    <rule id="ecf6-0131-1ffb-7e5f" name="SURGE (2)" hidden="false">
       <description>Nominate a model with the COMMAND type in the Undead warband. All friendly undead WARRIOR and GRUNT models within 9” of the nominated COMMAND model may immediately make a free Walk action, even if they have already activated this Round or are Fatigued.</description>
     </rule>
     <rule id="e5ea-d5c6-d980-b72b" name="Deathless Bond" hidden="false">
@@ -1096,31 +1102,31 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
     <rule id="e7ce-4877-330b-59e8" name="Spell - Curse of Ages" hidden="false">
       <description>No dice roll required. Until the end of the Round, all enemy models within 6” of the caster suffer a -1 modifier to all their Melee and Ranged attacks. Mark the caster as Fatigued.</description>
     </rule>
-    <rule id="b378-36cb-06bf-e6d6" name="Weapon - Chilling Strike (1)" hidden="false">
+    <rule id="b378-36cb-06bf-e6d6" name="Weapon - CHILLING STRIKE (1)" hidden="false">
       <description>Use this ability when this model causes a wound with a Ranged attack with its Eldritch Warbow. The enemy model must make a Nerve test. If it fails it is moved 2” directly away from the archer, or as far as possible (cannot come within 1” of enemy models) and is marked as Fatigued.</description>
     </rule>
     <rule id="2593-e658-6ad7-35f5" name="Spell - Raise Dead" hidden="false">
       <description>Place a new Skeleton model (not an Archer) anywhere within 3” of the Necromancer (and more than 1” from any enemy models). Mark the new model as Activated. The newly raised Skeleton is now a member of the warband for the duration of the current game only.</description>
     </rule>
-    <rule id="f63e-e3a5-8d2b-0c47" name="Leech (2)" hidden="false">
+    <rule id="f63e-e3a5-8d2b-0c47" name="LEECH (2)" hidden="false">
       <description>Use this ability when this model kills an opponent with a Melee Attack to recover 1 wound it has previously suffered. If the model killed is a COMMAND or LARGE model, 2 wounds are recovered.</description>
     </rule>
-    <rule id="cd8f-9905-1426-7685" name="Ankle Biter (1)" hidden="false">
+    <rule id="cd8f-9905-1426-7685" name="ANKLE BITER (1)" hidden="false">
       <description>Use this ability when an enemy model Retaliates against this model. Resolve the Retaliation and if the vampire is still alive, even if Knocked-down, the Retaliating model suffers one automatic hit with Crushing Strength (2).</description>
     </rule>
-    <rule id="ad07-c2a6-0f98-2d0c" name="Ancient Fury (2)" hidden="false">
+    <rule id="ad07-c2a6-0f98-2d0c" name="ANCIENT FURY (2)" hidden="false">
       <description>Use this ability when the model makes a Run action, before the model is moved. The model may move up to three times its Speed in inches. In addition, if the move qualifies as a Charge action, the model has the Smash special rule in the following free Melee action.</description>
     </rule>
-    <rule id="7b1b-c384-0c44-8698" name="Chilling Strike (1)" hidden="false">
+    <rule id="7b1b-c384-0c44-8698" name="CHILLING STRIKE (1)" hidden="false">
       <description>Use this ability when this models causes a wound with a Ranged attack with its Eldritch Warbow. The enemy model must make a Nerve test. If it fails it is moved 2&quot; directly away from the archer, or as far as possible (cannot come within 1&quot; of enemy models) and is marked as Fatigued.</description>
     </rule>
     <rule id="c2dd-c89e-2c7d-b490" name="Shallow Graves (short)" hidden="false">
       <description>As a short action, this model may place a 25mm grave marker anywhere within 4&quot; (not into impassable terrain or onto a model). When a friendly Necromancer casts Raise Dead, the raised skeleton can be placed within 3&quot; of a grave marker rather than the Necromancer and then the grave marker is removed. Grave markers cannot be destroyed or moved but otherwise do not affect movement or LOS.</description>
     </rule>
-    <rule id="9e6a-35b9-0ed8-7425" name="Braaains (2)" hidden="false">
+    <rule id="9e6a-35b9-0ed8-7425" name="BRAAAINS (2)" hidden="false">
       <description>Use this ability when this model activates. Place a new zombie model within 3&quot;  of a grave counter using the same rules as the Raise Dead spell.</description>
     </rule>
-    <rule id="9e76-ab2f-d2d9-7499" name="Tormentor Flails (n)" hidden="false">
+    <rule id="9e76-ab2f-d2d9-7499" name="TORMENTOR FLAILS (n)" hidden="false">
       <description>Use this ability in the End Phase. Every enemy model within 3&quot; and LOS is hit with a nD8 Melee attack from this model where n is the amount of Power used (with a minimum spend of 1). No retaliations are possible from these attacks.</description>
     </rule>
     <rule id="b392-dfdc-2ea7-2c91" name="Vicious Swipe" hidden="false">
@@ -1129,7 +1135,7 @@ Once the warband is broken however, all UNDEAD models that are reduced to zero (
     <rule id="77cc-7ee8-a477-8446" name="Chilling Presence" hidden="false">
       <description>When an enemy model activates within  3&quot; of this model, it must make a Fallback! check, as though its warband were broken, before it makes any actions or uses abilities.</description>
     </rule>
-    <rule id="4f5e-4e0b-2d81-a088" name="He Slimed Me (2)" hidden="false">
+    <rule id="4f5e-4e0b-2d81-a088" name="HE SLIMED ME (2)" hidden="false">
       <description>Spend the power during this model&apos;s activation and use this ability as a short action to cast the Ectoplasmic Blast spell using an Ra value of 5+.</description>
     </rule>
   </sharedRules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ab31-6738-d472-dd41" name="League of Rhordia" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ab31-6738-d472-dd41" name="League of Rhordia" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ab31-6738-pubN69065" name="Rulebook"/>
   </publications>
@@ -106,6 +106,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="2826-a866-94c1-9660" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3f78-e318-e4b1-cff7" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
@@ -291,6 +292,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="d186-420d-eadb-f712" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3c74-49bb-7cb6-2bd5" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
@@ -405,6 +407,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="2443-3e0d-f2ac-c4f6" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="9cdb-8e5c-7055-dc96" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
@@ -611,7 +614,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="2619-2b58-6d58-4add" name="In Rhor&apos;s Name! (2)" hidden="false">
+    <rule id="2619-2b58-6d58-4add" name="IN RHOR&apos;S NAME! (2)" hidden="false">
       <description>Use this ability when a friendly Human or Halfling model makes an Armour roll. HUMAN models re-roll any dice which failed to save a wound being caused. In addition, remove any Fatigue counter the model has on it. HALFLING models that are killed by a Melee attack can make a Nerve test, even if they were Knocked-down to try and get Down But Not Out result. If the model survives, place a Fatigue counter on and leave it Standing (is not Knocked-down). You may use this ability may be used more than once per Round.</description>
     </rule>
     <rule id="c5cf-5b6d-017c-46e9" name="Spell - Celestial Screen" hidden="false">
@@ -620,10 +623,10 @@
     <rule id="c781-cc2c-a8be-2851" name="Weapon - Halberd" hidden="false">
       <description>The model has the Crushing Strength (1) and Vicious special rules when making a free Melee attack after a qualifying charge. In addition, enemy models that have the Cavalry special rule, do not get the +1 to-hit bonus for attacking this model in its front arc in Melee.</description>
     </rule>
-    <rule id="82e5-eb2b-e91a-4383" name="The Binding (1)" hidden="false">
+    <rule id="82e5-eb2b-e91a-4383" name="THE BINDING (1)" hidden="false">
       <description>Spend the Power when taking a Fatigue action on this model and recover 1 wound this model has previously suffered. Can be used with a Forced Fatigue action by spending the Power for both. Note the effect of this ability is in addition to the Fatigue action being taken, not as replacement for it.</description>
     </rule>
-    <rule id="7591-ccf1-c5b2-d254" name="Unleash the Dogs of War (3)" hidden="false">
+    <rule id="7591-ccf1-c5b2-d254" name="UNLEASH THE DOGS OF WAR (3)" hidden="false">
       <description>Use this ability when this model activates to place a new House Guard model anywhere within 3” of the House Guard Captain (and more than 1” from any enemy models). Mark the new model as Activated. The new model is now a
 member of the warband for the duration of the current game only, and does count towards the warband limit for making Fallback checks.</description>
     </rule>

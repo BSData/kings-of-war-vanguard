@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a4-7ad3-58de-2c37" name="Abyssal Dwarfs" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a4-7ad3-58de-2c37" name="Abyssal Dwarfs" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="52a4-7ad3-pubN69234" name="Rulebook"/>
   </publications>
@@ -157,6 +157,7 @@
       <entryLinks>
         <entryLink id="2283-eb88-3cf8-69b0" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="d325-4d09-44c3-4038" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="4868-dca9-a55b-57be" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11.0"/>
@@ -315,6 +316,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b77-5a1b-b21e-b4ab" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3ea1-9919-0164-abd0" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
@@ -416,6 +418,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="c838-a9ef-e637-f5b0" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="1dc8-dddb-5a4a-65f3" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
@@ -687,7 +690,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="bbda-fb67-8865-7dd4" name="Slavehooks (X)" hidden="false">
+    <rule id="bbda-fb67-8865-7dd4" name="SLAVEHOOKS (X)" hidden="false">
       <description>Use this ability when activating an un-Engaged, standing, ABYSSAL DWARF model in this warband. Make a free Ranged attack with the activating model with Range 6”, (X+1)D8, Piercing (1), where X is the amount of Power used. If the attack causes any wounds on the target enemy model, it must roll 1D8. If the result is greater than the Speed of the model (or a natural 8), mark it as Fatigued. For example, if 2 Power were used, the number of dice rolled would be (2+1)D8 = 3D8 dice in total.</description>
     </rule>
     <rule id="6560-aa23-68a2-529c" name="Spell - Iron Slam" hidden="false">
@@ -702,7 +705,7 @@
     <rule id="f890-7761-d406-f6d2" name="Stay in Line!" hidden="false">
       <description>While within 3” of a friendly Slave Driver model, a Slave Orc automatically passes all Nerve tests.</description>
     </rule>
-    <rule id="74ae-1f0f-684a-0952" name="Hard As Nails (2)" hidden="false">
+    <rule id="74ae-1f0f-684a-0952" name="HARD AS NAILS (2)" hidden="false">
       <description>Use this ability when the Golem fails any Armour Rolls. Re-roll all the dice that failed. Any that score a 5+ will save a wound (note that exploding 8s do not apply to any dice re-rolled using this ability).</description>
     </rule>
     <rule id="face-7051-4106-2a7b" name="Slavers Whip" hidden="false">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c75-46a3-5cfb-7c16" name="Forces of Nature" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c75-46a3-5cfb-7c16" name="Forces of Nature" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4c75-46a3-pubN69892" name="Rulebook"/>
   </publications>
@@ -182,6 +182,7 @@
       <entryLinks>
         <entryLink id="8cda-ebb1-b54d-91ab" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="4b6d-429e-8ec5-4905" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="5f80-b332-95e1-4eb6" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="11.0"/>
@@ -229,6 +230,9 @@
       <categoryLinks>
         <categoryLink id="50ac-5987-6be4-4517" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="b99a-f4f4-6bec-8967" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
       </costs>
@@ -641,6 +645,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="48da-811e-3be4-b820" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="91a8-946a-3028-43a7" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="35.0"/>
@@ -691,6 +696,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9e61-60b5-9947-3cb4" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="374b-9e42-c808-37ea" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -852,6 +858,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6271-857e-0e8b-0d0d" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="f416-9775-7781-5d84" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
@@ -1084,10 +1091,10 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="6889-3e7a-80a7-c6ff" name="Forrest Dwellers (1)" hidden="false">
+    <rule id="6889-3e7a-80a7-c6ff" name="FOREST DWELLERS (1)" hidden="false">
       <description>Until the end of the current Round, all models in this warband have the Pathfinder rule.</description>
     </rule>
-    <rule id="5721-1b92-6ac9-1db4" name="Ambush (1)" hidden="false">
+    <rule id="5721-1b92-6ac9-1db4" name="AMBUSH (1)" hidden="false">
       <description>During any Turn, if an enemy model ends its movement/action within 6” of ( or inside ) the nominated terrain then the Lurker is revealed and put in contact and Engaging the enemy model, in any arc.The Lurker doesn&apos;t count as Charging but may make an immediate free Melee attack. Resolve the attack and then mark the Lurker as Fatigued.  It may be activated later in the Round. If it survives, the enemy model&apos;s turn is then ended.
 
 Alternatively, the Lurker may be revealed (costing no Power) at any time during one of its Warband turns. It is activated as normal and placed in, or within 1&quot; of, the nominated terrain, at least 3&quot; from any enemy model and starts its Turn marked as Fatigued.
@@ -1114,19 +1121,19 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
     <rule id="3051-6282-ea3d-c9a7" name="Attack - Elemental Fire" hidden="false">
       <description>This model may make a Ranged attack with a Shoot action using Elemental Fire. Range 9”, 3D8, Breath. The attack always hits on a 5+ regardless of any modifiers.</description>
     </rule>
-    <rule id="85aa-aaf2-0860-e8db" name="Nature&apos;s Inferno (2)" hidden="false">
+    <rule id="85aa-aaf2-0860-e8db" name="NATURE&apos;S INFERNO (2)" hidden="false">
       <description>Use this ability when this model makes a Ranged Attack with Elemental Fire before any dice are rolled. The attack has Piercing (1).</description>
     </rule>
-    <rule id="3e3a-7849-2928-5f19" name="His Master&apos;s Voice (1)" hidden="false">
+    <rule id="3e3a-7849-2928-5f19" name="HIS MASTER&apos;S VOICE (1)" hidden="false">
       <description>Use this ability to activate up to two friendly Wild Companion models within 3&quot; of a friendly COMMAND or SPELLCASTER Class model.  The activations are taken at the same time but the models may complete their activation independently (this is not a Group Action). This can be performed in addition to the normal +1 model activation if bought with Power.</description>
     </rule>
-    <rule id="84d4-320d-f36e-8b09" name="Range Boost (2)" hidden="false">
+    <rule id="84d4-320d-f36e-8b09" name="RANGE BOOST (2)" hidden="false">
       <description>Use this ability to increase the range of one of the caster’s spells by 6” (where a Range is specified). The RANGE BOOST must be paid for during the caster’s activation just before the chosen spell is cast.</description>
     </rule>
-    <rule id="b949-6132-1690-0444" name="Nature&apos;s Defense (2)" hidden="false">
+    <rule id="b949-6132-1690-0444" name="NATURE&apos;S DEFENCE (2)" hidden="false">
       <description>Use this ability when an enemy model attempts to cast a spell and is within 9” of this model. Before the spell is cast but after any boosting is declared, roll a die. On a 4+, the spell fails with no effect. Any action (short or long) or Power the model used is still spent.</description>
     </rule>
-    <rule id="a783-168a-cce8-055f" name="Entangle (1)" hidden="false">
+    <rule id="a783-168a-cce8-055f" name="ENTANGLE (1)" hidden="false">
       <description>Use this ability when the model suffers a Melee attack. The model has the Parry special rule until the attack is resolved.</description>
     </rule>
     <rule id="03db-c212-842a-57ce" name="Weapon - Centaur Bow" hidden="false">
@@ -1135,7 +1142,7 @@ Alternatively, the Lurker may be revealed (costing no Power) at any time during 
     <rule id="c824-34e5-e605-3d62" name="Point to Prove" hidden="false">
       <description>While within 6&quot; of a friendly Centaur Chief model, this model automatically gets a Down But Not Out result when reduced to zero (or fewer) wounds, even though it is a GRUNT.</description>
     </rule>
-    <rule id="9307-5f62-5eaf-eab7" name="Ordeal of Fire (2)" hidden="false">
+    <rule id="9307-5f62-5eaf-eab7" name="ORDEAL OF FIRE (2)" hidden="false">
       <description>Use this ability during the model’s activation, before or after an action, even if it is Engaged or Knocked-down. Friendly Salamanders (including the Veteran itself) and Fire Elementals are immune to the effects of this attack. All other models within 2&quot; take 2 automatic hits with Piercing (1). Make Armour rolls as normal. This ability can be used once per game.</description>
     </rule>
   </sharedRules>

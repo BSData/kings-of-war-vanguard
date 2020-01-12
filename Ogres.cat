@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fcbe-01ec-655a-a186" name="Ogres" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fcbe-01ec-655a-a186" name="Ogres" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="fcbe-01ec-pubN65537" name="Vanguard abridged Warbands-dec31.pd"/>
   </publications>
@@ -55,6 +55,7 @@
         <entryLink id="e7ec-5aab-9ef7-d2b2" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="03f8-e7a1-e37f-87af" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="5f5c-9457-18bc-61c4" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="9597-1342-8542-acfb" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17.0"/>
@@ -163,6 +164,7 @@
         <entryLink id="af84-e4a4-4952-2bd9" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="0a54-bc5f-fd99-7b34" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="37ed-f003-d152-2be5" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="80b9-2458-73ff-2449" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
@@ -215,6 +217,7 @@
       <entryLinks>
         <entryLink id="5a60-918e-1b08-5716" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="0355-5d09-487c-c40f" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="9cb7-e9a8-a083-d7b7" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36.0"/>
@@ -266,6 +269,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="49f7-4fe5-4e4b-18d9" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="f2f3-88e0-06ee-c5ea" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="23.0"/>
@@ -317,6 +321,7 @@
       <entryLinks>
         <entryLink id="c1b6-b92e-09d7-076e" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="d143-5464-4a44-7f8d" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="7e1e-ece6-085a-c51d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
@@ -376,6 +381,7 @@
         </entryLink>
         <entryLink id="235b-7234-49f4-d101" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="a826-e532-2687-5e37" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="91e5-4245-0dcf-67ca" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40.0"/>
@@ -438,6 +444,7 @@
         <entryLink id="b87f-19d4-a741-648f" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="50e5-c5b8-4d8c-f763" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="9069-21e3-d5b0-4d2a" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="5e8d-b44d-e4be-304c" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="27.0"/>
@@ -492,6 +499,7 @@
       <entryLinks>
         <entryLink id="fd9e-1425-4aab-5f87" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="2e8f-1f6d-dde3-f814" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="cad5-4f54-0ee4-6936" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="48.0"/>
@@ -727,23 +735,23 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="63f1-6e55-23d6-1160" name="Spell - Battle Fury (long)" hidden="false">
-      <description>Target a friendly Engaged model that is not Knocked-down. No dice roll is required. That model may immediately make a Melee action for free against any model it is Engaged with, even if it is already Activated and/or Fatigued.</description>
+      <description>Range 9” Target an Engaged friendly model that is not Knocked-down. No dice roll is required. That model may immediately make a Melee action for free against any model it is Engaged with, even if it is already Activated and/or Fatigued.</description>
     </rule>
     <rule id="e6e2-b696-5fb1-b56d" name="Spell - Might of the Tribes (long)" hidden="false">
       <description>Target a friendly model, even if it is Engaged. That model may re-roll any failed Armour rolls until the end of the Round. In addition, the Crushing Strength and Piercing special rules are limited to (1) against this model unti the end of the Round.</description>
     </rule>
-    <rule id="fda7-7bcf-7628-0921" name="Brutal Roar (1)" hidden="false">
+    <rule id="fda7-7bcf-7628-0921" name="BRUTAL ROAR (1)" hidden="false">
       <description>Use this ability any number of times in a Round and when an OGRE model performs a qualifying Charge action. The target enemy model must make a Nerve test and if it fails, it cannot Retaliate against the charging model&apos;s subsequent Melee attack for ANY reason. In a Group Assault, you must pay Power (and roll Nerve tests) separately for each OGRE that wishes to use this ability.</description>
     </rule>
     <rule id="44ca-ed52-b68a-d39f" name="High &amp; Mighty" hidden="false">
       <description>An Ogre Warband has no limits on the number of Large OGRE models it can have. The normal limit still applies to any other Large models the warband might take.</description>
     </rule>
     <rule id="f27f-a107-2b95-d159" name="Inspiring (Goblin models only)" hidden="false"/>
-    <rule id="12d8-86a5-3b1a-b89f" name="Spell - Tribal Assault (1)" hidden="false">
+    <rule id="12d8-86a5-3b1a-b89f" name="Spell - TRIBAL ASSAULT (1)" hidden="false">
       <description>Use this ability as a spell.
 Choose an enemy model within 9” and LOS of the Warlock. The chosen model must roll 2D8, plus one extra dice for each friendly Brave within 6” of the Warlock. If any dice roll an 8, the target takes one wound with no amour roll possible.</description>
     </rule>
-    <rule id="5114-7b84-b23b-5d76" name="Cackle! (1)" hidden="false">
+    <rule id="5114-7b84-b23b-5d76" name="CACKLE! (1)" hidden="false">
       <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
     </rule>
     <rule id="45af-e062-b65a-ebcf" name="Equipment - Ogre Spear" hidden="false">
@@ -753,7 +761,7 @@ group that is engaged.</description>
     <rule id="7161-27b3-c5fe-64c7" name="Ensnare" hidden="false">
       <description>Models attempting to Break Away from this model must re-roll successfull Armour rolls.</description>
     </rule>
-    <rule id="e46a-d6bc-04bd-080f" name="Defensive Slam (2)" hidden="false">
+    <rule id="e46a-d6bc-04bd-080f" name="DEFENSIVE SLAM (2)" hidden="false">
       <description>Use this ability when the Captain attacks a model in Melee. That model cannot Retaliate against any Melee attacks made by the Captain this Turn.</description>
     </rule>
   </sharedRules>

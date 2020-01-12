@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ecc-fae0-608b-85be" name="Nightstalkers" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ecc-fae0-608b-85be" name="Nightstalkers" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1ecc-fae0-pubN70108" name="Rulebook"/>
   </publications>
@@ -205,6 +205,7 @@
       <entryLinks>
         <entryLink id="f6d1-2a60-b7bb-4601" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="0625-2b99-c777-4935" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="dcf5-a2e9-2638-7fa1" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="16.0"/>
@@ -403,6 +404,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="d086-8330-518f-6a97" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="8a62-4aa8-030e-8ab9" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="33.0"/>
@@ -556,6 +558,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="01d1-beee-1be9-5b2b" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3dc8-6a39-ea9b-0110" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
@@ -608,6 +611,7 @@
       <entryLinks>
         <entryLink id="b72b-2355-bf37-255f" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="cf32-d553-4ac4-462b" name="Rule Check - Is Large Command" hidden="false" collective="false" import="true" targetId="2dc8-0349-7db9-27e1" type="selectionEntry"/>
+        <entryLink id="7e5e-f9a1-2b16-4be0" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41.0"/>
@@ -803,7 +807,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="a396-7368-c857-ebd5" name="Dread (1)" hidden="false">
+    <rule id="a396-7368-c857-ebd5" name="DREAD (1)" hidden="false">
       <description>Nominate any one of your Nightstalker models on the table that is not Fatigued. Pick one enemy model within 3” of the nominated Nightstalker. This model must immediately make a Nerve test with a -1 modifier. If the test if failed the model is marked as Activated. Any rules that apply to Nerve tests (e.g. Inspiring) can be used normally. This ability may be used once in each Nightstalker Turn, and is not limited to one use per Round.</description>
     </rule>
     <rule id="7095-4a5b-4a7a-ea05" name="Attack - Firebolt" hidden="false">
@@ -812,10 +816,10 @@
     <rule id="d69a-001f-cf35-3d34" name="Bane Chant" hidden="false">
       <description>Friendly Nightstalker models (but not the model itself) have the Vicious special rule while within 6” of this model.</description>
     </rule>
-    <rule id="7655-5392-a1d7-97b6" name="Cause Fear (2)" hidden="false">
+    <rule id="7655-5392-a1d7-97b6" name="CAUSE FEAR (2)" hidden="false">
       <description>Use when the model activates. All enemy models within 6” of the Shade must immediately take a Nerve test. Any models that fail are marked as Fatigued.</description>
     </rule>
-    <rule id="9a6b-7f27-b20b-82c1" name="Wail (2)" hidden="false">
+    <rule id="9a6b-7f27-b20b-82c1" name="WAIL (2)" hidden="false">
       <description>Use when the model activates. All standing enemy models within 6” of the Banshee must immediately take a Nerve test. Any models that fail, must immediately make a Walk action directly away from the Banshee using their full Speed value, moving as far as possible following the normal movement rules. Models that are moved are NOT Activated or Fatigued unless already marked as such before any effect from Wail is applied.</description>
     </rule>
     <rule id="27bf-77f4-754f-3299" name="Soul Thirst (short)" hidden="false">
@@ -831,7 +835,7 @@ Boosted version:
 
 Cast as a long action instead. As above, but the modifier is increased to -2 and a failure cannot be re-rolled for any reason.</description>
     </rule>
-    <rule id="0a5f-6449-36ac-7c51" name="Draw Dark Power (1)" hidden="false">
+    <rule id="0a5f-6449-36ac-7c51" name="DRAW DARK POWER (1)" hidden="false">
       <description>Use ths ability when taking a cast action. Draw Dark Power allows the model to cast a long action spell as a short action.</description>
     </rule>
     <rule id="2298-7df1-effa-eb3d" name="All-seeing" hidden="false">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ca9-c8c4-57e1-efec" name="Basileans" revision="3" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ca9-c8c4-57e1-efec" name="Basileans" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2ca9-c8c4-pubN70502" name="Rulebook"/>
   </publications>
@@ -240,6 +240,7 @@
             <categoryLink id="162f-dab6-6957-889a" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false"/>
           </categoryLinks>
         </entryLink>
+        <entryLink id="a92d-0458-226a-d439" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="38.0"/>
@@ -394,6 +395,7 @@
       <entryLinks>
         <entryLink id="5116-3daa-fa05-d3ba" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="a8e1-7d8e-847a-81b7" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3dfc-0d63-75be-b735" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="17.0"/>
@@ -591,6 +593,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="bf74-bb68-5ff6-0df9" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2c9c-ecb1-ddee-1a67" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="41.0"/>
@@ -633,7 +636,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="21fa-87c2-3575-9291" name="Steady" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule"/>
-        <infoLink id="d4c6-0552-f12c-5539" name="Smash" hidden="false" targetId="e8ea-0d93-409b-b7ab" type="rule"/>
+        <infoLink id="d4c6-0552-f12c-5539" name="Smash" hidden="false" targetId="68df-368d-fd73-8e4b" type="rule"/>
         <infoLink id="c049-f31b-d0f6-79e8" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -641,6 +644,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="7af6-f0bf-2291-7c4e" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="2755-c01e-608b-431d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -693,6 +697,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="921f-c660-7f94-07c4" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="3c9b-30f4-d6dc-e136" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -777,7 +782,7 @@
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="765e-101e-046d-a0aa" name="Iron Resolve (2)" hidden="false">
+    <rule id="765e-101e-046d-a0aa" name="IRON RESOLVE (2)" hidden="false">
       <description>This ability may be used any number of times and at any time a Basilean model suffers 1 or more hits from an attack or spell. When the ability is used, the model can make all required Armour rolls for the attack at an unmodified 3+. Each model in the warband may only use this ability once per Round.</description>
     </rule>
   </rules>
@@ -929,22 +934,22 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="654d-b104-a14c-f71d" name="Evade (1)" hidden="false">
+    <rule id="654d-b104-a14c-f71d" name="EVADE (1)" hidden="false">
       <description>Use this ability when the Sergeant is to perform a Break Away action. The Sergeant may Break Away from any models it is Engaged with without having to make Armour rolls and may then perform a Brace Action if desired.</description>
     </rule>
-    <rule id="b121-9296-adcb-eab6" name="Blessing of the Gods (2)" hidden="false">
+    <rule id="b121-9296-adcb-eab6" name="BLESSING OF THE GODS (2)" hidden="false">
       <description>Use when the Abbess activates. The Abbess makes a Walk action and is then marked as both Activated and Fatigued. Remove any activation counters from up to 3 BASILEAN models within 6” of the Abbess who are not currently Fatigued. These models are free to act again this Round. The Abbess may only use this Special Ability once per game.</description>
     </rule>
-    <rule id="a343-1dc8-0245-1a8b" name="Rally On Me ! (2)" hidden="false">
+    <rule id="a343-1dc8-0245-1a8b" name="RALLY ON ME! (2)" hidden="false">
       <description>This is a Group Action. The Veteran Sergeant and all members of the group may Break Away from any models they are Engaged with without having to make Armour rolls. Other models in the group must end their moves within 3&quot; of the Veteran Sergeant. All group members then perform a Brace Action.</description>
     </rule>
-    <rule id="c045-30e4-97e9-3308" name="Smite ! (2)" hidden="false">
+    <rule id="c045-30e4-97e9-3308" name="SMITE! (2) " hidden="false">
       <description>Use at any time. The model has Crushing Strength (4) the next time it makes a Melee attack this Round.</description>
     </rule>
     <rule id="fc35-aa6b-42a6-904a" name="Reactive Bite" hidden="false">
       <description> If this model Retaliates in Melee, it adds a bonus dice to its roll in addition to any other bonus dice or modifiers that may apply.</description>
     </rule>
-    <rule id="4b33-0802-a103-606d" name="Extend Protection (1)" hidden="false">
+    <rule id="4b33-0802-a103-606d" name="EXTEND PROTECTION (1)" hidden="false">
       <description>Use when casting Shield. Cast the Shield spell as normal but then also apply the same spell effect to 1 friendly model within 6&quot; of the War-Wizard, even if that model is Engaged.</description>
     </rule>
     <rule id="fd65-4918-4453-556f" name="Spell - Divine Flame" hidden="false">
