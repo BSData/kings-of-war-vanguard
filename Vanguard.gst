@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="6" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="37f5-f8f9-pubN68000" name="Rulebook"/>
     <publication id="a3d2-75b6-8c4e-cbde" name="Reference Cards"/>
@@ -856,9 +856,6 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <infoLink id="5fbf-d99f-6133-4457" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
         <infoLink id="22f6-f53d-a763-0da8" name="Equipment - Heavy Weapon" hidden="false" targetId="2881-f56a-a40d-b710" type="rule"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink id="8ac1-d632-ba9a-89f6" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
@@ -1973,6 +1970,28 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       </rules>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25be-393f-0875-eae9" name="Heavy Weapon" publicationId="37f5-f8f9-pubN68000" page="120" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aa6-ba2c-7515-11f5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b540-30fb-614e-b597" name="Heavy Weapon" hidden="true" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
+          <characteristics>
+            <characteristic name="Notes" typeId="b876-0400-ed60-8011"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8e8d-3a26-3f48-fb50" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule"/>
+        <infoLink id="6992-2a43-82bb-15c4" name="Equipment - Heavy Weapon" hidden="false" targetId="2881-f56a-a40d-b710" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="302a-95e2-0f2e-da8d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
