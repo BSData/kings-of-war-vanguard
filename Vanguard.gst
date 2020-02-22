@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="6" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="8" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="37f5-f8f9-pubN68000" name="Rulebook"/>
     <publication id="a3d2-75b6-8c4e-cbde" name="Reference Cards"/>
     <publication id="9dff-33d6-57bd-974c" name="FAQ &amp; Errata"/>
+    <publication id="2cf9-338e-6b9a-a228" name="Equipment Cards"/>
   </publications>
   <costTypes>
     <costType id="b888-e3bd-8798-6364" name=" Points" defaultCostLimit="-1.0"/>
@@ -466,6 +467,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       <entryLinks>
         <entryLink id="0361-ae77-ff88-d7f2" name="Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="b7a3-0760-c3a0-c816" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="7773-a9a4-e193-3319" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="62.0"/>
@@ -631,6 +633,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       <entryLinks>
         <entryLink id="412b-af6b-b075-f4ef" name="Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="17da-3c49-a905-241f" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="695e-ade3-b0e0-6dc6" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
@@ -893,20 +896,6 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bca-19a4-27f7-b0c8" name="Rule Check - Is Cavalry" hidden="true" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7179-5871-5c25-b592" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0562-cec1-1061-6633" type="min"/>
-      </constraints>
-      <rules>
-        <rule id="fd5a-249f-3669-2a4d" name="Rule Check - Is Cavalry" publicationId="37f5-f8f9-pubN68000" hidden="false">
-          <description>Indicates the given model uses the Cavalry special rule</description>
-        </rule>
-      </rules>
-      <costs>
-        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="04d9-f451-24a2-d244" name="Large Shield (Common)" publicationId="37f5-f8f9-pubN68000" page="120" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="6294-983c-30ce-6c97" value="0.0">
@@ -1027,11 +1016,6 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd6-41b6-ecb1-7621" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cb51-1bf6-a03e-6fd5" name="Marksman&apos;s Riffle" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
-          <characteristics>
-            <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
-          </characteristics>
-        </profile>
         <profile id="8beb-04e1-a64a-afd3" name="Marksman&apos;s Riffle" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
             <characteristic name="Range" typeId="1705-310a-e353-1da1">15&quot;</characteristic>
@@ -1054,11 +1038,6 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ec-07b6-5276-c9df" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ed2d-0533-a3b2-ed19" name="Long Bow" hidden="false" typeId="34a1-9e5d-3e4b-22ef" typeName="Items - Ranged">
-          <characteristics>
-            <characteristic name="Notes" typeId="812a-b04b-2e86-7ff6"/>
-          </characteristics>
-        </profile>
         <profile id="b429-0628-315b-0a29" name="Long Bow" hidden="false" typeId="ee66-a079-031d-2e14" typeName="Equipment - Shooting">
           <characteristics>
             <characteristic name="Range" typeId="1705-310a-e353-1da1">15&quot;</characteristic>
@@ -1092,18 +1071,13 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
             <characteristic name="H" typeId="2343-79f9-8f66-ab76">+1</characteristic>
             <characteristic name="Ranged" typeId="3745-5cb8-9067-adef"/>
             <characteristic name="Melee" typeId="8da6-5376-2b1c-c437"/>
-            <characteristic name="Rules" typeId="824d-b0b8-055a-b1a3">+Cavalry, -Fly</characteristic>
+            <characteristic name="Rules" typeId="824d-b0b8-055a-b1a3">-Fly</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="eb79-f027-cfc1-4dea" name="Rare Mount" publicationId="37f5-f8f9-pubN68000" page="121" hidden="false">
-          <description>The model gains +2 SP to a maximum of 8, +1 Height, +1 Wound and the Cavalry special rule.  Models loose the fly rule while using a Miount.  The models base size becomes Cavalry.</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="6251-e02a-dd28-4ca6" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule"/>
         <infoLink id="f1eb-fc79-f23e-c696" name="Items Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule"/>
+        <infoLink id="1ece-b6a4-0f42-af61" name="Equipment - Rare Mount" hidden="false" targetId="d29f-2d41-1e43-8b6a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
@@ -1115,7 +1089,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981a-cce6-626c-1806" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a788-197e-68ad-bb9c" name="Blade of Slashing" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
+        <profile id="a788-197e-68ad-bb9c" name="Blade of Slashing" publicationId="2cf9-338e-6b9a-a228" hidden="false" typeId="cda9-1637-1981-2b13" typeName="Items - Melee">
           <characteristics>
             <characteristic name="Notes" typeId="b876-0400-ed60-8011"/>
           </characteristics>
@@ -1506,7 +1480,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="bf6e-ccc1-b30b-6c2f" name="Ophidian Book of Secrets" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Spellcasters only</characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">SPELLCASTERS only.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1554,7 +1528,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="8ece-6502-38c5-0c20" name="Wings of Honeymaze" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Cannot be taken by LARGE models or those with the Cavalry special rule</characteristic>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Cannot be taken by LARGE models or those with the Cavalry special rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1594,7 +1568,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d324-c4ae-c32a-678f" name="Brew of Courage (Common)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d324-c4ae-c32a-678f" name="Brew of Courage (Common)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b43-e549-daad-cf81" type="max"/>
       </constraints>
@@ -1609,7 +1583,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0893-927e-69b3-5cd9" name="Buckler(Common)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0893-927e-69b3-5cd9" name="Buckler(Common)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd97-a368-91bb-6de0" type="max"/>
       </constraints>
@@ -1624,7 +1598,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e94e-576b-6270-9a37" name="Dwarven Ale (Common)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e94e-576b-6270-9a37" name="Dwarven Ale (Common)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="944e-41b3-a385-3942" type="max"/>
       </constraints>
@@ -1639,7 +1613,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c124-0384-a03b-b63e" name="Smelling Salts (Common)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c124-0384-a03b-b63e" name="Smelling Salts (Common)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c60d-8631-3adc-0f71" type="max"/>
       </constraints>
@@ -1654,15 +1628,15 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73d9-bad8-bb4c-9121" name="Armour of Confusion (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="73d9-bad8-bb4c-9121" name="Armour of Confusion (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65e7-8f66-25e0-469b" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b7-4572-7317-e6b6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7424-dde8-399a-3dc0" name="Armour of Confusion" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
+        <profile id="7424-dde8-399a-3dc0" name="Armour of Confusion" publicationId="2cf9-338e-6b9a-a228" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57">Cannot be taken by SPELLCASTERS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1670,7 +1644,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef81-9afd-67fe-706e" name="Full Plate Armour (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ef81-9afd-67fe-706e" name="Full Plate Armour (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="987c-9c4b-1cec-f68d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="649d-0ade-b350-f12a" type="max"/>
@@ -1678,7 +1652,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="a2ba-8892-eb63-0bd6" name="Full Plate Armour" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57">Cannot be taken by SPELLCASTERS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1686,7 +1660,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce6e-a977-9987-06c3" name="Banner of the Griffin (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ce6e-a977-9987-06c3" name="Banner of the Griffin (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="57a0-a021-4708-94e5" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d4b-ff99-026c-fd8f" type="max"/>
@@ -1694,7 +1668,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="995d-855b-da59-0294" name="Banner of the Griffin" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Cannot be taken by WARRIOR models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1702,7 +1676,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71e0-f0ea-b101-10d2" name="Orcsbain&apos;s Amulet of Thorns (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="71e0-f0ea-b101-10d2" name="Orcsbain&apos;s Amulet of Thorns (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ca0-224f-95db-1816" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19d2-97a3-9e42-5958" type="max"/>
@@ -1710,7 +1684,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="8524-aea4-dd52-546b" name="Orcsbain&apos;s Amulet of Thorns" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
           <characteristics>
-            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86"/>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Cannot be taken by models with the Cavalry special rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1718,7 +1692,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8161-92ec-9fdb-9fce" name="Darklord&apos;s Onyx Ring (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8161-92ec-9fdb-9fce" name="Darklord&apos;s Onyx Ring (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebb5-78d8-6a9c-742d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af5f-1add-4c9a-0097" type="max"/>
@@ -1734,7 +1708,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e65-ba56-0078-096d" name="Elixir of Resilience  (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7e65-ba56-0078-096d" name="Elixir of Resilience  (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b5b4-a36a-50b7-0305" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7543-473c-5ab9-c331" type="max"/>
@@ -1750,7 +1724,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a234-48d4-ea73-701a" name="Forgebreaker (Rare)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a234-48d4-ea73-701a" name="Forgebreaker (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6ea-5f0a-f559-36cd" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d111-9e27-a39c-95d0" type="max"/>
@@ -1782,7 +1756,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b293-8b88-aee4-17a9" name="Dunstan&apos;s Amulet of Protection (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b293-8b88-aee4-17a9" name="Dunstan&apos;s Amulet of Protection (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf59-4845-ab18-3ac3" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e298-1758-d13a-d588" type="max"/>
@@ -1798,7 +1772,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4527-2480-0aa0-399f" name="Helm of Confidence (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4527-2480-0aa0-399f" name="Helm of Confidence (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71fb-fdea-c465-56a5" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b8-2668-814c-b8dd" type="max"/>
@@ -1814,7 +1788,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c14d-9fb6-e747-3a8f" name="Explorer&apos;s Map (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c14d-9fb6-e747-3a8f" name="Explorer&apos;s Map (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2149-39ec-304d-ac56" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d15d-92ba-f224-b05b" type="max"/>
@@ -1830,7 +1804,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="acc5-fc39-efd9-38e5" name="Holy Water (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="acc5-fc39-efd9-38e5" name="Holy Water (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eed1-830d-9f65-63dc" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b072-e9a3-645c-0ae7" type="max"/>
@@ -1846,7 +1820,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b94a-6480-25e6-036f" name="Restorative Brew (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b94a-6480-25e6-036f" name="Restorative Brew (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ce7-719b-3080-f590" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c0d-8dfb-2354-b02e" type="max"/>
@@ -1862,7 +1836,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b198-364b-acf7-4939" name="Lifeleach Blade (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b198-364b-acf7-4939" name="Lifeleach Blade (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3996-55e8-58d5-85f4" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a7-71b4-e17d-7811" type="max"/>
@@ -1878,7 +1852,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="44a1-89c3-9eba-646d" name="Soulthirst Blade (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="44a1-89c3-9eba-646d" name="Soulthirst Blade (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b64-3654-5a4d-bd15" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9458-da83-5627-13dc" type="max"/>
@@ -1894,7 +1868,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ae1-5225-f66d-c4a2" name="Medallion of Life (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8ae1-5225-f66d-c4a2" name="Medallion of Life (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ae8-bfc4-4792-7592" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe1b-c799-3469-0ad0" type="max"/>
@@ -1910,7 +1884,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="162d-52de-31a8-b83a" name="Power Rune (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="162d-52de-31a8-b83a" name="Power Rune (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a96e-f1fe-805e-4e2f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d20d-53a3-c954-b974" type="max"/>
@@ -1926,7 +1900,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea7e-6ded-e744-8b5d" name="Soulthirst Bow (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ea7e-6ded-e744-8b5d" name="Soulthirst Bow (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ab8-1f3d-67bb-5456" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e6-6df6-df7c-f225" type="max"/>
@@ -1942,7 +1916,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7246-7b76-50ab-d015" name="Spidersilk Armour (Unique)" publicationId="a3d2-75b6-8c4e-cbde" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7246-7b76-50ab-d015" name="Spidersilk Armour (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f4f-afd5-033b-2308" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a952-5e7c-7d2e-de2a" type="max"/>
@@ -1950,7 +1924,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       <profiles>
         <profile id="b193-de47-008e-1354" name="Spidersilk Armour" hidden="false" typeId="f83c-e0d1-cff7-8fe8" typeName="Items - Armour">
           <characteristics>
-            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57"/>
+            <characteristic name="Notes" typeId="ff11-370c-dab9-8c57">Cannot betaken by SPELLCASTERS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1992,6 +1966,114 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44ca-a538-18ed-43c0" name="Energy Chrystal (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b03-68b6-a24b-5108" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0687-6a8e-509e-0792" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="217d-80a9-f73e-cb7c" name="Energy Chrystal" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
+          <characteristics>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">Use once per game. SPELLCASTER models only.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b7b-a248-812a-b548" name="Runed Staff of Silibar (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ea3-608c-bac1-2aa9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95fd-b0c5-bba8-dd03" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4c0b-df15-185f-54c7" name="Runed Staff of Silibar" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
+          <characteristics>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">SPELLCASTERS only.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd2f-13f0-f7e8-2bde" name="Scroll of Protection (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b46f-96e2-391a-4b53" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b613-9301-eb3d-6513" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4816-5e69-708b-f730" name="Scroll of Arcane Knowledge" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
+          <characteristics>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">SPELLCASTERS only. Use once per game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04c4-2279-884f-d54b" name="Scroll of Arcane Knowledge (Rare)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b98-be2e-68b4-f940" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9451-cb8b-7d36-e3bf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="21ac-cc8e-811c-730f" name="Scroll of Protection" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
+          <characteristics>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">SPELLCASTERS only. Use once per game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="114f-0f22-3410-36ba" name="Tome of Valandor (Unique)" publicationId="2cf9-338e-6b9a-a228" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7964-56fa-3eed-f0ca" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b013-f297-739a-5322" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e99d-95e6-5807-efe2" name="Tome of Valandor" hidden="false" typeId="bcd7-cb31-7dfc-85d9" typeName="Items - Magic">
+          <characteristics>
+            <characteristic name="Notes" typeId="ce1c-d38f-7a63-ac86">SPELLCASTERS only.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c881-2d1c-afd4-6d5f" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ed0-29d3-d3ee-7f1c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ac8-e4d6-1ccf-216a" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="865e-beef-ea00-f6a7" name="Rule Check - Has Regenerate" publicationId="9dff-33d6-57bd-974c" hidden="false">
+          <description>Checks the rule that models that already have the Regenerate special rule cannot take additional equipment / items / etc which increases that regeneration.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee27-5180-c83c-e4a1" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="009b-c1b8-cc99-be3c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="043a-6428-8254-f7b4" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="2319-7e88-b342-e603" name="Rule Check - Has Cavalry Rule" publicationId="9dff-33d6-57bd-974c" hidden="false">
+          <description>Checks the rule that models that already have the Cavalry special rule cannot take additional equipment / items / etc.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2141,6 +2223,13 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
           </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup id="952f-a549-5487-1c53" name="Armour" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="761a-d56f-efe4-3daf" type="max"/>
           </constraints>
@@ -2150,8 +2239,24 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74d7-0ea3-e698-1e88" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="4a3b-3458-2847-a787" name="Large Shield (Common)" hidden="false" collective="false" import="true" targetId="04d9-f451-24a2-d244" type="selectionEntry"/>
-                <entryLink id="fc8e-9dc0-1016-72b6" name="Buckler(Common)" hidden="false" collective="false" import="true" targetId="0893-927e-69b3-5cd9" type="selectionEntry"/>
+                <entryLink id="4a3b-3458-2847-a787" name="Large Shield (Common)" hidden="false" collective="false" import="true" targetId="04d9-f451-24a2-d244" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="fc8e-9dc0-1016-72b6" name="Buckler(Common)" hidden="false" collective="false" import="true" targetId="0893-927e-69b3-5cd9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="bdd1-5200-f5da-19c3" name="Rare" hidden="false" collective="false" import="true">
@@ -2166,8 +2271,24 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05c0-56d2-230c-f641" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c54c-6678-8f24-07ec" name="Armour of Confusion (Rare)" hidden="false" collective="false" import="true" targetId="73d9-bad8-bb4c-9121" type="selectionEntry"/>
-                <entryLink id="01d5-efd3-bc14-50d7" name="Full Plate Armour (Rare)" hidden="false" collective="false" import="true" targetId="ef81-9afd-67fe-706e" type="selectionEntry"/>
+                <entryLink id="c54c-6678-8f24-07ec" name="Armour of Confusion (Rare)" hidden="false" collective="false" import="true" targetId="73d9-bad8-bb4c-9121" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="01d5-efd3-bc14-50d7" name="Full Plate Armour (Rare)" hidden="false" collective="false" import="true" targetId="ef81-9afd-67fe-706e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="fdc7-9f09-af72-b400" name="Unique" hidden="false" collective="false" import="true">
@@ -2182,7 +2303,15 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe4-5b4b-0fe4-5328" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ea8e-c2f2-c002-ba91" name="Spidersilk Armour (Unique)" hidden="false" collective="false" import="true" targetId="7246-7b76-50ab-d015" type="selectionEntry"/>
+                <entryLink id="ea8e-c2f2-c002-ba91" name="Spidersilk Armour (Unique)" hidden="false" collective="false" import="true" targetId="7246-7b76-50ab-d015" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2200,6 +2329,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <entryLink id="4066-2901-5ddd-f7eb" name="Bow (Common)" hidden="false" collective="false" import="true" targetId="4f77-1522-0c42-837c" type="selectionEntry"/>
                 <entryLink id="98ef-53d9-a78a-6909" name="Crossbow (Common)" hidden="false" collective="false" import="true" targetId="52d0-6471-7175-d63f" type="selectionEntry"/>
                 <entryLink id="55a6-de40-51d6-9a74" name="Light Crossbow (Common)" hidden="false" collective="false" import="true" targetId="db7e-76e7-0af9-ad52" type="selectionEntry"/>
+                <entryLink id="8c7b-690a-4db6-0eff" name="Crude Throwing Knife (Common)" hidden="false" collective="false" import="true" targetId="5e0c-a356-52cb-7311" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="0733-ba56-de68-54bd" name="Rare" hidden="false" collective="false" import="true">
@@ -2262,9 +2392,69 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a811-a199-1a77-e571" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c5ee-470e-23c8-5a3b" name="Banner of the Griffin (Rare)" hidden="false" collective="false" import="true" targetId="ce6e-a977-9987-06c3" type="selectionEntry"/>
-                <entryLink id="27b3-cb9e-e0f6-53aa" name="Orcsbain&apos;s Amulet of Thorns (Rare)" hidden="false" collective="false" import="true" targetId="71e0-f0ea-b101-10d2" type="selectionEntry"/>
-                <entryLink id="eee8-5a0c-19ba-4296" name="Darklord&apos;s Onyx Ring (Rare)" hidden="false" collective="false" import="true" targetId="8161-92ec-9fdb-9fce" type="selectionEntry"/>
+                <entryLink id="c5ee-470e-23c8-5a3b" name="Banner of the Griffin (Rare)" hidden="false" collective="false" import="true" targetId="ce6e-a977-9987-06c3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="29ef-0bb1-9ab6-8e5c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="27b3-cb9e-e0f6-53aa" name="Orcsbain&apos;s Amulet of Thorns (Rare)" hidden="false" collective="false" import="true" targetId="71e0-f0ea-b101-10d2" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ee27-5180-c83c-e4a1" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="eee8-5a0c-19ba-4296" name="Darklord&apos;s Onyx Ring (Rare)" hidden="false" collective="false" import="true" targetId="8161-92ec-9fdb-9fce" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c881-2d1c-afd4-6d5f" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="f99b-e7df-acd2-ff5a" name="Energy Chrystal (Rare)" hidden="false" collective="false" import="true" targetId="44ca-a538-18ed-43c0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="7920-09de-e4c8-1b5e" name="Runed Staff of Silibar (Rare)" hidden="false" collective="false" import="true" targetId="1b7b-a248-812a-b548" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="5fcd-37ab-176e-4c27" name="Scroll of Arcane Knowledge (Rare)" hidden="false" collective="false" import="true" targetId="04c4-2279-884f-d54b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="4b1e-efe7-c1ca-c4ef" name="Scroll of Protection (Rare)" hidden="false" collective="false" import="true" targetId="dd2f-13f0-f7e8-2bde" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="ef04-8733-da50-f8ff" name="Unique" hidden="false" collective="false" import="true">
@@ -2279,14 +2469,60 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353d-7190-cdb2-19d1" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5885-0f75-7b2a-fcb1" name="Ophidian Book of Secrets (Unique)" hidden="false" collective="false" import="true" targetId="c80c-dd51-206d-f4e7" type="selectionEntry"/>
+                <entryLink id="5885-0f75-7b2a-fcb1" name="Ophidian Book of Secrets (Unique)" hidden="false" collective="false" import="true" targetId="c80c-dd51-206d-f4e7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
                 <entryLink id="e3b4-efa3-2b58-9bf1" name="Helm of Command (Unique)" hidden="false" collective="false" import="true" targetId="d5c2-e514-72d7-e580" type="selectionEntry"/>
-                <entryLink id="9e46-e926-85f4-becd" name="Wings of Honeymaze (Unique)" hidden="false" collective="false" import="true" targetId="a092-df17-db31-c34d" type="selectionEntry"/>
+                <entryLink id="9e46-e926-85f4-becd" name="Wings of Honeymaze (Unique)" hidden="false" collective="false" import="true" targetId="a092-df17-db31-c34d" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5386-cda4-ccc0-f38d" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ee27-5180-c83c-e4a1" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
                 <entryLink id="690b-dd6b-73af-fa17" name="Cloak of the Chameleon (Unique)" hidden="false" collective="false" import="true" targetId="9603-763b-6261-1f44" type="selectionEntry"/>
                 <entryLink id="0223-dcdb-3492-a9d5" name="Dunstan&apos;s Amulet of Protection (Unique)" hidden="false" collective="false" import="true" targetId="b293-8b88-aee4-17a9" type="selectionEntry"/>
                 <entryLink id="1cf9-ed24-5604-5361" name="Helm of Confidence (Unique)" hidden="false" collective="false" import="true" targetId="4527-2480-0aa0-399f" type="selectionEntry"/>
-                <entryLink id="b262-8c3e-2c72-f779" name="Medallion of Life (Unique)" hidden="false" collective="false" import="true" targetId="8ae1-5225-f66d-c4a2" type="selectionEntry"/>
-                <entryLink id="544d-9f6a-0819-a907" name="Power Rune (Unique)" hidden="false" collective="false" import="true" targetId="162d-52de-31a8-b83a" type="selectionEntry"/>
+                <entryLink id="b262-8c3e-2c72-f779" name="Medallion of Life (Unique)" hidden="false" collective="false" import="true" targetId="8ae1-5225-f66d-c4a2" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c881-2d1c-afd4-6d5f" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="544d-9f6a-0819-a907" name="Power Rune (Unique)" hidden="false" collective="false" import="true" targetId="162d-52de-31a8-b83a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8fce-4123-76c7-3f6f" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="af51-0626-1108-9eb7" name="Tome of Valandor (Unique)" hidden="false" collective="false" import="true" targetId="114f-0f22-3410-36ba" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e745-e5aa-ccb6-cecb" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2301,7 +2537,20 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92d-6dfc-186d-07ad" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="3099-7607-7ab9-1d24" name="Common Mount (Common)" hidden="false" collective="false" import="true" targetId="1b15-c7bc-1af3-a698" type="selectionEntry"/>
+                <entryLink id="3099-7607-7ab9-1d24" name="Common Mount (Common)" hidden="false" collective="false" import="true" targetId="1b15-c7bc-1af3-a698" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5386-cda4-ccc0-f38d" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ee27-5180-c83c-e4a1" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="f4e8-1e3b-57fa-8001" name="Rare" hidden="false" collective="false" import="true">
@@ -2316,7 +2565,20 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6839-7176-e6eb-4f92" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="0015-b02c-f6c0-2039" name="Rare Mount  (Rare)" hidden="false" collective="false" import="true" targetId="94be-bb82-61cd-d1d3" type="selectionEntry"/>
+                <entryLink id="0015-b02c-f6c0-2039" name="Rare Mount  (Rare)" hidden="false" collective="false" import="true" targetId="94be-bb82-61cd-d1d3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5386-cda4-ccc0-f38d" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ee27-5180-c83c-e4a1" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="f03b-121d-a788-4636" name="Unique" hidden="false" collective="false" import="true">
@@ -2331,7 +2593,15 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e83e-50e8-bc66-3a94" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7da7-4512-5e48-fc5c" name="Battle Mount (Unique)" hidden="false" collective="false" import="true" targetId="19b0-113d-b2aa-2b1a" type="selectionEntry"/>
+                <entryLink id="7da7-4512-5e48-fc5c" name="Battle Mount (Unique)" hidden="false" collective="false" import="true" targetId="19b0-113d-b2aa-2b1a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ee27-5180-c83c-e4a1" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2820,7 +3090,7 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     <rule id="af6b-f940-da85-9762" name="Spell - Crushing Strength (n)" hidden="false"/>
     <rule id="2d6c-7f42-6d86-f6fc" name="Spell - Piercing (2)" hidden="false"/>
     <rule id="2d98-c03d-6662-8840" name="Items Warning - Stats Modifier" hidden="false">
-      <description>Modifies stats from the warband member - this is not done automatically so please verify and adjust manually !</description>
+      <description>Modifies base stats from the warband member - this is NOT done automatically so please verify and adjust manually !</description>
     </rule>
     <rule id="b43b-e9a2-0881-2568" name="Combined Fire" hidden="false">
       <description>When involved in a Group Shoot Action, models of this type add +1 dice to their Ranged Attack roll if one or more other models of the same type in the group fire at the same target.</description>
@@ -2869,5 +3139,8 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     <rule id="393c-e681-96ad-82c7" name="Inspiring (Grunts &amp; Warriors only)" hidden="false"/>
     <rule id="53dc-34e5-7b90-e03c" name="Inspiring (Grunts only)" hidden="false"/>
     <rule id="fe66-a62b-ddab-fa89" name="Inspiring (Beasts only)" hidden="false"/>
+    <rule id="d29f-2d41-1e43-8b6a" name="Equipment - Rare Mount" publicationId="37f5-f8f9-pubN68000" page="121" hidden="false">
+      <description>The model gains +2 Sp to a maximum of 8, +1 Height, +1 Wound and the model’s base size becomes Cav. The model may not use the Fly special rule.</description>
+    </rule>
   </sharedRules>
 </gameSystem>

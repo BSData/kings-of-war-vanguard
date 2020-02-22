@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8be5-5fc0-ae73-8094" name="Brotherhood" revision="5" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8be5-5fc0-ae73-8094" name="Brotherhood" revision="8" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8be5-5fc0-pubN68576" name="Rulebook"/>
   </publications>
@@ -49,6 +49,7 @@
       <entryLinks>
         <entryLink id="b903-54c4-8a03-ccc0" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="81f4-03da-b989-1f0f" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="1d47-4727-4e1f-7ace" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -275,6 +276,7 @@
         <entryLink id="ab91-3fe5-8cac-a31d" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="ebb1-4f8b-e2f9-47ad" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="550f-0d1d-7cd2-4e71" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="cd40-a946-3e1d-41c5" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>

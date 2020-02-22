@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a64-c3e7-75aa-c9d0" name="Salamanders" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a64-c3e7-75aa-c9d0" name="Salamanders" revision="8" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6a64-c3e7-pubN69392" name="Rulebook"/>
   </publications>
@@ -59,6 +59,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5656-a314-3618-047a" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="1d47-4727-4e1f-7ace" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40.0"/>
@@ -185,7 +186,7 @@
       <constraints>
         <constraint field="selections" scope="a731-8a45-7af3-5326" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d8-6bb5-c9bc-36a6" type="max"/>
         <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cbe-3a56-4b22-f87e" type="max"/>
-        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d82b-96e5-b475-e268" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d82b-96e5-b475-e268" type="max"/>
       </constraints>
       <profiles>
         <profile id="4c79-84da-ab7d-ae02" name="Firebrand" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
@@ -232,6 +233,7 @@
           </constraints>
         </entryLink>
         <entryLink id="4ceb-5c15-cd94-e428" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="3437-d4df-4dcf-fffb" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="54.0"/>
@@ -524,6 +526,58 @@
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="34.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="88a0-baa1-649b-c645" name="Salamander Veteran" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="eade-7caa-f055-87d9" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="9420-db33-bba8-deb7" value="1.0">
+          <repeats>
+            <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eade-7caa-f055-87d9" type="max"/>
+        <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9420-db33-bba8-deb7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="91c4-6cb7-9198-d0f6" name="Salamander Veteran" hidden="false" typeId="8146-3b99-e6f9-d0a1" typeName=" Warband Member">
+          <characteristics>
+            <characteristic name="Sp" typeId="cf71-9092-4511-812d">5</characteristic>
+            <characteristic name="Me" typeId="2554-7056-7252-7cb0">4+</characteristic>
+            <characteristic name="Ra" typeId="bc43-4f04-cc0b-d5a1">-</characteristic>
+            <characteristic name="Ar" typeId="cbb8-58cf-daa7-a95a">5+</characteristic>
+            <characteristic name="Ne" typeId="945e-25f3-67f4-228d">4+</characteristic>
+            <characteristic name="Wn" typeId="0d6a-358f-3234-b66b">3</characteristic>
+            <characteristic name="H" typeId="492c-c3ca-0905-99c9">2</characteristic>
+            <characteristic name="Ranged" typeId="0a27-40ac-5701-ef13">-</characteristic>
+            <characteristic name="Melee" typeId="01d6-153a-0767-f01e">2D8</characteristic>
+            <characteristic name="Alignment" typeId="e9b1-68cd-5cbd-0251">Good</characteristic>
+            <characteristic name="Race" typeId="3ce2-af00-1127-86fb">Salamander</characteristic>
+            <characteristic name="Base" typeId="b790-5251-7057-2f74">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3a5d-383e-8474-cdf8" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+        <infoLink id="b7a1-a91d-d93e-7fc1" name="Inspiring (Grunts &amp; Warriors only)" hidden="false" targetId="393c-e681-96ad-82c7" type="rule"/>
+        <infoLink id="04f9-29f9-90ec-7fc9" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule"/>
+        <infoLink id="d2c1-9dd9-ffe1-396c" name="ORDEAL OF FIRE (2)" hidden="false" targetId="d7ce-eaee-28a9-c98f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f35e-ab90-bbcb-4396" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="27c2-b6ef-9d1a-187b" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="ead0-ae13-6c41-0a2d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="28.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <infoLinks>
     <infoLink id="f35d-cf67-42ae-28d4" name="Flames of Kthorlaq (1)" hidden="false" targetId="ae06-a1c5-957a-754b" type="rule"/>
@@ -750,6 +804,10 @@
     </rule>
     <rule id="d242-3681-db0e-f4eb" name="NATURE&apos;S INFERNO (2)" hidden="false">
       <description>Use this ability when this model makes a Ranged Attack with Elemental Fire before any dice are rolled. The attack has Piercing (1).</description>
+    </rule>
+    <rule id="d7ce-eaee-28a9-c98f" name="ORDEAL OF FIRE (2)" hidden="false">
+      <description>Use this ability during the model’s activation, before or after an action, even if it is Engaged or Knocked-down. Friendly Salamanders (including the Veteran itself) and Fire Elementals are immune to the effects of this attack. All other models
+within 2” take 2 automatic hits with Piercing (1). Make Armour rolls as normal. This ability can be used once per game.</description>
     </rule>
   </sharedRules>
 </catalogue>

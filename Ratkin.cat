@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1bf8-e261-53ce-da80" name="Ratkin" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1bf8-e261-53ce-da80" name="Ratkin" revision="8" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1bf8-e261-pubN68796" name="Rulebook"/>
   </publications>
@@ -100,6 +100,9 @@
       <categoryLinks>
         <categoryLink id="1f44-3dcd-3a38-c512" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd40-a946-3e1d-41c5" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="19.0"/>
       </costs>
@@ -257,6 +260,7 @@
       <entryLinks>
         <entryLink id="0bbe-b10b-3318-b307" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="18af-2eba-951e-e86b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="1d47-4727-4e1f-7ace" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="31.0"/>

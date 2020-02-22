@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0894-e38c-85dd-ba12" name="Forces of the Abyss" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0894-e38c-85dd-ba12" name="Forces of the Abyss" revision="8" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0894-e38c-pubd1e2938" name="Rulebook"/>
   </publications>
@@ -152,6 +152,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ddc2-fe42-8e6b-f25b" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
+        <entryLink id="1d47-4727-4e1f-7ace" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18.0"/>
@@ -203,6 +204,7 @@
         <entryLink id="b27e-a042-42ef-a4b5" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="5a4a-0ced-1cde-667c" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="d924-33d9-f299-1556" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="6356-0ddb-a774-b764" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="14.0"/>
@@ -503,6 +505,7 @@
       <entryLinks>
         <entryLink id="ccc3-090c-a23e-71e2" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="c708-ee14-63fd-9ba5" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="cd40-a946-3e1d-41c5" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="29.0"/>
@@ -555,6 +558,7 @@
       <entryLinks>
         <entryLink id="91c8-58f1-85b8-5277" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="819d-1dd8-8580-b64d" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="7981-bac5-fba5-0575" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="37.0"/>
@@ -608,6 +612,7 @@
       <entryLinks>
         <entryLink id="feca-1bd7-bdcd-dfff" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="f4cb-7496-8cf9-d947" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="a7a2-e1c9-53bd-058d" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="42.0"/>
@@ -662,6 +667,7 @@
       <entryLinks>
         <entryLink id="c236-351a-ba2e-2162" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="ad94-9ebe-5e83-521b" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="593f-72c0-68a3-dfff" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="44.0"/>
@@ -734,6 +740,7 @@
         </entryLink>
         <entryLink id="8474-705f-a599-4ae7" name="Spellbook - Corrupt" hidden="false" collective="false" import="true" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup"/>
         <entryLink id="6c34-28ee-7a6d-dba0" name="Spellbook - Abyss (Paid)" hidden="false" collective="false" import="true" targetId="4585-ab0a-e967-0049" type="selectionEntryGroup"/>
+        <entryLink id="3eb6-5c52-977c-3b43" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="36.0"/>

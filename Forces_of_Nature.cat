@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c75-46a3-5cfb-7c16" name="Forces of Nature" revision="4" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c75-46a3-5cfb-7c16" name="Forces of Nature" revision="8" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4c75-46a3-pubN69892" name="Rulebook"/>
   </publications>
@@ -67,6 +67,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910a-b434-6ffe-3b2d" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="1d47-4727-4e1f-7ace" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20.0"/>
@@ -133,6 +134,7 @@
           </constraints>
         </entryLink>
         <entryLink id="51be-1e20-2597-86a6" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="4812-d906-ca8b-5c34" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="12.0"/>
@@ -292,6 +294,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fac-8ec3-36e8-db68" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="0f71-2f46-2b87-626d" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="40.0"/>
@@ -389,6 +392,7 @@
       <entryLinks>
         <entryLink id="cad5-97e8-6622-2679" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="8c9f-da0e-8e3a-30c8" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="cd40-a946-3e1d-41c5" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="22.0"/>
@@ -450,6 +454,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac7-fbff-8a3d-0a3c" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="b9d5-0463-fe31-f9aa" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="43.0"/>
@@ -697,6 +702,7 @@
       <entryLinks>
         <entryLink id="9e61-60b5-9947-3cb4" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="374b-9e42-c808-37ea" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
+        <entryLink id="d142-f214-62bb-1688" name="Rule Check - Has Regenerate" hidden="false" collective="false" import="true" targetId="c881-2d1c-afd4-6d5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="32.0"/>
@@ -756,6 +762,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9746-a0b2-ef1a-8ad9" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="6b6a-2935-7f77-1c49" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20.0"/>
@@ -807,6 +814,7 @@
       <entryLinks>
         <entryLink id="4f15-aa8a-2ead-01ff" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="dc5f-3889-ea71-4f48" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
+        <entryLink id="acb1-b092-62de-ddcf" name="Rule Check - Has Cavalry Rule" hidden="false" collective="false" import="true" targetId="ee27-5180-c83c-e4a1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="15.0"/>
