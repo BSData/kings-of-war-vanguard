@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a4-7ad3-58de-2c37" name="Abyssal Dwarfs" revision="9" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemrevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a4-7ad3-58de-2c37" name="Abyssal Dwarfs" revision="9" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="52a4-7ad3-pubN69234" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="3aa9-5e28-550c-7f9d" name="Decimator" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="9fdb-3b0e-9e41-1837" value="1">
+        <modifier type="increment" field="9fdb-3b0e-9e41-1837" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -62,12 +62,12 @@
     </selectionEntry>
     <selectionEntry id="1f78-a7b9-bdd1-7ff0" name="Blacksoul" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="90f6-48b5-0d2e-938c" value="1">
+        <modifier type="increment" field="90f6-48b5-0d2e-938c" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="ece7-d957-86a8-4553" value="1">
+        <modifier type="increment" field="ece7-d957-86a8-4553" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -112,12 +112,12 @@
     </selectionEntry>
     <selectionEntry id="ea12-31e5-0342-f3a3" name="Slave Orc" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="f2dc-363b-d262-f24c" value="1">
+        <modifier type="increment" field="f2dc-363b-d262-f24c" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="c747-9a9d-51c7-5482" value="1">
+        <modifier type="increment" field="c747-9a9d-51c7-5482" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -168,7 +168,7 @@
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="121b-9b79-a44f-f262" value="1">
+        <modifier type="increment" field="121b-9b79-a44f-f262" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -218,12 +218,12 @@
     </selectionEntry>
     <selectionEntry id="f6b0-39ff-878a-b05c" name="Abyssal Halfbreed" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="be43-a1dc-2406-04cc" value="1">
+        <modifier type="increment" field="be43-a1dc-2406-04cc" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="ce42-4391-17d1-8bd3" value="1">
+        <modifier type="increment" field="ce42-4391-17d1-8bd3" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -271,12 +271,12 @@
     </selectionEntry>
     <selectionEntry id="01b0-a079-5af9-e7d4" name="Immortal Guard" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="c2ec-5721-79fb-29f8" value="1">
+        <modifier type="increment" field="c2ec-5721-79fb-29f8" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="cf62-35ca-67aa-8c2d" value="1">
+        <modifier type="increment" field="cf62-35ca-67aa-8c2d" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -324,7 +324,7 @@
     </selectionEntry>
     <selectionEntry id="988a-83e4-63da-74b7" name="Gargoyle" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="787c-fcba-9ff4-9810" value="1">
+        <modifier type="increment" field="787c-fcba-9ff4-9810" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -375,12 +375,12 @@
     </selectionEntry>
     <selectionEntry id="5544-9586-3eb8-52ac" name="Lesser Obsidian Golem" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="d717-d779-1821-e207" value="1">
+        <modifier type="increment" field="d717-d779-1821-e207" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="7ef0-ba02-a588-9525" value="1">
+        <modifier type="increment" field="7ef0-ba02-a588-9525" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -427,12 +427,12 @@
     </selectionEntry>
     <selectionEntry id="00f6-2b13-a41b-68e4" name="Slave Driver" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="9256-0b1f-f1f2-af3f" value="1">
+        <modifier type="increment" field="9256-0b1f-f1f2-af3f" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="5ccd-94ee-129f-3ca8" value="1">
+        <modifier type="increment" field="5ccd-94ee-129f-3ca8" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -479,7 +479,7 @@
     </selectionEntry>
     <selectionEntry id="c956-8baf-c132-2676" name="Iron Caster" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="7aa3-da75-3a4d-d2e0" value="1">
+        <modifier type="increment" field="7aa3-da75-3a4d-d2e0" value="1.0">
           <repeats>
             <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="40.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -524,12 +524,12 @@
         <entryLink id="d077-5d41-ec2c-efd0" name=" Spellbook - Abyssal Dwarfs (Paid)" hidden="false" collective="false" import="true" targetId="f538-fbeb-9b80-f0b0" type="selectionEntryGroup"/>
         <entryLink id="e54c-544e-1f7c-34e5" name=" Spellbook - Basic Iron Caster" hidden="false" collective="false" import="true" targetId="e4de-0691-31dd-3465" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="decrement" field="e876-7944-de9e-739c" value="1">
+            <modifier type="decrement" field="e876-7944-de9e-739c" value="1.0">
               <repeats>
                 <repeat field="selections" scope="c956-8baf-c132-2676" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="decrement" field="433e-e6bb-0af7-5134" value="1">
+            <modifier type="decrement" field="433e-e6bb-0af7-5134" value="1.0">
               <repeats>
                 <repeat field="selections" scope="c956-8baf-c132-2676" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c041-2c13-4152-ed82" repeats="1" roundUp="false"/>
               </repeats>
