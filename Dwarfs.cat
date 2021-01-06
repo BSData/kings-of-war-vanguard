@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8927-8290-f594-f21d" name="Dwarfs" revision="9" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8927-8290-f594-f21d" name="Dwarfs" revision="10" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8927-8290-pubN71629" name="Rulebook"/>
   </publications>
@@ -739,7 +739,7 @@
         <infoLink id="9ccb-ab49-44fa-1f50" name="Encumbered" hidden="false" targetId="9fc5-7ae2-f0ff-b7d1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d60d-6f47-962c-9b88" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true"/>
+        <categoryLink id="947d-b5fe-9ea3-34ce" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a9dc-d88b-bee9-0c3e" name=" Items" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
@@ -752,6 +752,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cfc-ebf5-fb3b-cadd" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="fbca-a70c-8661-115b" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="20.0"/>

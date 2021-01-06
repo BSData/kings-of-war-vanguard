@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="9" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="37f5-f8f9-2ecf-9c36" name="Vanguard" revision="10" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="37f5-f8f9-pubN68000" name="Rulebook"/>
     <publication id="a3d2-75b6-8c4e-cbde" name="Reference Cards"/>
@@ -7,7 +7,7 @@
     <publication id="2cf9-338e-6b9a-a228" name="Equipment Cards"/>
   </publications>
   <costTypes>
-    <costType id="b888-e3bd-8798-6364" name=" Points" defaultCostLimit="-1.0"/>
+    <costType id="b888-e3bd-8798-6364" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="8146-3b99-e6f9-d0a1" name=" Warband Member">
@@ -147,6 +147,11 @@ All warband rules listed on page 45 of the rulebook for normal warbands can be v
                 <repeat field="selections" scope="3734-3c1c-d6b8-29c2" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
+            <modifier type="increment" field="d131-c299-3e04-cbf7" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1b86-d536-df63-8324" type="greaterThan"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea7-b586-52f1-b417" type="min"/>
@@ -179,10 +184,15 @@ All warband rules listed on page 45 of the rulebook for normal warbands can be v
         </categoryLink>
         <categoryLink id="6f5d-28f5-5c15-9bae" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
           <modifiers>
-            <modifier type="increment" field="ef03-b5e3-0379-e179" value="1">
+            <modifier type="increment" field="ef03-b5e3-0379-e179" value="1.0">
               <repeats>
                 <repeat field="selections" scope="3734-3c1c-d6b8-29c2" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
               </repeats>
+            </modifier>
+            <modifier type="increment" field="ef03-b5e3-0379-e179" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f8ee-a1d9-8bcc-e50a" type="greaterThan"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -196,6 +206,11 @@ All warband rules listed on page 45 of the rulebook for normal warbands can be v
                 <repeat field="selections" scope="3734-3c1c-d6b8-29c2" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
+            <modifier type="increment" field="711d-47ee-927e-81df" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a66c-1773-d3af-0daa" type="greaterThan"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="711d-47ee-927e-81df" type="max"/>
@@ -208,7 +223,7 @@ All warband rules listed on page 45 of the rulebook for normal warbands can be v
                 <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="902d-71ae-0a7e-d3de" value="1">
+            <modifier type="increment" field="902d-71ae-0a7e-d3de" value="1.0">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36af-b45d-473d-d895" type="greaterThan"/>
               </conditions>
@@ -311,6 +326,11 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
                 <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
+            <modifier type="increment" field="0bb5-9782-4abc-bac5" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1b86-d536-df63-8324" type="greaterThan"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e1-5f10-705b-38f0" type="min"/>
@@ -343,10 +363,15 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
         </categoryLink>
         <categoryLink id="d5c6-ac7a-34ad-a46f" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
           <modifiers>
-            <modifier type="increment" field="41d4-58a6-349c-98b6" value="1">
+            <modifier type="increment" field="41d4-58a6-349c-98b6" value="1.0">
               <repeats>
                 <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
               </repeats>
+            </modifier>
+            <modifier type="increment" field="41d4-58a6-349c-98b6" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f8ee-a1d9-8bcc-e50a" type="greaterThan"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -359,6 +384,11 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
               <repeats>
                 <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
               </repeats>
+            </modifier>
+            <modifier type="increment" field="77d3-734e-752c-32f7" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a66c-1773-d3af-0daa" type="greaterThan"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -2090,6 +2120,48 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a66c-1773-d3af-0daa" name="Rule Check - Allows 1 more Support then Normal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea90-1bb2-ab85-5bf6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b07-8244-a07d-058f" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4c89-a1ac-9d69-8481" name="Rule Check - Allows 1 more Support then Normal" publicationId="37f5-f8f9-pubN68000" hidden="false">
+          <description>Checks the rule that some war bands are allowed to take 1 more Support model</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8ee-a1d9-8bcc-e50a" name="Rule Check - Allows 1 more Spellcaster then Normal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6cfa-f598-fbf4-d098" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="342a-a433-2e98-f602" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="378e-2f36-40dc-9268" name="Rule Check - Allows 1 more Spellcaster then Normal" publicationId="37f5-f8f9-pubN68000" hidden="false">
+          <description>Checks the rule that some war bands are allowed to take 1 more Spellcaster model</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b86-d536-df63-8324" name="Rule Check - Allows 1 more Command then Normal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f47-82df-f111-38b6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41ae-b294-c0d9-b21e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f441-800c-d58f-0060" name="Rule Check - Allows 1 more Command then Normal" publicationId="37f5-f8f9-pubN68000" hidden="false">
+          <description>Checks the rule that some war bands are allowed to take 1 more Command model</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="c9c8-ac7b-333d-0312" name=" Items" page="" hidden="false" collective="false" import="true">
@@ -3727,5 +3799,8 @@ Found any issues ? Please let us know ... check out our WIKI on how to contact u
     </rule>
     <rule id="b105-0099-4718-6af8" name="Spell - Piercing (3)" hidden="false"/>
     <rule id="91a5-5602-eac6-f16a" name="Spell - Piercing (n)" hidden="false"/>
+    <rule id="dd07-9d5f-1c25-383f" name="Master Tactician" hidden="false">
+      <description>After both sides have finished deployment, you may redeploy up to 2 of your models. If both sides have models with this ability, then they alternate redeployments starting with the side which finished deployment first. The redeployments do not count towards determining who finished first.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
