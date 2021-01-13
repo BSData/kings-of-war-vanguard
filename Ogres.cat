@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fcbe-01ec-655a-a186" name="Ogres" revision="10" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fcbe-01ec-655a-a186" name="Ogres" revision="11" battleScribeVersion="2.03" authorName="BitPsycho" authorContact="therealbitpsycho@gmail.com" library="false" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="fcbe-01ec-pubN65537" name="Vanguard abridged Warbands-dec31.pd"/>
   </publications>
@@ -494,6 +494,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="c522-9b91-aa48-3dea" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="bc0f-66ba-5fde-a9c3" name="Large" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="false"/>
         <categoryLink id="a538-622e-6d6b-5360" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true"/>
@@ -502,6 +505,7 @@
         <entryLink id="4fd9-0ed0-4c12-596e" name="Items - Common" hidden="false" collective="false" import="true" targetId="c9c8-ac7b-333d-0312" type="selectionEntryGroup"/>
         <entryLink id="4abd-f480-e43e-8f91" name="Rule Check - Base Unit Count" hidden="false" collective="false" import="true" targetId="dc91-bbea-46b0-1c4c" type="selectionEntry"/>
         <entryLink id="bde1-6b02-4794-e57f" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" import="true" targetId="75a6-b0bd-5078-4077" type="selectionEntry"/>
+        <entryLink id="8b94-a8a3-8e84-6bcd" name="Rule Check - Has Crushing Strength" hidden="false" collective="false" import="true" targetId="20f3-f38a-c195-9e11" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="b888-e3bd-8798-6364" value="18.0"/>
